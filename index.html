@@ -1,7 +1,116 @@
-<html>
+<!doctype html>
+<html lang="">
 <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="MobileOptimized" content="176">
+  <title>Book</title>
+
+  <!-- Add to homescreen for Chrome on Android -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <link rel="icon" sizes="192x192" href="images/touch/chrome-touch-icon-192x192.png">
+
+  <!-- Add to homescreen for Safari on iOS -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="Web Starter Kit">
+  <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-precomposed.png">
+
+  <!-- Tile icon for Win8 (144x144 + tile color) -->
+  <meta name="msapplication-TileImage" content="images/touch/ms-touch-icon-144x144-precomposed.png">
+  <meta name="msapplication-TileColor" content="#3372DF">
+	
+  <!-- Page styles -->
+  <link rel="stylesheet" href="styles/main.css">
+
+  <!-- build:js scripts/main.min.js -->
+  <script src="scripts/bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="scripts/plugins/jquery.grab.js"></script>
+  <script src="scripts/plugins/jquery.mobile-events.min.js"></script>
+
+  <!--menu-->
+  <script src="scripts/jquery.easing.min.js"></script>
+  <script src="scripts/jquery.mixitup.min.js"></script>
+
+  <link rel="stylesheet" href="styles/menu.css">
+  <!--menu-->
+
+  <script src="scripts/plugins/sylvester.js"></script>
+  <script src="scripts/bower_components/swiper/dist/idangerous.swiper.js"></script>
+  <!--<script src="scripts/bower_components/swiper/dist/swiper_new.jquery.js"></script>-->
+  <script src="scripts/bower_components/jplayer/dist/jplayer/jquery.jplayer.js"></script>
+  <script src="scripts/bower_components/jplayer/dist/add-on/jplayer.playlist.js"></script>
+  <script src="scripts/plugins/circle.player.js"></script>
+  <script src="scripts/plugins/jquery.select.js"></script>
+  <script src="scripts/app-menu.js"></script>
+  <script src="scripts/page-slider.js"></script>
+  <script src="scripts/rubric.js"></script>
+  <script src="scripts/rubric_12.js"></script>
+  <script src="scripts/rubric_parts.js"></script>
+  <script src="scripts/rubric_slider.js"></script>
+  <script src="scripts/rubric_raskol.js"></script>
+  <script src="scripts/rubric_gorod.js"></script>
+  <script src="scripts/templates.js"></script>
+  <script src="scripts/config.js"></script>
+  <!-- endbuild -->
+  <script src="scripts/plugins/polz.min.js"></script>  
 </head>
 <body>
-seotlt
+
+<div class="swiper-container page">
+  <div class="swiper-wrapper">
+  </div>
+</div>
+
+<div class="audio-player-circle">
+  <div class="audio-player_circle_true cp-container">
+    <div class="audio-player"></div>
+    <div class="cp-buffer-holder">
+      <div class="cp-buffer-1"></div>
+      <div class="cp-buffer-2"></div>
+    </div>
+    <div class="cp-progress-holder">
+      <div class="cp-progress-1"></div>
+      <div class="cp-progress-2"></div>
+    </div>
+    <div class="cp-circle-control"></div>
+    <ul class="cp-controls">
+      <li><a class="cp-play" tabindex="1">play</a></li>
+      <li><a class="cp-pause" style="display:none;" tabindex="1">pause</a></li>
+    </ul>
+    <div class="jp-playlist-wrapper">
+      <div class="jp-playlist">
+        <ul>
+          <li></li>
+        </ul>
+        <div class="jp-playlist__selected-container"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="globe">
+  <div class="globe__container"></div>
+</div>
+
+<div class="page-background">
+  <div class="page-background__wrapper"></div>
+</div>
+
+<!--<div class="article"></div>-->
+<div class="page-slider-background">
+</div>
+<div class='loader'></div>
+
+<div id="load"></div>
+
+  <script>
+	$(document).ready(function(){
+		$('#load').load('menu.html');
+	});
+  </script>
+
 </body>
 </html>
