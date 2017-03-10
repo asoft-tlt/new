@@ -1,0 +1,26 @@
+{
+  "name": "mobile-rbook",
+  "version": "0.0.1",
+  "homepage": "https://github.com/dmaklygin/mobile-rbook",
+  "authors": [
+    "Dmitry Maklygin <d.maklygin@gmail.com>"
+  ],
+  "description": "mobile book",
+  "keywords": [
+    "boilerplate",
+    "js"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.3",
+    "swiper": "~2.7.5",
+    "jplayer": "~2.9.2"
+  }
+}
