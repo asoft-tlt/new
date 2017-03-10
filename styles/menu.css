@@ -1,0 +1,200 @@
+
+#filters {
+	list-style:none;
+}
+#filters li {
+	float:left;
+}
+#filters li span {
+	display: block;
+	padding:5px 20px;		
+	text-decoration:none;
+	color:#666;text-shadow: 1px 1px #FFFFFF;
+	cursor: pointer;
+}
+#filters li span:hover {
+	background: #89be65;text-shadow: 0 0 2px #004B7D;
+	color:#fff;
+}
+#filters li span.active {
+	background: #89be65;text-shadow: 0 0 2px #004B7D;
+	color:#fff;
+}
+#portfoliolist .portfolio {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	width:23%;
+	max-width:320px;
+	margin:1%;
+	display:none;
+	float:left;
+	overflow:hidden;
+}
+.portfolio-wrapper {
+	overflow:hidden;
+	position: relative !important;
+	background: #000;
+	cursor:pointer;
+	border:1px solid #69564d;
+}
+.portfolio img {
+	max-width:100%;
+	max-height:147px;
+	position: relative;
+
+		-webkit-transition:all 0.25s ease-in-out;
+		-moz-transition:all 0.25s ease-in-out;
+		-o-transition:all 0.25s ease-in-out;
+		-ms-transition:all 0.25s ease-in-out;
+		transition:all 0.25s ease-in-out;
+
+	}
+
+.portfolio .limg:hover img{
+	opacity: 1;
+	transform: scale(1.15,1.15);
+	-webkit-transform:scale(1.15,1.15);
+	-moz-transform:scale(1.15,1.15);
+	-ms-transform:scale(1.15,1.15);
+	-o-transform:scale(1.15,1.15);
+}
+
+.portfolio .limg{
+		//float: left;  	
+		padding: 25px 0px;
+		position: relative;
+		overflow: hidden;
+}
+
+.portfolio .limg:hover .caption{
+		opacity: 1;
+}
+
+.portfolio .limg .caption{
+		top:0;bottom:0;right:0;left:0;
+		cursor: pointer;
+		position: absolute;
+		opacity: 0;
+		-webkit-transition:all 0.45s ease-in-out;
+		-moz-transition:all 0.45s ease-in-out;
+		-o-transition:all 0.45s ease-in-out;
+		-ms-transition:all 0.45s ease-in-out;
+		transition:all 0.45s ease-in-out;
+}
+
+.portfolio .blur{
+		background-color: rgba(0,0,0,0.65);
+		height: 100%;
+		width: 100%;
+		z-index: 5;
+		position: absolute;
+}
+
+.portfolio .caption-text{
+		z-index: 10;
+		color: #fff;
+		position: absolute;
+		width: 100%;
+		height: 300px;
+		text-align: center;
+		top:100px;
+}
+
+.portfolio .limg .caption a {color:#fff;}
+
+.portfolio .label {
+//	position: absolute;
+	width: 100%;
+	height:90px;
+	padding: 20px;
+}
+.portfolio .label-bg {
+    background: #fff;
+	width: 100%;
+	height:100%;
+//	position: absolute;
+	top:0;
+	left:0;
+}
+.portfolio .label-text {
+	color:#000;
+	position: relative;
+	z-index:500;
+	padding:5px 8px;
+	font-size:18px;
+	font-family: Tahoma, Geneva, sans-serif;
+}
+.portfolio .text-category {
+        color:#999;
+	display:block;
+	font-size:14px;
+	//font-style:italic;
+}	
+.portfolio .label-text .text-title {
+	font-weight:bold;
+}	
+
+/* Планшет */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+	.container {
+		width: 768px; 
+	}
+}
+/* Мобильный - Примечание: Дизайн для ширины 320px*/
+@media only screen and (max-width: 767px) {
+	.container { 
+		width: 95%; 
+	}
+	#portfoliolist .portfolio {
+		width:48%;
+		margin:1%;
+	}			
+}
+/* Мобильный - Примечание: Дизайн для ширины 480px */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	.container {
+		width: 70%;
+	}	
+}
+/* #очистка */
+.container:after { content: "\0020"; display: block; height: 0; clear: both; visibility: hidden; }
+
+.clearfix:before,
+.clearfix:after,
+.row:before,
+.row:after {
+  content: '\0020';
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0; }
+.row:after,
+.clearfix:after {
+  clear: both; }
+.row,
+.clearfix {
+  zoom: 1; }
+
+.clear {
+  clear: both;
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+
+form {width:260px;float:left;}
+select { padding:0 25px;width:260px;height:55px;font-size:26px;}
+select option {font-size:15px;width:425px;}
+.bnav {width:480px;margin:20px auto;height:55px;}
+.bgeo {float:left;width:54px;height:55px;background:url('../images/icons/geo2.png') center center no-repeat #fff;}
+.bsou {float:left;width:54px;height:55px;background:url('../images/icons/sou2.png') center center no-repeat #fff;}
+.bimg {float:left;width:54px;height:55px;background:url('../images/icons/img2.png') center center no-repeat #fff;}
+.bsod {float:left;width:54px;height:55px;background:url('../images/icons/sod2.png') center center no-repeat #fff;}
+
+#filters option, #menu-filters option{
+	text-transform:uppercase;	
+}
