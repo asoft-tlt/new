@@ -65,15 +65,12 @@ id: 1,
         template: 'page100.html',
 	scroll: 'yes'
       },
-
       {
         id: 87,
         type: 'page',
         template: 'page87.html',
 	scroll: 'yes'
       },
-
-
       {
         id: 4,
         type: 'page',
@@ -263,6 +260,25 @@ id: 1,
         slides: [
           {
             image: '12_1.jpg'
+          }
+        ]
+      },
+    {
+        id: 200,
+        type: 'page',
+        template: 'page200.html',
+        slides: [
+          {
+            image: '200_1.jpg',
+            sounds: [
+              {title: '1', mp3: '200_1.mp3'}
+            ]
+          },
+          {
+            image: '200_2.jpg',
+            sounds: [
+              {title: '1', mp3: '200_2.mp3'}
+            ]
           }
         ]
       },
@@ -3355,3 +3371,5 @@ App.pages = [];
 App.sections.forEach(function(section) {
   App.pages = App.pages.concat(section.pages);
 });
+Contact GitHub API Training Shop Blog About
+© 2017 GitHub, Inc. Terms Privacy Security Status Help
