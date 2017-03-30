@@ -58,79 +58,6 @@ id: 1,
         type: 'page',
         template: 'page4.html'
       },
-/*
-      {
-        id: 100,
-        type: 'page',
-        template: 'page100.html',
-	scroll: 'yes'
-      },
-      {
-        id: 87,
-        type: 'page',
-        template: 'page87.html',
-	scroll: 'yes'
-      },
-      {
-        id: 4,
-        type: 'page',
-        template: 'page173.html'
-      },
-      {
-        id: 4,
-        type: 'page',
-        template: 'page174.html'
-      },
-      {
-        id: 4,
-        type: 'page',
-        template: 'page175.html'
-      },
-      {
-        id: 4,
-        type: 'page',
-        template: 'page176.html'
-      },
-      {
-        id: 4,
-        type: 'page',
-        template: 'page177.html'
-      },
-      {
-        id: 4,
-        type: 'page',
-        template: 'page178.html'
-      },
-      {
-        id: 4,
-        type: 'page',
-        template: 'page179.html'
-      },
-      {
-        id: 4,
-        type: 'page',
-        template: 'page180.html'
-      },
-      {
-        id: 4,
-        type: 'page',
-        template: 'page181.html'
-      },
-      {
-        id: 4,
-        type: 'page',
-        template: 'page183.html'
-      },
-      {
-        id: 4,
-        type: 'page',
-        template: 'page184.html'
-      },
-      {
-        id: 4,
-        type: 'page',
-        template: 'page187.html'
-      }, */
       {
         id: 5,
         type: 'page',
@@ -259,11 +186,17 @@ id: 1,
 		scalable: 'yes',
         slides: [
           {
-            image: '12_1.jpg'
+            image: '12_1.png'
+          },
+          {
+            image: '12_2.png'
+          },
+          {
+            image: '12_3.png'
           }
         ]
       },
-    {
+        {
         id: 200,
         type: 'page',
         template: 'page200.html',
@@ -3371,5 +3304,3 @@ App.pages = [];
 App.sections.forEach(function(section) {
   App.pages = App.pages.concat(section.pages);
 });
-Contact GitHub API Training Shop Blog About
-© 2017 GitHub, Inc. Terms Privacy Security Status Help
