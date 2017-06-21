@@ -586,7 +586,7 @@
   display: block;
 }
 .rubric.rubric_type_raskol .raskol .swiper-container-horizontal > .swiper-pagination {
-  bottom: 10px;
+  /*bottom: 10px;*/
   left: 0;
   width: 100%;
 }

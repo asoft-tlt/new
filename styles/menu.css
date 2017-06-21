@@ -198,3 +198,54 @@ select option {font-size:15px;width:425px;}
 #filters option, #menu-filters option{
 	text-transform:uppercase;	
 }
+
+/*Перенести в main.css*/
+.maplegend{
+	background:url('../images/pages/12/tabl.png') 20px 20px no-repeat transparent;
+	width: 1024px;
+	height:768px;
+	top: 0px;
+	left: 0px;
+	 z-index: 100;
+	position: absolute;
+	display: none;
+}
+.zoommapbutton{
+	background:url('../images/icons/search.svg') center center no-repeat transparent;
+  position: absolute;
+  right: 20px;
+  bottom: 145px;
+  z-index: 200;
+  width: 96px;
+  height: 104px;
+}
+.zoomoverlay{
+	background:url('../images/pages/12/map.jpg') center center no-repeat;
+	background-size: 100% 100%;
+	width: 1024px;
+	height:768px;
+	top: 0px;
+	left: 0px;
+	z-index: 90;
+	position: absolute;
+	display: block;
+}
+.mapbutton{
+	background:url('../images/icons/compas.svg') center center no-repeat transparent;
+  position: absolute;
+  right: 20px;
+  bottom: 25px;
+  z-index: 200;
+  width: 96px;
+  height: 104px;
+}
+.mapiframe{
+  width: 1024px;
+  height: 768px;
+  border: none;
+  position: absolute;
+   z-index: 1;
+ top: 0px;
+ left: 0px;
+}
+/**/
