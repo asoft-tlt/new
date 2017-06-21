@@ -82,30 +82,30 @@ id: 1,
         id: '7-1',
         type: 'rubric',
         images: [
-          {"id": "01", "year": 1600}, {"id": "02", "year": 1600}, {"id": "03", "year": 1604},
-          {"id": "04", "year": 1605}, {"id": "05", "year": 1605}, {"id": "06", "year": 1605},
-          {"id": "07", "year": 1606, sounds: {title: 'заголовок', mp3: '1.mp3'}}, {"id": "08", "year": 1606}, {"id": "09", "year": 1607},
-          {"id": "10", "year": 1608}, {"id": "11", "year": 1611}, {"id": "12", "year": 1612},
-          {"id": "13", "year": 1613}, {"id": "14", "year": 1617}, {"id": "15", "year": 1618},
-          {"id": "16", "year": 1619}, {"id": "17", "year": 1619}, {"id": "18", "year": 1620},
-          {"id": "19", "year": 1624}, {"id": "20", "year": 1624}, {"id": "21", "year": 1625},
-          {"id": "22", "year": 1626}, {"id": "23", "year": 1628}, {"id": "24", "year": 1637},
+          {"id": "01", "year": 1600}, {"id": "02", "year": 1600, sounds: [{title: '1', mp3: '2_1.mp3'}, {title: '2', mp3: '2_2.mp3'}, {title: '1', mp3: '2_3.mp3'}]}, {"id": "03", "year": 1604},
+          {"id": "04", "year": 1605, sounds: [{title: '1', mp3: '4.mp3'}]}, {"id": "05", "year": 1605, sounds: [{title: '1', mp3: '5.mp3'}]}, {"id": "06", "year": 1605},
+          {"id": "07", "year": 1606, sounds: [{title: '1', mp3: '7.mp3'}]}, {"id": "08", "year": 1606}, {"id": "09", "year": 1607},
+          {"id": "10", "year": 1608, sounds: [{title: '1', mp3: '10.mp3'}]}, {"id": "11", "year": 1611}, {"id": "12", "year": 1612},
+          {"id": "13", "year": 1613}, {"id": "14", "year": 1617, sounds: [{title: '1', mp3: '14_1.mp3'}, {title: '2', mp3: '14_2.mp3'}]}, {"id": "15", "year": 1618, sounds: [{title: '1', mp3: '15.mp3'}]},
+          {"id": "16", "year": 1619}, {"id": "17", "year": 1619, sounds: [{title: '1', mp3: '17_1.mp3'}, {title: '2', mp3: '17_2.mp3'}]}, {"id": "18", "year": 1620},
+          {"id": "19", "year": 1624}, {"id": "20", "year": 1624, sounds: [{title: '1', mp3: '20.mp3'}]}, {"id": "21", "year": 1625},
+          {"id": "22", "year": 1626}, {"id": "23", "year": 1628, sounds: [{title: '1', mp3: '23.mp3'}]}, {"id": "24", "year": 1637, sounds: [{title: '1', mp3: '24.mp3'}]},
           {"id": "25", "year": 1638}, {"id": "25_1", "year": 1638}, {"id": "25_2", "year": 1638},
-          {"id": "26", "year": 1641}, {"id": "27", "year": 1642}, {"id": "28", "year": 1642},
-          {"id": "29", "year": 1643}, {"id": "30", "year": 1644}, {"id": "31", "year": 1644},
+          {"id": "26", "year": 1641}, {"id": "27", "year": 1642}, {"id": "28", "year": 1642, sounds: [{title: '1', mp3: '28.mp3'}]},
+          {"id": "29", "year": 1643, sounds: [{title: '1', mp3: '29_1.mp3'}, {title: '2', mp3: '29_2.mp3'}]}, {"id": "30", "year": 1644}, {"id": "31", "year": 1644},
           {"id": "31_1", "year": 1644}, {"id": "31_2", "year": 1644}, {"id": "31_3", "year": 1644},
           {"id": "31_4", "year": 1644}, {"id": "31_5", "year": 1644}, {"id": "31_6", "year": 1644},
           {"id": "31_7", "year": 1644}, {"id": "31_8", "year": 1644}, {"id": "31_9", "year": 1644},
           {"id": "32", "year": 1645}, {"id": "33", "year": 1648}, {"id": "34", "year": 1648},
-          {"id": "35", "year": 1648}, {"id": "36", "year": 1649}, {"id": "37", "year": 1649},
-          {"id": "38", "year": 1650}, {"id": "39", "year": 1650}, {"id": "40", "year": 1650},
+          {"id": "35", "year": 1648, sounds: [{title: '1', mp3: '35.mp3'}]}, {"id": "36", "year": 1649, sounds: [{title: '1', mp3: '36_1.mp3'}, {title: '2', mp3: '36_2.mp3'}, {title: '3', mp3: '36_3.mp3'}]}, {"id": "37", "year": 1649},
+          {"id": "38", "year": 1650}, {"id": "39", "year": 1650}, {"id": "40", "year": 1650, sounds: [{title: '1', mp3: '40_1.mp3'}, {title: '2', mp3: '40_2.mp3'}, {title: '3', mp3: '40_3.mp3'}, {title: '4', mp3: '40_4.mp3'}, {title: '5', mp3: '40_5.mp3'}, {title: '6', mp3: '40_6.mp3'}, {title: '7', mp3: '40_7.mp3'}]},
           {"id": "41", "year": 1652}, {"id": "42", "year": 1652}, {"id": "43", "year": 1652},
-          {"id": "44", "year": 1653}, {"id": "45", "year": 1665}, {"id": "46", "year": 1665},
+          {"id": "44", "year": 1653, sounds: [{title: '1', mp3: '44.mp3'}]}, {"id": "45", "year": 1665}, {"id": "46", "year": 1665},
           {"id": "47", "year": 1665}, {"id": "48", "year": 1666}, {"id": "49", "year": 1668},
           {"id": "50", "year": 1668}, {"id": "51", "year": 1671}, {"id": "52", "year": 1675},
-          {"id": "53", "year": 1679}, {"id": "54", "year": 1682}, {"id": "55", "year": 1683},
+          {"id": "53", "year": 1679, sounds: [{title: '1', mp3: '53.mp3'}]}, {"id": "54", "year": 1682}, {"id": "55", "year": 1683},
           {"id": "56", "year": 1683}, {"id": "57", "year": 1689}, {"id": "58", "year": 1699},
-          {"id": "59", "year": 1699}
+          {"id": "59", "year": 1699, sounds: [{title: '1', mp3: '59.mp3'}]}
         ]
       }
     ]
@@ -183,8 +183,8 @@ id: 1,
         id: 12,
         type: 'page',
         template: 'page12.html',
-		scalable: 'yes',
-        slides: [
+        scalable: 'no',//'yes',
+        /*slides: [
           {
             image: '12_1.png'
           },
@@ -194,7 +194,7 @@ id: 1,
           {
             image: '12_3.png'
           }
-        ]
+        ]*/
       },
         {
         id: 200,
@@ -1073,14 +1073,14 @@ id: 1,
         images: [
           {
             thumb: '1_thumb.jpg',
-            image: '1.jpg',
+            image: '2.jpg',
             sounds: [
               { title: '1', mp3: '3_1.mp3' }
             ]
           },
           {
             thumb: '2_thumb.jpg',
-            image: '2.jpg',
+            image: '1.jpg',
             sounds: [
               { title: '2', mp3: '3_1.mp3' }
             ]
@@ -1861,12 +1861,12 @@ id: 1,
             }
           }
         ]
-      },                 /*
+      },              /*   
       {
         id: 100,
         type: 'page',
         template: 'page100.html',
-	scroll: 'yes'
+	scroll: 'yes',
         slides: [
             {image: '100_1.png'},
             {image: '100_2.png'},
@@ -1875,15 +1875,15 @@ id: 1,
             {image: '100_5.png'},
             {image: '100_6.png'}
          ]             
-      },               */
+      },              */ 
       {
         id: 100,
         type: 'page',
         template: 'page100.html',
-	scroll: 'yes'
+	scroll: 'yes',
       },
 
-
+                       
       {
         id: 101,
         type: 'page',
@@ -2226,7 +2226,7 @@ id: 1,
         id: 123,
         type: 'page',
         template: 'page123.html',
-		scroll: 'yes',
+	scroll: 'yes',
         sounds: [
           {title: '1', mp3: '123.mp3'}
         ]
@@ -2678,7 +2678,7 @@ id: 1,
         id: 151,
         type: 'page',
         template: 'page151.html',
-		scalable: 'yes',
+	scalable: 'yes',
         sounds: [
           {title: '1', mp3: '151.mp3'}
         ]
@@ -2867,13 +2867,13 @@ id: 1,
         type: 'video',
         video: '47.mp4'
 
-      },
+      },    
       {
         id: '166',
         type: 'page',
         template: 'page167.html'
       },
-
+              
       {
         id: '168-1',
         type: 'rubric_gorod',

@@ -79,7 +79,7 @@ App.RubricSlider = {
     this.$final.addClass('rubric__final_state_opened');
 
     this.state = 'opened';
-	/*добавляем музыку */
+	/*РґРѕР±Р°РІР»СЏРµРј РјСѓР·С‹РєСѓ */
 	if((typeof(App.RubricSlider.options.sounds)!='undefined') ){
 		var pathsound=App.getAudioPath('14-2', App.RubricSlider.options.sounds.mp3);
 		  var commentsound = [];
@@ -132,6 +132,7 @@ App.RubricSlider = {
 
     this.swiper = this.$el.swiper({
       autoplay: 3000,
+      autoplayDisableOnInteraction: false,
       mode: 'horizontal',
       loop: false,
       DOMAnimation: false,

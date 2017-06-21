@@ -71,9 +71,10 @@ App.RubricRaskol = {
 
   initContainer: function() {
     this.$container.append(App.Templates.items['raskol.html']);
-
+    var topPagination=Array(180, 180, 230, 230, 270, 230, 290, 220, 220, 230, 190, 150, 230, 230, 230, 230, 230, 230, 230);
     this.$container.find('.swiper-container').each(function(index) {
-      console.log(this, index);
+      //console.log(this, index); height();
+
       var key = index + 1;
       $(this).swiper({
         slidesPerView: 1,
@@ -85,6 +86,9 @@ App.RubricRaskol = {
         paginationType: 'bullets',
         paginationClickable: true
       });
+   
+     $('.swiper-pagination' + key).css('top', topPagination[key]);
+     
     })
 
     this.state = 'inited';

@@ -281,6 +281,7 @@ window.App = {
             // appending to slider node
             item.appendTo(internalSlider);
           });
+        
         }
     }
   },
@@ -355,7 +356,7 @@ window.App = {
             onPrev: this.goToPrevPage.bind(this)
           }, page));
         }
-        // first initialization
+        // first initialization   
         page.slider && page.slider.init();
 
         if (page.sounds && page.sounds.length) {

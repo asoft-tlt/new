@@ -175,15 +175,17 @@ App.Rubric = {
 	
 //вставка плеера  and App.Rubric.state=='opened'
 if((typeof(App.Rubric.images[slider.activeIndex].sounds)!='undefined') && (App.Rubric.state=='opened')){
-
-		var pathsound=App.getAudioPath('7-1', App.Rubric.images[slider.activeIndex].sounds.mp3);
-		  var commentsound = [];
-     if (pathsound.length > 10) {
+    var commentsound = [];
+ for (var indSound in App.Rubric.images[slider.activeIndex].sounds){
+ var rubricSounds= App.Rubric.images[slider.activeIndex].sounds[indSound];
+		var pathsound=App.getAudioPath('7-1', rubricSounds.mp3);
+     if (rubricSounds.title !== undefined) {
 	    commentsound.push({
-	        title: App.Rubric.images[slider.activeIndex].sounds.title,
+	        title: rubricSounds.title,
 	        mp3: pathsound
-	    })
-	 
+	    });
+     }
+     	 }
 	   // this.playList.jSelect.hide();
 	    // set new playlist
 	    App.playList._initPlaylist(commentsound);
@@ -195,7 +197,7 @@ if((typeof(App.Rubric.images[slider.activeIndex].sounds)!='undefined') && (App.R
 	    $(App.options.circlePlayer.cssSelector).addClass('audio-player_show_yes');
 
 	    App.isPlaying = true;
-	 }
+
 }else{
 	   App.isPlaying = false;
 	   App.playList.pause();

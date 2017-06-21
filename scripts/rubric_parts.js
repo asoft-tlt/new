@@ -73,7 +73,7 @@ App.RubricParts = {
       var item = section.images[section.active];
 
       var imagePath = App.getImagePath(_this.id, 'rubrics') + '/' + (index + 1) + '/' + item.image,
-        imageEl = $('<div style="background-image: url(' + imagePath + ');"></div>')
+        imageEl = $('<div style="background-image: url(' + imagePath + ');" img="'+imagePath+'"></div>')
           .css({
             backgroundPosition: item.positions ? item.positions.join(' ') : '0px 0px'
           })
@@ -86,7 +86,7 @@ App.RubricParts = {
                 count += sect.images.length
               }
             });
-            count += section.active;
+            count +=  section.active;
 
             _this.increase(count, imageEl);
           });
@@ -184,7 +184,7 @@ App.RubricParts = {
     var data = this._getSectionImageByIndex(slider.activeIndex);
     var section = this.options.sections[data.sectionIndex];
     // set active
-    section.active = data.imageIndex;
+    //section.active = data.imageIndex;
     var item = section.images[data.imageIndex];
     var imagePath = App.getImagePath(this.id, 'rubrics') + '/' + (data.sectionIndex + 1) + '/' + item.image;
     // update section image
@@ -192,14 +192,14 @@ App.RubricParts = {
     var rect = $sectionEl[0].getBoundingClientRect();
     $sectionEl
       .css({
-        backgroundImage: 'url("' + imagePath + '")'
+    //    backgroundImage: 'url("' + imagePath + '")'
       });
 
     this.$background
       .css({
         top: rect.top,
         left: rect.left,
-        backgroundImage: 'url("' + imagePath + '")'
+       // backgroundImage: 'url("' + imagePath + '")'
       });
   },
 

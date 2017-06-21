@@ -70,11 +70,14 @@ App.Rubric12 = {
     var _this = this;
     // create nodes
     this.images.forEach(function(item, index) {
-      var imagePath = App.getImagePath(_this.id, 'rubrics') + '/' + item.thumb,
-        slideEl = $('<img src="' + imagePath + '" />').addClass('rubric_thumb');
-      slideEl.click(_this.showSlider.bind(_this, index));
+      var imagePath = App.getImagePath(_this.id, 'rubrics') + '/' + item.thumb;
+      var image = App.getImagePath(_this.id, 'rubrics') + '/' + item.image;
+      //  slideEl = $('<img src="' + imagePath + '" />').addClass('rubric_thumb');
+       slideEl = $('<a href="'+image+'" style="background-image:url(' + imagePath + ')" />');
+      //slideEl.click(_this.showSlider.bind(_this, index));
       slideEl.appendTo(_this.$thumbs);
     });
+    	$('.rubric__thumbs a').touchTouch();
   },
 
   createNodes: function() {
