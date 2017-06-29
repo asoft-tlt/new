@@ -3,61 +3,107 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1">
-  <meta name="format-detection" content="telephone=no">
-  <meta name="MobileOptimized" content="176">
-  <title>Book</title>
-
-  <!-- Add to homescreen for Chrome on Android -->
-  <meta name="mobile-web-app-capable" content="yes">
-  <link rel="icon" sizes="192x192" href="images/touch/chrome-touch-icon-192x192.png">
-
-  <!-- Add to homescreen for Safari on iOS -->
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <meta name="apple-mobile-web-app-title" content="Web Starter Kit">
-  <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-precomposed.png">
-
-  <!-- Tile icon for Win8 (144x144 + tile color) -->
-  <meta name="msapplication-TileImage" content="images/touch/ms-touch-icon-144x144-precomposed.png">
-  <meta name="msapplication-TileColor" content="#3372DF">
+  <meta name="viewport" content="idth=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
    <script src="scripts/bower_components/jquery/dist/jquery.min.js"></script>
-      <script src="scripts/plugins/iscroll5.js"></script>
+      <script src="scripts/plugins/iscroll-zoom.js"></script>
       <script>
-       $(document).ready(function(){
- var myScroll = new IScroll(document.getElementById('map'), {
-    zoom: true,
-    mouseWheel: true,
-    hScrollbar: false,
-			 vScrollbar: false,
-    freeScroll: true,
-    scrollX: true, 
-    wheelAction: 'zoom',
-    startZoom: 2
-});
-  // console.dir(myScroll.options);
-   });    
+function isPassive() {
+    var supportsPassiveOption = false;
+    try {
+        addEventListener("test", null, Object.defineProperty({}, 'passive', {
+            get: function () {
+                supportsPassiveOption = true;
+            }
+        }));
+    } catch(e) {}
+    return supportsPassiveOption;
+}
+var myScroll;
+
+function loaded () {
+	myScroll = new IScroll('#wrapper', {
+		zoom: true,
+		scrollX: true,
+		scrollY: true,
+		mouseWheel: true,
+		wheelAction: 'zoom'
+	});
+}
+
+document.addEventListener('touchmove', function (e) { e.preventDefault(); }, isPassive() ? {
+	capture: false,
+	passive: false
+} : false);   
       </script>
-  <style>
-  #innermap{
-  background: url(images/pages/12/map.jpg) no-repeat;
-  background-size: 100% 100%;
-  width: 1024px;
-  height: 768px;
-  padding: 0px;
-  margin: 0px;
-  }
-  body{
-  width: 1024px;
-  height: 768px;
-  padding: 0px;
-  margin: 0px; 
-  }
+	  <style>
+
+	* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html {
+	-ms-touch-action: none;
+}
+
+body,ul,li {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+body {
+	font-size: 12px;
+	overflow: hidden; /* this is important to prevent the whole page to bounce */
+}
+
+#wrapper {
+	position: absolute;
+	z-index: 1;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	background: #fff;
+	overflow: hidden;
+}
+
+#scroller {
+	position: absolute;
+	z-index: 1;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	width: 100%;
+	-webkit-transform: translateZ(0);
+	-moz-transform: translateZ(0);
+	-ms-transform: translateZ(0);
+	-o-transform: translateZ(0);
+	transform: translateZ(0);
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-text-size-adjust: none;
+	-moz-text-size-adjust: none;
+	-ms-text-size-adjust: none;
+	-o-text-size-adjust: none;
+	text-size-adjust: none;
+
+}
+
+#scroller img {
+		width: 100%;
+}
+		
   </style>
   </head>
-<body>
- <div id="map" class="map" style="">
- <div id="innermap" class="map" style="transition-property: transform; transform-origin: 0px 0px 0px; transform: translate(-857px, -310px) scale(2) translateZ(0px); transition-duration: 0ms;"></div>
+<body onload="loaded()">
+ <div id="wrapper" class="map" style="">
+ <div id="scroller" class="map" style="transition-property: transform; transform-origin: 0px 0px 0px; transform: translate(-857px, -310px) scale(2) translateZ(0px); transition-duration: 0ms;"><img src="images/pages/12/map.jpg"/></div>
  </div>
+	
+	
+	
 </body>
 </html>
