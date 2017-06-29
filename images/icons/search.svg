@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 20.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 75 75.1" style="enable-background:new 0 0 75 75.1;" xml:space="preserve">
+<style type="text/css">
+	.st0{opacity:0.5;fill-rule:evenodd;clip-rule:evenodd;fill:none;stroke:#051730;stroke-width:0.9726;stroke-miterlimit:10;}
+	
+		.st1{opacity:0.5;fill-rule:evenodd;clip-rule:evenodd;fill:url(#SVGID_1_);stroke:#051730;stroke-width:0.9726;stroke-miterlimit:10;}
+	.st2{fill-rule:evenodd;clip-rule:evenodd;fill:none;stroke:#051730;stroke-width:3;stroke-miterlimit:10;}
+	.st3{fill:#051730;stroke:#051730;stroke-miterlimit:10;}
+</style>
+<g>
+	<circle class="st0" cx="37.5" cy="37.5" r="36.9"/>
+	<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="15.0609" y1="64.2216" x2="59.885" y2="10.8023">
+		<stop  offset="0" style="stop-color:#051730"/>
+		<stop  offset="0.7908" style="stop-color:#051730;stop-opacity:0"/>
+	</linearGradient>
+	<circle class="st1" cx="37.5" cy="37.5" r="34.9"/>
+</g>
+<g>
+	<circle class="st2" cx="29" cy="29.1" r="14"/>
+	<g>
+		<path class="st3" d="M59.3,55.8L42.7,39.2c-1,1.3-2.2,2.5-3.5,3.5l16.6,16.6c0.5,0.5,1.1,0.7,1.8,0.7s1.3-0.2,1.8-0.7
+			C60.2,58.3,60.2,56.8,59.3,55.8z"/>
+	</g>
+</g>
+</svg>

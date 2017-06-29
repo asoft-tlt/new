@@ -291,11 +291,16 @@ ol {
 	background: url('../images/earth-map.jpg');
 	border-radius: 50%;
 	background-size: 80px;
-	box-shadow: inset -3px -2px 5px 4px rgba(65, 16, 3,.5),inset -1px -1px 2px 1px rgba(65, 16, 3,.5);
-	animation-name: rotate;
-	animation-duration: 2s;
-	animation-iteration-count: infinite;
-	animation-timing-function: linear;
+	-webkit-box-shadow: inset -3px -2px 5px 4px rgba(65, 16, 3,.5),inset -1px -1px 2px 1px rgba(65, 16, 3,.5);
+	        box-shadow: inset -3px -2px 5px 4px rgba(65, 16, 3,.5),inset -1px -1px 2px 1px rgba(65, 16, 3,.5);
+	-webkit-animation-name: rotate;
+	        animation-name: rotate;
+	-webkit-animation-duration: 2s;
+	        animation-duration: 2s;
+	-webkit-animation-iteration-count: infinite;
+	        animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+	        animation-timing-function: linear;
 }
 
 @keyframes rotate {
