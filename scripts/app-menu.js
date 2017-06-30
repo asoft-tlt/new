@@ -165,7 +165,8 @@ window.App = {
     switch (page.type) {
       case 'video':
         var videoPath = 'video/pages/' + page.id + '/' + page.video;
-        content = '<video src="' + videoPath + '"><source src="' + videoPath + '" type="video/mp4;"></source></video>';
+         var videoPathMov = 'video/pages/' + page.id + '/' + page.video.replace("mp4", "mov");;
+        content = '<video src="' + videoPath + '"  autoplay="autoplay"><source src="' + videoPathMov + '" type="video/mov"><source src="' + videoPath + '" type="video/mp4;"></source></video>';
         break;
       default:
         content = this.Templates.get(page.template);
