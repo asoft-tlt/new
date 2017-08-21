@@ -409,16 +409,17 @@ ol {
 }
 .page-slider__pagination .swiper-pagination-switch {
   display: inline-block;
-  width: 10px;
-  height: 10px;
+  width: 8px;
+  height: 8px;
   border-radius: 10px;
-  background: #999;
-  box-shadow: 0 1px 2px #555 inset;
+  background: rgba(202, 181,160, 0.2);
+  /*box-shadow: 0 1px 2px #555 inset;*/
+  border: 2px solid #cab5a0;
   margin: 0 3px;
   cursor: pointer;
 }
 .page-slider__pagination .swiper-active-switch {
-  background: #fff;
+  background: #cab5a0;
 }
 
 .page-slider_align_left .page-slider__image {
