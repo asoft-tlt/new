@@ -19,7 +19,9 @@
    <preference name="orientation" value="landscape" />
   <preference name="fullscreen" value="true" />
   <preference name="KeepRunning" value="false"/>
-
+  
+<preference name="MediaPlaybackRequiresUserAction" value="true"/>
+<preference name="AllowInlineMediaPlayback" value="true"/>
         
      <preference name="android-build-tool" value="gradle" />  
 </widget>
