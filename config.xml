@@ -15,13 +15,20 @@
     <author href="http://seotlt.ru" email="info@seotlt.ru">
         seotlt
     </author>
- 
-   <preference name="orientation" value="landscape" />
+        
+   <gap:config-file platform="ios" parent="UIStatusBarHidden">
+     <true/>
+   </gap:config-file>      
+   <gap:config-file platform="ios" parent="UIViewControllerBasedStatusBarAppearance">
+     <false/>
+   </gap:config-file>
+        
+  <preference name="orientation" value="landscape" />
   <preference name="fullscreen" value="true" />
   <preference name="KeepRunning" value="false"/>
   
-<preference name="MediaPlaybackRequiresUserAction" value="true"/>
-<preference name="AllowInlineMediaPlayback" value="true"/>
+  <preference name="MediaPlaybackRequiresUserAction" value="true"/>
+  <preference name="AllowInlineMediaPlayback" value="true"/>
         
-     <preference name="android-build-tool" value="gradle" />  
+  <preference name="android-build-tool" value="gradle" />  
 </widget>
