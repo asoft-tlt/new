@@ -23,7 +23,11 @@ var PageSlider = function (el, options) {
   this.constant = this.$el.hasClass('page-slider_type_constant');
 
   this.direction = this.$el.hasClass('page-slider_align_left') ? 'left' : (this.$el.hasClass('page-slider_align_right') ? 'right' : null);
-
+  if($('#page'+_this.options.id+' span.page-slider__pagination').length>0 && $('#page'+_this.options.id+' .page-slider__container .page-slider__item').length>1){
+  this.pagination = '#page'+_this.options.id+' .page-slider__pagination';
+  }else{
+     this.pagination = '';
+  }
   this.swiper = this.$el.swiper({
     mode: 'horizontal',
     loop: false,
@@ -31,7 +35,7 @@ var PageSlider = function (el, options) {
     resistance: '100%',
     wrapperClass: 'page-slider__container',
     slideClass: 'page-slider__item',
-    pagination: '#page'+_this.options.id+' .page-slider__pagination', //this.$wrapper.find('.page-slider__pagination')[0],
+    pagination:  _this.pagination, //this.$wrapper.find('.page-slider__pagination')[0],
     onSlideChangeStart: this.process.bind(this),
     onSlideChangeEnd: this.constant ? function(){} : function() {
       _this.setBackgroundImage();
