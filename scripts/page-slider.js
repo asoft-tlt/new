@@ -31,7 +31,7 @@ var PageSlider = function (el, options) {
     resistance: '100%',
     wrapperClass: 'page-slider__container',
     slideClass: 'page-slider__item',
-    pagination: '.page-slider__pagination', //this.$wrapper.find('.page-slider__pagination')[0],
+    pagination: '#page'+_this.options.id+' .page-slider__pagination', //this.$wrapper.find('.page-slider__pagination')[0],
     onSlideChangeStart: this.process.bind(this),
     onSlideChangeEnd: this.constant ? function(){} : function() {
       _this.setBackgroundImage();
