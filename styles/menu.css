@@ -214,10 +214,10 @@ select option {font-size:15px;width:425px;}
 	background:url('../images/icons/search.svg') center center no-repeat transparent;
   position: absolute;
   right: 20px;
-  bottom: 145px;
+  bottom: 90px;
   z-index: 200;
-  width: 96px;
-  height: 104px;
+  width: 43px;
+  height: 52px;
 }
 .zoomoverlay{
 	background:url('../images/pages/12/map.jpg') center center no-repeat;
@@ -236,8 +236,8 @@ select option {font-size:15px;width:425px;}
   right: 20px;
   bottom: 25px;
   z-index: 200;
-  width: 96px;
-  height: 104px;
+  width: 43px;
+  height: 52px;
 }
 .mapiframe{
   width: 1024px;

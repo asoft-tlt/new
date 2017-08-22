@@ -405,7 +405,7 @@ ol {
   left: 0;
   width: 100%;
   text-align: center;
-  bottom: 5px;
+  bottom: 50px;
 }
 .page-slider__pagination .swiper-pagination-switch {
   display: inline-block;
@@ -1745,8 +1745,9 @@ display: none;
     background-position: 0 0 !important;
   }
 
-
-
+.swiper-slide .page#page116 .text2col .col2 {
+  width: 427px;
+}
 
 
 
