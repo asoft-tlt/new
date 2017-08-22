@@ -186,6 +186,9 @@ App.Rubric12 = {
     this.$final.addClass('rubric__final_state_opened');
 
     this.state = 'opened';
+   setTimeout(function(){
+    $('.rubric__final_state_opened').hide();
+    }, 500);
   },
 
   reset: function () {
