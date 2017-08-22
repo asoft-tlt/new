@@ -1650,7 +1650,7 @@ id: 1,
         slides: [
           {
             image: '83.jpg',
-            description: 'Турецкий посольство',
+            description: 'Турецкое посольство',
             positions: {
               left: '-191px',
               top: '-45px'
