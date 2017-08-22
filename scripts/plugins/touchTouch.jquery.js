@@ -57,8 +57,10 @@
 			items = allitems;
   
   
-			if(!$(e.target).is('img')){    
+			if($(e.target).is('img')){    
 				hideOverlay();
+    				event.stopPropagation();
+    				return false;
 			}
 		});
 
