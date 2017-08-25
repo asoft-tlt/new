@@ -220,7 +220,7 @@ select option {font-size:15px;width:425px;}
   height: 52px;
 }
 .zoomoverlay{
-	background:url('../images/pages/12/map.jpg') center center no-repeat;
+	background:url('../images/pages/12/map.png') center center no-repeat;
 	background-size: 100% 100%;
 	width: 1024px;
 	height:768px;
@@ -230,6 +230,16 @@ select option {font-size:15px;width:425px;}
 	position: absolute;
 	display: block;
 }
+.zoomoverlay.map21{
+		background:url('../images/pages/21/21_1.jpg') center center no-repeat;
+	background-size: 100% 100%;
+	
+}
+.zoomoverlay.map37{
+		background:url('../images/pages/37/37_1.jpg') center center no-repeat;
+	background-size: 100% 100%;	
+}
+
 .mapbutton{
 	background:url('../images/icons/compas.svg') center center no-repeat transparent;
   position: absolute;

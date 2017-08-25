@@ -147,7 +147,7 @@ window.App = {
       slide = App.slider.getSlide(index),
       page = App.pages[index],
       content = '';
-
+     
     if (slide && slide.children.length) {
       return;
     }

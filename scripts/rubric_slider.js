@@ -101,7 +101,9 @@ App.RubricSlider = {
 	    App.isPlaying = true;
 	 }
 	}
-
+  setTimeout(function(){
+    $('.rubric__final_state_opened').hide();
+    }, 500);
   },
 
   createSlides: function() {

@@ -196,7 +196,7 @@ id: 1,
           }
         ]*/
       },
-        {
+     /*   {
         id: 200,
         type: 'page',
         template: 'page200.html',
@@ -214,7 +214,7 @@ id: 1,
             ]
           }
         ]
-      },
+      },*/
       {
         id: 13,
         type: 'page',
@@ -223,7 +223,7 @@ id: 1,
       {
         id: '14-2',
         type: 'rubric_slider', 
-		sounds: {title: 'заголовок', mp3: '3_1.mp3'},
+		sounds: {title: 'заголовок', mp3: '3_2.mp3'},
         images: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19].map(function(number) {
           return {
             image: number + '.jpg'
@@ -847,9 +847,9 @@ id: 1,
               top: '0px'
             },
             zoom: '188%',
-            sounds: [
+           /* sounds: [
               {title: '1', mp3: '39_2.mp3'}
-            ]
+            ]*/
           }
         ]
       },
@@ -869,7 +869,10 @@ id: 1,
               left: '0px',
               top: '-193px'
             },
-            zoom: '173%'
+            zoom: '173%',
+            sounds: [
+              {title: '1', mp3: '41.mp3'}
+            ]
           }
         ]
       },
@@ -884,7 +887,10 @@ id: 1,
               left: '0px',
               top: '0px'
             },
-            zoom: '102%'
+            zoom: '102%', 
+            sounds: [
+              {title: '1', mp3: '42.mp3'}
+            ]
           },
           {
             image: '42_2.jpg',
@@ -1293,7 +1299,10 @@ id: 1,
             image: '64.jpg',
             positions: {
               left: '-492px',
-              top: '0px'
+              top: '0px',
+            sounds: [
+              {title: '1', mp3: '63.mp3'}
+            ]
             }
           }
         ]
@@ -1701,7 +1710,10 @@ id: 1,
             positions: {
               left: '-498px',
               top: '0px'
-            }
+            },
+            sounds: [
+              {title: '1', mp3: '86.mp3'}
+            ]
           }
         ]
       },
@@ -1715,9 +1727,9 @@ id: 1,
         id: 88,
         type: 'page',
         template: 'page88.html',
-        sounds: [
+       /* sounds: [
           {title: '1', mp3: '88.mp3'}
-        ]
+        ]*/
       },
       {
         id: 89,
@@ -1746,7 +1758,10 @@ id: 1,
             positions: {
               left: '0px',
               top: '0px'
-            }
+            },
+            sounds: [
+              {title: '1', mp3: '90.mp3'}
+            ]
           }
         ]
       },
@@ -1844,7 +1859,10 @@ id: 1,
             positions: {
               left: '-475px',
               top: '-50px'
-            }
+            },
+          sounds: [
+          {title: 'Симеон Верхотурский. Пример подвижника в миру', mp3: '98.mp3'}
+          ]
           }
         ]
       },
@@ -1858,7 +1876,11 @@ id: 1,
             positions: {
               left: '-161px',
               top: '-127px'
-            }
+            },
+          sounds: [
+          {title: 'Боярыня Морозова. Теперь так не поступают', mp3: '99_1.mp3'},
+          {title: 'Кого чтили на Руси.', mp3: '99_2.mp3'}
+          ]
           }
         ]
       },              /*   
@@ -1894,10 +1916,10 @@ id: 1,
             positions: {
               left: '-71px',
               top: '0px'
-            },
+            }/*,
             sounds: [
               {title: '1', mp3: '101.mp3'}
-            ]
+            ]*/
           }
         ]
       },
@@ -1995,7 +2017,17 @@ id: 1,
             sounds: [
               {title: '1', mp3: '107.mp3'}
             ]
-          }
+          },
+          {
+            image: '107_1.jpg',
+            positions: {
+              left: '0px',
+              top: '-160px'
+            },
+            sounds: [
+              {title: '1', mp3: '107_1.mp3'}
+            ]
+          }          
         ]
       },
       {
@@ -2049,7 +2081,10 @@ id: 1,
             positions: {
               left: '-104px',
               top: '-258px'
-            }
+            },
+            sounds: [
+              {title: '1', mp3: '110.mp3'}
+            ]
           }
         ]
       },
@@ -2064,7 +2099,10 @@ id: 1,
             positions: {
               left: '-392px',
               top: '0px'
-            }
+            },
+            sounds: [
+              {title: 'Оружие - наша традиция', mp3: '111_1.mp3'}
+            ]
           },
           {
             image: '111_2.jpg',
@@ -2072,7 +2110,10 @@ id: 1,
             positions: {
               left: '-280px',
               top: '0px'
-            }
+            },
+            sounds: [
+              {title: 'Лучший способ борьбы с преступностью', mp3: '111_2.mp3'}
+            ]
           }
         ]
       },
@@ -2172,7 +2213,10 @@ id: 1,
             positions: {
               left: '-545px',
               top: '0px'
-            }
+            },
+            sounds: [
+              {title: '1', mp3: '119.mp3'}
+            ]
           }
         ]
       },
@@ -2201,8 +2245,8 @@ id: 1,
           {
             image: '121.jpg',
             positions: {
-              left: '-88px',
-              top: '-42px'
+              left: '-598px',
+              top: '-142px'
             }
           }
         ]

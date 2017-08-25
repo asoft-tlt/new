@@ -157,7 +157,7 @@ window.App = {
       slide = App.slider.getSlide(index),
       page = App.pages[index],
       content = '';
-
+     $("video").each(function () { this.pause() });
     if (slide && slide.children.length) {
       return;
     }
@@ -312,10 +312,10 @@ window.App = {
             });
           $('.zoommapbutton').click(function(){
             
-            if($('.zoomoverlay').css('display')=='none'){
-              $('.zoomoverlay').show();
+            if($(slide.querySelector('.zoomoverlay')).css('display')=='none'){
+              $(slide.querySelector('.zoomoverlay')).show();
             }else{
-               $('.zoomoverlay').hide();
+               $(slide.querySelector('.zoomoverlay')).hide();
             }            
             }); 
           $('.mapbutton').click(function(){

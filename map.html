@@ -3,10 +3,14 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="idth=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
    <script src="scripts/bower_components/jquery/dist/jquery.min.js"></script>
       <script src="scripts/plugins/iscroll-zoom.js"></script>
       <script>
+
+
+							
+							
 function isPassive() {
     var supportsPassiveOption = false;
     try {
@@ -21,6 +25,7 @@ function isPassive() {
 var myScroll;
 
 function loaded () {
+	$('#map').attr('src',window.location.search.replace( '?', '')); 
 	myScroll = new IScroll('#wrapper', {
 		zoom: true,
 		scrollX: true,
@@ -100,7 +105,7 @@ body {
   </head>
 <body onload="loaded()">
  <div id="wrapper" class="map" style="">
- <div id="scroller" class="map" style="transition-property: transform; transform-origin: 0px 0px 0px; transform: translate(-857px, -310px) scale(2) translateZ(0px); transition-duration: 0ms;"><img src="images/pages/12/map.jpg"/></div>
+ <div id="scroller" class="map" style="transition-property: transform; transform-origin: 0px 0px 0px; transform: translate(-857px, -310px) scale(2) translateZ(0px); transition-duration: 0ms;"><img  id="map" src=""/></div>
  </div>
 	
 	

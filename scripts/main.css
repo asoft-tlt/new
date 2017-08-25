@@ -701,7 +701,7 @@ Pagination Styles
   position: absolute;
   left: 20px;
   bottom: 15px;
-  z-index: 18;
+  z-index: 1028;
   width: 200px;
   height: 104px;
 }
