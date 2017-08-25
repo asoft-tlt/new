@@ -1282,11 +1282,11 @@ id: 1,
             image: '63.jpg',
             positions: {
               left: '0px',
-              top: '0px',
+              top: '0px'
+            },
             sounds: [
               {title: '1', mp3: '63.mp3'}
             ]
-            }
           }
         ]
       },
@@ -1299,11 +1299,11 @@ id: 1,
             image: '64.jpg',
             positions: {
               left: '-492px',
-              top: '0px',
+              top: '0px'
+            },
             sounds: [
               {title: '1', mp3: '63.mp3'}
             ]
-            }
           }
         ]
       },
@@ -1523,7 +1523,10 @@ id: 1,
               left: '-43px',
               top: '0px'
             },
-            zoom: '101%'
+            zoom: '101%',
+            sounds: [
+              {title: '1', mp3: '77.mp3'}
+            ]
           }
         ]
       },
