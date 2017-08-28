@@ -240,6 +240,10 @@ select option {font-size:15px;width:425px;}
 	background-size: 100% 100%;	
 }
 
+.zoomoverlay.map151{
+		background:url('../images/pages/151/151.jpg') center center no-repeat;
+	background-size: 100% 100%;	
+}
 .mapbutton{
 	background:url('../images/icons/compas.svg') center center no-repeat transparent;
   position: absolute;

@@ -2380,13 +2380,6 @@ id: 1,
               left: '-551px',
               top: '0px'
             }
-          },
-          {
-            image: '130_1.jpg',
-            positions: {
-              left: '-551px',
-              top: '0px'
-            }
           }
         ]
       },
@@ -2397,6 +2390,13 @@ id: 1,
         slides: [
           {
             image: '131.jpg',
+            positions: {
+              left: '0px',
+              top: '-151px'
+            },
+            zoom: '165%'
+          },{
+            image: '131_1.jpg',
             positions: {
               left: '0px',
               top: '-151px'
@@ -2418,9 +2418,9 @@ id: 1,
               top: '0px'
             },
             zoom: '101%',
-            sounds: [
+          /*  sounds: [
               {title: '1', mp3: '132_1.mp3'}
-            ]
+            ]*/
           },
           {
             image: '132_2.jpg',
@@ -2430,9 +2430,9 @@ id: 1,
               top: '-42px'
             },
             zoom: '110%',
-            sounds: [
+          /*  sounds: [
               {title: '1', mp3: '132_2.mp3'}
-            ]
+            ]*/
           }
         ]
       },
@@ -2464,8 +2464,11 @@ id: 1,
             positions: {
               left: '-487px',
               top: '0px'
-            }
-          }
+            },
+            sounds: [
+              {title: '', mp3: '134.mp3'}
+            ]
+          }          
         ]
       },
       {
@@ -2492,6 +2495,16 @@ id: 1,
             zoom: '162%',
             sounds: [
               {title: '1', mp3: '136.mp3'}
+            ] 
+          },{
+            image: '136_1.jpg',
+            positions: {
+              left: '0px',
+              top: '-239px'
+            },
+            zoom: '162%',
+            sounds: [
+              {title: '1', mp3: '136_1.mp3'}
             ]
           }
         ]
@@ -2542,6 +2555,17 @@ id: 1,
             positions: {
               left: '-44px',
               top: '0px'
+            },
+            sounds: [
+              {title: '1', mp3: '140.mp3'}
+            ]
+          },
+           {
+            image: '140_2.jpg',
+            description: 'Боярин и воевода',
+            positions: {
+              left: '-44px',
+              top: '0px'
             }
           }
         ]
@@ -2586,13 +2610,17 @@ id: 1,
             description: 'Русские женщины'
           },
           {
+            image: '143_3.jpg',
+            description: 'Русские женщины',
+            sounds: [
+              {title: '1', mp3: '143.mp3'}
+            ]
+          },
+          {
             image: '143_2.jpg',
             description: 'Русские женщины'
           },
-          {
-            image: '143_3.jpg',
-            description: 'Русские женщины'
-          },
+
           {
             image: '143_4.jpg',
             description: 'Русские женщины'
@@ -2743,7 +2771,7 @@ id: 1,
         id: 151,
         type: 'page',
         template: 'page151.html',
-	scalable: 'yes',
+        scalable: 'yes',
         sounds: [
           {title: '1', mp3: '151.mp3'}
         ]
@@ -2893,8 +2921,16 @@ id: 1,
         template: 'page162.html',
         slides: [
           {
-            image: '162.jpg',
-            description: 'Русская деревня',
+            image: '162_1.jpg',
+            description: 'Деревня',
+            positions: {
+              left: '-392px',
+              top: '0px'
+            }
+          },
+            {
+            image: '162_2.jpg',
+            description: 'В сторону непогоды',
             positions: {
               left: '-392px',
               top: '0px'
