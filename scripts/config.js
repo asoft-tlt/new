@@ -2320,7 +2320,18 @@ id: 1,
               left: '-216px',
               top: '-92px'
             },
-            zoom: '125%'
+            zoom: '125%',
+            sounds: [
+              {title: '1', mp3: '127.mp3'}
+            ]
+          },
+          {
+            image: '127_3.jpg',
+            positions: {
+              left: '-240px',
+              top: '-140px'
+            },
+            zoom: '132%'
           },
           {
             image: '127_2.jpg',

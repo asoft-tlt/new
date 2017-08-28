@@ -89,23 +89,23 @@ App.RubricRaskol = {
    
      $('.swiper-pagination' + key).css('top', topPagination[key]);
      
-    })
+    });
 
     this.state = 'inited';
   },
 
   onImgClick: function(event) {
     var currentTarget = $(event.currentTarget);
-    var image = App.getImagePath('raskol', 'rubrics') + '/' + currentTarget.attr('id') + '.jpg'
+    var image = App.getImagePath('raskol', 'rubrics') + '/' + currentTarget.attr('id') + '.jpg';
     this.$fullImg
       .css('backgroundImage', 'url(' + image + ')')
-      .fadeIn("slow")
+      .fadeIn("slow");
       // .addClass('is-visible')
   },
 
   hideFullImg: function() {
     this.$fullImg
-      .fadeOut("slow")
+      .fadeOut("slow");
       // .removeClass('is-visible')
   },
 
@@ -134,6 +134,9 @@ App.RubricRaskol = {
     this.$final.addClass('rubric__final_state_opened');
 
     this.state = 'opened';
+    setTimeout(function(){
+    $('.rubric__final_state_opened').hide();
+    }, 500);
   },
 
   reset: function () {
