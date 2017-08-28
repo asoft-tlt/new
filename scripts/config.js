@@ -2380,6 +2380,13 @@ id: 1,
               left: '-551px',
               top: '0px'
             }
+          },
+          {
+            image: '130_1.jpg',
+            positions: {
+              left: '-551px',
+              top: '0px'
+            }
           }
         ]
       },
