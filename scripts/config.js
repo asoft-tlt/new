@@ -1805,10 +1805,10 @@ id: 1,
       {
         id: 92,
         type: 'page',
-        template: 'page92.html',        
+        template: 'page92.html'/*,        
         sounds: [
          {title: 'Авдотья Топтыгина', mp3: '71_2.mp3'}
-        ]
+        ]*/
       },
       {
         id: 93,

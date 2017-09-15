@@ -657,6 +657,7 @@ window.App = {
     var files = [];
 
     audio && audio.length && audio.forEach(function (sound) {
+      if(sound.title===undefined){sound.title='';}
       files.push({
         title: sound.title,
         mp3: App.getAudioPath(params.id, sound.mp3)
@@ -763,6 +764,7 @@ window.App = {
      var commentsound = [];
      var pathsound = $(this.slide).find('.commentbk').data('sound');
      var namesound = $(this.slide).find('.commentbk').data('name');
+     if(namesound===undefined){namesound='';}
      if (pathsound.length > 10) {
 	    commentsound.push({
 	        title: namesound,
