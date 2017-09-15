@@ -26,7 +26,7 @@ id: 1,
               top: '0px'
             },
             sounds: [
-              {title: '1', mp3: '3_1.mp3'}
+              {title: '', mp3: '3_1.mp3'}
             ],
             map: 'true'
           },
@@ -37,7 +37,7 @@ id: 1,
               top: '0px'
             },
             sounds: [
-              {title: '1', mp3: '3_2.mp3'}
+              {title: '', mp3: '3_2.mp3'}
             ]
           },
           {
@@ -48,7 +48,7 @@ id: 1,
             },
             map: 'true',
             sounds: [
-              {title: '1', mp3: '3_3.mp3'}
+              {title: '', mp3: '3_3.mp3'}
             ]
           }
         ]
@@ -82,30 +82,30 @@ id: 1,
         id: '7-1',
         type: 'rubric',
         images: [
-          {"id": "01", "year": 1600}, {"id": "02", "year": 1600, sounds: [{title: '1', mp3: '2_1.mp3'}, {title: '2', mp3: '2_2.mp3'}, {title: '1', mp3: '2_3.mp3'}]}, {"id": "03", "year": 1604},
-          {"id": "04", "year": 1605, sounds: [{title: '1', mp3: '4.mp3'}]}, {"id": "05", "year": 1605, sounds: [{title: '1', mp3: '5.mp3'}]}, {"id": "06", "year": 1605},
-          {"id": "07", "year": 1606, sounds: [{title: '1', mp3: '7.mp3'}]}, {"id": "08", "year": 1606}, {"id": "09", "year": 1607},
-          {"id": "10", "year": 1608, sounds: [{title: '1', mp3: '10.mp3'}]}, {"id": "11", "year": 1611}, {"id": "12", "year": 1612},
-          {"id": "13", "year": 1613}, {"id": "14", "year": 1617, sounds: [{title: '1', mp3: '14_1.mp3'}, {title: '2', mp3: '14_2.mp3'}]}, {"id": "15", "year": 1618, sounds: [{title: '1', mp3: '15.mp3'}]},
-          {"id": "16", "year": 1619}, {"id": "17", "year": 1619, sounds: [{title: '1', mp3: '17_1.mp3'}, {title: '2', mp3: '17_2.mp3'}]}, {"id": "18", "year": 1620},
-          {"id": "19", "year": 1624}, {"id": "20", "year": 1624, sounds: [{title: '1', mp3: '20.mp3'}]}, {"id": "21", "year": 1625},
-          {"id": "22", "year": 1626}, {"id": "23", "year": 1628, sounds: [{title: '1', mp3: '23.mp3'}]}, {"id": "24", "year": 1637, sounds: [{title: '1', mp3: '24.mp3'}]},
+          {"id": "01", "year": 1600}, {"id": "02", "year": 1600, sounds: [{title: '', mp3: '2_1.mp3'}, {title: '', mp3: '2_2.mp3'}, {title: '', mp3: '2_3.mp3'}]}, {"id": "03", "year": 1604},
+          {"id": "04", "year": 1605, sounds: [{title: '', mp3: '4.mp3'}]}, {"id": "05", "year": 1605, sounds: [{title: '', mp3: '5.mp3'}]}, {"id": "06", "year": 1605},
+          {"id": "07", "year": 1606, sounds: [{title: '', mp3: '7.mp3'}]}, {"id": "08", "year": 1606}, {"id": "09", "year": 1607},
+          {"id": "10", "year": 1608, sounds: [{title: '', mp3: '10.mp3'}]}, {"id": "11", "year": 1611}, {"id": "12", "year": 1612},
+          {"id": "13", "year": 1613}, {"id": "14", "year": 1617, sounds: [{title: '', mp3: '14_1.mp3'}, {title: '', mp3: '14_2.mp3'}]}, {"id": "15", "year": 1618, sounds: [{title: '', mp3: '15.mp3'}]},
+          {"id": "16", "year": 1619}, {"id": "17", "year": 1619, sounds: [{title: '', mp3: '17_1.mp3'}, {title: '', mp3: '17_2.mp3'}]}, {"id": "18", "year": 1620},
+          {"id": "19", "year": 1624}, {"id": "20", "year": 1624, sounds: [{title: '', mp3: '20.mp3'}]}, {"id": "21", "year": 1625},
+          {"id": "22", "year": 1626}, {"id": "23", "year": 1628, sounds: [{title: '', mp3: '23.mp3'}]}, {"id": "24", "year": 1637, sounds: [{title: '', mp3: '24.mp3'}]},
           {"id": "25", "year": 1638}, {"id": "25_1", "year": 1638}, {"id": "25_2", "year": 1638},
-          {"id": "26", "year": 1641}, {"id": "27", "year": 1642}, {"id": "28", "year": 1642, sounds: [{title: '1', mp3: '28.mp3'}]},
-          {"id": "29", "year": 1643, sounds: [{title: '1', mp3: '29_1.mp3'}, {title: '2', mp3: '29_2.mp3'}]}, {"id": "30", "year": 1644}, {"id": "31", "year": 1644},
+          {"id": "26", "year": 1641}, {"id": "27", "year": 1642}, {"id": "28", "year": 1642, sounds: [{title: '', mp3: '28.mp3'}]},
+          {"id": "29", "year": 1643, sounds: [{title: '', mp3: '29_1.mp3'}, {title: '', mp3: '29_2.mp3'}]}, {"id": "30", "year": 1644}, {"id": "31", "year": 1644},
           {"id": "31_1", "year": 1644}, {"id": "31_2", "year": 1644}, {"id": "31_3", "year": 1644},
           {"id": "31_4", "year": 1644}, {"id": "31_5", "year": 1644}, {"id": "31_6", "year": 1644},
           {"id": "31_7", "year": 1644}, {"id": "31_8", "year": 1644}, {"id": "31_9", "year": 1644},
           {"id": "32", "year": 1645}, {"id": "33", "year": 1648}, {"id": "34", "year": 1648},
-          {"id": "35", "year": 1648, sounds: [{title: '1', mp3: '35.mp3'}]}, {"id": "36", "year": 1649, sounds: [{title: '1', mp3: '36_1.mp3'}, {title: '2', mp3: '36_2.mp3'}, {title: '3', mp3: '36_3.mp3'}]}, {"id": "37", "year": 1649},
-          {"id": "38", "year": 1650}, {"id": "39", "year": 1650}, {"id": "40", "year": 1650, sounds: [{title: '1', mp3: '40_1.mp3'}, {title: '2', mp3: '40_2.mp3'}, {title: '3', mp3: '40_3.mp3'}, {title: '4', mp3: '40_4.mp3'}, {title: '5', mp3: '40_5.mp3'}, {title: '6', mp3: '40_6.mp3'}, {title: '7', mp3: '40_7.mp3'}]},
+          {"id": "35", "year": 1648, sounds: [{title: '', mp3: '35.mp3'}]}, {"id": "36", "year": 1649, sounds: [{title: '', mp3: '36_1.mp3'}, {title: '', mp3: '36_2.mp3'}, {title: '', mp3: '36_3.mp3'}]}, {"id": "37", "year": 1649},
+          {"id": "38", "year": 1650}, {"id": "39", "year": 1650}, {"id": "40", "year": 1650, sounds: [{title: '', mp3: '40_1.mp3'}, {title: '', mp3: '40_2.mp3'}, {title: '', mp3: '40_3.mp3'}, {title: '', mp3: '40_4.mp3'}, {title: '', mp3: '40_5.mp3'}, {title: '', mp3: '40_6.mp3'}, {title: '', mp3: '40_7.mp3'}]},
           {"id": "41", "year": 1652}, {"id": "42", "year": 1652}, {"id": "43", "year": 1652},
-          {"id": "44", "year": 1653, sounds: [{title: '1', mp3: '44.mp3'}]}, {"id": "45", "year": 1665}, {"id": "46", "year": 1665},
+          {"id": "44", "year": 1653, sounds: [{title: '', mp3: '44.mp3'}]}, {"id": "45", "year": 1665}, {"id": "46", "year": 1665},
           {"id": "47", "year": 1665}, {"id": "48", "year": 1666}, {"id": "49", "year": 1668},
           {"id": "50", "year": 1668}, {"id": "51", "year": 1671}, {"id": "52", "year": 1675},
-          {"id": "53", "year": 1679, sounds: [{title: '1', mp3: '53.mp3'}]}, {"id": "54", "year": 1682}, {"id": "55", "year": 1683},
+          {"id": "53", "year": 1679, sounds: [{title: '', mp3: '53.mp3'}]}, {"id": "54", "year": 1682}, {"id": "55", "year": 1683},
           {"id": "56", "year": 1683}, {"id": "57", "year": 1689}, {"id": "58", "year": 1699},
-          {"id": "59", "year": 1699, sounds: [{title: '1', mp3: '59.mp3'}]}
+          {"id": "59", "year": 1699, sounds: [{title: '', mp3: '59.mp3'}]}
         ]
       }
     ]
@@ -148,7 +148,7 @@ id: 1,
             },
             description: 'Древняя Сирия',
             sounds: [
-              {title: '1', mp3: '10_1.mp3'}
+              {title: 'Древняя Сирия', mp3: '10_1.mp3'}
             ]
           },
           {
@@ -159,7 +159,7 @@ id: 1,
             },
             description: 'Руины города Баальбек',
             sounds: [
-              {title: '1', mp3: '10_2.mp3'}
+              {title: 'Руины города Баальбек', mp3: '10_2.mp3'}
             ],
             map: 'true'
           }
@@ -204,13 +204,13 @@ id: 1,
           {
             image: '200_1.jpg',
             sounds: [
-              {title: '1', mp3: '200_1.mp3'}
+              {title: '', mp3: '200_1.mp3'}
             ]
           },
           {
             image: '200_2.jpg',
             sounds: [
-              {title: '1', mp3: '200_2.mp3'}
+              {title: '', mp3: '200_2.mp3'}
             ]
           }
         ]
@@ -223,7 +223,7 @@ id: 1,
       {
         id: '14-2',
         type: 'rubric_slider', 
-		sounds: {title: 'заголовок', mp3: '3_2.mp3'},
+		sounds: {title: '', mp3: '3_2.mp3'},
         images: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19].map(function(number) {
           return {
             image: number + '.jpg'
@@ -255,7 +255,7 @@ id: 1,
               top: '-204px'
             },
             sounds: [
-              {title: '1', mp3: '16_1.mp3'}
+              {title: 'Малороссия. К сути термина', mp3: '16_1.mp3'}
             ],
             zoom: '170%',
             map: 'true'
@@ -268,7 +268,7 @@ id: 1,
             },
             zoom: '169.5%',
             sounds: [
-              {title: '1', mp3: '16_2.mp3'}
+              {title: 'Наследие греческого мировосприятия', mp3: '16_2.mp3'}
             ]
         },
         {
@@ -279,7 +279,7 @@ id: 1,
             },
             zoom: '169.5%',
             sounds: [
-              {title: '1', mp3: '16_3.mp3'}
+              {title: 'Украина есть, украинцев нет', mp3: '16_3.mp3'}
             ]
         }
         ]
@@ -293,25 +293,25 @@ id: 1,
           {
             image: '17_1.jpg',
             sounds: [
-              {title: '1', mp3: '17_1.mp3'}
+              {title: 'Земля казаков', mp3: '17_1.mp3'}
             ]
           },
           {
             image: '17_2.jpg',
             sounds: [
-              {title: '1', mp3: '17_2.mp3'}
+              {title: 'Во власти бандитского племени', mp3: '17_2.mp3'}
             ]
           },
           {
             image: '17_3.jpg',
             sounds: [
-              {title: '1', mp3: '17_3.mp3'}
+              {title: 'Литва. Великое православное княжество', mp3: '17_3.mp3'}
             ]
           },
           {
             image: '17_4.jpg',
             sounds: [
-              {title: '1', mp3: '17_4.mp3'}
+              {title: 'Расплата за католический террор', mp3: '17_4.mp3'}
             ]
           }
         ]
@@ -329,7 +329,7 @@ id: 1,
             },
             zoom: '164.5%',
             sounds: [
-              {title: '1', mp3: '18_1.mp3'}
+              {title: '', mp3: '18_1.mp3'}
             ]
           },
           {
@@ -340,7 +340,7 @@ id: 1,
             },
             zoom: '162%',
             sounds: [
-              {title: '1', mp3: '18_2.mp3'}
+              {title: '', mp3: '18_2.mp3'}
             ]
           }
         ]
@@ -358,7 +358,7 @@ id: 1,
             },
             zoom: '104%',
             sounds: [
-              {title: '1', mp3: '19.mp3'}
+              {title: '', mp3: '19.mp3'}
             ]
           }
         ]
@@ -377,7 +377,7 @@ id: 1,
             },
             zoom: '102%',
             sounds: [
-              {title: '1', mp3: '20.mp3'}
+              {title: '', mp3: '20.mp3'}
             ]
           }
         ]
@@ -392,31 +392,31 @@ id: 1,
             image: '21_1.jpg',
             description: 'Западная Русь до XVII века, пребыстория событий',
             sounds: [
-              {title: '1', mp3: '21_1.mp3'}
+              {title: '', mp3: '21_1.mp3'}
             ]
           },
           {
             image: '21_2.jpg',
             sounds: [
-              {title: '1', mp3: '21_2.mp3'}
+              {title: '', mp3: '21_2.mp3'}
             ]
           },
           {
             image: '21_3.jpg',
             sounds: [
-              {title: '1', mp3: '21_3.mp3'}
+              {title: '', mp3: '21_3.mp3'}
             ]
           },
           {
             image: '21_4.jpg',
             sounds: [
-              {title: '1', mp3: '21_4.mp3'}
+              {title: '', mp3: '21_4.mp3'}
             ]
           },
           {
             image: '21_5.jpg',
             sounds: [
-              {title: '1', mp3: '21_5.mp3'}
+              {title: '', mp3: '21_5.mp3'}
             ]
           }
         ]
@@ -434,7 +434,7 @@ id: 1,
             },
             zoom: '100%',
             sounds: [
-              {title: '1', mp3: '22.mp3'}
+              {title: '', mp3: '22.mp3'}
             ]
           }
         ]
@@ -447,25 +447,25 @@ id: 1,
         {
             image: '23_1.jpg',
             sounds: [
-              {title: '1', mp3: '23_1.mp3'}
+              {title: '', mp3: '23_1.mp3'}
             ]
           },
         {
             image: '23_2.jpg',
             sounds: [
-              {title: '1', mp3: '23_2.mp3'}
+              {title: '', mp3: '23_2.mp3'}
             ]
           },
         {
             image: '23_3.jpg',
             sounds: [
-              {title: '1', mp3: '23_3.mp3'}
+              {title: '', mp3: '23_3.mp3'}
             ]
           },
         {
             image: '23_4.jpg',
             sounds: [
-              {title: '1', mp3: '23_4.mp3'}
+              {title: '', mp3: '23_4.mp3'}
             ],
           }
         ]
@@ -483,7 +483,7 @@ id: 1,
             },
             zoom: '102%',
               sounds: [
-              {title: '1', mp3: '24_1.mp3'}
+              {title: '', mp3: '24_1.mp3'}
                 ]
           },
         {
@@ -494,7 +494,7 @@ id: 1,
             },
             zoom: '102%',
             sounds: [
-              {title: '2', mp3: '24_2.mp3'}
+              {title: '', mp3: '24_2.mp3'}
                 ]
           },
         {
@@ -505,7 +505,7 @@ id: 1,
             },
             zoom: '102%',
             sounds: [
-            {title: '3', mp3: '24_3.mp3'}
+            {title: '', mp3: '24_3.mp3'}
                 ]
           },
         {
@@ -516,7 +516,7 @@ id: 1,
             },
             zoom: '102%',
             sounds: [
-            {title: '4', mp3: '24_4.mp3'}
+            {title: '', mp3: '24_4.mp3'}
                 ]
           },
         {
@@ -527,7 +527,7 @@ id: 1,
             },
             zoom: '102%',
             sounds: [
-              {title: '5', mp3: '24_5.mp3'}
+              {title: '', mp3: '24_5.mp3'}
                 ]
           },
         {
@@ -538,7 +538,7 @@ id: 1,
             },
             zoom: '102%',
             sounds: [
-              {title: '6', mp3: '24_6.mp3'}
+              {title: '', mp3: '24_6.mp3'}
                 ]
           },
         {
@@ -549,7 +549,7 @@ id: 1,
             },
             zoom: '102%',
             sounds: [
-              {title: '7', mp3: '24_7.mp3'}
+              {title: '', mp3: '24_7.mp3'}
                 ]
           }
         ]
@@ -567,7 +567,7 @@ id: 1,
           {
             image: '26.jpg',
             sounds: [
-          {title: '1', mp3: '26.mp3'}
+          {title: '', mp3: '26.mp3'}
         ]
 
           }
@@ -589,7 +589,7 @@ id: 1,
           },
           {
             image: '27_2.jpg',
-            description: 'Стефан Чарнецкий, Заместитель командующего польской армией',
+            description: '<span class="twoLine">Стефан Чарнецкий,<br>Заместитель командующего польской армией</span>',
             positions: {
               left: '-398px',
               top: '-21px'
@@ -598,7 +598,7 @@ id: 1,
           },
           {
             image: '27_3.jpg',
-            description: 'Станислав Щука, подканцлер Великого Княжества Литовского',
+            description: '<span class="twoLine">Станислав Щука,<br> подканцлер Великого Княжества Литовского</span>',
             positions: {
               left: '0px',
               top: '0px'
@@ -619,7 +619,7 @@ id: 1,
               top: '-106px'
             },
             sounds: [
-              {title: '1', mp3: '30.mp3'}
+              {title: '', mp3: '30.mp3'}
             ],
             zoom: '140%'
           }
@@ -654,7 +654,7 @@ id: 1,
             },
             zoom: '172%',
             sounds: [
-              {title: '1', mp3: '30.mp3'}
+              {title: '', mp3: '30.mp3'}
             ]
           }
         ]
@@ -681,14 +681,14 @@ id: 1,
         slides: [
           {
             image: '34_1.jpg',
-        sounds: [
-          {title: '1', mp3: '34.mp3'}
-        ]
+       /* sounds: [
+          {title: '', mp3: '34.mp3'}
+        ]*/
       },
       {
             image: '34_2.jpg',
           sounds: [
-          {title: '1', mp3: '34_2.mp3'}
+          {title: '', mp3: '34_2.mp3'}
         ]
           }
        ]
@@ -706,13 +706,13 @@ id: 1,
             },
             description: 'Турки на фоне мечети',
             sounds: [
-              {title: '1', mp3: '35.mp3'}
+              {title: '', mp3: '35.mp3'}
             ]
           },
             {
             image: '35_2.jpg',
             sounds: [
-          {title: '1', mp3: '35_2.mp3'}
+          {title: '', mp3: '35_2.mp3'}
         ]
             }
         ]
@@ -723,16 +723,16 @@ id: 1,
         template: 'page36.html',
         slides: [
           {
-            image: '36_1.jpg',
+            image: '36.jpg',
             map: 'true',
             sounds: [
-            {title: '1', mp3: '36.mp3'}
+            {title: '', mp3: '36.mp3'}
         ]
        },
        {
             image: '36_2.jpg',
            sounds: [
-            {title: '1', mp3: '36_2.mp3'}
+            {title: '', mp3: '36_2.mp3'}
         ]
        }
        ]
@@ -746,17 +746,17 @@ id: 1,
             image: '37_1.jpg',
 		scalable: 'yes',
         sounds: [
-          {title: '1', mp3: '37_1.mp3'}
+          {title: '', mp3: '37_1.mp3'}
         ]
       },
         {image: '37_2.jpg',
         sounds: [
-          {title: '1', mp3: '37_2.mp3'}
+          {title: '', mp3: '37_2.mp3'}
         ]
         },
         {image: '37_3.jpg',
         sounds: [
-          {title: '1', mp3: '37_3.mp3'}
+          {title: '', mp3: '37_3.mp3'}
         ]
         }
         ]
@@ -774,7 +774,7 @@ id: 1,
             },
             zoom: '104%',
             sounds: [
-              {title: '1', mp3: '38_1.mp3'}
+              {title: '', mp3: '38_1.mp3'}
             ]
           },
           {
@@ -785,7 +785,7 @@ id: 1,
             },
             zoom: '100%',
             sounds: [
-              {title: '1', mp3: '.38_2mp3'}
+              {title: '', mp3: '.38_2mp3'}
             ]
           },
         {
@@ -796,7 +796,7 @@ id: 1,
             },
             zoom: '102%',
             sounds: [
-              {title: '1', mp3: '38_3.mp3'}
+              {title: '', mp3: '38_3.mp3'}
             ]
           },
         {
@@ -807,7 +807,7 @@ id: 1,
             },
             zoom: '102%',
             sounds: [
-              {title: '1', mp3: '38_4.mp3'}
+              {title: '', mp3: '38_4.mp3'}
             ]
           },
         {
@@ -818,7 +818,7 @@ id: 1,
             },
             zoom: '102%',
             sounds: [
-              {title: '1', mp3: '38_5.mp3'}
+              {title: '', mp3: '38_5.mp3'}
             ]
           }
         ]
@@ -837,7 +837,7 @@ id: 1,
             },
             zoom: '190%',
             sounds: [
-              {title: '1', mp3: '39.mp3'}
+              {title: '', mp3: '39.mp3'}
             ]
           },
           {
@@ -848,7 +848,7 @@ id: 1,
             },
             zoom: '188%',
            /* sounds: [
-              {title: '1', mp3: '39_2.mp3'}
+              {title: '', mp3: '39_2.mp3'}
             ]*/
           }
         ]
@@ -871,7 +871,7 @@ id: 1,
             },
             zoom: '173%',
             sounds: [
-              {title: '1', mp3: '41.mp3'}
+              {title: '', mp3: '41.mp3'}
             ]
           }
         ]
@@ -889,7 +889,7 @@ id: 1,
             },
             zoom: '102%', 
             sounds: [
-              {title: '1', mp3: '42.mp3'}
+              {title: '', mp3: '42.mp3'}
             ]
           },
           {
@@ -920,7 +920,7 @@ id: 1,
             },
             zoom: '102%',
             sounds: [
-              {title: '1', mp3: '44.mp3'}
+              {title: '', mp3: '44.mp3'}
             ]
           }
         ]
@@ -953,7 +953,7 @@ id: 1,
             },
             zoom: '112%',
             sounds: [
-              {title: '1', mp3: '46.mp3'}
+              {title: '', mp3: '46.mp3'}
             ]
           },
          {
@@ -963,7 +963,7 @@ id: 1,
               top: '0px'
             },
              sounds: [
-              {title: '1', mp3: '46_2.mp3'}
+              {title: '', mp3: '46_2.mp3'}
             ]
          }
         ]
@@ -976,7 +976,7 @@ id: 1,
           {
             image: '47.jpg',
             sounds: [
-              {title: '1', mp3: '47.mp3'}
+              {title: '', mp3: '47.mp3'}
             ]
           }
     ]
@@ -993,9 +993,9 @@ id: 1,
               top: '-215px'
             },
             zoom: '150%',
-            sounds: [
-              {title: '1', mp3: '48.mp3'}
-            ]
+            /*sounds: [
+              {title: '', mp3: '48.mp3'}
+            ]*/
           }
         ]
       },
@@ -1017,7 +1017,7 @@ id: 1,
             },
             zoom: '168%',
             sounds: [
-              {title: '1', mp3: '50.mp3'}
+              {title: '', mp3: '50.mp3'}
             ]
           }
         ]
@@ -1045,13 +1045,13 @@ id: 1,
           {
             image: '52_1.jpg',
         sounds: [
-          {title: '1', mp3: '52_1.mp3'}
+          {title: '', mp3: '52_1.mp3'}
         ]
       },
       {
             image: '52_2.jpg',
         sounds: [
-          {title: '2', mp3: '52_2.mp3'}
+          {title: '', mp3: '52_2.mp3'}
         ]
       }
       ]
@@ -1068,7 +1068,7 @@ id: 1,
               top: '0px'
             },
             sounds: [
-              {title: '1', mp3: '53.mp3'}
+              {title: '', mp3: '53.mp3'}
             ]
           }
         ]
@@ -1081,84 +1081,84 @@ id: 1,
             thumb: '1_thumb.jpg',
             image: '2.jpg',
             sounds: [
-              { title: '1', mp3: '3_1.mp3' }
+              { title: '', mp3: '3_1.mp3' }
             ]
           },
           {
             thumb: '2_thumb.jpg',
             image: '1.jpg',
             sounds: [
-              { title: '2', mp3: '3_1.mp3' }
+              { title: '', mp3: '3_1.mp3' }
             ]
           },
           {
             thumb: '3_thumb.jpg',
             image: '3.jpg',
             sounds: [
-              { title: '3', mp3: '3_1.mp3' }
+              { title: '', mp3: '3_1.mp3' }
             ]
           },
           {
             thumb: '4_thumb.jpg',
             image: '4.jpg',
             sounds: [
-              { title: '4', mp3: '3_1.mp3' }
+              { title: '', mp3: '3_1.mp3' }
             ]
           },
           {
             thumb: '5_thumb.jpg',
             image: '5.jpg',
             sounds: [
-              { title: '5', mp3: '3_1.mp3' }
+              { title: '', mp3: '3_1.mp3' }
             ]
           },
           {
             thumb: '6_thumb.jpg',
             image: '6.jpg',
             sounds: [
-              { title: '6', mp3: '3_1.mp3' }
+              { title: '', mp3: '3_1.mp3' }
             ]
           },
           {
             thumb: '7_thumb.jpg',
             image: '7.jpg',
             sounds: [
-              { title: '7', mp3: '3_1.mp3' }
+              { title: '', mp3: '3_1.mp3' }
             ]
           },
           {
             thumb: '8_thumb.jpg',
             image: '8.jpg',
             sounds: [
-              { title: '8', mp3: '3_1.mp3' }
+              { title: '', mp3: '3_1.mp3' }
             ]
           },
           {
             thumb: '9_thumb.jpg',
             image: '9.jpg',
             sounds: [
-              { title: '9', mp3: '3_1.mp3' }
+              { title: '', mp3: '3_1.mp3' }
             ]
           },
           {
             thumb: '10_thumb.jpg',
             image: '10.jpg',
             sounds: [
-              { title: '1', mp3: '3_1.mp3' }
+              { title: '', mp3: '3_1.mp3' }
             ]
           },
           {
             thumb: '11_thumb.jpg',
             image: '11.jpg',
             sounds: [
-              { title: '1', mp3: '3_1.mp3' }
+              { title: '', mp3: '3_1.mp3' }
             ]
           },
           {
             thumb: '12_thumb.jpg',
             image: '12.jpg',
             sounds: [
-              { title: '1', mp3: '3_1.mp3' }
+              { title: '', mp3: '3_1.mp3' }
             ]
           }
         ]
@@ -1185,11 +1185,11 @@ id: 1,
             positions: {
               left: '0px',
               top: '-131px',
-            sounds: [
-              {title: '1', mp3: '56.mp3'}
-            ]
             },
-            zoom: '165%'
+            zoom: '165%',
+            sounds: [
+              {title: 'Русское общество XVII века', mp3: '56.mp3'}
+            ]
           }
         ]
       },
@@ -1222,7 +1222,7 @@ id: 1,
             },
             zoom: '113%',
             sounds: [
-              {title: '1', mp3: '58.mp3'}
+              {title: '', mp3: '58.mp3'}
             ]
           }
         ]
@@ -1285,7 +1285,7 @@ id: 1,
               top: '0px'
             },
             sounds: [
-              {title: '1', mp3: '63.mp3'}
+              {title: '', mp3: '63.mp3'}
             ]
           }
         ]
@@ -1300,10 +1300,10 @@ id: 1,
             positions: {
               left: '-492px',
               top: '0px'
-            },
+            }/*,
             sounds: [
-              {title: '1', mp3: '63.mp3'}
-            ]
+              {title: '', mp3: '63.mp3'}
+            ]*/
           }
         ]
       },
@@ -1334,7 +1334,10 @@ id: 1,
               left: '-12px',
               top: '-304px'
             },
-            zoom: '185.7%'
+            zoom: '185.7%',
+            sounds: [
+              {title: 'Народы империи неравноправны', mp3: '68_1.mp3'}
+            ]
           },
           {
             image: '68_2.jpg',
@@ -1342,7 +1345,10 @@ id: 1,
               left: '0px',
               top: '-292px'
             },
-            zoom: '184.43%'
+            zoom: '184.43%',
+            sounds: [
+              {title: 'Гражданство империи - это честь', mp3: '68_2.mp3'}
+            ]
           }
         ]
       },
@@ -1363,7 +1369,7 @@ id: 1,
               top: '0px'
             },
             sounds: [
-              {title: '1', mp3: '70.mp3'}
+              {title: '', mp3: '70.mp3'}
             ]
           }
         ]
@@ -1371,7 +1377,21 @@ id: 1,
       {
         id: 71,
         type: 'page',
-        template: 'page71.html'
+        template: 'page71.html',
+        slides: [
+          {
+            image: '71.jpg',
+            sounds: []
+            
+          },
+          {
+            image: '71_2.jpg',
+            title: 'Георг Саал. Медвежья семья',
+            sounds: [
+            {title: 'Авдотья Топтыгина', mp3: '71_2.mp3'}
+            ]
+          }
+        ]
       },
       {
         id: 72,
@@ -1386,7 +1406,7 @@ id: 1,
             },
             zoom: '122%',
             sounds: [
-              {title: '1', mp3: '72_2.mp3'}
+              {title: '', mp3: '72_2.mp3'}
             ]
           },
          {
@@ -1397,7 +1417,7 @@ id: 1,
             },
             zoom: '102%',
             sounds: [
-              {title: '2', mp3: '72_2.mp3'}
+              {title: '', mp3: '72_2.mp3'}
             ]
          },
         {
@@ -1408,7 +1428,7 @@ id: 1,
             },
             zoom: '122%',
             sounds: [
-              {title: '3', mp3: '72_3.mp3'}
+              {title: '', mp3: '72_3.mp3'}
             ]
          },
         {
@@ -1419,7 +1439,7 @@ id: 1,
             },
             zoom: '122%',
             sounds: [
-              {title: '4', mp3: '72_4.mp3'}
+              {title: '', mp3: '72_4.mp3'}
             ]
          } 
         ]
@@ -1507,7 +1527,7 @@ id: 1,
             },
             zoom: '171%',
             sounds: [
-              {title: '1', mp3: '76.mp3'}
+              {title: '', mp3: '76.mp3'}
             ]
           }
         ]
@@ -1525,7 +1545,7 @@ id: 1,
             },
             zoom: '101%',
             sounds: [
-              {title: '1', mp3: '77.mp3'}
+              {title: '', mp3: '77.mp3'}
             ]
           }
         ]
@@ -1542,7 +1562,7 @@ id: 1,
               top: '0px'
             },
             sounds: [
-              {title: '1', mp3: '78.mp3'}
+              {title: '', mp3: '78.mp3'}
             ]
           }
         ]
@@ -1632,7 +1652,7 @@ id: 1,
               top: '-40px'
             },
             sounds: [
-              {title: '1', mp3: '81.mp3'}
+              {title: '', mp3: '81.mp3'}
             ]
           }
         ]
@@ -1650,7 +1670,7 @@ id: 1,
               top: '0px'
             },
             sounds: [
-              {title: '1', mp3: '82.mp3'}
+              {title: '', mp3: '82.mp3'}
             ]
           }
         ]
@@ -1682,7 +1702,7 @@ id: 1,
               top: '-14px'
             },
             sounds: [
-              {title: '1', mp3: '84.mp3'}
+              {title: '', mp3: '84.mp3'}
             ]
           }
         ]
@@ -1715,7 +1735,7 @@ id: 1,
               top: '0px'
             },
             sounds: [
-              {title: '1', mp3: '86.mp3'}
+              {title: '', mp3: '86.mp3'}
             ]
           }
         ]
@@ -1731,7 +1751,7 @@ id: 1,
         type: 'page',
         template: 'page88.html',
        /* sounds: [
-          {title: '1', mp3: '88.mp3'}
+          {title: '', mp3: '88.mp3'}
         ]*/
       },
       {
@@ -1746,7 +1766,7 @@ id: 1,
               top: '-65px'
             },
             sounds: [
-              {title: '1', mp3: '89.mp3'}
+              {title: '', mp3: '89.mp3'}
             ]
           }
         ]
@@ -1763,7 +1783,7 @@ id: 1,
               top: '0px'
             },
             sounds: [
-              {title: '1', mp3: '90.mp3'}
+              {title: '', mp3: '90.mp3'}
             ]
           }
         ]
@@ -1785,7 +1805,10 @@ id: 1,
       {
         id: 92,
         type: 'page',
-        template: 'page92.html'
+        template: 'page92.html',        
+        sounds: [
+         {title: 'Авдотья Топтыгина', mp3: '71_2.mp3'}
+        ]
       },
       {
         id: 93,
@@ -1799,7 +1822,7 @@ id: 1,
               top: '-255px'
             },
             sounds: [
-              {title: '1', mp3: '93.mp3'}
+              {title: '', mp3: '93.mp3'}
             ]
           }
         ]
@@ -1812,14 +1835,14 @@ id: 1,
           {
             image: '94_1.jpg',
         sounds: [
-          {title: '1', mp3: '94_1.mp3'}
+          {title: '', mp3: '94_1.mp3'}
         ],
         map: 'true'
       },
         {
         image: '94_2.jpg',    
         sounds: [
-        {title: '2', mp3: '94_2.mp3'}
+        {title: '', mp3: '94_2.mp3'}
             ]
         }
         ]
@@ -1848,7 +1871,7 @@ id: 1,
         type: 'page',
         template: 'page97.html',
         sounds: [
-          {title: '1', mp3: '97.mp3'}
+          {title: '', mp3: '97.mp3'}
         ]
       },
       {
@@ -1921,7 +1944,7 @@ id: 1,
               top: '0px'
             }/*,
             sounds: [
-              {title: '1', mp3: '101.mp3'}
+              {title: '', mp3: '101.mp3'}
             ]*/
           }
         ]
@@ -1938,7 +1961,7 @@ id: 1,
               top: '-79px'
             },
             sounds: [
-              {title: '1', mp3: '102.mp3'}
+              {title: '', mp3: '102.mp3'}
             ]
           }
         ]
@@ -1955,7 +1978,7 @@ id: 1,
               top: '-54px'
             },
             sounds: [
-              {title: '1', mp3: '103.mp3'}
+              {title: '', mp3: '103.mp3'}
             ]
           }
         ]
@@ -1986,7 +2009,7 @@ id: 1,
               top: '0px'
             },
             sounds: [
-              {title: '1', mp3: '105.mp3'}
+              {title: '', mp3: '105.mp3'}
             ]
           }
         ]
@@ -2018,7 +2041,7 @@ id: 1,
               top: '-160px'
             },
             sounds: [
-              {title: '1', mp3: '107.mp3'}
+              {title: '', mp3: '107.mp3'}
             ]
           },
           {
@@ -2028,7 +2051,7 @@ id: 1,
               top: '-160px'
             },
             sounds: [
-              {title: '1', mp3: '107_1.mp3'}
+              {title: '', mp3: '107_1.mp3'}
             ]
           }          
         ]
@@ -2045,8 +2068,8 @@ id: 1,
               top: '-42px'
             },
             sounds: [
-              {title: '1', mp3: '108_1.mp3'},
-              {title: '2', mp3: '108_2.mp3'}
+              {title: '', mp3: '108_1.mp3'},
+              {title: '', mp3: '108_2.mp3'}
             ]
           }
         ]
@@ -2086,7 +2109,7 @@ id: 1,
               top: '-258px'
             },
             sounds: [
-              {title: '1', mp3: '110.mp3'}
+              {title: '', mp3: '110.mp3'}
             ]
           }
         ]
@@ -2162,7 +2185,7 @@ id: 1,
               top: '-222px'
             },
             sounds: [
-              {title: '1', mp3: '114.mp3'}
+              {title: '', mp3: '114.mp3'}
             ]
           }
         ]
@@ -2172,7 +2195,7 @@ id: 1,
         type: 'page',
         template: 'page115.html',
         sounds: [
-          {title: '1', mp3: '115.mp3'}
+          {title: '', mp3: '115.mp3'}
         ]
       },
       {
@@ -2187,7 +2210,7 @@ id: 1,
               top: '-95px'
             },
             sounds: [
-              {title: '1', mp3: '116.mp3'}
+              {title: '', mp3: '116.mp3'}
             ]
           }
         ]
@@ -2202,7 +2225,7 @@ id: 1,
         type: 'page',
         template: 'page118.html',
         sounds: [
-          {title: '1', mp3: '118.mp3'}
+          {title: '', mp3: '118.mp3'}
         ]
       },
       {
@@ -2218,7 +2241,7 @@ id: 1,
               top: '0px'
             },
             sounds: [
-              {title: '1', mp3: '119.mp3'}
+              {title: '', mp3: '119.mp3'}
             ]
           }
         ]
@@ -2235,7 +2258,7 @@ id: 1,
               top: '-42px'
             },
             sounds: [
-              {title: '1', mp3: '120.mp3'}
+              {title: '', mp3: '120.mp3'}
             ]
           }
         ]
@@ -2275,7 +2298,7 @@ id: 1,
         template: 'page123.html',
 	scroll: 'yes',
         sounds: [
-          {title: '1', mp3: '123.mp3'}
+          {title: '', mp3: '123.mp3'}
         ]
       },
       {
@@ -2322,7 +2345,7 @@ id: 1,
             },
             zoom: '125%',
             sounds: [
-              {title: '1', mp3: '127.mp3'}
+              {title: '', mp3: '127.mp3'}
             ]
           },
           {
@@ -2348,7 +2371,7 @@ id: 1,
         type: 'page',
         template: 'page128.html',
         sounds: [
-          {title: '1', mp3: '128.mp3'}
+          {title: '', mp3: '128.mp3'}
         ]
       },
       {
@@ -2364,7 +2387,7 @@ id: 1,
               top: '-0px'
             },
             sounds: [
-              {title: '1', mp3: '129.mp3'}
+              {title: '', mp3: '129.mp3'}
             ]
           }
         ]
@@ -2419,7 +2442,7 @@ id: 1,
             },
             zoom: '101%',
           /*  sounds: [
-              {title: '1', mp3: '132_1.mp3'}
+              {title: '', mp3: '132_1.mp3'}
             ]*/
           },
           {
@@ -2431,7 +2454,7 @@ id: 1,
             },
             zoom: '110%',
           /*  sounds: [
-              {title: '1', mp3: '132_2.mp3'}
+              {title: '', mp3: '132_2.mp3'}
             ]*/
           }
         ]
@@ -2449,7 +2472,7 @@ id: 1,
             },
             zoom: '195%',
             sounds: [
-              {title: '1', mp3: '133.mp3'}
+              {title: '', mp3: '133.mp3'}
             ]
           }
         ]
@@ -2477,7 +2500,7 @@ id: 1,
         template: 'page135.html',
 		scroll: 'yes',
         sounds: [
-          {title: '1', mp3: '135.mp3'}
+          {title: '', mp3: '135.mp3'}
         ],
         map: 'true'
       },
@@ -2494,7 +2517,7 @@ id: 1,
             },
             zoom: '162%',
             sounds: [
-              {title: '1', mp3: '136.mp3'}
+              {title: '', mp3: '136.mp3'}
             ] 
           },{
             image: '136_1.jpg',
@@ -2504,7 +2527,7 @@ id: 1,
             },
             zoom: '162%',
             sounds: [
-              {title: '1', mp3: '136_1.mp3'}
+              {title: '', mp3: '136_1.mp3'}
             ]
           }
         ]
@@ -2557,7 +2580,7 @@ id: 1,
               top: '0px'
             },
             sounds: [
-              {title: '1', mp3: '140.mp3'}
+              {title: '', mp3: '140.mp3'}
             ]
           },
            {
@@ -2613,7 +2636,7 @@ id: 1,
             image: '143_3.jpg',
             description: 'Русские женщины',
             sounds: [
-              {title: '1', mp3: '143.mp3'}
+              {title: '', mp3: '143.mp3'}
             ]
           },
           {
@@ -2665,7 +2688,7 @@ id: 1,
         type: 'page',
         template: 'page146.html',
         sounds: [
-          {title: '1', mp3: '146.mp3'}
+          {title: '', mp3: '146.mp3'}
         ]
       },
       {
@@ -2709,7 +2732,7 @@ id: 1,
             },
             zoom: '183.85%',
             sounds: [
-              {title: '1', mp3: '149_1.mp3'}
+              {title: '', mp3: '149_1.mp3'}
             ]
           },
           {
@@ -2720,7 +2743,7 @@ id: 1,
             },
             zoom: '183.85%',
             sounds: [
-              {title: '1', mp3: '149_2.mp3'}
+              {title: '', mp3: '149_2.mp3'}
             ]
           }
         ]
@@ -2738,7 +2761,7 @@ id: 1,
             },
             zoom: '165.5%',
             sounds: [
-              {title: '1', mp3: '150_1.mp3'}
+              {title: '', mp3: '150_1.mp3'}
             ]
 
           },
@@ -2750,7 +2773,7 @@ id: 1,
             },
             zoom: '166%',
             sounds: [
-              {title: '1', mp3: '150_2.mp3'}
+              {title: '', mp3: '150_2.mp3'}
             ]
           },
           {
@@ -2761,7 +2784,7 @@ id: 1,
             },
             zoom: '165%',
             sounds: [
-              {title: '1', mp3: '150_3.mp3'}
+              {title: '', mp3: '150_3.mp3'}
             ],
             map: 'true'
           }
@@ -2773,7 +2796,7 @@ id: 1,
         template: 'page151.html',
         scalable: 'yes',
         sounds: [
-          {title: '1', mp3: '151.mp3'}
+          {title: '', mp3: '151.mp3'}
         ]
       },
       {
@@ -2789,7 +2812,7 @@ id: 1,
             },
             zoom: '149%',
             sounds: [
-              {title: '1', mp3: '152.mp3'}
+              {title: '', mp3: '152.mp3'}
             ]
           }
         ]
@@ -2809,7 +2832,7 @@ id: 1,
             },
             zoom: '102%',
             sounds: [
-              {title: '1', mp3: '153.mp3'}
+              {title: '', mp3: '153.mp3'}
             ]
           }
         ]
@@ -2826,7 +2849,7 @@ id: 1,
               top: '0px'
             },
             sounds: [
-              {title: '1', mp3: '154.mp3'}
+              {title: '', mp3: '154.mp3'}
             ]
           }
         ]
@@ -2836,7 +2859,7 @@ id: 1,
         type: 'page',
         template: 'page155.html',
         sounds: [
-          {title: '1', mp3: '155.mp3'}
+          {title: '', mp3: '155.mp3'}
         ]
       },
       {
@@ -2877,7 +2900,7 @@ id: 1,
             },
             zoom: '103%',
             sounds: [
-              {title: '1', mp3: '159.mp3'}
+              {title: '', mp3: '159.mp3'}
             ]
           }
         ]
@@ -2895,7 +2918,7 @@ id: 1,
             },
             zoom: '103%',
             sounds: [
-              {title: '1', mp3: '160.mp3'}
+              {title: '', mp3: '160.mp3'}
             ]
           }
         ]
@@ -3170,23 +3193,23 @@ id: 1,
             thumb: '46.jpg',
             image: [46,26],            
             sounds: {
-             2: { title: '1', mp3: '3_1.mp3' },
-			 3: { title: '1', mp3: '3_1.mp3' },
-			 5: { title: '1', mp3: '3_1.mp3' },
+             2: { title: '', mp3: '3_1.mp3' },
+			 3: { title: '', mp3: '3_1.mp3' },
+			 5: { title: '', mp3: '3_1.mp3' },
             }
           },
           {
             thumb: '47.jpg',
             image: [47,1],  
             sounds: {
-             1: { title: '2', mp3: '3_2.mp3' }
+             1: { title: '', mp3: '3_2.mp3' }
             }
           },
           {
             thumb: '48.jpg',
             image: [48,8],  
             sounds: {
-             4: { title: '3', mp3: '3_1.mp3' }
+             4: { title: '', mp3: '3_1.mp3' }
             }
           },
           {
@@ -3251,7 +3274,7 @@ id: 1,
               top: '0px'
             },
             sounds: [
-              {title: '1', mp3: '169.mp3'}
+              {title: '', mp3: '169.mp3'}
             ]
           }
         ]
@@ -3274,7 +3297,7 @@ id: 1,
             },
             zoom: '103%',
             sounds: [
-              {title: '1', mp3: '171.mp3'}
+              {title: '', mp3: '171.mp3'}
             ]
           }
         ]

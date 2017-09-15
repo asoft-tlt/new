@@ -4,7 +4,7 @@
     <title>savvy</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <!-- Если вы используете API локально, то в URL ресурса необходимо указывать протокол в стандартном виде (http://...)-->
-    <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+    <script src="../scripts/yamap.js" type="text/javascript"></script>
     <script type="text/javascript">
     ymaps.ready(function () {
     var myMap = new ymaps.Map('map', {
@@ -13,21 +13,16 @@
             controls: []
         },  {suppressMapOpenBlock: true});
 
-         myGeoObject = new ymaps.GeoObject({
-	        geometry: {
-	            type: "Circle",
-	            coordinates: [36.202804, 36.160298]
-	       }
-	 });
-
-        myMap.geoObjects
-	.add(myGeoObject)
-	.add(new ymaps.Placemark([36.202804, 36.160298], {
-            balloonContent: 'цвет <strong>твиттера</strong>'
-        }, {
-            preset: 'islands#circleDotIcon',
-            iconColor: '#4d7198'
-        }));
+var myGeoObject = new ymaps.GeoObject({
+      geometry: {
+         type: "Point",
+         coordinates: [36.202804, 36.160298]
+        },
+    }, {
+        preset: "islands#circleDotIcon",
+		iconColor: '#4d7198'
+    });
+myMap.geoObjects.add(myGeoObject);
 
    });
 

@@ -407,6 +407,12 @@ ol {
   text-align: center;
   bottom: 50px;
 }
+.page-slider .twoLine {
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    top: -16px;
+}
 .page-slider__pagination .swiper-pagination-switch {
   display: inline-block;
   width: 8px;
@@ -739,7 +745,11 @@ Pagination Styles
   list-style: none;
   text-align: center;
 }
-
+.jp-playlist ul li.jp-playlist-current{
+   width: 575px;
+   text-align: left;
+   line-height: 23px;
+}
 a.jp-playlist-item {
   font-family: "Conv_Pancetta_Pro_Regular";
   font-size: 16px;
