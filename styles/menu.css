@@ -214,7 +214,7 @@ select option {font-size:15px;width:425px;}
 	background:url('../images/icons/search.svg') center center no-repeat transparent;
   position: absolute;
   right: 20px;
-  bottom: 90px;
+  bottom: 25px;
   z-index: 200;
   width: 43px;
   height: 52px;
@@ -248,7 +248,7 @@ select option {font-size:15px;width:425px;}
 	background:url('../images/icons/compas.svg') center center no-repeat transparent;
   position: absolute;
   right: 20px;
-  bottom: 25px;
+  bottom: 90px;
   z-index: 200;
   width: 43px;
   height: 52px;

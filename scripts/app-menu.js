@@ -94,7 +94,13 @@ window.App = {
         if(_this.backgroundSlider.soundPaths!==undefined){
           if (_this.backgroundSlider.soundPaths[_this.backgroundSlider.activeIndex]!==undefined){
            imagePaths = _this.backgroundSlider.soundPaths[_this.backgroundSlider.activeIndex].split('/');
-           App.showAndPlayAudio([{ title: '', mp3: imagePaths[1] }], { id: imagePaths[0] });
+           titleSound ='';
+           if(_this.backgroundSlider.soundTitle!==undefined){
+            if (_this.backgroundSlider.soundTitle[_this.backgroundSlider.activeIndex]!==undefined){
+              titleSound=_this.backgroundSlider.soundTitle[_this.backgroundSlider.activeIndex];
+            }
+           }
+           App.showAndPlayAudio([{ title: titleSound , mp3: imagePaths[1] }], { id: imagePaths[0] });
            }
          }
         },
@@ -165,8 +171,9 @@ window.App = {
     switch (page.type) {
       case 'video':
         var videoPath = 'video/pages/' + page.id + '/' + page.video;
-         var videoPathMov = 'video/pages/' + page.id + '/' + page.video.replace("mp4", "mov");;
-        content = '<video src="' + videoPath + '"  autoplay="autoplay"><source src="' + videoPathMov + '" type="video/mov"><source src="' + videoPath + '" type="video/mp4;"></source></video>';
+         var videoPathMov = 'video/pages/' + page.id + '/' + page.video.replace("mp4", "mov");
+         var videoPoster='video/pages/' + page.id + '/' +'poster.jpg';
+        content = '<video src="' + videoPath + '" poster="'+videoPoster+'" autoplay="autoplay"><source src="' + videoPathMov + '" type="video/mov"><source src="' + videoPath + '" type="video/mp4;"></source></video>';
         break;
       default:
         content = this.Templates.get(page.template);
@@ -653,7 +660,7 @@ window.App = {
       files.push({
         title: sound.title,
         mp3: App.getAudioPath(params.id, sound.mp3)
-      })
+      });
     });
 
     this.playList.jSelect.jSelect('reset');
@@ -663,7 +670,9 @@ window.App = {
     } else {
       this.playList.jSelect.show();
     }
-
+    if(audio[0].title!==''){
+      this.playList.jSelect.show();
+    }
     // set new playlist
     this.playList._initPlaylist(files);
     // refresh playlist
@@ -753,13 +762,14 @@ window.App = {
 /* -------------*/
      var commentsound = [];
      var pathsound = $(this.slide).find('.commentbk').data('sound');
+     var namesound = $(this.slide).find('.commentbk').data('name');
      if (pathsound.length > 10) {
 	    commentsound.push({
-	        title: "comment",
+	        title: namesound,
 	        mp3: pathsound
 	    })
 
-	    this.playList.jSelect.hide();
+	    this.playList.jSelect.show();
 	    // set new playlist
 	    this.playList._initPlaylist(commentsound);
 	    // refresh playlist
@@ -795,8 +805,14 @@ window.App = {
         el = $(event.target),
         imagePaths = el.data('background').split(';');
         var sounds=el.data('sounds');
+        this.backgroundSlider.soundPaths=undefined;
+        this.backgroundSlider.soundTitle=undefined;
         if(sounds!==undefined){        
         this.backgroundSlider.soundPaths = sounds.split(';');
+        var soundsname=el.data('name');
+          if(soundsname!==undefined){
+            this.backgroundSlider.soundTitle = soundsname.split(';');
+            }
         }
     this.backgroundSlider.removeAllSlides();
     
@@ -825,7 +841,11 @@ window.App = {
        if(this.backgroundSlider.soundPaths!==undefined){
           if (this.backgroundSlider.soundPaths[0]!==undefined){
            imagePaths = this.backgroundSlider.soundPaths[0].split('/');
-           App.showAndPlayAudio([{ title: '', mp3: imagePaths[1] }], { id: imagePaths[0] });
+           var imageTitle='';
+           if(this.backgroundSlider.soundTitle[0]!==undefined){
+            imageTitle=this.backgroundSlider.soundTitle[0];
+           }
+           App.showAndPlayAudio([{ title: imageTitle, mp3: imagePaths[1] }], { id: imagePaths[0] });
            }
          }
     return false;
