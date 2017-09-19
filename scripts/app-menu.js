@@ -867,7 +867,7 @@ window.App = {
         // Recalculate swiper dimensions
         this.backgroundSlider.resizeFix(true);
         if (this.backgroundSlider.soundPaths !== undefined) {
-            if (this.backgroundSlider.soundPaths[0] !== undefined) {
+            if (this.backgroundSlider.soundPaths[0] !== undefined && this.backgroundSlider.soundPaths[0] != '0') {
                 imagePaths = this.backgroundSlider.soundPaths[0].split('/');
                 var imageTitle = '';
                 if (this.backgroundSlider.soundTitle[0] !== undefined) {

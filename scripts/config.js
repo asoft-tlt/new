@@ -451,42 +451,45 @@ window.App.sections = [
             {
                 id: 21,
                 type: 'page',
-                template: 'page21.html',
+                template: 'page21.html'
+            },
+            {
+                id: 215,
+                type: 'page',
+                template: 'page215.html',
                 scalable: 'yes',
                 slides: [
                     {
-                        image: '21_1.jpg',
-                        description: 'Западная Русь до XVII века, пребыстория событий',
+                        image: '7.2.jpg',
+                        description: 'Ян Вильчинский. Подолье',
                         sounds: [
-                            {title: '', mp3: '21_1.mp3'}
+                            {title: 'Рождение Литовской державы', mp3: '7.2.mp3'}
                         ]
                     },
                     {
-                        image: '21_2.jpg',
+                        image: '7.3.jpg',
+                        description: 'Ян Вильчинский. Каменец-Подольский',
                         sounds: [
-                            {title: '', mp3: '21_2.mp3'}
+                            {title: 'Почему русские земли поглощались Литвой', mp3: '7.3.mp3'}
                         ]
                     },
                     {
-                        image: '21_3.jpg',
+                        image: '7.4.jpg',
+                        description: ' Ян Вильчинский. Волынь',
                         sounds: [
-                            {title: '', mp3: '21_3.mp3'}
+                            {title: 'Первенство Москвы определила Вселенская церковь', mp3: '7.4.mp3'}
                         ]
                     },
                     {
-                        image: '21_4.jpg',
+                        image: '7.5.jpg',
+                        description: ' Ян Вильчинский. Костёл Святой Троицы в Кракове',
                         sounds: [
-                            {title: '', mp3: '21_4.mp3'}
-                        ]
-                    },
-                    {
-                        image: '21_5.jpg',
-                        sounds: [
-                            {title: '', mp3: '21_5.mp3'}
+                            {title: 'Принятие католической ориентации', mp3: '7.5.mp3'}
                         ]
                     }
                 ]
             },
+
             {
                 id: 22,
                 type: 'page',
@@ -1383,7 +1386,15 @@ window.App.sections = [
             {
                 id: 66,
                 type: 'page',
-                template: 'page66.html'
+                template: 'page66.html',
+                slides: [
+                    {
+                        image: '66.jpg'
+                    },
+                    {
+                        image: '66_1.jpg'
+                    }
+                ]
             },
             {
                 id: 67,
