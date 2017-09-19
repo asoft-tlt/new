@@ -392,13 +392,19 @@ ol {
 
 .page-slider__description {
   position: absolute;
-  bottom: 30px;
+  bottom: 0px;
+  height: 45px;
   width: 100%;
   text-align: center;
   font-size:14px;
   color:#D7B39D;
+  padding-top: 25px;
+  background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 99%, rgba(0,0,0,1) 100%);
+  background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 99%,rgba(0,0,0,1) 100%);
+  background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 99%,rgba(0,0,0,1) 100%);
   font-family: 'Pancetta Serif Pro Italic';
 }
+
 
 .page-slider__pagination {
   position: absolute;
@@ -738,16 +744,17 @@ Pagination Styles
 }
 
 .jp-playlist ul li {
-  width: 75px;
+  width: 575px;
   height: 30px;
   line-height: 33px;
   padding: 0;
   list-style: none;
-  text-align: center;
+  text-align: left;
 }
 .jp-playlist ul li.jp-playlist-current{
    width: 575px;
    text-align: left;
+   padding: 0;
    line-height: 23px;
 }
 a.jp-playlist-item {
