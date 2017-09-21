@@ -164,9 +164,11 @@ window.App = {
             slide = App.slider.getSlide(index),
             page = App.pages[index],
             content = '';
-        $("video").each(function () {
-            this.pause()
-        });
+        /*if(page.type!='video') {
+            $("video").each(function () {
+                this.pause()
+            });
+        }*/
         if (slide && slide.children.length) {
             return;
         }
@@ -174,9 +176,9 @@ window.App = {
         switch (page.type) {
             case 'video':
                 var videoPath = 'video/pages/' + page.id + '/' + page.video;
-                var videoPathMov = 'video/pages/' + page.id + '/' + page.video.replace("mp4", "mov");
+               // var videoPathMov = 'video/pages/' + page.id + '/' + page.video.replace("mp4", "mov");
                 // var videoPoster='video/pages/' + page.id + '/' +'poster.jpg';
-                content = '<video src="' + videoPath + '" autoplay="autoplay"><source src="' + videoPathMov + '" type="video/mov"><source src="' + videoPath + '" type="video/mp4;"></source></video>';
+                content = '<video src="' + videoPath + '" ><source src="' + videoPath + '" type=\'video/mp4;\'></source></video>';
                 break;
             default:
                 content = this.Templates.get(page.template);
@@ -404,7 +406,9 @@ window.App = {
         if (!this.slide) return;
 
         var page = this.slide.getData('page');
-
+        $("video").each(function () {
+            this.pause()
+        });
 
         switch (page.type) {
             case 'video':

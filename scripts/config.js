@@ -70,7 +70,7 @@ window.App.sections = [
                 slides: [
                     {
                         image: '5_1.jpg',
-                        description: 'Фрагмент дамаскской рукописи архидиакона Павла',
+                        description: 'Фрагмент дамаскской рукописи <br/>архидиакона Павла',
                         positions: {
                             left: '-248px',
                             top: '-69px'
