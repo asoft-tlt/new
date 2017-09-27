@@ -559,11 +559,11 @@ window.App = {
                 //	}
 //
 //			}else {
-//			
+//
 //			if($('.holdimage').scrollLeft()<=1){
 //			$('div.swiper-slide-active').removeClass('swiper-slide-hold');
 //			}
-//			
+//
 //			}
 //			$('.holdimage').attr('sc', $('.holdimage').scrollLeft());
 //		 });

@@ -13,11 +13,11 @@ window.App.sections = [
                 type: 'page',
                 template: 'page1.html'
             },
-            {
+        /*    {
                 id: 2,
                 type: 'video',
                 video: 'intro.mp4'
-            },
+            },*/
             {
                 id: 3,
                 type: 'page',
@@ -31,7 +31,7 @@ window.App.sections = [
                             top: '0px'
                         },
                         sounds: [
-                            {title: '', mp3: '3_1.mp3'}
+                            {title: 'Антиохия. Слава античного мира', mp3: '2.1.mp3'}
                         ],
                         map: 'true'
                     },
@@ -42,7 +42,7 @@ window.App.sections = [
                             top: '0px'
                         },
                         sounds: [
-                            {title: '', mp3: '3_2.mp3'}
+                            {title: 'Земля во Христе', mp3: '2.2.mp3'}
                         ]
                     },
                     {
@@ -53,7 +53,7 @@ window.App.sections = [
                         },
                         map: 'true',
                         sounds: [
-                            {title: '', mp3: '3_3.mp3'}
+                            {title: 'Sic transit gloria mundi', mp3: '2.3.mp3'}
                         ]
                     }
                 ]
@@ -90,87 +90,82 @@ window.App.sections = [
                     {"id": "01", "year": 1600}, {
                         "id": "02",
                         "year": 1600,
-                        sounds: [{title: '', mp3: '2_1.mp3'}, {title: '', mp3: '2_2.mp3'}, {title: '', mp3: '2_3.mp3'}]
+                        sounds: [{title: 'Казнь журналиста Джордано Бруно', mp3: '2.1.mp3'}, {title: 'Идеи Бруно и наука несовместимы', mp3: '2.2.mp3'}, {title: 'Миф, требующий переосмысления', mp3: '2.3.mp3'}]
                     }, {"id": "03", "year": 1604},
-                    {"id": "04", "year": 1605, sounds: [{title: '', mp3: '4.mp3'}]}, {
-                        "id": "05",
-                        "year": 1605,
-                        sounds: [{title: '', mp3: '5.mp3'}]
-                    }, {"id": "06", "year": 1605},
-                    {"id": "07", "year": 1606, sounds: [{title: '', mp3: '7.mp3'}]}, {
-                        "id": "08",
-                        "year": 1606
-                    }, {"id": "09", "year": 1607},
-                    {"id": "10", "year": 1608, sounds: [{title: '', mp3: '10.mp3'}]}, {
-                        "id": "11",
-                        "year": 1611
-                    }, {"id": "12", "year": 1612},
-                    {"id": "13", "year": 1613}, {
-                        "id": "14",
-                        "year": 1617,
-                        sounds: [{title: '', mp3: '14_1.mp3'}, {title: '', mp3: '14_2.mp3'}]
-                    }, {"id": "15", "year": 1618, sounds: [{title: '', mp3: '15.mp3'}]},
-                    {"id": "16", "year": 1619}, {
-                        "id": "17",
-                        "year": 1619,
-                        sounds: [{title: '', mp3: '17_1.mp3'}, {title: '', mp3: '17_2.mp3'}]
-                    }, {"id": "18", "year": 1620},
-                    {"id": "19", "year": 1624}, {
-                        "id": "20",
-                        "year": 1624,
-                        sounds: [{title: '', mp3: '20.mp3'}]
-                    }, {"id": "21", "year": 1625},
-                    {"id": "22", "year": 1626}, {
-                        "id": "23",
-                        "year": 1628,
-                        sounds: [{title: '', mp3: '23.mp3'}]
-                    }, {"id": "24", "year": 1637, sounds: [{title: '', mp3: '24.mp3'}]},
-                    {"id": "25", "year": 1638}, {"id": "25_1", "year": 1638}, {"id": "25_2", "year": 1638},
-                    {"id": "26", "year": 1641}, {"id": "27", "year": 1642}, {
-                        "id": "28",
-                        "year": 1642,
-                        sounds: [{title: '', mp3: '28.mp3'}]
+                    {"id": "04", "year": 1605, sounds: [{title: 'Смутное время', mp3: '4.mp3'}]},
+                    {"id": "05", "year": 1605, sounds: [{title: 'Первое цареубийство в России', mp3: '5.mp3'}]},
+                    {"id": "06", "year": 1605},
+                    {"id": "07", "year": 1606, sounds: [{title: 'Урок всем самозванцам', mp3: '7.mp3'}]},
+                    {"id": "08", "year": 1606, sounds: [{title: 'Этика просвещенцев', mp3: '8.mp3'}]},
+                    {"id": "09", "year": 1607},
+                    {"id": "10", "year": 1608, sounds: [{title: 'Оборона Свято-Троицкой лавры в XVII веке', mp3: '10.mp3'}]},
+                    {"id": "11", "year": 1611},
+                    {"id": "12", "year": 1612},
+                    {"id": "13", "year": 1613},
+                    {"id": "14", "year": 1617, sounds: [{title: '', mp3: '14_1.mp3'}, {title: '', mp3: '14_2.mp3'}]},
+                    {"id": "15", "year": 1618, sounds: [{title: '', mp3: '15.mp3'}]},
+                    {"id": "16", "year": 1619},
+                    {"id": "17", "year": 1619, sounds: [{title: '', mp3: '17_1.mp3'}, {title: '', mp3: '17_2.mp3'}]},
+                    {"id": "18", "year": 1620},
+                    {"id": "19", "year": 1624},
+                    {"id": "20", "year": 1624, sounds: [{title: '', mp3: '20.mp3'}]},
+                    {"id": "21", "year": 1625},
+                    {"id": "22", "year": 1626},
+                    {"id": "23", "year": 1628, sounds: [{title: '', mp3: '23.mp3'}]},
+                    {"id": "24", "year": 1637, sounds: [{title: '', mp3: '24.mp3'}]},
+                    {"id": "25", "year": 1638},
+                    {"id": "25_1", "year": 1638},
+                    {"id": "25_2", "year": 1638},
+                    {"id": "26", "year": 1641},
+                    {"id": "27", "year": 1642},
+                    {"id": "28", "year": 1642, sounds: [{title: '', mp3: '28.mp3'}]},
+                    {"id": "29", "year": 1643, sounds: [{title: '', mp3: '29_1.mp3'}, {title: '', mp3: '29_2.mp3'}]},
+                    {"id": "30", "year": 1644},
+                    {"id": "31", "year": 1644},
+                    {"id": "31_1", "year": 1644},
+                    {"id": "31_2", "year": 1644},
+                    {"id": "31_3", "year": 1644},
+                    {"id": "31_4", "year": 1644},
+                    {"id": "31_5", "year": 1644},
+                    {"id": "31_6", "year": 1644},
+                    {"id": "31_7", "year": 1644},
+                    {"id": "31_8", "year": 1644},
+                    {"id": "31_9", "year": 1644},
+                    {"id": "32", "year": 1645},
+                    {"id": "33", "year": 1648},
+                    {"id": "34", "year": 1648},
+                    {"id": "35", "year": 1648, sounds: [{title: '', mp3: '35.mp3'}]},
+                    {"id": "36", "year": 1649, sounds: [{title: '', mp3: '36_1.mp3'}, {title: '', mp3: '36_2.mp3'}, {title: '', mp3: '36_3.mp3'}]},
+                    {"id": "37", "year": 1649},
+                    {"id": "38", "year": 1650},
+                    {"id": "39", "year": 1650},
+                    {"id": "40", "year": 1650,
+                      sounds: [{title: '', mp3: '40_1.mp3'},
+                               {title: '', mp3: '40_2.mp3'},
+                               {title: '', mp3: '40_3.mp3'},
+                               {title: '', mp3: '40_4.mp3'},
+                               {title: '', mp3: '40_5.mp3'},
+                               {title: '', mp3: '40_6.mp3'},
+                               {title: '', mp3: '40_7.mp3'}]
                     },
-                    {
-                        "id": "29",
-                        "year": 1643,
-                        sounds: [{title: '', mp3: '29_1.mp3'}, {title: '', mp3: '29_2.mp3'}]
-                    }, {"id": "30", "year": 1644}, {"id": "31", "year": 1644},
-                    {"id": "31_1", "year": 1644}, {"id": "31_2", "year": 1644}, {"id": "31_3", "year": 1644},
-                    {"id": "31_4", "year": 1644}, {"id": "31_5", "year": 1644}, {"id": "31_6", "year": 1644},
-                    {"id": "31_7", "year": 1644}, {"id": "31_8", "year": 1644}, {"id": "31_9", "year": 1644},
-                    {"id": "32", "year": 1645}, {"id": "33", "year": 1648}, {"id": "34", "year": 1648},
-                    {"id": "35", "year": 1648, sounds: [{title: '', mp3: '35.mp3'}]}, {
-                        "id": "36",
-                        "year": 1649,
-                        sounds: [{title: '', mp3: '36_1.mp3'}, {title: '', mp3: '36_2.mp3'}, {
-                            title: '',
-                            mp3: '36_3.mp3'
-                        }]
-                    }, {"id": "37", "year": 1649},
-                    {"id": "38", "year": 1650}, {"id": "39", "year": 1650}, {
-                        "id": "40",
-                        "year": 1650,
-                        sounds: [{title: '', mp3: '40_1.mp3'}, {title: '', mp3: '40_2.mp3'}, {
-                            title: '',
-                            mp3: '40_3.mp3'
-                        }, {title: '', mp3: '40_4.mp3'}, {title: '', mp3: '40_5.mp3'}, {
-                            title: '',
-                            mp3: '40_6.mp3'
-                        }, {title: '', mp3: '40_7.mp3'}]
-                    },
-                    {"id": "41", "year": 1652}, {"id": "42", "year": 1652}, {"id": "43", "year": 1652},
-                    {"id": "44", "year": 1653, sounds: [{title: '', mp3: '44.mp3'}]}, {
-                        "id": "45",
-                        "year": 1665
-                    }, {"id": "46", "year": 1665},
-                    {"id": "47", "year": 1665}, {"id": "48", "year": 1666}, {"id": "49", "year": 1668},
-                    {"id": "50", "year": 1668}, {"id": "51", "year": 1671}, {"id": "52", "year": 1675},
-                    {"id": "53", "year": 1679, sounds: [{title: '', mp3: '53.mp3'}]}, {
-                        "id": "54",
-                        "year": 1682
-                    }, {"id": "55", "year": 1683},
-                    {"id": "56", "year": 1683}, {"id": "57", "year": 1689}, {"id": "58", "year": 1699},
+                    {"id": "41", "year": 1652},
+                    {"id": "42", "year": 1652},
+                    {"id": "43", "year": 1652},
+                    {"id": "44", "year": 1653, sounds: [{title: '', mp3: '44.mp3'}]},
+                    {"id": "45", "year": 1665},
+                    {"id": "46", "year": 1665},
+                    {"id": "47", "year": 1665},
+                    {"id": "48", "year": 1666},
+                    {"id": "49", "year": 1668},
+                    {"id": "50", "year": 1668},
+                    {"id": "51", "year": 1671},
+                    {"id": "52", "year": 1675},
+                    {"id": "53", "year": 1679, sounds: [{title: '', mp3: '53.mp3'}]},
+                    {"id": "54", "year": 1682},
+                    {"id": "55", "year": 1683},
+                    {"id": "56", "year": 1683},
+                    {"id": "57", "year": 1689},
+                    {"id": "58", "year": 1699},
                     {"id": "59", "year": 1699, sounds: [{title: '', mp3: '59.mp3'}]}
                 ]
             }
@@ -180,11 +175,11 @@ window.App.sections = [
         id: 2,
         name: 'Vstuplenie',
         pages: [
-            {
+          /*  {
                 id: 8,
                 type: 'video',
                 video: 'vstup.mp4'
-            },
+            },*/
             {
                 id: 9,
                 type: 'page',
@@ -214,7 +209,7 @@ window.App.sections = [
                         },
                         description: 'Древняя Сирия',
                         sounds: [
-                            {title: 'Древняя Сирия', mp3: '10_1.mp3'}
+                            {title: 'Сирия. Древнейшая христианская земля', mp3: '4.1.mp3'}
                         ]
                     },
                     {
@@ -225,7 +220,7 @@ window.App.sections = [
                         },
                         description: 'Руины города Баальбек',
                         sounds: [
-                            {title: 'Руины города Баальбек', mp3: '10_2.mp3'}
+                            {title: 'Восточный сценарий. E Pluribus Unum', mp3: '4.2.mp3'}
                         ],
                         map: 'true'
                     }
@@ -303,11 +298,11 @@ window.App.sections = [
         id: 3,
         name: 'Glava1',
         pages: [
-            {
+        /*    {
                 id: 15,
                 type: 'video',
                 video: 'intro.mp4'
-            },
+            },*/
             {
                 id: 16,
                 type: 'page',
@@ -358,18 +353,21 @@ window.App.sections = [
                 slides: [
                     {
                         image: '17_1.jpg',
+                        description: 'Малороссия. Ситуация в регионе к началу второй половины 17 века',
                         sounds: [
                             {title: 'Земля казаков', mp3: '17_1.mp3'}
                         ]
                     },
                     {
                         image: '17_2.jpg',
+                        description: 'Во власти бандитского племеник',
                         sounds: [
                             {title: 'Во власти бандитского племени', mp3: '17_2.mp3'}
                         ]
                     },
                     {
                         image: '17_3.jpg',
+                        description: 'Литва. Великое православное княжество',
                         sounds: [
                             {title: 'Литва. Великое православное княжество', mp3: '17_3.mp3'}
                         ]
@@ -395,7 +393,7 @@ window.App.sections = [
                         },
                         zoom: '164.5%',
                         sounds: [
-                            {title: '', mp3: '18_1.mp3'}
+                            {title: 'Стасидии', mp3: '4.1.mp3'}
                         ]
                     },
                     {
@@ -406,7 +404,7 @@ window.App.sections = [
                         },
                         zoom: '162%',
                         sounds: [
-                            {title: '', mp3: '18_2.mp3'}
+                            {title: 'No pain, no gain. Зачем стоять в храме', mp3: '4.2.mp3'}
                         ]
                     }
                 ]
@@ -418,13 +416,14 @@ window.App.sections = [
                 slides: [
                     {
                         image: '19_1.jpg',
+                        description: 'Кто такие казаки',
                         positions: {
                             left: '-92px',
                             top: '-0px'
                         },
                         zoom: '104%',
                         sounds: [
-                            {title: '', mp3: '19.mp3'}
+                            {title: 'Кто такие казаки', mp3: '5.mp3'}
                         ]
                     }
                 ]
@@ -436,14 +435,14 @@ window.App.sections = [
                 slides: [
                     {
                         image: '20.jpg',
-                        description: 'Биография гетмана. Традиционная версия.',
+                      /*  description: 'Биография гетмана. Традиционная версия.',*/
                         positions: {
                             left: '-370px',
                             top: '0px'
                         },
                         zoom: '102%',
                         sounds: [
-                            {title: '', mp3: '20.mp3'}
+                            {title: 'Хохляцкая кличка', mp3: '6.mp3'}
                         ]
                     }
                 ]
@@ -451,7 +450,10 @@ window.App.sections = [
             {
                 id: 21,
                 type: 'page',
-                template: 'page21.html'
+                template: 'page21.html',
+                sounds: [
+                    {title: 'Западная Русь до 17 века. Закат славянского этноса', mp3: '7.1.mp3'}
+                ]
             },
             {
                 id: 215,
@@ -461,28 +463,28 @@ window.App.sections = [
                 slides: [
                     {
                         image: '7.2.jpg',
-                        description: 'Ян Вильчинский. Подолье',
+                        description: 'Рождение Литовской державы',
                         sounds: [
                             {title: 'Рождение Литовской державы', mp3: '7.2.mp3'}
                         ]
                     },
                     {
                         image: '7.3.jpg',
-                        description: 'Ян Вильчинский. Каменец-Подольский',
+                      /*  description: 'Ян Вильчинский. Каменец-Подольский',*/
                         sounds: [
                             {title: 'Почему русские земли поглощались Литвой', mp3: '7.3.mp3'}
                         ]
                     },
                     {
                         image: '7.4.jpg',
-                        description: ' Ян Вильчинский. Волынь',
+                        /*description: ' Ян Вильчинский. Волынь',*/
                         sounds: [
                             {title: 'Первенство Москвы определила Вселенская церковь', mp3: '7.4.mp3'}
                         ]
                     },
                     {
                         image: '7.5.jpg',
-                        description: ' Ян Вильчинский. Костёл Святой Троицы в Кракове',
+                      /*  description: ' Ян Вильчинский. Костёл Святой Троицы в Кракове',*/
                         sounds: [
                             {title: 'Принятие католической ориентации', mp3: '7.5.mp3'}
                         ]
@@ -503,7 +505,7 @@ window.App.sections = [
                         },
                         zoom: '100%',
                         sounds: [
-                            {title: '', mp3: '22.mp3'}
+                            {title: 'Положение русского населения в Польше', mp3: '8.mp3'}
                         ]
                     }
                 ]
@@ -516,25 +518,25 @@ window.App.sections = [
                     {
                         image: '23_1.jpg',
                         sounds: [
-                            {title: '', mp3: '23_1.mp3'}
+                            {title: 'Западная Русь до 17 века. Два русских государства', mp3: '9.1.mp3'}
                         ]
                     },
                     {
                         image: '23_2.jpg',
                         sounds: [
-                            {title: '', mp3: '23_2.mp3'}
+                            {title: 'Вера - ключевой фактор истории', mp3: '9.2.mp3'}
                         ]
                     },
                     {
                         image: '23_3.jpg',
                         sounds: [
-                            {title: '', mp3: '23_3.mp3'}
+                            {title: 'Люблинская уния 1659 года. Создание Речи Посполитой', mp3: '9.3.mp3'}
                         ]
                     },
                     {
                         image: '23_4.jpg',
                         sounds: [
-                            {title: '', mp3: '23_4.mp3'}
+                            {title: ' Преступления и наказание', mp3: '9.4.mp3'}
                         ]
                     }
                 ]
@@ -546,13 +548,14 @@ window.App.sections = [
                 slides: [
                     {
                         image: '24_1.jpg',
+                        description: 'Подлинная причина казацких восстаний.<br> К сути явления',
                         positions: {
                             left: '0px',
                             top: '0px'
                         },
                         zoom: '102%',
                         sounds: [
-                            {title: '', mp3: '24_1.mp3'}
+                            {title: 'Подлинная причина казацких восстаний', mp3: '10.1.mp3'}
                         ]
                     },
                     {
@@ -563,7 +566,7 @@ window.App.sections = [
                         },
                         zoom: '102%',
                         sounds: [
-                            {title: '', mp3: '24_2.mp3'}
+                            {title: 'Страсти по dolce vita', mp3: '10.2.mp3'}
                         ]
                     },
                     {
@@ -574,7 +577,7 @@ window.App.sections = [
                         },
                         zoom: '102%',
                         sounds: [
-                            {title: '', mp3: '24_3.mp3'}
+                            {title: 'По трупам черни к светлому будущему', mp3: '10.3.mp3'}
                         ]
                     },
                     {
@@ -585,7 +588,7 @@ window.App.sections = [
                         },
                         zoom: '102%',
                         sounds: [
-                            {title: '', mp3: '24_4.mp3'}
+                            {title: 'Великий комбинатор', mp3: '10.4.mp3'}
                         ]
                     },
                     {
@@ -596,7 +599,7 @@ window.App.sections = [
                         },
                         zoom: '102%',
                         sounds: [
-                            {title: '', mp3: '24_5.mp3'}
+                            {title: 'Момент истины', mp3: '10.5.mp3'}
                         ]
                     },
                     {
@@ -607,7 +610,7 @@ window.App.sections = [
                         },
                         zoom: '102%',
                         sounds: [
-                            {title: '', mp3: '24_6.mp3'}
+                            {title: 'Освободитель, сохранивший рабство', mp3: '10.6.mp3'}
                         ]
                     },
                     {
@@ -618,7 +621,7 @@ window.App.sections = [
                         },
                         zoom: '102%',
                         sounds: [
-                            {title: '', mp3: '24_7.mp3'}
+                            {title: 'Московский сценарий', mp3: '10.7.mp3'}
                         ]
                     }
                 ]
@@ -1240,11 +1243,11 @@ window.App.sections = [
         id: 4,
         name: 'Glava2',
         pages: [
-            {
+        /*    {
                 id: 55,
                 type: 'video',
                 video: 'intro.mp4'
-            },
+            },*/
             {
                 id: 56,
                 type: 'page',
@@ -1714,11 +1717,11 @@ window.App.sections = [
         id: 5,
         name: 'Glava3',
         pages: [
-            {
+        /*    {
                 id: 80,
                 type: 'video',
                 video: 'intro.mp4'
-            },
+            },*/
             {
                 id: 81,
                 type: 'page',
@@ -2414,11 +2417,11 @@ window.App.sections = [
         id: 6,
         name: 'Glava4',
         pages: [
-            {
+          /*  {
                 id: 126,
                 type: 'video',
                 video: 'vstup.mp4'
-            },
+            },*/
             {
                 id: 127,
                 type: 'page',
@@ -3091,12 +3094,12 @@ window.App.sections = [
                     }
                 ]
             },
-            {
+          /*  {
                 id: 166,
                 type: 'video',
                 video: '47.mp4'
 
-            },
+            },*/
             {
                 id: '166',
                 type: 'page',
@@ -3384,11 +3387,11 @@ window.App.sections = [
                     }
                 ]
             },
-            {
+        /*    {
                 id: 170,
                 type: 'video',
                 video: 'vstup.mp4'
-            },
+            },*/
             {
                 id: 171,
                 type: 'page',
@@ -3517,12 +3520,12 @@ window.App.sections = [
                 id: 187,
                 type: 'page',
                 template: 'page187.html'
-            },
-            {
+            }/*,
+        /*    {
                 id: 188,
                 type: 'video',
                 video: 'Afonin_1min.mp4'
-            }
+            }*/
 
         ]
     }
