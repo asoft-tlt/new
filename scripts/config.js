@@ -13,11 +13,11 @@ window.App.sections = [
                 type: 'page',
                 template: 'page1.html'
             },
-        /*    {
-                id: 2,
-                type: 'video',
-                video: 'intro.mp4'
-            },*/
+            // {
+            //     id: 2,
+            //     type: 'video',
+            //     video: 'intro.mp4'
+            // },
             {
                 id: 3,
                 type: 'page',
@@ -175,11 +175,11 @@ window.App.sections = [
         id: 2,
         name: 'Vstuplenie',
         pages: [
-          /*  {
-                id: 8,
-                type: 'video',
-                video: 'vstup.mp4'
-            },*/
+          // {
+          //       id: 8,
+          //       type: 'video',
+          //       video: 'vstup.mp4'
+          //   },
             {
                 id: 9,
                 type: 'page',
@@ -245,37 +245,37 @@ window.App.sections = [
                 type: 'page',
                 template: 'page12.html',
                 scalable: 'no'//'yes',
-                /*slides: [
-          {
-            image: '12_1.png'
-          },
-          {
-            image: '12_2.png'
-          },
-          {
-            image: '12_3.png'
-          }
-        ]*/
+        //       slides: [
+        //   {
+        //     image: '12_1.png'
+        //   },
+        //   {
+        //     image: '12_2.png'
+        //   },
+        //   {
+        //     image: '12_3.png'
+        //   }
+        // ]
             },
-            /*   {
-        id: 200,
-        type: 'page',
-        template: 'page200.html',
-        slides: [
-          {
-            image: '200_1.jpg',
-            sounds: [
-              {title: '', mp3: '200_1.mp3'}
-            ]
-          },
-          {
-            image: '200_2.jpg',
-            sounds: [
-              {title: '', mp3: '200_2.mp3'}
-            ]
-          }
-        ]
-      },*/
+      //   {
+      //   id: 200,
+      //   type: 'page',
+      //   template: 'page200.html',
+      //   slides: [
+      //     {
+      //       image: '200_1.jpg',
+      //       sounds: [
+      //         {title: '', mp3: '200_1.mp3'}
+      //       ]
+      //     },
+      //     {
+      //       image: '200_2.jpg',
+      //       sounds: [
+      //         {title: '', mp3: '200_2.mp3'}
+      //       ]
+      //     }
+      //   ]
+      // },
             {
                 id: 13,
                 type: 'page',
@@ -298,11 +298,11 @@ window.App.sections = [
         id: 3,
         name: 'Glava1',
         pages: [
-        /*    {
-                id: 15,
-                type: 'video',
-                video: 'intro.mp4'
-            },*/
+        //    {
+        //         id: 15,
+        //         type: 'video',
+        //         video: 'intro.mp4'
+        //     },
             {
                 id: 16,
                 type: 'page',
@@ -435,7 +435,7 @@ window.App.sections = [
                 slides: [
                     {
                         image: '20.jpg',
-                      /*  description: 'Биография гетмана. Традиционная версия.',*/
+                      //  description: 'Биография гетмана. Традиционная версия.',
                         positions: {
                             left: '-370px',
                             top: '0px'
@@ -470,21 +470,21 @@ window.App.sections = [
                     },
                     {
                         image: '7.3.jpg',
-                      /*  description: 'Ян Вильчинский. Каменец-Подольский',*/
+                      //  description: 'Ян Вильчинский. Каменец-Подольский',
                         sounds: [
                             {title: 'Почему русские земли поглощались Литвой', mp3: '7.3.mp3'}
                         ]
                     },
                     {
                         image: '7.4.jpg',
-                        /*description: ' Ян Вильчинский. Волынь',*/
+                        //description: ' Ян Вильчинский. Волынь',
                         sounds: [
                             {title: 'Первенство Москвы определила Вселенская церковь', mp3: '7.4.mp3'}
                         ]
                     },
                     {
                         image: '7.5.jpg',
-                      /*  description: ' Ян Вильчинский. Костёл Святой Троицы в Кракове',*/
+                      //  description: ' Ян Вильчинский. Костёл Святой Троицы в Кракове',
                         sounds: [
                             {title: 'Принятие католической ориентации', mp3: '7.5.mp3'}
                         ]
@@ -639,7 +639,7 @@ window.App.sections = [
                     {
                         image: '26.jpg',
                         sounds: [
-                            {title: '', mp3: '26.mp3'}
+                            {title: 'Смоленская земля - ключ к сердцу России', mp3: '26.mp3'}
                         ]
 
                     }
@@ -691,7 +691,7 @@ window.App.sections = [
                             top: '-106px'
                         },
                         sounds: [
-                            {title: '', mp3: '30.mp3'}
+                            {title: 'Кто участвовал в Земских соборах', mp3: '15.mp3'}
                         ],
                         zoom: '140%'
                     }
@@ -753,15 +753,16 @@ window.App.sections = [
                 slides: [
                     {
                         image: '34_1.jpg'
-                        /* sounds: [
-          {title: '', mp3: '34.mp3'}
-        ]*/
+        //     sounds: [
+        //   {title: '', mp3: '34.mp3'}
+        // ]
                     },
                     {
-                        image: '34_2.jpg',
-                        sounds: [
-                            {title: '', mp3: '34_2.mp3'}
-                        ]
+                        image: '34_2.jpg'
+                        // ,
+                        // sounds: [
+                        //     {title: '', mp3: '34_2.mp3'}
+                        // ]
                     }
                 ]
             },
@@ -778,33 +779,13 @@ window.App.sections = [
                         },
                         description: 'Турки на фоне мечети',
                         sounds: [
-                            {title: '', mp3: '35.mp3'}
+                            {title: 'Русский лучше всех знает, что нужно мусульманину', mp3: '21.1.mp3'}
                         ]
                     },
                     {
                         image: '35_2.jpg',
                         sounds: [
-                            {title: '', mp3: '35_2.mp3'}
-                        ]
-                    }
-                ]
-            },
-            {
-                id: 36,
-                type: 'page',
-                template: 'page36.html',
-                slides: [
-                    {
-                        image: '36.jpg',
-                        map: 'true',
-                        sounds: [
-                            {title: '', mp3: '36.mp3'}
-                        ]
-                    },
-                    {
-                        image: '36_2.jpg',
-                        sounds: [
-                            {title: '', mp3: '36_2.mp3'}
+                            {title: 'Магометане и русские. Что такое имперское поведение', mp3: '21.2.mp3'}
                         ]
                     }
                 ]
@@ -818,19 +799,40 @@ window.App.sections = [
                         image: '37_1.jpg',
                         scalable: 'yes',
                         sounds: [
-                            {title: '', mp3: '37_1.mp3'}
+                            {title: 'Оттоманская порта. В зените славы', mp3: '23.1.mp3'}
+                        ]
+                    }
+                    // ,
+                    // {
+                    //     image: '37_2.jpg',
+                    //     sounds: [
+                    //         {title: '', mp3: '37_2.mp3'}
+                    //     ]
+                    // },
+                    // {
+                    //     image: '37_3.jpg',
+                    //     sounds: [
+                    //         {title: '', mp3: '37_3.mp3'}
+                    //     ]
+                    // }
+                ]
+            },
+            {
+                id: 36,
+                type: 'page',
+                template: 'page36.html',
+                slides: [
+                    {
+                        image: '36.jpg',
+                        map: 'true',
+                        sounds: [
+                            {title: 'Беспощадная борьба за власть', mp3: '23.2.mp3'}
                         ]
                     },
                     {
-                        image: '37_2.jpg',
+                        image: '36_2.jpg',
                         sounds: [
-                            {title: '', mp3: '37_2.mp3'}
-                        ]
-                    },
-                    {
-                        image: '37_3.jpg',
-                        sounds: [
-                            {title: '', mp3: '37_3.mp3'}
+                            {title: 'За фасадом величия', mp3: '23.3.mp3'}
                         ]
                     }
                 ]
@@ -848,7 +850,7 @@ window.App.sections = [
                         },
                         zoom: '104%',
                         sounds: [
-                            {title: '', mp3: '38_1.mp3'}
+                            {title: 'Мы и Запад. Смертная казнь', mp3: '24.1.mp3'}
                         ]
                     },
                     {
@@ -859,7 +861,7 @@ window.App.sections = [
                         },
                         zoom: '100%',
                         sounds: [
-                            {title: '', mp3: '.38_2mp3'}
+                            {title: 'Гуманизм. Орудие против неугодных режимов', mp3: '24.2.mp3'}
                         ]
                     },
                     {
@@ -870,7 +872,7 @@ window.App.sections = [
                         },
                         zoom: '102%',
                         sounds: [
-                            {title: '', mp3: '38_3.mp3'}
+                            {title: 'Восприятие фигуры палача', mp3: '24.3.mp3'}
                         ]
                     },
                     {
@@ -881,7 +883,7 @@ window.App.sections = [
                         },
                         zoom: '102%',
                         sounds: [
-                            {title: '', mp3: '38_4.mp3'}
+                            {title: 'Россия и Европа. Отношение к истязаниям человека', mp3: '24.4.mp3'}
                         ]
                     },
                     {
@@ -892,7 +894,7 @@ window.App.sections = [
                         },
                         zoom: '102%',
                         sounds: [
-                            {title: '', mp3: '38_5.mp3'}
+                            {title: 'Интерес к чужому страданию - признак нездоровой психики', mp3: '24.5.mp3'}
                         ]
                     }
                 ]
@@ -911,7 +913,7 @@ window.App.sections = [
                         },
                         zoom: '190%',
                         sounds: [
-                            {title: '', mp3: '39.mp3'}
+                            {title: 'Степан Разин. Выродок русского общества, герой Советского Союза', mp3: '26.1.mp3'}
                         ]
                     },
                     {
@@ -921,9 +923,9 @@ window.App.sections = [
                             top: '0px'
                         },
                         zoom: '188%'
-                        /* sounds: [
-              {title: '', mp3: '39_2.mp3'}
-            ]*/
+            //              sounds: [
+            //   {title: '', mp3: '39_2.mp3'}
+            // ]
                     }
                 ]
             },
@@ -945,7 +947,7 @@ window.App.sections = [
                         },
                         zoom: '173%',
                         sounds: [
-                            {title: '', mp3: '41.mp3'}
+                            {title: 'Царский поезд', mp3: '28.mp3'}
                         ]
                     }
                 ]
@@ -963,7 +965,7 @@ window.App.sections = [
                         },
                         zoom: '102%',
                         sounds: [
-                            {title: '', mp3: '42.mp3'}
+                            {title: 'Детский костюм вчера и сегодня. От культа радости к культу смерти', mp3: '42.mp3'}
                         ]
                     },
                     {
@@ -994,7 +996,7 @@ window.App.sections = [
                         },
                         zoom: '102%',
                         sounds: [
-                            {title: '', mp3: '44.mp3'}
+                            {title: 'Константин Савицкий. Встреча иконы', mp3: '44.mp3'}
                         ]
                     }
                 ]
@@ -1027,7 +1029,7 @@ window.App.sections = [
                         },
                         zoom: '112%',
                         sounds: [
-                            {title: '', mp3: '46.mp3'}
+                            {title: 'Окраина - не страна', mp3: '33.1.mp3'}
                         ]
                     },
                     {
@@ -1037,7 +1039,7 @@ window.App.sections = [
                             top: '0px'
                         },
                         sounds: [
-                            {title: '', mp3: '46_2.mp3'}
+                            {title: 'Таврия, Новороссия, Донбасс', mp3: '33.2.mp3'}
                         ]
                     }
                 ]
@@ -1050,7 +1052,7 @@ window.App.sections = [
                     {
                         image: '47.jpg',
                         sounds: [
-                            {title: '', mp3: '47.mp3'}
+                            {title: 'Нация, воплощающая здоровье', mp3: '34.mp3'}
                         ]
                     }
                 ]
@@ -1067,9 +1069,9 @@ window.App.sections = [
                             top: '-215px'
                         },
                         zoom: '150%'
-                        /*sounds: [
-              {title: '', mp3: '48.mp3'}
-            ]*/
+            //            sounds: [
+            //   {title: '', mp3: '48.mp3'}
+            // ]
                     }
                 ]
             },
@@ -1091,7 +1093,7 @@ window.App.sections = [
                         },
                         zoom: '168%',
                         sounds: [
-                            {title: '', mp3: '50.mp3'}
+                            {title: 'Украинец - это идеология', mp3: '50.mp3'}
                         ]
                     }
                 ]
@@ -1119,13 +1121,13 @@ window.App.sections = [
                     {
                         image: '52_1.jpg',
                         sounds: [
-                            {title: '', mp3: '52_1.mp3'}
+                            {title: 'Украинцы живут только в трёх государствах', mp3: '52_1.mp3'}
                         ]
                     },
                     {
                         image: '52_2.jpg',
                         sounds: [
-                            {title: '', mp3: '52_2.mp3'}
+                            {title: 'Два краеугольных камня украинской идеологии', mp3: '52_2.mp3'}
                         ]
                     }
                 ]
@@ -1142,7 +1144,7 @@ window.App.sections = [
                             top: '0px'
                         },
                         sounds: [
-                            {title: '', mp3: '53.mp3'}
+                            {title: 'Еврейский вопрос в Малороссии. Один сценарий на все времена', mp3: '39.mp3'}
                         ]
                     }
                 ]
@@ -1243,11 +1245,11 @@ window.App.sections = [
         id: 4,
         name: 'Glava2',
         pages: [
-        /*    {
-                id: 55,
-                type: 'video',
-                video: 'intro.mp4'
-            },*/
+            // {
+            //     id: 55,
+            //     type: 'video',
+            //     video: 'intro.mp4'
+            // },
             {
                 id: 56,
                 type: 'page',
@@ -1374,10 +1376,11 @@ window.App.sections = [
                         positions: {
                             left: '-492px',
                             top: '0px'
-                        }/*,
-            sounds: [
-              {title: '', mp3: '63.mp3'}
-            ]*/
+                        }
+            //             ,
+            // sounds: [
+            //   {title: '', mp3: '63.mp3'}
+            // ]
                     }
                 ]
             },
@@ -1717,11 +1720,11 @@ window.App.sections = [
         id: 5,
         name: 'Glava3',
         pages: [
-        /*    {
-                id: 80,
-                type: 'video',
-                video: 'intro.mp4'
-            },*/
+        //     {
+        //         id: 80,
+        //         type: 'video',
+        //         video: 'intro.mp4'
+        //     },
             {
                 id: 81,
                 type: 'page',
@@ -1832,9 +1835,9 @@ window.App.sections = [
                 id: 88,
                 type: 'page',
                 template: 'page88.html'
-                /* sounds: [
-          {title: '', mp3: '88.mp3'}
-        ]*/
+        //          sounds: [
+        //   {title: '', mp3: '88.mp3'}
+        // ]
             },
             {
                 id: 89,
@@ -1887,10 +1890,11 @@ window.App.sections = [
             {
                 id: 92,
                 type: 'page',
-                template: 'page92.html'/*,
-        sounds: [
-         {title: 'Авдотья Топтыгина', mp3: '71_2.mp3'}
-        ]*/
+                template: 'page92.html'
+        //         ,
+        // sounds: [
+        //  {title: 'Авдотья Топтыгина', mp3: '71_2.mp3'}
+        // ]
             },
             {
                 id: 93,
@@ -1992,21 +1996,21 @@ window.App.sections = [
                         ]
                     }
                 ]
-            }, /*
-      {
-        id: 100,
-        type: 'page',
-        template: 'page100.html',
-	scroll: 'yes',
-        slides: [
-            {image: '100_1.png'},
-            {image: '100_2.png'},
-            {image: '100_3.png'},
-            {image: '100_4.png'},
-            {image: '100_5.png'},
-            {image: '100_6.png'}
-         ]
-      },              */
+            },
+  //     {
+  //       id: 100,
+  //       type: 'page',
+  //       template: 'page100.html',
+	// scroll: 'yes',
+  //       slides: [
+  //           {image: '100_1.png'},
+  //           {image: '100_2.png'},
+  //           {image: '100_3.png'},
+  //           {image: '100_4.png'},
+  //           {image: '100_5.png'},
+  //           {image: '100_6.png'}
+  //        ]
+  //     },
             {
                 id: 100,
                 type: 'page',
@@ -2030,10 +2034,11 @@ window.App.sections = [
                         positions: {
                             left: '-71px',
                             top: '0px'
-                        }/*,
-            sounds: [
-              {title: '', mp3: '101.mp3'}
-            ]*/
+                        }
+            //             ,
+            // sounds: [
+            //   {title: '', mp3: '101.mp3'}
+            // ]
                     }
                 ]
             },
@@ -2417,11 +2422,11 @@ window.App.sections = [
         id: 6,
         name: 'Glava4',
         pages: [
-          /*  {
-                id: 126,
-                type: 'video',
-                video: 'vstup.mp4'
-            },*/
+          //   {
+          //       id: 126,
+          //       type: 'video',
+          //       video: 'vstup.mp4'
+          //   },
             {
                 id: 127,
                 type: 'page',
@@ -2475,10 +2480,11 @@ window.App.sections = [
                         positions: {
                             left: '-476px',
                             top: '-0px'
-                        }/*,
-                        sounds: [
-                            {title: '', mp3: '129.mp3'}
-                        ]*/
+                        }
+                        // ,
+                        // sounds: [
+                        //     {title: '', mp3: '129.mp3'}
+                        // ]
                     }
                 ]
             },
@@ -2533,9 +2539,9 @@ window.App.sections = [
                             top: '0px'
                         },
                         zoom: '101%'
-                        /*  sounds: [
-              {title: '', mp3: '132_1.mp3'}
-            ]*/
+            //               sounds: [
+            //   {title: '', mp3: '132_1.mp3'}
+            // ]
                     },
                     {
                         image: '132_2.jpg',
@@ -2545,9 +2551,9 @@ window.App.sections = [
                             top: '-42px'
                         },
                         zoom: '110%'
-                        /*  sounds: [
-              {title: '', mp3: '132_2.mp3'}
-            ]*/
+            //               sounds: [
+            //   {title: '', mp3: '132_2.mp3'}
+            // ]
                     }
                 ]
             },
@@ -2602,9 +2608,9 @@ window.App.sections = [
                         image: '135_2.jpg'
                     }
                 ],
-               /* sounds: [
-                    {title: '', mp3: '135.mp3'}
-                ],*/
+              //   sounds: [
+              //       {title: '', mp3: '135.mp3'}
+              //   ],
                 map: 'true'
             },
             {
@@ -2628,10 +2634,11 @@ window.App.sections = [
                             left: '0px',
                             top: '-239px'
                         },
-                        zoom: '162%'/*,
-                        sounds: [
-                            {title: '', mp3: '136_1.mp3'}
-                        ]*/
+                        zoom: '162%'
+                        // ,
+                        // sounds: [
+                        //     {title: '', mp3: '136_1.mp3'}
+                        // ]
                     }
                 ]
             },
@@ -3094,12 +3101,12 @@ window.App.sections = [
                     }
                 ]
             },
-          /*  {
-                id: 166,
-                type: 'video',
-                video: '47.mp4'
-
-            },*/
+          //   {
+          //       id: 166,
+          //       type: 'video',
+          //       video: '47.mp4'
+          //
+          //   },
             {
                 id: '166',
                 type: 'page',
@@ -3387,11 +3394,11 @@ window.App.sections = [
                     }
                 ]
             },
-        /*    {
-                id: 170,
-                type: 'video',
-                video: 'vstup.mp4'
-            },*/
+        //     {
+        //         id: 170,
+        //         type: 'video',
+        //         video: 'vstup.mp4'
+        //     },
             {
                 id: 171,
                 type: 'page',
@@ -3520,12 +3527,13 @@ window.App.sections = [
                 id: 187,
                 type: 'page',
                 template: 'page187.html'
-            }/*,
-        /*    {
-                id: 188,
-                type: 'video',
-                video: 'Afonin_1min.mp4'
-            }*/
+            }
+        //     ,
+        //   {
+        //         id: 188,
+        //         type: 'video',
+        //         video: 'Afonin_1min.mp4'
+        //     }
 
         ]
     }

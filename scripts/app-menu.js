@@ -100,10 +100,9 @@ window.App = {
                                 titleSound = _this.backgroundSlider.soundTitle[_this.backgroundSlider.activeIndex];
                             }
                         }
+
                         App.showAndPlayAudio([{title: titleSound, mp3: imagePaths[1]}], {id: imagePaths[0]});
                     }
-                }else{
-                   App.hideAndStopAudio();
                 }
             },
             onSlideClick: this.closeBackground.bind(this)
@@ -682,16 +681,20 @@ window.App = {
     showAndPlayAudio: function (audio, params) {
         var files = [];
 
+        console.log(audio);
+        console.log(params);
         audio && audio.length && audio.forEach(function (sound) {
             if (sound.title === undefined) {
                 sound.title = '';
             }
+            if(sound.mp3!=undefined){
             files.push({
                 title: sound.title,
                 mp3: App.getAudioPath(params.id, sound.mp3)
             });
+          }
         });
-
+        if(files.length>0){
         this.playList.jSelect.jSelect('reset');
 
         if (audio.length === 1) {
@@ -712,6 +715,9 @@ window.App = {
         $(this.options.circlePlayer.cssSelector).addClass('audio-player_show_yes');
 
         this.isPlaying = true;
+      }else{
+         App.hideAndStopAudio();
+      }
     },
 
     hideAndStopAudio: function () {
@@ -795,7 +801,7 @@ window.App = {
         if (namesound === undefined) {
             namesound = '';
         }
-        if (pathsound.length > 10) {
+        if (pathsound!=undefined && pathsound.length > 10) {
             commentsound.push({
                 title: namesound,
                 mp3: pathsound
