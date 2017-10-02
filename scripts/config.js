@@ -3,7 +3,7 @@ window.App || (window.App = {});
 /**
  * Config for pages
  */
-window.App.sections = [
+window.App.sections = [ //*
     {
         id: 1,
         name: 'Predislovie',
@@ -1264,7 +1264,7 @@ window.App.sections = [
                         },
                         zoom: '165%',
                         sounds: [
-                            {title: 'Русское общество XVII века', mp3: '56.mp3'}
+                            {title: 'Московия. Западничество в нашей исторической науке', mp3: '2.mp3'}
                         ]
                     }
                 ]
@@ -1298,7 +1298,7 @@ window.App.sections = [
                         },
                         zoom: '113%',
                         sounds: [
-                            {title: '', mp3: '58.mp3'}
+                            {title: 'Деревянная и каменная крепость. Сравнение', mp3: '4.mp3'}
                         ]
                     }
                 ]
@@ -1361,7 +1361,7 @@ window.App.sections = [
                             top: '0px'
                         },
                         sounds: [
-                            {title: '', mp3: '63.mp3'}
+                            {title: 'Из Кремля до Звенигорода за 1 час', mp3: '63.mp3'}
                         ]
                     }
                 ]
@@ -1454,7 +1454,7 @@ window.App.sections = [
                             top: '0px'
                         },
                         sounds: [
-                            {title: '', mp3: '70.mp3'}
+                            {title: 'Торговля и отношение к купцам-иноземцам', mp3: '70.mp3'}
                         ]
                     }
                 ]
@@ -1465,8 +1465,7 @@ window.App.sections = [
                 template: 'page71.html',
                 slides: [
                     {
-                        image: '71.jpg',
-                        sounds: []
+                        image: '71.jpg'
 
                     },
                     {
@@ -1491,7 +1490,7 @@ window.App.sections = [
                         },
                         zoom: '122%',
                         sounds: [
-                            {title: '', mp3: '72_2.mp3'}
+                            {title: 'Греческий фактор в споре о духовном первенстве', mp3: '17.1.mp3'}
                         ]
                     },
                     {
@@ -1502,7 +1501,7 @@ window.App.sections = [
                         },
                         zoom: '102%',
                         sounds: [
-                            {title: '', mp3: '72_2.mp3'}
+                            {title: 'Портрет грека 17-го столетия', mp3: '17.2.mp3'}
                         ]
                     },
                     {
@@ -1513,7 +1512,7 @@ window.App.sections = [
                         },
                         zoom: '122%',
                         sounds: [
-                            {title: '', mp3: '72_3.mp3'}
+                            {title: 'Идея вселенской православной монархии', mp3: '17.3.mp3'}
                         ]
                     },
                     {
@@ -1524,7 +1523,7 @@ window.App.sections = [
                         },
                         zoom: '122%',
                         sounds: [
-                            {title: '', mp3: '72_4.mp3'}
+                            {title: 'С восточной церковью или вопреки', mp3: '17.4.mp3'}
                         ]
                     }
                 ]
@@ -1612,7 +1611,7 @@ window.App.sections = [
                         },
                         zoom: '171%',
                         sounds: [
-                            {title: '', mp3: '76.mp3'}
+                            {title: 'Сергей Иванов. Приезд иностранцев', mp3: '76.mp3'}
                         ]
                     }
                 ]
@@ -1630,7 +1629,7 @@ window.App.sections = [
                         },
                         zoom: '101%',
                         sounds: [
-                            {title: '', mp3: '77.mp3'}
+                            {title: 'Эстетика городской застройки', mp3: '24.mp3'}
                         ]
                     }
                 ]
@@ -1647,7 +1646,7 @@ window.App.sections = [
                             top: '0px'
                         },
                         sounds: [
-                            {title: '', mp3: '78.mp3'}
+                            {title: 'Древо государства Российского', mp3: '25.mp3'}
                         ]
                     }
                 ]
@@ -1716,7 +1715,7 @@ window.App.sections = [
             }
         ]
     },
-    {
+   {
         id: 5,
         name: 'Glava3',
         pages: [
@@ -1737,7 +1736,7 @@ window.App.sections = [
                             top: '-40px'
                         },
                         sounds: [
-                            {title: '', mp3: '81.mp3'}
+                            {title: 'Тишайший, как превосходная степень оценки правителя', mp3: '81.mp3'}
                         ]
                     }
                 ]
@@ -1755,7 +1754,7 @@ window.App.sections = [
                             top: '0px'
                         },
                         sounds: [
-                            {title: '', mp3: '82.mp3'}
+                            {title: 'Встреча послов', mp3: '82.mp3'}
                         ]
                     }
                 ]
@@ -1787,7 +1786,7 @@ window.App.sections = [
                             top: '-14px'
                         },
                         sounds: [
-                            {title: '', mp3: '84.mp3'}
+                            {title: 'Воспоминания царского доктора', mp3: '5.mp3'}
                         ]
                     }
                 ]
@@ -1820,7 +1819,7 @@ window.App.sections = [
                             top: '0px'
                         },
                         sounds: [
-                            {title: '', mp3: '86.mp3'}
+                            {title: 'Филипп IV. Роковой современник русского царя', mp3: '86.mp3'}
                         ]
                     }
                 ]
@@ -1851,7 +1850,7 @@ window.App.sections = [
                             top: '-65px'
                         },
                         sounds: [
-                            {title: '', mp3: '89.mp3'}
+                            {title: 'Из крестьянина в патриархи', mp3: '89.mp3'}
                         ]
                     }
                 ]
@@ -1868,7 +1867,7 @@ window.App.sections = [
                             top: '0px'
                         },
                         sounds: [
-                            {title: '', mp3: '90.mp3'}
+                            {title: 'Симфония властей и ограничение власти монарха', mp3: '11.1.mp3'}
                         ]
                     }
                 ]
@@ -1891,10 +1890,6 @@ window.App.sections = [
                 id: 92,
                 type: 'page',
                 template: 'page92.html'
-        //         ,
-        // sounds: [
-        //  {title: 'Авдотья Топтыгина', mp3: '71_2.mp3'}
-        // ]
             },
             {
                 id: 93,
@@ -1908,7 +1903,7 @@ window.App.sections = [
                             top: '-255px'
                         },
                         sounds: [
-                            {title: '', mp3: '93.mp3'}
+                            {title: 'Два государя. От великой дружбы к великому раздору', mp3: '93.mp3'}
                         ]
                     }
                 ]
@@ -1922,14 +1917,14 @@ window.App.sections = [
                     {
                         image: '94_1.jpg',
                         sounds: [
-                            {title: '', mp3: '94_1.mp3'}
+                            {title: 'О просвещении новопреобретённых земель', mp3: '94_1.mp3'}
                         ]
 
                     },
                     {
                         image: '94_2.jpg',
                         sounds: [
-                            {title: '', mp3: '94_2.mp3'}
+                            {title: 'Каким было традиционное отношение татар к России', mp3: '94_2.mp3'}
                         ]
                     }
                 ]
@@ -1958,7 +1953,7 @@ window.App.sections = [
                 type: 'page',
                 template: 'page97.html',
                 sounds: [
-                    {title: '', mp3: '97.mp3'}
+                    {title: 'Барин и мужик. Психология равенства', mp3: '16.mp3'}
                 ]
             },
             {
@@ -2018,12 +2013,10 @@ window.App.sections = [
                 map: 'true',
                 scroll: 'yes',
                 sounds: [
-                    {title: '', mp3: '100.mp3'}
+                    {title: 'Новый Иерусалим', mp3: '100.mp3'}
                 ]
 
             },
-
-
             {
                 id: 101,
                 type: 'page',
@@ -2054,7 +2047,7 @@ window.App.sections = [
                             top: '-79px'
                         },
                         sounds: [
-                            {title: '', mp3: '102.mp3'}
+                            {title: 'Историки против Павла', mp3: '102.mp3'}
                         ]
                     }
                 ]
@@ -2071,7 +2064,7 @@ window.App.sections = [
                             top: '-54px'
                         },
                         sounds: [
-                            {title: '', mp3: '103.mp3'}
+                            {title: 'К воздыхателям о чистоте устава', mp3: '103.mp3'}
                         ]
                     }
                 ]
@@ -2102,7 +2095,7 @@ window.App.sections = [
                             top: '0px'
                         },
                         sounds: [
-                            {title: '', mp3: '105.mp3'}
+                            {title: 'Церковные свечи и 1500% прибыли. Суть ритуала для чайников', mp3: '25.mp3'}
                         ]
                     }
                 ]
@@ -2134,7 +2127,7 @@ window.App.sections = [
                             top: '-160px'
                         },
                         sounds: [
-                            {title: '', mp3: '107.mp3'}
+                            {title: 'Эпоха - это платье. Смена стиля одежды - признак состояния души', mp3: '27.1.mp3'}
                         ]
                     },
                     {
@@ -2144,7 +2137,7 @@ window.App.sections = [
                             top: '-160px'
                         },
                         sounds: [
-                            {title: '', mp3: '107_1.mp3'}
+                            {title: 'Мода как стандартизация убожества', mp3: '27.2.mp3'}
                         ]
                     }
                 ]
@@ -2187,7 +2180,7 @@ window.App.sections = [
                             top: '0px'
                         },
                         sounds: [
-                            {title: 'Что такое проповедь', mp3: '108.mp3'}
+                            {title: 'Герои прошлые и нынешние. О восприятии старости', mp3: '30.mp3'}
                         ]
                     }
                 ]
@@ -2204,7 +2197,7 @@ window.App.sections = [
                             top: '-258px'
                         },
                         sounds: [
-                            {title: '', mp3: '110.mp3'}
+                            {title: 'Политика привлечения иностранных инвестиций', mp3: '32.mp3'}
                         ]
                     }
                 ]
@@ -2280,7 +2273,7 @@ window.App.sections = [
                             top: '-222px'
                         },
                         sounds: [
-                            {title: '', mp3: '114.mp3'}
+                            {title: 'Саввино-Сторожевский монастырь', mp3: '114.mp3'}
                         ]
                     }
                 ]
@@ -2290,7 +2283,7 @@ window.App.sections = [
                 type: 'page',
                 template: 'page115.html',
                 sounds: [
-                    {title: '', mp3: '115.mp3'}
+                    {title: 'Алексей Михайлович и Михайло Потапыч', mp3: '115.mp3'}
                 ]
             },
             {
@@ -2305,7 +2298,7 @@ window.App.sections = [
                             top: '-95px'
                         },
                         sounds: [
-                            {title: '', mp3: '116.mp3'}
+                            {title: 'История Эжена Богарне', mp3: '40.mp3'}
                         ]
                     }
                 ]
@@ -2320,7 +2313,7 @@ window.App.sections = [
                 type: 'page',
                 template: 'page118.html',
                 sounds: [
-                    {title: '', mp3: '118.mp3'}
+                    {title: 'Из поучений преподобного Саввы', mp3: '118.mp3'}
                 ]
             },
             {
@@ -2336,7 +2329,7 @@ window.App.sections = [
                             top: '0px'
                         },
                         sounds: [
-                            {title: '', mp3: '119.mp3'}
+                            {title: 'Всё идёт через молитву', mp3: '44.mp3'}
                         ]
                     }
                 ]
@@ -2353,7 +2346,7 @@ window.App.sections = [
                             top: '-42px'
                         },
                         sounds: [
-                            {title: '', mp3: '120.mp3'}
+                            {title: 'Самый добрый из царей', mp3: '120.mp3'}
                         ]
                     }
                 ]
@@ -2393,7 +2386,7 @@ window.App.sections = [
                 template: 'page123.html',
                 scroll: 'yes',
                 sounds: [
-                    {title: '', mp3: '123.mp3'}
+                    {title: 'Вербное Воскресенье и ослик', mp3: '123.mp3'}
                 ]
             },
             {
@@ -2417,7 +2410,7 @@ window.App.sections = [
                 type: 'rubric_raskol'
             }
         ]
-    },
+    }, //*/
     {
         id: 6,
         name: 'Glava4',
