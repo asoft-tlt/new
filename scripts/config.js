@@ -3,7 +3,7 @@ window.App || (window.App = {});
 /**
  * Config for pages
  */
-window.App.sections = [ //*
+window.App.sections = [
     {
         id: 1,
         name: 'Predislovie',
@@ -2410,7 +2410,7 @@ window.App.sections = [ //*
                 type: 'rubric_raskol'
             }
         ]
-    }, //*/
+    },
     {
         id: 6,
         name: 'Glava4',
@@ -2433,7 +2433,7 @@ window.App.sections = [ //*
                         },
                         zoom: '125%',
                         sounds: [
-                            {title: '', mp3: '127.mp3'}
+                            {title: 'Я вхожу во имя царя', mp3: '127.mp3'}
                         ]
                     },
                     {
@@ -2459,7 +2459,7 @@ window.App.sections = [ //*
                 type: 'page',
                 template: 'page128.html',
                 sounds: [
-                    {title: '', mp3: '128.mp3'}
+                    {title: 'Евразийский корридор', mp3: '128.mp3'}
                 ]
             },
             {
@@ -2563,7 +2563,7 @@ window.App.sections = [ //*
                         },
                         zoom: '195%',
                         sounds: [
-                            {title: '', mp3: '133.mp3'}
+                            {title: 'Бывают светлые мгновенья...', mp3: '133.mp3'}
                         ]
                     }
                 ]
@@ -2580,7 +2580,7 @@ window.App.sections = [ //*
                             top: '0px'
                         },
                         sounds: [
-                            {title: '', mp3: '134.mp3'}
+                            {title: 'Кого считали благовоспитанным. Русский взгляд', mp3: '134.mp3'}
                         ]
                     }
                 ]
@@ -2594,7 +2594,7 @@ window.App.sections = [ //*
                     {
                         image: '135_1.jpg',
                         sounds: [
-                            {title: '', mp3: '135.mp3'}
+                            {title: 'Хождение по водам', mp3: '135.mp3'}
                         ]
                     },
                     {
@@ -2619,7 +2619,7 @@ window.App.sections = [ //*
                         },
                         zoom: '162%',
                         sounds: [
-                            {title: '', mp3: '136.mp3'}
+                            {title: 'Диктующий стиль одежды, диктует поведение', mp3: '136.mp3'}
                         ]
                     }, {
                         image: '136_1.jpg',
@@ -2640,7 +2640,7 @@ window.App.sections = [ //*
                 type: 'page',
                 template: 'page137.html',
                 sounds: [
-                    {title: '', mp3: '137.mp3'}
+                    {title: 'Базарный день', mp3: '137.mp3'}
                 ]
             },
             {
@@ -2686,7 +2686,7 @@ window.App.sections = [ //*
                             top: '0px'
                         },
                         sounds: [
-                            {title: '', mp3: '140.mp3'}
+                            {title: 'Возведение в боярство и аристократический принцип', mp3: '140.mp3'}
                         ]
                     },
                     {
@@ -2742,13 +2742,12 @@ window.App.sections = [ //*
                         image: '143_3.jpg',
                         description: 'Русские женщины',
                         sounds: [
-                            {title: '', mp3: '143.mp3'}
+                            {title: 'Отношение к одежде. Традиция и современность', mp3: '143.mp3'}
                         ]
                     },
                     {
                         image: '143_2.jpg',
-                        description: 'Русские женщины',
-                        sounds: []
+                        description: 'Русские женщины'
                     },
 
                     {
@@ -2795,7 +2794,7 @@ window.App.sections = [ //*
                 type: 'page',
                 template: 'page146.html',
                 sounds: [
-                    {title: '', mp3: '146.mp3'}
+                    {title: 'Коломенский дворец', mp3: '146.mp3'}
                 ]
             },
             {
@@ -2839,7 +2838,7 @@ window.App.sections = [ //*
                         },
                         zoom: '183.85%',
                         sounds: [
-                            {title: '', mp3: '149_1.mp3'}
+                            {title: 'Уникальный народ в истории мира', mp3: '149_1.mp3'}
                         ]
                     },
                     {
@@ -2850,7 +2849,7 @@ window.App.sections = [ //*
                         },
                         zoom: '183.85%',
                         sounds: [
-                            {title: '', mp3: '149_2.mp3'}
+                            {title: 'Если бы мы захотели...', mp3: '149_2.mp3'}
                         ]
                     }
                 ]
@@ -2869,7 +2868,7 @@ window.App.sections = [ //*
                         },
                         zoom: '165.5%',
                         sounds: [
-                            {title: '', mp3: '150_1.mp3'}
+                            {title: 'Суриков. Покорение Сибири Ермаком', mp3: '150_1.mp3'}
                         ]
 
                     },
@@ -2881,7 +2880,7 @@ window.App.sections = [ //*
                         },
                         zoom: '166%',
                         sounds: [
-                            {title: '', mp3: '150_2.mp3'}
+                            {title: 'Первые русские в Сибири', mp3: '150_2.mp3'}
                         ]
                     },
                     {
@@ -2892,7 +2891,7 @@ window.App.sections = [ //*
                         },
                         zoom: '165%',
                         sounds: [
-                            {title: '', mp3: '150_3.mp3'}
+                            {title: 'Уральский хребет', mp3: '150_3.mp3'}
                         ],
                         map: 'true'
                     }
@@ -2904,7 +2903,7 @@ window.App.sections = [ //*
                 template: 'page151.html',
                 scalable: 'yes',
                 sounds: [
-                    {title: '', mp3: '151.mp3'}
+                    {title: 'Выход к Тихому океану', mp3: '151.mp3'}
                 ]
             },
             {
@@ -2920,7 +2919,7 @@ window.App.sections = [ //*
                         },
                         zoom: '149%',
                         sounds: [
-                            {title: '', mp3: '152.mp3'}
+                            {title: 'Пёстрая компания', mp3: '152.mp3'}
                         ]
                     }
                 ]
@@ -2940,7 +2939,7 @@ window.App.sections = [ //*
                         },
                         zoom: '102%',
                         sounds: [
-                            {title: '', mp3: '153.mp3'}
+                            {title: 'Бас тибетского мастифа', mp3: '153.mp3'}
                         ]
                     }
                 ]
@@ -2957,7 +2956,7 @@ window.App.sections = [ //*
                             top: '0px'
                         },
                         sounds: [
-                            {title: '', mp3: '154.mp3'}
+                            {title: 'Рост территорий и мягкое золото', mp3: '154.mp3'}
                         ]
                     }
                 ]
@@ -2967,7 +2966,7 @@ window.App.sections = [ //*
                 type: 'page',
                 template: 'page155.html',
                 sounds: [
-                    {title: '', mp3: '155.mp3'}
+                    {title: 'Суровая земля', mp3: '155.mp3'}
                 ]
             },
             {
@@ -3008,7 +3007,7 @@ window.App.sections = [ //*
                         },
                         zoom: '103%',
                         sounds: [
-                            {title: '', mp3: '159.mp3'}
+                            {title: 'Патриарх Никон. Низложение и смерть', mp3: '159.mp3'}
                         ]
                     }
                 ]
@@ -3026,7 +3025,7 @@ window.App.sections = [ //*
                         },
                         zoom: '103%',
                         sounds: [
-                            {title: '', mp3: '160.mp3'}
+                            {title: 'Душа араба просит барашка', mp3: '160.mp3'}
                         ]
                     }
                 ]
@@ -3363,13 +3362,7 @@ window.App.sections = [ //*
                             }
                         ]
                     }
-            }//end rubr
-        ]
-    },
-    {
-        id: 7,
-        name: 'Glava5',
-        pages: [
+            },//end rubr
             {
                 id: 169,
                 type: 'page',
@@ -3382,11 +3375,18 @@ window.App.sections = [ //*
                             top: '0px'
                         },
                         sounds: [
-                            {title: '', mp3: '169.mp3'}
+                            {title: 'Научи меня Боже любить', mp3: '169.mp3'}
                         ]
                     }
                 ]
-            },
+            }
+        ]
+    },// */
+    {
+        id: 7,
+        name: 'Glava5',
+        pages: [
+
         //     {
         //         id: 170,
         //         type: 'video',
@@ -3405,7 +3405,7 @@ window.App.sections = [ //*
                         },
                         zoom: '103%',
                         sounds: [
-                            {title: '', mp3: '171.mp3'}
+                            {title: 'Олеарий - цвет европейской науки', mp3: '2.mp3'}
                         ]
                     }
                 ]
@@ -3473,8 +3473,8 @@ window.App.sections = [ //*
                 slides: [
                     {
                         image: '181_1.jpg',
-                        description: '<span class="twoLine">В польском приказе. Голштинские посланники <br/> ' +
-                        'из делегации Адама Олеария</span>',
+                        description: 'В польском приказе. Голштинские посланники <br/> ' +
+                        'из делегации Адама Олеария',
                         positions: {
                             left: '0px',
                             top: '0px'

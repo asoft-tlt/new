@@ -163,6 +163,8 @@ PageSlider.prototype = {
       // Show Audio Player
       if (sliderInfo.sounds && sliderInfo.sounds.length) {
         App.showAndPlayAudio(sliderInfo.sounds, { id: _this.options.id });
+      }else {
+        App.hideAndStopAudio();
       }
     });
 
@@ -224,7 +226,7 @@ PageSlider.prototype = {
 
     if (sliderInfo.sounds && sliderInfo.sounds.length && this.fullsize) {
       App.showAndPlayAudio(sliderInfo.sounds, { id: this.options.id });
-    } else if (oldSliderInfo.sounds) {
+    } else {
       App.hideAndStopAudio();
     }
   },

@@ -100,7 +100,6 @@ window.App = {
                                 titleSound = _this.backgroundSlider.soundTitle[_this.backgroundSlider.activeIndex];
                             }
                         }
-
                         App.showAndPlayAudio([{title: titleSound, mp3: imagePaths[1]}], {id: imagePaths[0]});
                     }
                 }
@@ -435,6 +434,7 @@ window.App = {
                 if (page.sounds && page.sounds.length) {
                     setTimeout(function () {
                         App.showAndPlayAudio(page.sounds, {id: page.id});
+
                     }, 0);
                 }
                 // Add Handler to Article Link
@@ -681,8 +681,8 @@ window.App = {
     showAndPlayAudio: function (audio, params) {
         var files = [];
 
-        console.log(audio);
-        console.log(params);
+        //console.log(audio);
+        //console.log(params);
         audio && audio.length && audio.forEach(function (sound) {
             if (sound.title === undefined) {
                 sound.title = '';
@@ -883,6 +883,7 @@ window.App = {
                 if (this.backgroundSlider.soundTitle[0] !== undefined) {
                     imageTitle = this.backgroundSlider.soundTitle[0];
                 }
+
                 App.showAndPlayAudio([{title: imageTitle, mp3: imagePaths[1]}], {id: imagePaths[0]});
             }
         }
