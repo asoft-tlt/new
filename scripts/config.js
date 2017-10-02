@@ -777,7 +777,7 @@ window.App.sections = [
                             left: '-432px',
                             top: '0px'
                         },
-                        description: 'Турки на фоне мечети',
+                        description: 'Турки в мечети Рустема Паши, Стамбул',
                         sounds: [
                             {title: 'Русский лучше всех знает, что нужно мусульманину', mp3: '21.1.mp3'}
                         ]
@@ -849,6 +849,7 @@ window.App.sections = [
                             top: '0px'
                         },
                         zoom: '104%',
+                        description: 'Россия и Европа. Отношение к смертной казни',
                         sounds: [
                             {title: 'Мы и Запад. Смертная казнь', mp3: '24.1.mp3'}
                         ]
@@ -1319,7 +1320,7 @@ window.App.sections = [
                     },
                     {
                         image: '59_2.jpg',
-                        discription: 'Воевода Пётр Потёмкин',
+                        discription: 'Воеводы Иван Борисович Репнин и Пётр Иванович Потёмкин',
                         positions: {
                             left: '-530px',
                             top: '-0px'
@@ -1641,6 +1642,7 @@ window.App.sections = [
                 slides: [
                     {
                         image: '78.jpg',
+                        discription: 'Симон Ушаков. Древо государства Российского',
                         positions: {
                             left: '-197px',
                             top: '0px'
@@ -1731,6 +1733,7 @@ window.App.sections = [
                 slides: [
                     {
                         image: '81.jpg',
+                        description: 'Государь Алексей Михайлович',
                         positions: {
                             left: '-90px',
                             top: '-40px'
@@ -2166,7 +2169,7 @@ window.App.sections = [
                 slides: [
                     {
                         image: '109_1.jpg',
-                        description: '<span class="twoLine">Консул английского короля<br/>сэр Хенри Уоттон<span>',
+                      //  description: '<span class="twoLine">Английский дипломат Хенри Уоттон, политик и член Палаты Общин Голландский дипломат Исаак Масса, свидетель Смутного времени на Руси</span>',
                         positions: {
                             left: '-59px',
                             top: '0px'
@@ -2174,7 +2177,7 @@ window.App.sections = [
                     },
                     {
                         image: '109_2.jpg',
-                        description: 'Консул французского короля',
+                      //  description: 'Консул французского короля',
                         positions: {
                             left: '-48px',
                             top: '0px'
@@ -2209,7 +2212,7 @@ window.App.sections = [
                 slides: [
                     {
                         image: '111_1.jpg',
-                        description: 'Шведские ружья в действии',
+                      //  description: 'Шведские ружья в действии',
                         positions: {
                             left: '-392px',
                             top: '0px'
@@ -2220,7 +2223,7 @@ window.App.sections = [
                     },
                     {
                         image: '111_2.jpg',
-                        description: 'Шведские ружья в действии',
+                    //    description: 'Шведские ружья в действии',
                         positions: {
                             left: '-280px',
                             top: '0px'
@@ -2396,7 +2399,7 @@ window.App.sections = [
                 slides: [
                     {
                         image: '124.jpg',
-                        description: 'Христос умывает ноги ученикам',
+                      //  description: 'Христос умывает ноги ученикам',
                         positions: {
                             left: '-390px',
                             top: '-240px'
