@@ -1,5 +1,6 @@
 (function ($templateCache) {
-    $templateCache.put("page1.html", "<div class=\"page\" id=\"page1\"><div style=\"position:absolute;width:1024px;height:768px;background:url(\'images/pages/1/1.jpg\') no-repeat; background-size:contain;\"></div>\r\n</div>");
+    $templateCache.put("page1.html", '<div class="page" id="page1">'+
+    '<div style="position:absolute;width:1024px;height:768px;background:url(images/pages/1/1.jpg) no-repeat; background-size:contain;"></div></div>');
     $templateCache.put("page10.html", '<div class="page" id="page10">'+
     '<div class="glava" style="position:absolute;letter-spacing:2px; color:#d7b39d; font-size:10pt; left:80px; top:40px;">ВСТУПЛЕНИЕ</div>'+
     '<div class="page-slider" style="position:absolute;left:0px;width:447px;height:768px;outline-offset:4px;outline: #d7b39d solid 1px;">'+
@@ -399,9 +400,9 @@
     ' от патриархов и архиереев, коих обыкно- венно расспрашивают, а когда те ответят на их вопросы, то подчиняются. Мы видели '+
     '<span style="letter-spacing:-0.3px;word-spacing:-1px;">у каждого из них тысячи больших '+
     '<a href="javascript:;" class="app-background" '+
-    'data-name=";;Старый обряд. Благообразие жизни и проторённый путь;Иерархия книг в русской культуре;Чтение как священнодействие;Духовные тексты имеют силу богоугодных дел;Всеядность в чтении - признак скудоумия;Интеллект вытесняет нравственное совершенство;Моральный облик автора теряет значение;Подмена первоисточника;Почему замер дух христианства"'+
-    'data-sounds=";;59/6.1.mp3;59/6.2.mp3;59/6.3.mp3;59/6.4.mp3;59/6.5.mp3;59/6.6.mp3;59/6.7.mp3;59/6.8.mp3;59/6.9.mp3"'+
-    'data-background="images/links/59-1.jpg;images/links/59-2.jpg;images/links/59-3.jpg;images/links/59-4.jpg;images/links/59-5.jpg;images/links/59-6.jpg;images/links/59-7.jpg;images/links/59-8.jpg;images/links/59-9.jpg;images/links/59-10.jpg;images/links/59-11.jpg;">'+
+    'data-name=";Старый обряд. Благообразие жизни и проторённый путь;Иерархия книг в русской культуре;Чтение как священнодействие;Духовные тексты имеют силу богоугодных дел;Всеядность в чтении - признак скудоумия;Интеллект вытесняет нравственное совершенство;Моральный облик автора теряет значение;Подмена первоисточника;Почему замер дух христианства"'+
+    'data-sounds=";59/6.1.mp3;59/6.2.mp3;59/6.3.mp3;59/6.4.mp3;59/6.5.mp3;59/6.6.mp3;59/6.7.mp3;59/6.8.mp3;59/6.9.mp3"'+
+    'data-background="images/links/59-2.jpg;images/links/59-3.jpg;images/links/59-4.jpg;images/links/59-5.jpg;images/links/59-6.jpg;images/links/59-7.jpg;images/links/59-8.jpg;images/links/59-9.jpg;images/links/59-10.jpg;images/links/59-11.jpg;">'+
     ' книг</a>, кото- рые они охотно читают днём и ночью.'+
     '<div style="position:absolute;top:650px;left:680px;background: url(images/pages/59/foot1.svg) no-repeat; height:26px;width:115px; background-size: contain;"></div>'+
     '  </span></div></div><div class="page__comment" onclick="javascript:App.hideComment();"><div class="page__comment-container">'+
