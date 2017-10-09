@@ -4,8 +4,8 @@ window.App || (window.App = {});
  * Config for pages
  */
 window.App.sections = [
-    {
-        id: 1,
+    /*  {
+      id: 1,
         name: 'Predislovie',
         pages: [
             {
@@ -31,7 +31,7 @@ window.App.sections = [
                             top: '0px'
                         },
                         sounds: [
-                            {title: 'Антиохия. Слава античного мира', mp3: '2.1.mp3'}
+                            {title: '', mp3: '2.1.mp3'}
                         ],
                         map: 'true'
                     },
@@ -42,7 +42,7 @@ window.App.sections = [
                             top: '0px'
                         },
                         sounds: [
-                            {title: 'Земля во Христе', mp3: '2.2.mp3'}
+                            {title: '', mp3: '2.2.mp3'}
                         ]
                     },
                     {
@@ -53,7 +53,7 @@ window.App.sections = [
                         },
                         map: 'true',
                         sounds: [
-                            {title: 'Sic transit gloria mundi', mp3: '2.3.mp3'}
+                            {title: '', mp3: '2.3.mp3'}
                         ]
                     }
                 ]
@@ -170,7 +170,7 @@ window.App.sections = [
                 ]
             }
         ]
-    },
+    }, // */
     {
         id: 2,
         name: 'Vstuplenie',
@@ -209,7 +209,7 @@ window.App.sections = [
                         },
                         description: 'Древняя Сирия',
                         sounds: [
-                            {title: 'Сирия. Древнейшая христианская земля', mp3: '4.1.mp3'}
+                            {title: '', mp3: '4.1.mp3'}
                         ]
                     },
                     {
@@ -220,7 +220,7 @@ window.App.sections = [
                         },
                         description: 'Руины города Баальбек',
                         sounds: [
-                            {title: 'Восточный сценарий. E Pluribus Unum', mp3: '4.2.mp3'}
+                            {title: '', mp3: '4.2.mp3'}
                         ],
                         map: 'true'
                     }

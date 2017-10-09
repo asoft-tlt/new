@@ -204,12 +204,12 @@ ol {
   width: 423px;
   padding-left: 80px;
   padding-right: 26px;
-  padding-top: 80px;
+  padding-top: 85px;
 }
 .swiper-slide .page .text2col .col2 {
   float: left;
   width: 423px;
-  padding-top: 80px;
+  padding-top: 85px;
 }
 .swiper-slide .page .text1col-right {
   float: right;
@@ -241,7 +241,14 @@ ol {
 .swiper-slide .page .text2col_2 {
   padding-left: 17px;
 }
-
+.swiper-slide .page .nameGlava{
+  position:absolute;
+  letter-spacing:2px;
+  color:#d7b39d;
+  font-size:10pt;
+  left:80px;
+  top:40px;
+}
 
 .swiper-slide .page.glava5 {
   background: url("/images/backgrounds/back5.jpg") repeat-x;
@@ -764,6 +771,7 @@ a.jp-playlist-item {
   text-decoration: none;
   opacity: 0.5;
   vertical-align: bottom;
+  text-shadow: 0px 2px 12px rgba(0, 0, 0, 1);
 }
 
 .jp-playlist_highlited a.jp-playlist-item {
@@ -787,7 +795,7 @@ li.jp-playlist-current + li a.jp-playlist-item {
   top: 0;
   z-index: 11;
   width: 75px;
-  background: url("../images/circle-player/slides_border.png") 0 0 no-repeat;
+/*  background: url("../images/circle-player/slides_border.png") 0 0 no-repeat;*/
 }
 
 .rubric {
@@ -1544,7 +1552,7 @@ li.jp-playlist-current + li a.jp-playlist-item {
   font-family: "Conv_GOTHIRUS" !important;
 }
 
-.closebut:after/*,
+.closebut:before/*,
 .globe:after*/ {
 	content:"";
 	position:absolute;
@@ -1552,17 +1560,21 @@ li.jp-playlist-current + li a.jp-playlist-item {
  	bottom:-74px;
 	left:-74px;
 	right:-74px;
-	background: url('../images/backgrounds/geo_bg.png') no-repeat;
+	background: url('../images/backgrounds/geo_bg.png') top right no-repeat;
 }
-.audio-player_show_yes:after {
+iframe {
+  border: none;
+}
+.audio-player_show_yes::before {
 	content:"";
 	position:absolute;
-	top:-74px;
- 	bottom:-74px;
+	top:-274px;
+ 	bottom: -74px;
 	left:-74px;
-	right:-74px;
-	background: url('../images/backgrounds/player_bg.png') no-repeat;
-
+	right:-274px;
+	background: url('../images/backgrounds/player_bg.png') left bottom no-repeat;
+  background-size: contain;
+  /*background: linear-gradient(45deg, rgba(0,0,0,1) 20%,rgba(0,0,0,0.7) 35%,rgba(0,0,0,0) 70%);*/
 }
 .article-link, .app-background {
   /*background: url("../images/backgrounds/line_comment.gif");*/
@@ -1785,5 +1797,3 @@ display: none;
   -moz-animation: articleLinkAnimation 2.5s infinite;
   animation: articleLinkAnimation 2.5s infinite;
 }
-
-
