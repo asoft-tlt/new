@@ -7,7 +7,7 @@
 }
 #filters li span {
 	display: block;
-	padding:5px 20px;		
+	padding:5px 20px;
 	text-decoration:none;
 	color:#666;text-shadow: 1px 1px #FFFFFF;
 	cursor: pointer;
@@ -61,7 +61,7 @@
 }
 
 .portfolio .limg{
-		//float: left;  	
+		//float: left;
 		padding: 25px 0px;
 		position: relative;
 		overflow: hidden;
@@ -130,32 +130,32 @@
 	display:block;
 	font-size:14px;
 	//font-style:italic;
-}	
+}
 .portfolio .label-text .text-title {
 	font-weight:bold;
-}	
+}
 
 /* Планшет */
 @media only screen and (min-width: 768px) and (max-width: 959px) {
 	.container {
-		width: 768px; 
+		width: 768px;
 	}
 }
 /* Мобильный - Примечание: Дизайн для ширины 320px*/
 @media only screen and (max-width: 767px) {
-	.container { 
-		width: 95%; 
+	.container {
+		width: 95%;
 	}
 	#portfoliolist .portfolio {
 		width:48%;
 		margin:1%;
-	}			
+	}
 }
 /* Мобильный - Примечание: Дизайн для ширины 480px */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
 	.container {
 		width: 70%;
-	}	
+	}
 }
 /* #очистка */
 .container:after { content: "\0020"; display: block; height: 0; clear: both; visibility: hidden; }
@@ -196,7 +196,7 @@ select option {font-size:15px;width:425px;}
 .bsod {float:left;width:54px;height:55px;background:url('../images/icons/sod2.png') center center no-repeat #fff;}
 
 #filters option, #menu-filters option{
-	text-transform:uppercase;	
+	text-transform:uppercase;
 }
 
 /*Перенести в main.css*/
@@ -211,13 +211,14 @@ select option {font-size:15px;width:425px;}
 	display: none;
 }
 .zoommapbutton{
-	background:url('../images/icons/search.svg') center center no-repeat transparent;
+	background:url('../images/icons/search.svg') center center no-repeat  rgba(255,255,255,0.1);
   position: absolute;
   right: 20px;
   bottom: 25px;
   z-index: 200;
   width: 43px;
-  height: 52px;
+  height: 43px;
+	border-radius: 43px;
 }
 .zoomoverlay{
 	background:url('../images/pages/12/map.png') center center no-repeat;
@@ -233,16 +234,16 @@ select option {font-size:15px;width:425px;}
 .zoomoverlay.map21{
 		background:url('../images/pages/21/21_1.jpg') center center no-repeat;
 	background-size: 100% 100%;
-	
+
 }
 .zoomoverlay.map37{
 		background:url('../images/pages/37/37_1.jpg') center center no-repeat;
-	background-size: 100% 100%;	
+	background-size: 100% 100%;
 }
 
 .zoomoverlay.map151{
 		background:url('../images/pages/151/151.jpg') center center no-repeat;
-	background-size: 100% 100%;	
+	background-size: 100% 100%;
 }
 .mapbutton{
 	background:url('../images/icons/compas.svg') center center no-repeat transparent;

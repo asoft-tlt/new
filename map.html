@@ -9,8 +9,8 @@
       <script>
 
 
-							
-							
+
+
 function isPassive() {
     var supportsPassiveOption = false;
     try {
@@ -25,7 +25,7 @@ function isPassive() {
 var myScroll;
 
 function loaded () {
-	$('#map').attr('src',window.location.search.replace( '?', '')); 
+	$('#map').attr('src',window.location.search.replace( '?', ''));
 	myScroll = new IScroll('#wrapper', {
 		zoom: true,
 		scrollX: true,
@@ -38,7 +38,7 @@ function loaded () {
 document.addEventListener('touchmove', function (e) { e.preventDefault(); }, isPassive() ? {
 	capture: false,
 	passive: false
-} : false);   
+} : false);
       </script>
 	  <style>
 
@@ -78,7 +78,8 @@ body {
 	position: absolute;
 	z-index: 1;
 	-webkit-tap-highlight-color: rgba(0,0,0,0);
-	width: 100%;
+	width: 1024px;
+  height: 768px;
 	-webkit-transform: translateZ(0);
 	-moz-transform: translateZ(0);
 	-ms-transform: translateZ(0);
@@ -98,17 +99,18 @@ body {
 }
 
 #scroller img {
-		width: 100%;
+		width: 1024px;
+    height: 768px;
 }
-		
+
   </style>
   </head>
 <body onload="loaded()">
  <div id="wrapper" class="map" style="">
- <div id="scroller" class="map" style="transition-property: transform; transform-origin: 0px 0px 0px; transform: translate(-857px, -310px) scale(2) translateZ(0px); transition-duration: 0ms;"><img  id="map" src=""/></div>
+ <div id="scroller" class="map" style="transition-property: transform; transform-origin: 0px 0px 0px; transform: translate(0px, 0px) scale(1) translateZ(0px); transition-duration: 0ms;"><img  id="map" src=""/></div>
  </div>
-	
-	
-	
+
+
+
 </body>
 </html>

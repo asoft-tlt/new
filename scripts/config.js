@@ -4,7 +4,7 @@ window.App || (window.App = {});
  * Config for pages
  */
 window.App.sections = [
-    /*  {
+    {
       id: 1,
         name: 'Predislovie',
         pages: [
@@ -170,7 +170,7 @@ window.App.sections = [
                 ]
             }
         ]
-    }, // */
+    },
     {
         id: 2,
         name: 'Vstuplenie',
@@ -316,7 +316,7 @@ window.App.sections = [
                             top: '-204px'
                         },
                         sounds: [
-                            {title: 'Малороссия. К сути термина', mp3: '16_1.mp3'}
+                            {title: '', mp3: '2.1.mp3'}
                         ],
                         zoom: '170%',
                         map: 'true'
@@ -329,7 +329,7 @@ window.App.sections = [
                         },
                         zoom: '169.5%',
                         sounds: [
-                            {title: 'Наследие греческого мировосприятия', mp3: '16_2.mp3'}
+                            {title: '', mp3: '2.2.mp3'}
                         ]
                     },
                     {
@@ -340,7 +340,7 @@ window.App.sections = [
                         },
                         zoom: '169.5%',
                         sounds: [
-                            {title: 'Украина есть, украинцев нет', mp3: '16_3.mp3'}
+                            {title: '', mp3: '2.3.mp3'}
                         ]
                     }
                 ]
@@ -355,27 +355,27 @@ window.App.sections = [
                         image: '17_1.jpg',
                         description: 'Малороссия. Ситуация в регионе к началу второй половины 17 века',
                         sounds: [
-                            {title: 'Земля казаков', mp3: '17_1.mp3'}
+                            {title: 'Малороссия. Ситуация в регионе к началу второй половины 17 века', mp3: '3.1.mp3'}
                         ]
                     },
                     {
                         image: '17_2.jpg',
                         description: 'Во власти бандитского племеник',
                         sounds: [
-                            {title: 'Во власти бандитского племени', mp3: '17_2.mp3'}
+                            {title: 'Во власти бандитского племени', mp3: '3.2.mp3'}
                         ]
                     },
                     {
                         image: '17_3.jpg',
                         description: 'Литва. Великое православное княжество',
                         sounds: [
-                            {title: 'Литва. Великое православное княжество', mp3: '17_3.mp3'}
+                            {title: 'Литва. Великое православное княжество', mp3: '3.3.mp3'}
                         ]
                     },
                     {
                         image: '17_4.jpg',
                         sounds: [
-                            {title: 'Расплата за католический террор', mp3: '17_4.mp3'}
+                            {title: '', mp3: '3.4.mp3'}
                         ]
                     }
                 ]
@@ -393,7 +393,7 @@ window.App.sections = [
                         },
                         zoom: '164.5%',
                         sounds: [
-                            {title: 'Стасидии', mp3: '4.1.mp3'}
+                            {title: '', mp3: '4.1.mp3'}
                         ]
                     },
                     {
@@ -404,7 +404,7 @@ window.App.sections = [
                         },
                         zoom: '162%',
                         sounds: [
-                            {title: 'No pain, no gain. Зачем стоять в храме', mp3: '4.2.mp3'}
+                            {title: '', mp3: '4.2.mp3'}
                         ]
                     }
                 ]
@@ -442,7 +442,7 @@ window.App.sections = [
                         },
                         zoom: '102%',
                         sounds: [
-                            {title: 'Хохляцкая кличка', mp3: '6.mp3'}
+                            {title: '', mp3: '6.mp3'}
                         ]
                     }
                 ]
@@ -452,7 +452,7 @@ window.App.sections = [
                 type: 'page',
                 template: 'page21.html',
                 sounds: [
-                    {title: 'Западная Русь до 17 века. Закат славянского этноса', mp3: '7.1.mp3'}
+                    {title: 'Западная Русь до XVII века, предыстория событий', mp3: '7.1.mp3'}
                 ]
             },
             {
@@ -472,21 +472,21 @@ window.App.sections = [
                         image: '7.3.jpg',
                       //  description: 'Ян Вильчинский. Каменец-Подольский',
                         sounds: [
-                            {title: 'Почему русские земли поглощались Литвой', mp3: '7.3.mp3'}
+                            {title: '', mp3: '7.3.mp3'}
                         ]
                     },
                     {
                         image: '7.4.jpg',
                         //description: ' Ян Вильчинский. Волынь',
                         sounds: [
-                            {title: 'Первенство Москвы определила Вселенская церковь', mp3: '7.4.mp3'}
+                            {title: '', mp3: '7.4.mp3'}
                         ]
                     },
                     {
                         image: '7.5.jpg',
                       //  description: ' Ян Вильчинский. Костёл Святой Троицы в Кракове',
                         sounds: [
-                            {title: 'Принятие католической ориентации', mp3: '7.5.mp3'}
+                            {title: '', mp3: '7.5.mp3'}
                         ]
                     }
                 ]
@@ -505,7 +505,7 @@ window.App.sections = [
                         },
                         zoom: '100%',
                         sounds: [
-                            {title: 'Положение русского населения в Польше', mp3: '8.mp3'}
+                            {title: '', mp3: '8.mp3'}
                         ]
                     }
                 ]
@@ -518,25 +518,25 @@ window.App.sections = [
                     {
                         image: '23_1.jpg',
                         sounds: [
-                            {title: 'Западная Русь до 17 века. Два русских государства', mp3: '9.1.mp3'}
+                            {title: 'Западная Русь до 17 века. Продолжение', mp3: '9.1.mp3'}
                         ]
                     },
                     {
                         image: '23_2.jpg',
                         sounds: [
-                            {title: 'Вера - ключевой фактор истории', mp3: '9.2.mp3'}
+                            {title: 'Грюнвальдская битва', mp3: '9.2.mp3'}
                         ]
                     },
                     {
                         image: '23_3.jpg',
                         sounds: [
-                            {title: 'Люблинская уния 1659 года. Создание Речи Посполитой', mp3: '9.3.mp3'}
+                            {title: 'Люблинская уния 1659 года', mp3: '9.3.mp3'}
                         ]
                     },
                     {
                         image: '23_4.jpg',
                         sounds: [
-                            {title: ' Преступления и наказание', mp3: '9.4.mp3'}
+                            {title: '', mp3: '9.4.mp3'}
                         ]
                     }
                 ]
@@ -548,14 +548,13 @@ window.App.sections = [
                 slides: [
                     {
                         image: '24_1.jpg',
-                        description: 'Подлинная причина казацких восстаний.<br> К сути явления',
                         positions: {
                             left: '0px',
                             top: '0px'
                         },
                         zoom: '102%',
                         sounds: [
-                            {title: 'Подлинная причина казацких восстаний', mp3: '10.1.mp3'}
+                            {title: 'Подлинная причина казацких восстаний. К сути явления', mp3: '10.1.mp3'}
                         ]
                     },
                     {
@@ -566,7 +565,7 @@ window.App.sections = [
                         },
                         zoom: '102%',
                         sounds: [
-                            {title: 'Страсти по dolce vita', mp3: '10.2.mp3'}
+                            {title: '', mp3: '10.2.mp3'}
                         ]
                     },
                     {
@@ -577,7 +576,7 @@ window.App.sections = [
                         },
                         zoom: '102%',
                         sounds: [
-                            {title: 'По трупам черни к светлому будущему', mp3: '10.3.mp3'}
+                            {title: '', mp3: '10.3.mp3'}
                         ]
                     },
                     {
@@ -588,7 +587,7 @@ window.App.sections = [
                         },
                         zoom: '102%',
                         sounds: [
-                            {title: 'Великий комбинатор', mp3: '10.4.mp3'}
+                            {title: '', mp3: '10.4.mp3'}
                         ]
                     },
                     {
@@ -599,7 +598,7 @@ window.App.sections = [
                         },
                         zoom: '102%',
                         sounds: [
-                            {title: 'Момент истины', mp3: '10.5.mp3'}
+                            {title: '', mp3: '10.5.mp3'}
                         ]
                     },
                     {
@@ -610,7 +609,7 @@ window.App.sections = [
                         },
                         zoom: '102%',
                         sounds: [
-                            {title: 'Освободитель, сохранивший рабство', mp3: '10.6.mp3'}
+                            {title: '', mp3: '10.6.mp3'}
                         ]
                     },
                     {
@@ -621,7 +620,7 @@ window.App.sections = [
                         },
                         zoom: '102%',
                         sounds: [
-                            {title: 'Московский сценарий', mp3: '10.7.mp3'}
+                            {title: '', mp3: '10.7.mp3'}
                         ]
                     }
                 ]
@@ -639,7 +638,7 @@ window.App.sections = [
                     {
                         image: '26.jpg',
                         sounds: [
-                            {title: 'Смоленская земля - ключ к сердцу России', mp3: '26.mp3'}
+                            {title: 'Смоленская земля - ключ к сердцу России', mp3: '13.2.mp3'}
                         ]
 
                     }
@@ -661,7 +660,7 @@ window.App.sections = [
                     },
                     {
                         image: '27_2.jpg',
-                        description: '<span class="twoLine">Стефан Чарнецкий,<br>Заместитель командующего польской армией</span>',
+                        description: 'Стефан Чарнецкий,<br>Заместитель командующего польской армией',
                         positions: {
                             left: '-398px',
                             top: '-21px'
@@ -670,7 +669,7 @@ window.App.sections = [
                     },
                     {
                         image: '27_3.jpg',
-                        description: '<span class="twoLine">Станислав Щука,<br> подканцлер Великого Княжества Литовского</span>',
+                        description: 'Станислав Щука,<br> подканцлер Великого Княжества Литовского',
                         positions: {
                             left: '0px',
                             top: '0px'
@@ -691,7 +690,7 @@ window.App.sections = [
                             top: '-106px'
                         },
                         sounds: [
-                            {title: 'Кто участвовал в Земских соборах', mp3: '15.mp3'}
+                            {title: '', mp3: '15.mp3'}
                         ],
                         zoom: '140%'
                     }
@@ -726,7 +725,7 @@ window.App.sections = [
                         },
                         zoom: '172%',
                         sounds: [
-                            {title: '', mp3: '30.mp3'}
+                            {title: '', mp3: '17.mp3'}
                         ]
                     }
                 ]
@@ -753,17 +752,22 @@ window.App.sections = [
                 slides: [
                     {
                         image: '34_1.jpg'
-        //     sounds: [
-        //   {title: '', mp3: '34.mp3'}
-        // ]
+                      },
+                    {
+                        image: '19.2.jpg'
+                         ,
+                         sounds: [
+                             {title: '', mp3: '19.2.mp3'}
+                         ]
                     },
                     {
-                        image: '34_2.jpg'
-                        // ,
-                        // sounds: [
-                        //     {title: '', mp3: '34_2.mp3'}
-                        // ]
+                        image: '19.3.jpg'
+                         ,
+                         sounds: [
+                             {title: '', mp3: '19.3.mp3'}
+                         ]
                     }
+
                 ]
             },
             {
@@ -779,7 +783,7 @@ window.App.sections = [
                         },
                         description: 'Турки в мечети Рустема Паши, Стамбул',
                         sounds: [
-                            {title: 'Русский лучше всех знает, что нужно мусульманину', mp3: '21.1.mp3'}
+                            {title: '', mp3: '21.1.mp3'}
                         ]
                     },
                     {
@@ -799,7 +803,7 @@ window.App.sections = [
                         image: '37_1.jpg',
                         scalable: 'yes',
                         sounds: [
-                            {title: 'Оттоманская порта. В зените славы', mp3: '23.1.mp3'}
+                            {title: '', mp3: '23.1.mp3'}
                         ]
                     }
                     // ,
@@ -826,13 +830,13 @@ window.App.sections = [
                         image: '36.jpg',
                         map: 'true',
                         sounds: [
-                            {title: 'Беспощадная борьба за власть', mp3: '23.2.mp3'}
+                            {title: '', mp3: '23.2.mp3'}
                         ]
                     },
                     {
                         image: '36_2.jpg',
                         sounds: [
-                            {title: 'За фасадом величия', mp3: '23.3.mp3'}
+                            {title: '', mp3: '23.3.mp3'}
                         ]
                     }
                 ]
@@ -849,9 +853,9 @@ window.App.sections = [
                             top: '0px'
                         },
                         zoom: '104%',
-                        description: 'Россия и Европа. Отношение к смертной казни',
+                      //  description: 'Россия и Европа. Отношение к смертной казни',
                         sounds: [
-                            {title: 'Мы и Запад. Смертная казнь', mp3: '24.1.mp3'}
+                            {title: 'Россия и Европа. Отношение к смертной казни', mp3: '24.1.mp3'}
                         ]
                     },
                     {
@@ -862,7 +866,7 @@ window.App.sections = [
                         },
                         zoom: '100%',
                         sounds: [
-                            {title: 'Гуманизм. Орудие против неугодных режимов', mp3: '24.2.mp3'}
+                            {title: '', mp3: '24.2.mp3'}
                         ]
                     },
                     {
@@ -873,7 +877,7 @@ window.App.sections = [
                         },
                         zoom: '102%',
                         sounds: [
-                            {title: 'Восприятие фигуры палача', mp3: '24.3.mp3'}
+                            {title: '', mp3: '24.3.mp3'}
                         ]
                     },
                     {
@@ -884,7 +888,7 @@ window.App.sections = [
                         },
                         zoom: '102%',
                         sounds: [
-                            {title: 'Россия и Европа. Отношение к истязаниям человека', mp3: '24.4.mp3'}
+                            {title: '', mp3: '24.4.mp3'}
                         ]
                     },
                     {
@@ -895,7 +899,7 @@ window.App.sections = [
                         },
                         zoom: '102%',
                         sounds: [
-                            {title: 'Интерес к чужому страданию - признак нездоровой психики', mp3: '24.5.mp3'}
+                            {title: '', mp3: '24.5.mp3'}
                         ]
                     }
                 ]
@@ -914,7 +918,7 @@ window.App.sections = [
                         },
                         zoom: '190%',
                         sounds: [
-                            {title: 'Степан Разин. Выродок русского общества, герой Советского Союза', mp3: '26.1.mp3'}
+                            {title: '', mp3: '26.1.mp3'}
                         ]
                     },
                     {
@@ -948,7 +952,7 @@ window.App.sections = [
                         },
                         zoom: '173%',
                         sounds: [
-                            {title: 'Царский поезд', mp3: '28.mp3'}
+                            {title: '', mp3: '28.mp3'}
                         ]
                     }
                 ]
@@ -966,7 +970,7 @@ window.App.sections = [
                         },
                         zoom: '102%',
                         sounds: [
-                            {title: 'Детский костюм вчера и сегодня. От культа радости к культу смерти', mp3: '42.mp3'}
+                            {title: '', mp3: '29.1.mp3'}
                         ]
                     },
                     {
@@ -997,7 +1001,7 @@ window.App.sections = [
                         },
                         zoom: '102%',
                         sounds: [
-                            {title: 'Константин Савицкий. Встреча иконы', mp3: '44.mp3'}
+                            {title: '', mp3: '31.mp3'}
                         ]
                     }
                 ]
@@ -1030,7 +1034,7 @@ window.App.sections = [
                         },
                         zoom: '112%',
                         sounds: [
-                            {title: 'Окраина - не страна', mp3: '33.1.mp3'}
+                            {title: '', mp3: '33.1.mp3'}
                         ]
                     },
                     {
@@ -1040,7 +1044,7 @@ window.App.sections = [
                             top: '0px'
                         },
                         sounds: [
-                            {title: 'Таврия, Новороссия, Донбасс', mp3: '33.2.mp3'}
+                            {title: '', mp3: '33.2.mp3'}
                         ]
                     }
                 ]
@@ -1053,7 +1057,7 @@ window.App.sections = [
                     {
                         image: '47.jpg',
                         sounds: [
-                            {title: 'Нация, воплощающая здоровье', mp3: '34.mp3'}
+                            {title: '', mp3: '34.mp3'}
                         ]
                     }
                 ]
@@ -1094,7 +1098,7 @@ window.App.sections = [
                         },
                         zoom: '168%',
                         sounds: [
-                            {title: 'Украинец - это идеология', mp3: '50.mp3'}
+                            {title: '', mp3: '36.mp3'}
                         ]
                     }
                 ]
@@ -1122,13 +1126,13 @@ window.App.sections = [
                     {
                         image: '52_1.jpg',
                         sounds: [
-                            {title: 'Украинцы живут только в трёх государствах', mp3: '52_1.mp3'}
+                            {title: '', mp3: '38.1.mp3'}
                         ]
                     },
                     {
                         image: '52_2.jpg',
                         sounds: [
-                            {title: 'Два краеугольных камня украинской идеологии', mp3: '52_2.mp3'}
+                            {title: '', mp3: '38.2.mp3'}
                         ]
                     }
                 ]
@@ -1145,7 +1149,7 @@ window.App.sections = [
                             top: '0px'
                         },
                         sounds: [
-                            {title: 'Еврейский вопрос в Малороссии. Один сценарий на все времена', mp3: '39.mp3'}
+                            {title: '', mp3: '39.mp3'}
                         ]
                     }
                 ]
@@ -1241,7 +1245,7 @@ window.App.sections = [
                 ]
             }
         ]
-    },
+    }, // */
     {
         id: 4,
         name: 'Glava2',

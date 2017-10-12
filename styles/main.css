@@ -757,21 +757,24 @@ Pagination Styles
   padding: 0;
   list-style: none;
   text-align: left;
+
 }
 .jp-playlist ul li.jp-playlist-current{
-   width: 575px;
+   width: 800px;
    text-align: left;
    padding: 0;
    line-height: 23px;
+/*   padding-left: 5px;
+   background: rgba(0,0,0,0.1);   // linear-gradient(45deg,rgba(0,0,0,0) 0%, rgba(0,0,0,0.1) 20%,rgba(0,0,0,0.2) 50%,rgba(0,0,0,0.1) 80%);
+   border-radius: 23px;*/
 }
 a.jp-playlist-item {
   font-family: "Conv_Pancetta_Pro_Regular";
   font-size: 16px;
   color: #cea58c;
   text-decoration: none;
-  opacity: 0.5;
   vertical-align: bottom;
-  text-shadow: 0px 2px 12px rgba(0, 0, 0, 1);
+  text-shadow: 0px 0px 3px rgba(0, 0, 0, 1);
 }
 
 .jp-playlist_highlited a.jp-playlist-item {
@@ -1568,13 +1571,13 @@ iframe {
 .audio-player_show_yes::before {
 	content:"";
 	position:absolute;
-	top:-274px;
+	top:-74px;
  	bottom: -74px;
 	left:-74px;
-	right:-274px;
-	background: url('../images/backgrounds/player_bg.png') left bottom no-repeat;
-  background-size: contain;
-  /*background: linear-gradient(45deg, rgba(0,0,0,1) 20%,rgba(0,0,0,0.7) 35%,rgba(0,0,0,0) 70%);*/
+	right:-74px;
+	/*background: url('../images/backgrounds/player_bg.png') left bottom no-repeat;
+  background-size: contain;*/
+  background: linear-gradient(38deg, rgba(0,0,0,1) 20%,rgba(0,0,0,0.7) 39%,rgba(0,0,0,0) 60%);
 }
 .article-link, .app-background {
   /*background: url("../images/backgrounds/line_comment.gif");*/
