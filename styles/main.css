@@ -432,7 +432,7 @@ ol {
   height: 6px;
   border-radius: 8px;
   background: rgba(202, 181,160, 0.2);
-  /*box-shadow: 0 1px 2px #555 inset;*/
+  box-shadow: 0 0px 5px #000000;
   border: 1px solid #cab5a0;
   margin: 0 5px;
   cursor: pointer;

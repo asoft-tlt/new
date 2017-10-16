@@ -4,7 +4,7 @@ window.App || (window.App = {});
  * Config for pages
  */
 window.App.sections = [
-    {
+  {
       id: 1,
         name: 'Predislovie',
         pages: [
@@ -1269,7 +1269,7 @@ window.App.sections = [
                         },
                         zoom: '165%',
                         sounds: [
-                            {title: 'Московия. Западничество в нашей исторической науке', mp3: '2.mp3'}
+                            {title: '', mp3: '2.mp3'}
                         ]
                     }
                 ]
@@ -1303,7 +1303,7 @@ window.App.sections = [
                         },
                         zoom: '113%',
                         sounds: [
-                            {title: 'Деревянная и каменная крепость. Сравнение', mp3: '4.mp3'}
+                            {title: '', mp3: '4.mp3'}
                         ]
                     }
                 ]
@@ -1366,7 +1366,7 @@ window.App.sections = [
                             top: '0px'
                         },
                         sounds: [
-                            {title: 'Из Кремля до Звенигорода за 1 час', mp3: '63.mp3'}
+                            {title: '', mp3: '63.mp3'}
                         ]
                     }
                 ]
@@ -1426,7 +1426,7 @@ window.App.sections = [
                         },
                         zoom: '185.7%',
                         sounds: [
-                            {title: 'Народы империи неравноправны', mp3: '68_1.mp3'}
+                            {title: '', mp3: '14.1.mp3'}
                         ]
                     },
                     {
@@ -1437,7 +1437,7 @@ window.App.sections = [
                         },
                         zoom: '184.43%',
                         sounds: [
-                            {title: 'Гражданство империи - это честь', mp3: '68_2.mp3'}
+                            {title: 'Решающая битва с самнитами при Бовиане, 305 год до н.э', mp3: '14.2.mp3'}
                         ]
                     }
                 ]
@@ -1459,7 +1459,7 @@ window.App.sections = [
                             top: '0px'
                         },
                         sounds: [
-                            {title: 'Торговля и отношение к купцам-иноземцам', mp3: '70.mp3'}
+                            {title: '', mp3: '15.mp3'}
                         ]
                     }
                 ]
@@ -1477,7 +1477,7 @@ window.App.sections = [
                         image: '71_2.jpg',
                         title: 'Георг Саал. Медвежья семья',
                         sounds: [
-                            {title: 'Авдотья Топтыгина', mp3: '71_2.mp3'}
+                            {title: '', mp3: '16.2.mp3'}
                         ]
                     }
                 ]
@@ -1495,7 +1495,7 @@ window.App.sections = [
                         },
                         zoom: '122%',
                         sounds: [
-                            {title: 'Греческий фактор в споре о духовном первенстве', mp3: '17.1.mp3'}
+                            {title: 'Греческий фактор в судьбе России', mp3: '17.1.mp3'}
                         ]
                     },
                     {
@@ -1506,7 +1506,7 @@ window.App.sections = [
                         },
                         zoom: '102%',
                         sounds: [
-                            {title: 'Портрет грека 17-го столетия', mp3: '17.2.mp3'}
+                            {title: '', mp3: '17.2.mp3'}
                         ]
                     },
                     {
@@ -1517,7 +1517,7 @@ window.App.sections = [
                         },
                         zoom: '122%',
                         sounds: [
-                            {title: 'Идея вселенской православной монархии', mp3: '17.3.mp3'}
+                            {title: '', mp3: '17.3.mp3'}
                         ]
                     },
                     {
@@ -1528,7 +1528,7 @@ window.App.sections = [
                         },
                         zoom: '122%',
                         sounds: [
-                            {title: 'С восточной церковью или вопреки', mp3: '17.4.mp3'}
+                            {title: '', mp3: '17.4.mp3'}
                         ]
                     }
                 ]
@@ -1616,7 +1616,7 @@ window.App.sections = [
                         },
                         zoom: '171%',
                         sounds: [
-                            {title: 'Сергей Иванов. Приезд иностранцев', mp3: '76.mp3'}
+                            {title: '', mp3: '23.mp3'}
                         ]
                     }
                 ]
