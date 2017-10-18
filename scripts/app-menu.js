@@ -531,10 +531,10 @@ window.App = {
                             value: 1,
                             slide: function (event, ui) {
                                 var t = Math.round((tt - 1024) * ui.value / 100);
-                                console.log(t);
+                              //  console.log(t);
 //						$('.holdimage').scrollLeft(t);
                                 aslide.find('.holdimage').scrollLeft(t);
-                                console.log($('#page135 .holdimage').scrollLeft());
+                            //    console.log($('#page135 .holdimage').scrollLeft());
 //						$('.holdimage').attr('sc',$('.holdimage img').width()+"/"+$('.holdimage').scrollLeft());
                             }
 
@@ -801,11 +801,29 @@ window.App = {
         if (namesound === undefined) {
             namesound = '';
         }
+
         if (pathsound!=undefined && pathsound.length > 10) {
+          if(pathsound.indexOf("*")==-1){
             commentsound.push({
                 title: namesound,
                 mp3: pathsound
-            })
+            });
+          }else{
+             nameSount = namesound.split("*");
+             path = pathsound.split("*");
+             path.forEach(function (soundPath, index) {
+                if (nameSount[index] === undefined) {
+                    nameSount[index] = '';
+                }
+                if(path[index] !=undefined){
+                commentsound.push({
+                    title: nameSount[index],
+                    mp3: soundPath
+                });
+               }
+            });
+          }
+
 
             this.playList.jSelect.show();
             // set new playlist

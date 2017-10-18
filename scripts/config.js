@@ -1245,7 +1245,7 @@ window.App.sections = [
                 ]
             }
         ]
-    }, // */
+    },
     {
         id: 4,
         name: 'Glava2',
@@ -1743,7 +1743,7 @@ window.App.sections = [
                             top: '-40px'
                         },
                         sounds: [
-                            {title: 'Тишайший, как превосходная степень оценки правителя', mp3: '81.mp3'}
+                            {title: '', mp3: '2.mp3'}
                         ]
                     }
                 ]
@@ -1761,7 +1761,7 @@ window.App.sections = [
                             top: '0px'
                         },
                         sounds: [
-                            {title: 'Встреча послов', mp3: '82.mp3'}
+                            {title: '', mp3: '3.mp3'}
                         ]
                     }
                 ]
@@ -1793,7 +1793,7 @@ window.App.sections = [
                             top: '-14px'
                         },
                         sounds: [
-                            {title: 'Воспоминания царского доктора', mp3: '5.mp3'}
+                            {title: '', mp3: '5.mp3'}
                         ]
                     }
                 ]
@@ -1826,7 +1826,7 @@ window.App.sections = [
                             top: '0px'
                         },
                         sounds: [
-                            {title: 'Филипп IV. Роковой современник русского царя', mp3: '86.mp3'}
+                            {title: '', mp3: '7.mp3'}
                         ]
                     }
                 ]
@@ -1857,7 +1857,7 @@ window.App.sections = [
                             top: '-65px'
                         },
                         sounds: [
-                            {title: 'Из крестьянина в патриархи', mp3: '89.mp3'}
+                            {title: '', mp3: '10.mp3'}
                         ]
                     }
                 ]
@@ -1874,7 +1874,7 @@ window.App.sections = [
                             top: '0px'
                         },
                         sounds: [
-                            {title: 'Симфония властей и ограничение власти монарха', mp3: '11.1.mp3'}
+                            {title: '', mp3: '11.1.mp3'}
                         ]
                     }
                 ]
@@ -1910,7 +1910,7 @@ window.App.sections = [
                             top: '-255px'
                         },
                         sounds: [
-                            {title: 'Два государя. От великой дружбы к великому раздору', mp3: '93.mp3'}
+                            {title: '', mp3: '13.mp3'}
                         ]
                     }
                 ]
@@ -1924,14 +1924,14 @@ window.App.sections = [
                     {
                         image: '94_1.jpg',
                         sounds: [
-                            {title: 'О просвещении новопреобретённых земель', mp3: '94_1.mp3'}
+                            {title: '', mp3: '14.1.mp3'}
                         ]
 
                     },
                     {
                         image: '94_2.jpg',
                         sounds: [
-                            {title: 'Каким было традиционное отношение татар к России', mp3: '94_2.mp3'}
+                            {title: '', mp3: '14.2.mp3'}
                         ]
                     }
                 ]
@@ -1960,7 +1960,7 @@ window.App.sections = [
                 type: 'page',
                 template: 'page97.html',
                 sounds: [
-                    {title: 'Барин и мужик. Психология равенства', mp3: '16.mp3'}
+                    {title: '', mp3: '16.mp3'}
                 ]
             },
             {
@@ -1976,7 +1976,7 @@ window.App.sections = [
                             top: '-50px'
                         },
                         sounds: [
-                            {title: 'Симеон Верхотурский. Пример подвижника в миру', mp3: '98.mp3'}
+                            {title: '', mp3: '17.mp3'}
                         ]
                     }
                 ]
@@ -1993,8 +1993,8 @@ window.App.sections = [
                             top: '-127px'
                         },
                         sounds: [
-                            {title: '1. Боярыня Морозова. Теперь так не поступают', mp3: '99_1.mp3'},
-                            {title: '2. Кого чтили на Руси.', mp3: '99_2.mp3'}
+                            {title: '1. Боярыня Морозова.', mp3: '18.1.mp3'},
+                            {title: '2. Кого чтили на Руси.', mp3: '18.2.mp3'}
                         ]
                     }
                 ]
@@ -2020,7 +2020,7 @@ window.App.sections = [
                 map: 'true',
                 scroll: 'yes',
                 sounds: [
-                    {title: 'Новый Иерусалим', mp3: '100.mp3'}
+                    {title: '', mp3: '100.mp3'}
                 ]
 
             },
@@ -2054,7 +2054,7 @@ window.App.sections = [
                             top: '-79px'
                         },
                         sounds: [
-                            {title: 'Историки против Павла', mp3: '102.mp3'}
+                            {title: '', mp3: '21.mp3'}
                         ]
                     }
                 ]
@@ -2071,7 +2071,7 @@ window.App.sections = [
                             top: '-54px'
                         },
                         sounds: [
-                            {title: 'К воздыхателям о чистоте устава', mp3: '103.mp3'}
+                            {title: '', mp3: '22.mp3'}
                         ]
                     }
                 ]
@@ -2134,7 +2134,7 @@ window.App.sections = [
                             top: '-160px'
                         },
                         sounds: [
-                            {title: 'Эпоха - это платье. Смена стиля одежды - признак состояния души', mp3: '27.1.mp3'}
+                            {title: '', mp3: '27.1.mp3'}
                         ]
                     },
                     {
@@ -2144,7 +2144,7 @@ window.App.sections = [
                             top: '-160px'
                         },
                         sounds: [
-                            {title: 'Мода как стандартизация убожества', mp3: '27.2.mp3'}
+                            {title: '', mp3: '27.2.mp3'}
                         ]
                     }
                 ]
@@ -2161,7 +2161,7 @@ window.App.sections = [
                             top: '-42px'
                         },
                         sounds: [
-                            {title: 'Что такое проповедь', mp3: '108.mp3'}
+                            {title: '', mp3: '28.mp3'}
                         ]
                     }
                 ]
@@ -2187,7 +2187,7 @@ window.App.sections = [
                             top: '0px'
                         },
                         sounds: [
-                            {title: 'Герои прошлые и нынешние. О восприятии старости', mp3: '30.mp3'}
+                            {title: 'Французский посол Чарльз де Сольер и Русский посол Иван Чемоданов', mp3: '30.mp3'}
                         ]
                     }
                 ]
@@ -2204,7 +2204,7 @@ window.App.sections = [
                             top: '-258px'
                         },
                         sounds: [
-                            {title: 'Политика привлечения иностранных инвестиций', mp3: '32.mp3'}
+                            {title: '', mp3: '32.mp3'}
                         ]
                     }
                 ]
@@ -2221,9 +2221,9 @@ window.App.sections = [
                             left: '-392px',
                             top: '0px'
                         },
-                        sounds: [
-                            {title: 'Оружие - наша традиция', mp3: '111_1.mp3'}
-                        ]
+                        // sounds: [
+                        //     {title: 'Оружие - наша традиция', mp3: '111_1.mp3'}
+                        // ]
                     },
                     {
                         image: '111_2.jpg',
@@ -2232,9 +2232,9 @@ window.App.sections = [
                             left: '-280px',
                             top: '0px'
                         },
-                        sounds: [
-                            {title: 'Лучший способ борьбы с преступностью', mp3: '111_2.mp3'}
-                        ]
+                        // sounds: [
+                        //     {title: 'Лучший способ борьбы с преступностью', mp3: '111_2.mp3'}
+                        // ]
                     }
                 ]
             },
@@ -2280,7 +2280,7 @@ window.App.sections = [
                             top: '-222px'
                         },
                         sounds: [
-                            {title: 'Саввино-Сторожевский монастырь', mp3: '114.mp3'}
+                            {title: '', mp3: '38.mp3'}
                         ]
                     }
                 ]
@@ -2290,7 +2290,7 @@ window.App.sections = [
                 type: 'page',
                 template: 'page115.html',
                 sounds: [
-                    {title: 'Алексей Михайлович и Михайло Потапыч', mp3: '115.mp3'}
+                    {title: '', mp3: '39.mp3'}
                 ]
             },
             {
@@ -2305,7 +2305,7 @@ window.App.sections = [
                             top: '-95px'
                         },
                         sounds: [
-                            {title: 'История Эжена Богарне', mp3: '40.mp3'}
+                            {title: '', mp3: '40.mp3'}
                         ]
                     }
                 ]
@@ -2336,7 +2336,7 @@ window.App.sections = [
                             top: '0px'
                         },
                         sounds: [
-                            {title: 'Всё идёт через молитву', mp3: '44.mp3'}
+                            {title: '', mp3: '44.mp3'}
                         ]
                     }
                 ]
@@ -2353,7 +2353,7 @@ window.App.sections = [
                             top: '-42px'
                         },
                         sounds: [
-                            {title: 'Самый добрый из царей', mp3: '120.mp3'}
+                            {title: '', mp3: '45.1.mp3'}
                         ]
                     }
                 ]
@@ -2393,7 +2393,7 @@ window.App.sections = [
                 template: 'page123.html',
                 scroll: 'yes',
                 sounds: [
-                    {title: 'Вербное Воскресенье и ослик', mp3: '123.mp3'}
+                    {title: '', mp3: '48.mp3'}
                 ]
             },
             {
@@ -2403,7 +2403,7 @@ window.App.sections = [
                 slides: [
                     {
                         image: '124.jpg',
-                      //  description: 'Христос умывает ноги ученикам',
+                        description: 'Христос умывает ноги ученикам',
                         positions: {
                             left: '-390px',
                             top: '-240px'
@@ -2417,7 +2417,7 @@ window.App.sections = [
                 type: 'rubric_raskol'
             }
         ]
-    },
+    }, // */
     {
         id: 6,
         name: 'Glava4',
