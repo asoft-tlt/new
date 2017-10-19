@@ -4,7 +4,7 @@ window.App || (window.App = {});
  * Config for pages
  */
 window.App.sections = [
-/*  {
+ {
       id: 1,
         name: 'Predislovie',
         pages: [
