@@ -4,7 +4,7 @@ window.App || (window.App = {});
  * Config for pages
  */
 window.App.sections = [
-  {
+/*  {
       id: 1,
         name: 'Predislovie',
         pages: [
@@ -2417,7 +2417,7 @@ window.App.sections = [
                 type: 'rubric_raskol'
             }
         ]
-    }, // */
+    },
     {
         id: 6,
         name: 'Glava4',
@@ -2435,12 +2435,12 @@ window.App.sections = [
                     {
                         image: '127_1.jpg',
                         positions: {
-                            left: '-216px',
+                            left: '-215px',
                             top: '-92px'
                         },
                         zoom: '125%',
                         sounds: [
-                            {title: 'Я вхожу во имя царя', mp3: '127.mp3'}
+                            {title: '', mp3: '2.1.mp3'}
                         ]
                     },
                     {
@@ -2466,7 +2466,7 @@ window.App.sections = [
                 type: 'page',
                 template: 'page128.html',
                 sounds: [
-                    {title: 'Евразийский корридор', mp3: '128.mp3'}
+                    {title: '', mp3: '3.mp3'}
                 ]
             },
             {
@@ -2495,8 +2495,8 @@ window.App.sections = [
                 slides: [
                     {
                         image: '130.jpg',
-                        description: 'Настоятель пяти монастырей,<br/>один из наиболее образованных людей 17' +
-                        ' века<br/> святитель Дмитрий Ростовский ',
+                        description: '<span>Настоятель пяти монастырей,<br/>один из наиболее образованных людей 17' +
+                        ' века<br/> святитель Дмитрий Ростовский </span>',
                         positions: {
                             left: '-551px',
                             top: '0px'
@@ -2545,7 +2545,7 @@ window.App.sections = [
                     },
                     {
                         image: '132_2.jpg',
-                        description: 'Боярин Лев Нарышкин. Глава посольского приказа, родной брат второй жены Алексея Михайловича',
+                        description: 'Боярин Лев Нарышкин. Глава посольского приказа,<br/> родной брат второй жены Алексея Михайловича',
                         positions: {
                             left: '-31px',
                             top: '-42px'
@@ -2570,7 +2570,7 @@ window.App.sections = [
                         },
                         zoom: '195%',
                         sounds: [
-                            {title: 'Бывают светлые мгновенья...', mp3: '133.mp3'}
+                            {title: '', mp3: '10.mp3'}
                         ]
                     }
                 ]
@@ -2587,7 +2587,7 @@ window.App.sections = [
                             top: '0px'
                         },
                         sounds: [
-                            {title: 'Кого считали благовоспитанным. Русский взгляд', mp3: '134.mp3'}
+                            {title: 'Кого считали благовоспитанным. Русский взгляд', mp3: '12.mp3'}
                         ]
                     }
                 ]
@@ -2601,7 +2601,7 @@ window.App.sections = [
                     {
                         image: '135_1.jpg',
                         sounds: [
-                            {title: 'Хождение по водам', mp3: '135.mp3'}
+                            {title: 'Так в 17 веке выглядела практика речных перевозок на Западе', mp3: '13.1.mp3'}
                         ]
                     },
                     {
@@ -2626,7 +2626,7 @@ window.App.sections = [
                         },
                         zoom: '162%',
                         sounds: [
-                            {title: 'Диктующий стиль одежды, диктует поведение', mp3: '136.mp3'}
+                            {title: '', mp3: '14.1.mp3'}
                         ]
                     }, {
                         image: '136_1.jpg',
@@ -2647,7 +2647,7 @@ window.App.sections = [
                 type: 'page',
                 template: 'page137.html',
                 sounds: [
-                    {title: 'Базарный день', mp3: '137.mp3'}
+                    {title: '', mp3: '15.mp3'}
                 ]
             },
             {
@@ -2693,7 +2693,7 @@ window.App.sections = [
                             top: '0px'
                         },
                         sounds: [
-                            {title: 'Возведение в боярство и аристократический принцип', mp3: '140.mp3'}
+                            {title: '', mp3: '17.1.mp3'}
                         ]
                     },
                     {
@@ -2749,7 +2749,7 @@ window.App.sections = [
                         image: '143_3.jpg',
                         description: 'Русские женщины',
                         sounds: [
-                            {title: 'Отношение к одежде. Традиция и современность', mp3: '143.mp3'}
+                            {title: '', mp3: '20.2.mp3'}
                         ]
                     },
                     {
@@ -2801,7 +2801,7 @@ window.App.sections = [
                 type: 'page',
                 template: 'page146.html',
                 sounds: [
-                    {title: 'Коломенский дворец', mp3: '146.mp3'}
+                    {title: 'Коломенский дворец царя Алексея Михайловича', mp3: '23.mp3'}
                 ]
             },
             {
@@ -2814,7 +2814,8 @@ window.App.sections = [
                         positions: {
                             left: '-100px',
                             top: '0px'
-                        }
+                        },
+                        zoom: '100%'
                     }
                 ]
             },
@@ -2845,7 +2846,7 @@ window.App.sections = [
                         },
                         zoom: '183.85%',
                         sounds: [
-                            {title: 'Уникальный народ в истории мира', mp3: '149_1.mp3'}
+                            {title: '', mp3: '25.1.mp3'}
                         ]
                     },
                     {
@@ -2856,7 +2857,7 @@ window.App.sections = [
                         },
                         zoom: '183.85%',
                         sounds: [
-                            {title: 'Если бы мы захотели...', mp3: '149_2.mp3'}
+                            {title: '', mp3: '25.2.mp3'}
                         ]
                     }
                 ]
@@ -2875,7 +2876,7 @@ window.App.sections = [
                         },
                         zoom: '165.5%',
                         sounds: [
-                            {title: 'Суриков. Покорение Сибири Ермаком', mp3: '150_1.mp3'}
+                            {title: '', mp3: '26.1.mp3'}
                         ]
 
                     },
@@ -2887,7 +2888,7 @@ window.App.sections = [
                         },
                         zoom: '166%',
                         sounds: [
-                            {title: 'Первые русские в Сибири', mp3: '150_2.mp3'}
+                            {title: '', mp3: '26.2.mp3'}
                         ]
                     },
                     {
@@ -2898,7 +2899,7 @@ window.App.sections = [
                         },
                         zoom: '165%',
                         sounds: [
-                            {title: 'Уральский хребет', mp3: '150_3.mp3'}
+                            {title: '', mp3: '26.3.mp3'}
                         ],
                         map: 'true'
                     }
@@ -2910,7 +2911,7 @@ window.App.sections = [
                 template: 'page151.html',
                 scalable: 'yes',
                 sounds: [
-                    {title: 'Выход к Тихому океану', mp3: '151.mp3'}
+                    {title: '', mp3: '27.mp3'}
                 ]
             },
             {
@@ -2926,7 +2927,7 @@ window.App.sections = [
                         },
                         zoom: '149%',
                         sounds: [
-                            {title: 'Пёстрая компания', mp3: '152.mp3'}
+                            {title: '', mp3: '28.mp3'}
                         ]
                     }
                 ]
@@ -2946,7 +2947,7 @@ window.App.sections = [
                         },
                         zoom: '102%',
                         sounds: [
-                            {title: 'Бас тибетского мастифа', mp3: '153.mp3'}
+                            {title: '', mp3: '30.mp3'}
                         ]
                     }
                 ]
@@ -2963,7 +2964,7 @@ window.App.sections = [
                             top: '0px'
                         },
                         sounds: [
-                            {title: 'Рост территорий и мягкое золото', mp3: '154.mp3'}
+                            {title: '', mp3: '31.mp3'}
                         ]
                     }
                 ]
@@ -2973,7 +2974,7 @@ window.App.sections = [
                 type: 'page',
                 template: 'page155.html',
                 sounds: [
-                    {title: 'Суровая земля', mp3: '155.mp3'}
+                    {title: '', mp3: '32.mp3'}
                 ]
             },
             {
@@ -3014,7 +3015,7 @@ window.App.sections = [
                         },
                         zoom: '103%',
                         sounds: [
-                            {title: 'Патриарх Никон. Низложение и смерть', mp3: '159.mp3'}
+                            {title: '', mp3: '35.mp3'}
                         ]
                     }
                 ]
@@ -3032,7 +3033,7 @@ window.App.sections = [
                         },
                         zoom: '103%',
                         sounds: [
-                            {title: 'Душа араба просит барашка', mp3: '160.mp3'}
+                            {title: '', mp3: '36.mp3'}
                         ]
                     }
                 ]
@@ -3059,7 +3060,7 @@ window.App.sections = [
                 slides: [
                     {
                         image: '162_1.jpg',
-                        description: 'Деревня',
+                      //  description: 'Деревня',
                         positions: {
                             left: '-392px',
                             top: '0px'
@@ -3067,7 +3068,7 @@ window.App.sections = [
                     },
                     {
                         image: '162_2.jpg',
-                        description: 'В сторону непогоды',
+                    //    description: 'В сторону непогоды',
                         positions: {
                             left: '-392px',
                             top: '0px'
@@ -3382,7 +3383,7 @@ window.App.sections = [
                             top: '0px'
                         },
                         sounds: [
-                            {title: 'Научи меня Боже любить', mp3: '169.mp3'}
+                            {title: '', mp3: '44.mp3'}
                         ]
                     }
                 ]
@@ -3412,7 +3413,7 @@ window.App.sections = [
                         },
                         zoom: '103%',
                         sounds: [
-                            {title: 'Олеарий - цвет европейской науки', mp3: '2.mp3'}
+                            {title: '', mp3: '2.mp3'}
                         ]
                     }
                 ]
