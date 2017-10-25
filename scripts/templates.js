@@ -711,7 +711,7 @@
     '<span style="letter-spacing:-0.3px;word-spacing:-1px;"> дов, мы наконец-то приблизились к вожде-</span></div>'+
     '<div style="text-align:justify;padding-top:176px;" class="col2"> ленной цели нашего путешествия. Граница русского царства была уже недалеко и нас отделяла от неё только земля '+
     '<a class="article-link">казаков</a>.</div><div class="page__comment" onclick="javascript:App.hideComment();"><div class="page__comment-container">'+
-    '<div class="commentbk" ><img src="comment/20.png" /></div></div></div>'+
+    '<div class="commentbk" ><img src="comment/kazakov.png" /></div></div></div>'+
     '</div><div class="page-slider" style="position:absolute;top:315px;left:81px;width:862px;height:386px;outline-offset:4px;outline: #d7b39d solid 1px;">'+
     '<div class="page-slider__container"></div><div class="page-slider__pagination"></div></div><div class="page__map" onclick="javascript:App.hideMap();">'+
     '<div class="page__map-container"><div class="closebut" onclick="javascript:App.hideMap();"></div>'+
@@ -749,7 +749,7 @@
     ' <div class="page-slider" style="position:absolute;top:87px;left:525px;width:417px;height:396px;outline-offset:4px;outline: #d7b39d solid 1px;">'+
     ' <div class="page-slider__container"></div></div>'+
     ' <div style="position:absolute;top:76px;left:73px;width:307px;height:59px;background:url(images/pages/161/uvi.png) no-repeat; background-size:contain;">'+
-    ' <div class=" comm-moscow app-background"  data-background="comment/20.png"></div></div></div>');
+    ' <div class=" comm-moscow app-background"  data-background="comment/moscow.png"></div></div></div>');
     $templateCache.put("page162.html", '<div class="page" id="page162"> <div class="glava nameGlava">БЛАГОСЛОВЕННАЯ СТРАНА</div>'+
     ' <div style="position:absolute;top:76px;left:73px;width:283px;height:59px;background:url(images/pages/162/der.png) no-repeat; background-size:contain;"></div>'+
     ' <div style="position:absolute;top:194px;left:5px;width:109px;height:260px;background:url(images/letters/v.png) no-repeat; background-size: contain;"></div>'+
@@ -866,7 +866,7 @@
     ' <div style="text-align:justify;padding-top:559px;" class="col2"> <span style="letter-spacing:-0.3px;word-spacing:-1px;">зия Олеария – прекрасная возможность убе-</span>'+
     ' диться в том до какой степени убожества и <span style="letter-spacing:-0.2px;word-spacing:-1px;">лживости можно дойти, если не обуздывать</span>'+
     ' в своей душе ненависть к православию.</div></div><div class="page__comment" onclick="javascript:App.hideComment();">'+
-    ' <div class="page__comment-container"><div class="commentbk" data-sound="" data-name=""><img src="comment/172.png" /></div></div></div></div>');
+    ' <div class="page__comment-container"><div class="commentbk" data-sound="" data-name=""><img src="comment/prodvigaemiy.png" /></div></div></div></div>');
     $templateCache.put("page173.html", '<div class="page" id="page173">'+
     ' <div style="position:absolute;width:1024px;height:768px;background:url(images/pages/173/173.jpg) no-repeat; background-size:contain;"></div></div>');
     $templateCache.put("page174.html", '<div class="page glava5" id="page174">'+
@@ -902,7 +902,7 @@
     ' <span style="word-spacing:3px;">что... открыто показывают своим выраже-</span> </div> нием лица, своими словами и поступками... Если они'+
     ' <span style="letter-spacing:-0.6px;word-spacing:-4px;">предлагают дружбу, то делают это не из любви к добро-</span> детели, но ради выгоды и пользы.</div></div>'+
     ' <div class="page__comment" onclick="javascript:App.hideComment();"><div class="page__comment-container"><div class="commentbk" data-sound="" data-name="">'+
-    ' <img src="comment/174.png" /></div></div></div></div>');
+    ' <img src="comment/visokomerni.png" /></div></div></div></div>');
     $templateCache.put("page175.html", '<div class="page glava5" id="page175">'+
     ' <div style="position:absolute;top:160px;left:68px;width:73px;height:82px;background:url(images/pages/glava5/k.png) no-repeat; background-size: contain;"></div>'+
     ' <div style="position:absolute;top:410px;left:68px;width:73px;height:82px;background:url(images/pages/glava5/ch.png) no-repeat; background-size: contain;"></div>'+
@@ -967,7 +967,7 @@
     ' тему для разговоров на пиршествах. Захваченные в таких преступлениях не наказываются у них серьёзно. Подобные гнусные вещи распеваются кабацкими музы-'+
     ' кантами на открытых улицах или же показываются молодежи и детям в кукольных театрах за деньги.</div>'+
     ' <div class="page__comment" onclick="javascript:App.hideComment();"><div class="page__comment-container"><div class="commentbk" data-sound="" data-name="">'+
-    ' <img src="comment/testcomment.png" /></div></div></div> </div></div>');
+    ' <img src="comment/roditelyam.png" /></div></div></div> </div></div>');
     $templateCache.put("page177.html", '<div class="page glava5" id="page177">'+
     ' <div style="position:absolute;top:93px;left:68px;width:73px;height:82px;background:url(images/pages/glava5/o.png) no-repeat; background-size: contain;"></div>'+
     ' <div style="position:absolute;top:555px;left:68px;width:73px;height:82px;background:url(images/pages/glava5/v.png) no-repeat; background-size: contain;"></div>'+
@@ -1000,7 +1000,7 @@
     ' сто дочери, какую-либо подругу её или даже служанку. Там известны такие примеры у высоких лиц, и поэ-'+
     ' <span style="letter-spacing:-0.5px;word-spacing:-4px;">тому нельзя удивляться, что часто муж и жена живут</span>'+
     ' <span style="letter-spacing:-0.5px;word-spacing:-4px;">как кошка с собакой, и битьё жен в России вещь обычная.</span>'+
-    ' <div style="padding-left:77px; padding-top:17px;">     <span style="letter-spacing:-0.5px;word-spacing:-4px;">ассердившись на жену по одной лишь подозри-</span>'+
+    ' <div style="padding-left:77px; padding-top:17px;"><span style="letter-spacing:-0.5px;word-spacing:-4px;">ассердившись на жену по одной лишь подозри-</span>'+
     ' <span style="letter-spacing:-0.7px;word-spacing:-4px;">тельности или по другим недостойным побу-</span>'+
     ' <span style="letter-spacing:-0.6px;word-spacing:-4px;">ждениям, муж за деньги нанимает пару не-</span>'+
     ' <span style="letter-spacing:-0.7px;word-spacing:-4px;">годяев, которые с ним идут к судье, обвиняют</span></div>'+
@@ -1012,7 +1012,7 @@
     ' <span style="letter-spacing:-1px;word-spacing:-4px;">тетское образование, совершил замечательные</span></div>'+
     ' <span style="letter-spacing:-0.6px;word-spacing:-4px;">путешествия и знает много языков. В Москве'+
     ' <a class="article-link">подобного</a></span> человека ещё не было. 	</div> </div> <div class="page__comment" onclick="javascript:App.hideComment();">'+
-    ' <div class="page__comment-container"><div class="commentbk" data-sound="" data-name=""><img src="comment/177.png" /></div></div></div></div></div>');
+    ' <div class="page__comment-container"><div class="commentbk" data-sound="" data-name=""><img src="comment/podobnogo.png" /></div></div></div></div></div>');
     $templateCache.put("page178.html", '<div class="page glava5" id="page178">'+
     ' <div style="position:absolute;top:93px;left:68px;width:73px;height:82px;background:url(images/pages/glava5/p.png) no-repeat; background-size: contain;"></div>'+
     ' <div style="position:absolute;top:355px;left:568px;width:73px;height:82px;background:url(images/pages/glava5/n.png) no-repeat; background-size: contain;"></div>'+
@@ -1082,7 +1082,7 @@
     ' <span style="letter-spacing:-0.6px;word-spacing:-4px;">меры, в полдень спят. Без стыда п.р.ят, рыгают. Ссоры,</span>'+
     ' кнут, разбой, убийство-Так всё это там обычно, Что никто им не дивится: Каждый день ведь снова <a class="article-link">то же!</a>»</div></div>'+
     ' <div class="page__comment" onclick="javascript:App.hideComment();"><div class="page__comment-container">'+
-    ' <div class="commentbk" data-sound="" data-name=""><img src="comment/179.png" /></div></div></div></div></div></div>');
+    ' <div class="commentbk" data-sound="" data-name=""><img src="comment/toze.png" /></div></div></div></div></div></div>');
     $templateCache.put("page18.html", '<div class="page" id="page18"><div class="glava nameGlava">ЗЕМЛЯ КАЗАКОВ</div>'+
     ' <div class="page-slider" style="position:absolute;top:87px;left:81px;width:863px;height:405px;outline-offset:4px;outline: #d7b39d solid 1px;">'+
     ' <div class="page-slider__container"></div> <div class="page-slider__pagination"></div> </div> <div class="text2col">'+
@@ -1101,11 +1101,11 @@
     ' style="display:block;z-index:900;position:absolute;top:135px;left:68px;width:387px;height:364px;background:url(images/pages/glava5/10_1.png) no-repeat;'+
     ' background-size: 100% 100%;"></div><div class="text2col">'+
     ' <div style="text-align:justify;" class="col1"> <div style="padding-left:39px; padding-top:10px;">рех прелюбодеяния не наказывается у них смер- '+
-    ' тью, да и не именуется у них <a href="javascript:;" class="app-background" data-background="comment/180_1.png">прелюбодеянием...</a></div>'+
+    ' тью, да и не именуется у них <a href="javascript:;" class="app-background" data-background="comment/prelubodeyaniem.png">прелюбодеянием...</a></div>'+
     ' <div style="padding-left:79px;padding-top:395px;"> асколько русские охочи до телесного соития и в браке и вне его, настолько же считают они '+
     ' его греховным и нечистым. Они не до- пускают, чтобы при соитии крестик, веша- <span style="word-spacing:2px;">емый при крещении на шею, оставался на</span>'+
     ' </div><span style="letter-spacing:-0.6px;word-spacing:-4px;">теле, но снимают его на это время. Кроме того, '+
-    ' <a href="javascript:;" class="app-background" data-background="comment/180_2.png">соитие</a></span>'+
+    ' <a href="javascript:;" class="app-background" data-background="comment/soitie.png">соитие</a></span>'+
     ' <span style="letter-spacing:-0.7px;word-spacing:-4px;">не должно происходить в комнатах, где находятся иконы</span>'+
     ' <span style="letter-spacing:-0.6px;word-spacing:-4px;">святых; если же иконы здесь окажутся, то их тща-</span> тельно закрывают.</div>'+
     ' <div style="text-align:justify;" class="col2"><div style="padding-left:79px;padding-top:10px;"> то касается русского государственного строя,'+
@@ -1131,7 +1131,7 @@
     'писания пророков... <div style="padding-left:79px; padding-top:12px;"> итьё кнутом в наших глазах было варвар- ским наказанием... Подобное наказание 24 '+
     '<span style="letter-spacing:-0.6px;word-spacing:-4px;">сентября 1634 года я видел применённым к</span> восьми мужчинам и одной женщине, нару- '+
     '<span style="word-spacing:1px;">шившим великокняжеский указ и продавав-</span></div> шим табак и водку. Каждому дано было от 20 до 26, а женщине 16 ударов,'+
-    ' после чего она упала в <a href="javascript:;" class="app-background" data-background="comment/180_4.png">обморок</a>».</div></div></div>');
+    ' после чего она упала в <a href="javascript:;" class="app-background" data-background="comment/obmorok.png">обморок</a>».</div></div></div>');
     $templateCache.put("page181.html", '<div class="page" id="page181"><div class="glava nameGlava">РОССИЯ ГЛАЗАМИ ЗАПАДА</div>'+
     ' <div class="page-slider" style="position:absolute;top:407px;left:534px;width:406px;height:260px;outline-offset:4px;outline: #d7b39d solid 1px;">'+
     ' <div class="page-slider__container"></div></div><div class="text2col"><div style="text-align:justify;" class="col1">'+
@@ -2155,7 +2155,7 @@
     ' жают благодарения, хвалы и благожелания патриарху, имя которого не сходит у них с'+
     ' <span style="letter-spacing:-0.3px;word-spacing:-1px;">языка, так что они, кажется, любят его как са-</span>'+
     ' мого Христа. Что касается их любви к царю, то ум не может постичь её: от взрослого до малого она всё больше и больше.</div>'+
-    ' <div class="page__comment" onclick="javascript:App.hideComment();"> <div class="page__comment-container"><img src="comment/20.png" /></div></div></div>');
+    ' <div class="page__comment" onclick="javascript:App.hideComment();"> <div class="page__comment-container"><img src="comment/frankskie.png" /></div></div></div>');
     $templateCache.put("page87.html", '<div class="page" id="page87"> 	<div class="holdimage"><img src="images/pages/87/87.jpg" /></div></div>');
     $templateCache.put("page88.html", '<div class="page" id="page88"><div style="position:absolute;width:1024px;height:768px;background:url(images/pages/88/88.jpg) no-repeat; background-size:contain;"></div></div>');
     $templateCache.put("page89.html", '<div class="page" id="page89"> <div class="glava nameGlava">БЕЛЫЙ ЦАРЬ И ПАТРИАРХ</div>'+
@@ -2166,7 +2166,7 @@
     ' <div style="padding-left:27px;text-align:justify;"> начение патриарха в этой стране равно царскому. Как нам случалось видеть,'+
     ' <span style="letter-spacing:0.3px;word-spacing:8px;">государственные вольможи не испы-</span></div>'+
     ' тывают особого страха пред царём и не боятся его, но пожалуй патриарха боятся больше. И не удивительно. Владыка'+
-    ' <a href="javascript:;" class="app-background" data-background="comment/20.png">Никон</a> отличается чрезмерной крутостью нрава и'+
+    ' <a href="javascript:;" class="app-background" data-background="comment/nikon.png">Никон</a> отличается чрезмерной крутостью нрава и'+
     ' <span style="letter-spacing:-0.3px;word-spacing:-1px;">приверженностью к греческим обрядам. Его</span>'+
     ' предшественники никогда не занимались государственными делами, но этот патри- арх, благодаря своему проницательному,'+
     ' острому уму и знаниям, искусен во всех отраслях дел, духовных и мирских.</div><div style="text-align:justify;" class="col2"></div></div></div>');
