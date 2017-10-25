@@ -875,12 +875,12 @@
     ' <div style="position:absolute;top:83px;left:568px;width:73px;height:82px;background:url(images/pages/glava5/r.png) no-repeat; background-size: contain;"></div>'+
     ' <div style="position:absolute;top:270px;left:568px;width:73px;height:82px;background:url(images/pages/glava5/v.png) no-repeat; background-size: contain;"></div>'+
     ' <div style="position:absolute;top:415px;left:655px;width:398px;height:14px;background:url(images/pages/glava5/razd.png) no-repeat; background-size: contain;"></div>'+
-    ' <div class="app-background no-underline" data-background="comment/174_4.1.jpg;comment/174_4.2.jpg;comment/174_4.3.jpg;comment/174_4.4.jpg;"'+
+    ' <div class="app-background no-underline" data-background="images/pages/174/4.1.jpg;images/pages/174/4.2.jpg;images/pages/174/4.3.jpg;images/pages/174/4.4.jpg;"'+
     ' style="display:block;z-index: 900;position:absolute;top:269px;left:68px;width:387px;height:234px;background:url(images/pages/glava5/4_1.png) no-repeat;'+
-    ' background-size: 100%; background-position-y:-56px; "></div>'+
-    ' <a href="javascript:;" class="app-background no-underline" data-background="comment/174_5.1.jpg;comment/174_5.2.jpg;"'+
-    ' style="position:absolute;top:437px;left:570px;width:387px;height:234px;display:block;z-index: 900;background:url(images/pages/glava5/4_2.jpg) no-repeat;'+
-    ' background-size: 175%; background-position-y:-70px; -webkit-filter:grayscale(100%);"></a>'+
+    ' background-size: 100% 100%;"></div>'+
+    ' <a href="javascript:;" class="app-background no-underline" data-background="images/pages/174/5.1.jpg;images/pages/174/5.2.jpg;"'+
+    ' style="position:absolute;top:437px;left:570px;width:387px;height:234px;display:block;z-index: 900;background:url(images/pages/glava5/4_2.png) no-repeat;'+
+    ' background-size:  100% 100%;"></a>'+
     ' <div class="text2col"><div style="text-align:justify;" class="col1">'+
     ' <div style="padding-left:79px;">то касается ума, русские... отличаются смышлёностью и хитростью, но пользуются они умом своим не для того, чтобы стре-'+
     ' миться к добродетели и похвальной жизни, <span style="word-spacing:4px;">но чтобы искать выгод и угождать стра-</span> </div>'+
@@ -910,9 +910,9 @@
     ' <div style="position:absolute;top:279px;left:568px;width:73px;height:82px;background:url(images/pages/glava5/o.png) no-repeat; background-size: contain;"></div>'+
     ' <div style="position:absolute;top:100px;left:107px;width:319px;height:45px;background:url(images/pages/glava5/razd2.png) no-repeat; background-size: contain;"></div>'+
     ' <div style="position:absolute;top:405px;left:573px;width:398px;height:14px;background:url(images/pages/glava5/razd3.png) no-repeat; background-size: contain;"></div>'+
-    ' <div class="app-background  no-underline" data-background="comment/175_6.1.jpg;comment/175_6.2.jpg;"'+
-    ' style="display:block;z-index: 900;position:absolute;top:427px;left:570px;width:387px;height:244px;background:url(images/pages/glava5/5_1.jpg) no-repeat;'+
-    ' background-size: 100%; background-position-y:-45px; -webkit-filter: grayscale(100%);"></div><div class="text2col">'+
+    ' <div class="app-background  no-underline" data-background="images/pages/175/6.1.jpg;images/pages/175/6.2.jpg;"'+
+    ' style="display:block;z-index: 900;position:absolute;top:427px;left:570px;width:387px;height:244px;background:url(images/pages/glava5/5_1.png) no-repeat;'+
+    ' background-size:  100% 100%;"></div><div class="text2col">'+
     '	<div style="text-align:justify;" class="col1"><div style="padding-left:79px; padding-top:80px;">огда мы, в составе второго посольства,'+
     ' проезжали через Великий Новгород, я од- нажды видел, как священник в одном каф- тане или нижнем платье (верхнее, веро- ятно, им было заложено в кабаке) шатался </div>'+
     ' по улицам. Подойдя к моему помещению, он, по рус- скому обычаю, думал благословить стрельцов, стояв- ших на страже. Когда он протянул руку и захотел не-'+
@@ -939,8 +939,9 @@
     ' <div style="position:absolute;top:450px;left:568px;width:73px;height:82px;background:url(images/pages/glava5/o.png) no-repeat; background-size: contain;"></div>'+
     ' <div style="position:absolute;top:278px;left:70px;width:398px;height:14px;background:url(images/pages/glava5/razd3.png) no-repeat; background-size: contain;"></div>'+
     ' <div style="position:absolute;top:625px;left:605px;width:319px;height:45px;background:url(images/pages/glava5/razd2.png) no-repeat; background-size: contain;"></div>'+
-    ' <div onclick="javascript:showfull(this);" class="showfull" style="position:absolute;top:87px;left:68px;width:387px;height:180px;background:url(images/pages/glava5/6_1.jpg) no-repeat;'+
-    ' background-size: 100%; background-position-y:-56px; -webkit-filter: grayscale(100%);"></div>'+
+    ' <div class="app-background  no-underline" data-background="images/pages/176/7.jpg"'+
+    ' style="display:block;z-index: 900;position:absolute;top:87px;left:68px;width:387px;height:180px;background:url(images/pages/glava5/6_1.png) no-repeat;'+
+    ' background-size:  100% 100%;"></div>'+
     ' <div class="text2col"><div style="text-align:justify;" class="col1"><div style="padding-left:79px; padding-top:220px;"> ак как они несведущи в похвальных науках,'+
     ' не очень интересуются достопамятными со- бытиями и историей отцов и дедов своих и вовсе не стремятся к знакомству с каче-'+
     ' ствами чужих наций, то... большей частью </div> их разговоры направлены в ту сторону, куда устрем-'+
@@ -975,9 +976,9 @@
     ' <div style="position:absolute;top:355px;left:568px;width:73px;height:82px;background:url(images/pages/glava5/r.png) no-repeat; background-size: contain;"></div>'+
     ' <div style="position:absolute;top:550px;left:568px;width:73px;height:82px;background:url(images/pages/glava5/u.png) no-repeat; background-size: contain;"></div>'+
     ' <div style="position:absolute;top:415px;left:70px;width:398px;height:14px;background:url(images/pages/glava5/razd.png) no-repeat; background-size: contain;"></div>' +
-    ' <div class="app-background no-underline" data-background="comment/177_8.1.jpg;comment/177_8.2.jpg;comment/177_8.3.jpg;comment/177_8.4.jpg;"'+
-    ' style="display:block;z-index:900;position:absolute;top:295px;left:68px;width:387px;height:234px;background:url(images/pages/glava5/7_1.jpg) no-repeat;'+
-    ' background-size: 100%; background-position-y:-56px; -webkit-filter: grayscale(100%);"></div><div class="text2col">'+
+    ' <div class="app-background no-underline" data-background="images/pages/177/8.1.jpg;images/pages/177/177_8.2.jpg;images/pages/177/177_8.3.jpg;images/pages/177/177_8.4.jpg;"'+
+    ' style="display:block;z-index:900;position:absolute;top:295px;left:68px;width:387px;height:234px;background:url(images/pages/glava5/7_1.png) no-repeat;'+
+    ' background-size:  100% 100%;"></div><div class="text2col">'+
     '	<div style="text-align:justify;" class="col1"><div style="padding-left:79px; padding-top:10px;">ни сняли с себя всякий стыд и всякое стес- нение»,-'+
     ' говорит всё тот же упоминаемый <span style="letter-spacing:-0.6px;word-spacing:-4px;">нами датский дворянин Иаков. Мы сами не-</span>'+
     ' <span style="letter-spacing:-0.5px;word-spacing:-4px;">сколько раз видели в Москве, как мужчины и</span>'+
@@ -1015,13 +1016,13 @@
     $templateCache.put("page178.html", '<div class="page glava5" id="page178">'+
     ' <div style="position:absolute;top:93px;left:68px;width:73px;height:82px;background:url(images/pages/glava5/p.png) no-repeat; background-size: contain;"></div>'+
     ' <div style="position:absolute;top:355px;left:568px;width:73px;height:82px;background:url(images/pages/glava5/n.png) no-repeat; background-size: contain;"></div>'+
-    ' <div class="app-background no-underline" data-background="comment/178_9.1.jpg;comment/178_9.2.jpg;comment/178_9.3.jpg;comment/178_9.4.jpg;" data-name=";;Русский и пьянство'+
+    ' <div class="app-background no-underline" data-background="images/pages/178/178_9.1.jpg;images/pages/178/178_9.2.jpg;images/pages/178/178_9.3.jpg;images/pages/178/178_9.4.jpg;" data-name=";;Русский и пьянство'+
     ' - несовместимы;Порок на экспорт" data-sounds="0;0;178/178_9.3.mp3;178/178_9.4.mp3"' +
-    ' style="display:block;z-index:900;position:absolute;top:360px;left:68px;width:387px;height:310px;background:url(images/pages/glava5/8_1.jpg) no-repeat;'+
-    ' background-size: 108%; background-position-y:0px; -webkit-filter: grayscale(100%);"></div>' +
-    ' <div class="app-background  no-underline" data-background="comment/178_10.1.jpg;comment/178_10.2.jpg;comment/178_10.3.jpg;comment/178_10.4.jpg;"'+
-    ' style="display:block;z-index:1900;position:absolute;top:88px;left:568px;width:387px;height:250px;background:url(images/pages/glava5/8_2.jpg) no-repeat;'+
-    ' background-size: 100%; background-position-y:-40px; -webkit-filter: grayscale(100%);"></div>' +
+    ' style="display:block;z-index:900;position:absolute;top:360px;left:68px;width:387px;height:310px;background:url(images/pages/glava5/8_1.png) no-repeat;'+
+    ' background-size:  100% 100%;"></div>' +
+    ' <div class="app-background  no-underline" data-background="images/pages/178/178_10.1.jpg;images/pages/178/178_10.2.jpg;images/pages/178/178_10.3.jpg;images/pages/178/178_10.4.jpg;"'+
+    ' style="display:block;z-index:1900;position:absolute;top:88px;left:568px;width:387px;height:250px;background:url(images/pages/glava5/8_2.png) no-repeat;'+
+    ' background-size:  100% 100%;"></div>' +
     ' <div class="text2col"><div style="text-align:justify;" class="col1"><div style="padding-left:79px; padding-top:10px;">ьянству они преданы более,'+
     ' чем какой-либо иной народ в мире. Напившись вина паче меры, они, как необузданные животные, устремляются туда, куда увлекает их рас-'+
     ' <span style="word-spacing:1px;">путная страсть... Порок пьянства так рас-</span></div>'+
@@ -1047,9 +1048,9 @@
     ' <div style="position:absolute;top:93px;left:568px;width:73px;height:82px;background:url(images/pages/glava5/r.png) no-repeat; background-size: contain;"></div>'+
     ' <div style="position:absolute;top:280px;left:568px;width:73px;height:82px;background:url(images/pages/glava5/p.png) no-repeat; background-size: contain;"></div>'+
     ' <div style="position:absolute;top:500px;left:568px;width:73px;height:82px;background:url(images/pages/glava5/o.png) no-repeat; background-size: contain;"></div>'+
-    ' <div  class="app-background  no-underline" data-background="comment/179_11.1.jpg;comment/179_11.2.jpg;comment/179_11.3.jpg;"'+
-    ' style="display:block;z-index:900;position:absolute;top:205px;left:68px;width:387px;height:270px;background:url(\'images/pages/glava5/9_1.jpg\') no-repeat;'+
-    ' background-size: 100%; background-position-y:-16px; -webkit-filter: grayscale(100%);"></div> 	<div class="text2col"> 		<div style="text-align:justify;"'+
+    ' <div  class="app-background  no-underline" data-background="images/pages/179/179_11.1.jpg;images/pages/179/179_11.2.jpg;images/pages/179/179_11.3.jpg;"'+
+    ' style="display:block;z-index:900;position:absolute;top:205px;left:68px;width:387px;height:270px;background:url(images/pages/glava5/9_1.png) no-repeat;'+
+    ' background-size: 100% 100%;"></div><div class="text2col"><div style="text-align:justify;"'+
     ' class="col1"> <div style="padding-left:79px; padding-top:10px;"> е проходит и ночи, чтобы наутро не нахо- дили на улицах разных лиц убитыми. По-'+
     ' добных убийств было много во время их ве- ликого поста, но более всего в масленицу, в течение 8 дней до начала поста, так как в </div> то время они ежедневно напиваются.'+
     ' <div style="padding-left:79px; padding-top:295px;"> одобно тому, как русские по природе жесто-'+
@@ -1096,9 +1097,9 @@
     ' <div style="position:absolute;top:93px;left:568px;width:73px;height:82px;background:url(images/pages/glava5/ch.png) no-repeat; background-size: contain;"></div>'+
     ' <div style="position:absolute;top:375px;left:568px;width:73px;height:82px;background:url(images/pages/glava5/m.png) no-repeat; background-size: contain;"></div>'+
     ' <div style="position:absolute;top:555px;left:568px;width:73px;height:82px;background:url(images/pages/glava5/b.png) no-repeat; background-size: contain;"></div>' +
-    ' <div class="app-background  no-underline" data-background="comment/180_12.1.jpg;comment/180_12.2.jpg;" '+
-    ' style="display:block;z-index:900;position:absolute;top:135px;left:68px;width:387px;height:364px;background:url(images/pages/glava5/10_1.jpg) no-repeat;'+
-    ' background-size: 201%; background-position-y:-105px; -webkit-filter: grayscale(100%);"></div><div class="text2col">'+
+    ' <div class="app-background  no-underline" data-background="images/pages/180/180_12.1.jpg;images/pages/180/180_12.2.jpg;" '+
+    ' style="display:block;z-index:900;position:absolute;top:135px;left:68px;width:387px;height:364px;background:url(images/pages/glava5/10_1.png) no-repeat;'+
+    ' background-size: 100% 100%;"></div><div class="text2col">'+
     ' <div style="text-align:justify;" class="col1"> <div style="padding-left:39px; padding-top:10px;">рех прелюбодеяния не наказывается у них смер- '+
     ' тью, да и не именуется у них <a href="javascript:;" class="app-background" data-background="comment/180_1.png">прелюбодеянием...</a></div>'+
     ' <div style="padding-left:79px;padding-top:395px;"> асколько русские охочи до телесного соития и в браке и вне его, настолько же считают они '+
@@ -1991,7 +1992,7 @@
     ' <div class="page-slider__container"></div> <div class="page-slider__pagination"></div></div>'+
     ' <div class="text2col"><div style="text-align:justify;padding-top:180px" class="col1">'+
     ' <div style="position:absolute;top:85px;left:73px;width:442px;height:59px;background:url(images/pages/73/kak.png) no-repeat; background-size:contain;"></div>'+
-    ' <div style="position:absolute;top:166px;left:17px;width:109px;height:260px;background:url(images/pages/73/p.png) no-repeat; background-size: contain;"></div>'+
+    ' <div style="position:absolute;top:166px;left:17px;width:109px;height:260px;background:url(images/letters/p.png) no-repeat; background-size: contain;"></div>'+
     ' <div style="padding-left:27px;text-align:justify;"> оразительно до какой степени эта стра- на, имеющая столь огромные размеры, строго охраняется. Все'+
     ' <a href="javascript:;" class="app-background"'+
     ' data-background="images/pages/73/73_1g.jpg;images/pages/73/73_2g.jpg;images/pages/73/73_3g.jpg;images/pages/73/73_4g.jpg;images/pages/73/73_5g.jpg;images/pages/73/73_6g.jpg;images/pages/73/73_7g.jpg;images/pages/73/73_8g.jpg;images/pages/73/73_9g.jpg;images/pages/73/73_10g.jpg;images/pages/73/73_11g.jpg;images/pages/73/73_12g.jpg" >города</a>'+
