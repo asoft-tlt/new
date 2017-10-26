@@ -3389,7 +3389,7 @@ window.App.sections = [
                 ]
             }
         ]
-    },// */
+    },
     {
         id: 7,
         name: 'Glava5',
