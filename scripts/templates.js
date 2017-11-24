@@ -9,7 +9,7 @@
     '<div class="text1col-right"><span style="word-spacing:-2px;">Долгие годы отец мой исправно занимался</span>'+
     ' устроением церковных дел, однако над престолом его, престолом Патриарха Ан- тиохийского, который находится в сирий- ском городе '+
     '<a href="javascript:;" class="app-background" data-background="comment/10_1.jpg;comment/10_2.jpg"'+
-    ' data-sounds="10/5.1.mp3;10/5.2.mp3" data-name="Дамаск в конце XVI века;Приём посла из Венеции на фоне Великой мечети Омейядов, 1511 год">Дамаске</a>,'+
+    ' data-sounds="10/5.1.mp3;10/5.2.mp3" data-name=";Приём посла из Венеции на фоне Великой мечети Омейядов, 1511 год">Дамаске</a>,'+
     ' всё больше тяготели огромные долги, возраставшие с давнего времени по причине прибавления больших '+
     '<span style="letter-spacing:-0.3px;word-spacing:-1px;">процентов. Уплатить их не было никакой воз-</span>'+
     ' можности и тогда, волею крайней нужды и стеснённых обстоятельств, родитель мой, '+
@@ -89,7 +89,7 @@
     ' <span style="letter-spacing:-0.3px;word-spacing:-1px;">утром и вечером. Всё это признак смирения,</span>'+
     ' <span style="letter-spacing:-0.3px;word-spacing:-1px;"> ибо гордость им совершенно чужда, и горде-</span> цов они в высшей степени ненавидят.</div></div>'+
     ' <div class="page__comment" onclick="javascript:App.hideComment();"><div class="page__comment-container">'+
-    ' <div class="commentbk" data-sound="comment/105.mp3"><img src="comment/105.jpg" /></div></div></div></div>');
+    ' <div class="commentbk" data-sound="audio/pages/105/24.mp3"><img src="comment/105.jpg" /></div></div></div></div>');
     $templateCache.put("page106.html", '<div class="page" id="page106"> <div class="glava nameGlava">БЕЛЫЙ ЦАРЬ И ПАТРИАРХ</div>'+
     ' <div class="page-slider" style="position:absolute;left:0px;width:447px;height:768px;outline-offset:4px;outline: #d7b39d solid 1px;">'+
     ' <div class="page-slider__container"></div> </div> <div class="text1col-right"> Бог свидетель, что мы вели себя среди них'+
@@ -287,7 +287,7 @@
     ' <div class="page__column page__column_type_slider page__column_type_fullsized" id="map12zooming"> <div class="page-slider page-slider_type_constant">'+
     ' <div class="page-slider__container"><iframe src="map.html?images/pages/12/map.jpg" class="mapiframe"></iframe></div>'+
     ' <div class="page-slider__pagination"></div> </div> </div> <div class="zoomoverlay"></div> <div class="zoommapbutton"></div><div class="mapbutton"></div></div>');
-    $templateCache.put("page120.html", '"<div class="page" id="page120"> <div class="glava nameGlava">БЕЛЫЙ ЦАРЬ И ПАТРИАРХ</div>'+
+    $templateCache.put("page120.html", '<div class="page" id="page120"> <div class="glava nameGlava">БЕЛЫЙ ЦАРЬ И ПАТРИАРХ</div>'+
     ' <div class="page-slider" style="position:absolute;top:87px;left:534px;width:417px;height:444px;outline-offset:4px;outline: #d7b39d solid 1px;">'+
     ' <div class="page-slider__container"></div></div><div class="text2col">'+
     ' <div style="text-align:justify;" class="col1"> Во всю эту неделю никто не видит его лица,'+
@@ -393,9 +393,10 @@
     '  го извинения он не принял, и повторяя безпрестанно своё желание, настоял на его исполнении.<br><br>'+
     '<span style="letter-spacing:-0.3px;word-spacing:-1px;">К счастью, с детства у меня было обыкно-</span>'+
     ' вение приобретать и внимательно читать исторические книги, так что я с жадностью углубился в работу, '+
-    'прилагая к ней особое рвение и собирая всё, что только мог найти. Выполняя сей труд, я искренне верил, '+
-    'что когда-нибудь мои наблюдения доставят усладу читателю и принесут обильную пользу каждому христианину, который про- '+
-    '<p style="text-align:center;margin:0px;">славит за них Всевышнего Творца.</p></div></div></div>');
+    'прилагая к ней особое рвение и собирая всё, что только мог найти.'+
+    '<span style="letter-spacing:0.5px;word-spacing:-1px;"> Выполняя сей труд, я искренне верил, '+
+    'что когда-нибудь мои наблюдения доставят усладу читателю и принесут обильную</span> пользу каждому христианину, который про- '+
+    'славит за них Всевышнего Творца.</div></div></div>');
     $templateCache.put("page130.html", '<div class="page" id="page130">'+
     '<div class="glava nameGlava" >БЛАГОСЛОВЕННАЯ СТРАНА</div>'+
     ' <div class="page-slider" style="position:absolute;left:577px;width:447px;height:768px;outline-offset:4px;outline: #d7b39d solid 1px;">'+
@@ -843,8 +844,8 @@
     ' ставший творцом нашумевшей книги «Описание путешествия в Московию».<br><br> Впервые она опубликована в 1647 году, а'+
     ' <span style="letter-spacing:-0.3px;word-spacing:-1px;">финальная её версия, переделанная и до-</span>'+
     ' полненная самим автором, – увидела свет 16 лет спустя. Что говорят об этой работе? Из числа изданий XVII века, посвящённых'+
-    ' <span style="letter-spacing:-0.3px;word-spacing:-1px;">нашей стране, она считается <span style="font-family:Pancetta Serif Pro Italic;">«самым зна-</span></span>'+
-    ' <span style="letter-spacing:-0.3px;word-spacing:-1px;font-family:Pancetta Serif Pro Italic;">менитым, богатым по содержанию и ценней-</span>'+
+    ' <span style="letter-spacing:-0.3px;word-spacing:-1px;">нашей стране, она считается <span style="font-family:Pancetta Serif Pro Italic;">«самым знаме-</span></span>'+
+    ' <span style="letter-spacing:-0.5px;word-spacing:-2px;font-family:Pancetta Serif Pro Italic;">нитым, богатым по содержанию и ценней-</span>'+
     ' <span style="font-family:Pancetta Serif Pro Italic;">шим источником»</span> для изучения характера, быта и нравов русского народа на излёте эпохи правления царя Михаила Романова.</div>'+
     ' <div style="text-align:justify;" class="col2"></div></div></div>');
     $templateCache.put("page172.html", '<div class="page" id="page172"><div class="glava nameGlava">РОССИЯ ГЛАЗАМИ ЗАПАДА</div>'+
@@ -1349,14 +1350,13 @@
     ' <span style="letter-spacing:-0.3px;word-spacing:-1px;">обиды, и как у вас есть татары – и имеют</span> мечети, евреи – и  имеют молельни, ар- '+
     '<span style="letter-spacing:-0.3px;word-spacing:-1px;">мяне – и имеют церкви, то наравне с ними</span>'+
     ' считайте и братьев во Христе казаков, которые, подобно мне, православные.<br><br>'+
-    '<span style="letter-spacing:-0.5px;word-spacing:-1px;">Во-вторых, вы должны именовать меня ца-</span>'+
-    ' рем Великой и Малой Poccии; в-третьих, '+
-    '<span style="letter-spacing:-0.1px;word-spacing:-1px;"> возвратите мне город моих предков '+
-    ' <a href="javascript:;" class="app-background" data-title="" data-sounds="" data-background="comment/25_1.jpg">Смо-</a>'+
-    ' <a href="javascript:;" class="app-background" data-title="" data-sounds="" data-background="comment/25_1.jpg">ленск</a>'+
-    ' со всеми в нём находящимися пуш-</span><span style="letter-spacing:-0.6px;word-spacing:-1.21px;"> ками, военными снарядами и орудиями. Если</span>'+
-    ' <span style="letter-spacing:-0.5px;word-spacing:-1px;"> вы согласны на это, прежняя дружба между </span>'+
-    ' <span style="letter-spacing:-0.5px;word-spacing:-1px;"> нами и вами останется; в противном слу- </span> чае знайте, что я пойду на вас войной». </div></div>'+
+    '<span style="letter-spacing:-0.6px;word-spacing:0px;">Во-вторых, вы должны именовать меня ца-рем Великой и Малой Poccии; в-третьих, '+
+    ' возвратите мне город моих предков '+
+    ' <a href="javascript:;" class="app-background" data-title="" data-sounds="" data-background="comment/25_1.jpg">Смоленск</a>'+
+    ' со всеми в нём находящимися пушками, военными снарядами и орудиями.</span>'+
+    ' <span style="letter-spacing:-0.5px;word-spacing:-1px;"> Если вы согласны на это, прежняя дружба </span>'+
+    ' <span style="letter-spacing:-0.8px;word-spacing:-1px;"> между нами и вами останется; в противном</span>'+
+    ' <span style="letter-spacing:-0.5px;word-spacing:-1px;"> случае знайте, что я пойду на вас войной». </span></div></div>'+
     '<div class="page__comment" onclick="javascript:App.hideComment();"><div class="page__comment-container">'+
     '<div class="commentbk" data-sound="audio/pages/25/11.mp3" data-name=""><img src="comment/25.jpg" /></div></div></div></div>');
     $templateCache.put("page26.html", '<div class="page page_with_slider"><div class="page__column page__column_type_slider page__column_type_fullsized">'+
@@ -1385,8 +1385,8 @@
     ' <span style="letter-spacing:-0.5px;word-spacing:-1px; font-family:Pancetta Serif Pro Italic;">«Я жертвую собою,</span> — сказал </div>'+
     ' <div style="text-align:justify;" class="col2"> он, выступая на нём, — <span style="font-family:Pancetta Serif Pro Italic;">из любви к нашей '+
     '<span style="letter-spacing:-0.7px;word-spacing:-1px;">вере, ради своих братьев во Христе казаков,</span>'+
-    '<span style="letter-spacing:-0.7px;word-spacing:-1px;"> и для избавления оных от порабощения вра-</span>'+
-    ' гам Руси – ляхам выступаю в поход».</span></div></div></div>');
+    '<span style="letter-spacing: 0px;word-spacing:-1px;"> и для избавления оных от порабощения </span>'+
+    ' врагам Руси – ляхам выступаю в поход».</span></div></div></div>');
     $templateCache.put("page29.html", '<div class="page" id="page29">'+
     '<div class="glava nameGlava">ЗЕМЛЯ КАЗАКОВ</div>'+
     '<div class="page-slider" style="position:absolute;top:87px;left:534px;width:417px;height:484px;outline-offset:4px;outline: #d7b39d solid 1px;">'+
@@ -1751,7 +1751,7 @@
     ' лённостью и проницательностью, всё это <span style="letter-spacing:-0.3px;word-spacing:-1px;">вытащили, и таким образом надежда невер-</span>'+
     ' ных была обманута. Мы спрашивали еврея Яки, что сделал Хмель с его соплеменни- ками в стране ляхов, и тот отвечал, что он больше причинил им зла, чем в древности'+
     ' <p style="text-align:center;margin:0;">Веспассиан. На это мы рассмеялись.</p></div></div></div>');
-    $templateCache.put("page56.html", '<div class="page" id="page56">'+
+    $templateCache.put("page56.html", '<div class="page" id="page56"><div class="glava nameGlava">ВЕЛИКОРОССИЯ</div>'+
     ' <div class="page-slider" style="position:absolute;left:81px;top:306px;width:864px;height:394px;outline-offset:4px;outline: #d7b39d solid 1px;">'+
     ' <div class="page-slider__container"></div></div><div class="text2col"><div style="text-align:justify;padding-top:204px;" class="col1">'+
     ' <div style="position:absolute;top:82px;left:73px;width:319px;height:89px;background:url(images/pages/56/putivl.png) no-repeat; background-size:contain;"></div>'+
@@ -1957,9 +1957,9 @@
     ' гость в этом огромном государстве очень <span style="letter-spacing:-0.3px;word-spacing:-1px;">велика. Царь не нуждается в торговцах, кото-</span>'+
     ' рые приезжают из стран турецких и тайком покупают меха, быть может на сумму в мил- лион золотых.'+
     ' Не нуждается он потому, что с Востока на судах к нему приезжают послы, везя с собою редкости своей страны, каких здесь нет и подносят их царю в дар. Он же'+
-    ' <span style="letter-spacing:-0.3px;word-spacing:-1px;">взамен даёт им лучших соболей на большую</span> сумму.'+
-    ' Что же касается франков, они тысячами приезжают в пристань, назы- ваемую Архангельск, привозя вино, оливко- вое масло, лимоны и прочее.'+
-    ' С их кораблей  исправно берётся пошлина.</div>'+
+    ' <span style="letter-spacing:-0.3px;word-spacing:-1px;">взамен даёт им лучших соболей на большую</span><span style="letter-spacing:-0.3px;word-spacing:-1px;"> сумму.'+
+    ' Что же касается франков, они тыся- чами приезжают в пристань, называемую Архангельск, привозя вино, оливковое мас- ло, лимоны и прочее.'+
+    ' С их кораблей  исправно берётся пошлина.</span></div>'+
     ' <div class="page-slider" style="position:absolute;left:581px;width:443px;height:768px;outline-offset:4px;outline: #d7b39d solid 1px;">'+
     ' <div class="page-slider__container"></div></div></div>');
     /*$templateCache.put("page71.html","<div class="page" id="page71"> <div style="position:absolute;width:1024px;height:768px;background:url(\'images/pages/71/71.jpg\') no-repeat; background-size:contain;"></div> </div>');*/

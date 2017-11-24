@@ -103,24 +103,24 @@ window.App.sections = [
                     {"id": "11", "year": 1611},
                     {"id": "12", "year": 1612},
                     {"id": "13", "year": 1613},
-                    {"id": "14", "year": 1617, sounds: [{title: '1', mp3: '10.mp3'}, {title: '2', mp3: '10.mp3'}]},
-                    {"id": "15", "year": 1618, sounds: [{title: '', mp3: '10.mp3'}]},
+                    {"id": "14", "year": 1617, sounds: [{title: '1', mp3: '14.1.mp3'}, {title: '2', mp3: '14.2.mp3'}]},
+                    {"id": "15", "year": 1618, sounds: [{title: '', mp3: '15.mp3'}]},
                     {"id": "16", "year": 1619},
-                    {"id": "17", "year": 1619, sounds: [{title: '1', mp3: '10.mp3'}, {title: '2', mp3: '10.mp3'}]},
+                    {"id": "17", "year": 1619, sounds: [{title: '1', mp3: '17.1.mp3'}, {title: '2', mp3: '17.2.mp3'}]},
                     {"id": "18", "year": 1620},
                     {"id": "19", "year": 1624},
-                    {"id": "20", "year": 1624, sounds: [{title: '', mp3: '10.mp3'}]},
+                    {"id": "20", "year": 1624, sounds: [{title: '', mp3: '20.mp3'}]},
                     {"id": "21", "year": 1625},
                     {"id": "22", "year": 1626},
-                    {"id": "23", "year": 1628, sounds: [{title: '', mp3: '10.mp3'}]},
-                    {"id": "24", "year": 1637, sounds: [{title: '', mp3: '10.mp3'}]},
+                    {"id": "23", "year": 1628, sounds: [{title: '', mp3: '23.mp3'}]},
+                    {"id": "24", "year": 1637, sounds: [{title: '', mp3: '24.mp3'}]},
                     {"id": "25", "year": 1638},
                     {"id": "25_1", "year": 1638},
                     {"id": "25_2", "year": 1638},
                     {"id": "26", "year": 1641},
                     {"id": "27", "year": 1642},
-                    {"id": "28", "year": 1642, sounds: [{title: '', mp3: '10.mp3'}]},
-                    {"id": "29", "year": 1643, sounds: [{title: '1', mp3: '10.mp3'}, {title: '2', mp3: '10.mp3'}]},
+                    {"id": "28", "year": 1642, sounds: [{title: '', mp3: '28.mp3'}]},
+                    {"id": "29", "year": 1643, sounds: [{title: '1', mp3: '29.1.mp3'}, {title: '2', mp3: '29.2.mp3'}]},
                     {"id": "30", "year": 1644},
                     {"id": "31", "year": 1644},
                     {"id": "31_1", "year": 1644},
@@ -135,24 +135,24 @@ window.App.sections = [
                     {"id": "32", "year": 1645},
                     {"id": "33", "year": 1648},
                     {"id": "34", "year": 1648},
-                    {"id": "35", "year": 1648, sounds: [{title: '', mp3: '10.mp3'}]},
-                    {"id": "36", "year": 1649, sounds: [{title: '1', mp3: '10.mp3'}, {title: '2', mp3: '10.mp3'}, {title: '3', mp3: '10.mp3'}]},
+                    {"id": "35", "year": 1648, sounds: [{title: '', mp3: '35.mp3'}]},
+                    {"id": "36", "year": 1649, sounds: [{title: '1', mp3: '36.1.mp3'}, {title: '2', mp3: '36.2.mp3'}, {title: '3', mp3: '36.3.mp3'}]},
                     {"id": "37", "year": 1649},
                     {"id": "38", "year": 1650},
                     {"id": "39", "year": 1650},
                     {"id": "40", "year": 1650,
-                      sounds: [{title: '1', mp3: '10.mp3'},
-                               {title: '2', mp3: '10.mp3'},
-                               {title: '3', mp3: '10.mp3'},
-                               {title: '4', mp3: '10.mp3'},
-                               {title: '5', mp3: '10.mp3'},
-                               {title: '6', mp3: '10.mp3'},
-                               {title: '7', mp3: '10.mp3'}]
+                      sounds: [{title: '1', mp3: '40.1.mp3'},
+                               {title: '2', mp3: '40.2.mp3'},
+                               {title: '3', mp3: '40.3.mp3'},
+                               {title: '4', mp3: '40.4.mp3'},
+                               {title: '5', mp3: '40.5.mp3'},
+                               {title: '6', mp3: '40.6.mp3'},
+                               {title: '7', mp3: '40.7.mp3'}]
                     },
-                    {"id": "41", "year": 1652, sounds: [{title: '', mp3: '10.mp3'}]},
+                    {"id": "41", "year": 1652, sounds: [{title: '', mp3: '41.mp3'}]},
                     {"id": "42", "year": 1652},
                     {"id": "43", "year": 1652},
-                    {"id": "44", "year": 1653, sounds: [{title: '', mp3: '10.mp3'}]},
+                    {"id": "44", "year": 1653, sounds: [{title: '', mp3: '44.mp3'}]},
                     {"id": "45", "year": 1665},
                     {"id": "46", "year": 1665},
                     {"id": "47", "year": 1665},
@@ -161,13 +161,13 @@ window.App.sections = [
                     {"id": "50", "year": 1668},
                     {"id": "51", "year": 1671},
                     {"id": "52", "year": 1675},
-                    {"id": "53", "year": 1679, sounds: [{title: '', mp3: '10.mp3'}]},
+                    {"id": "53", "year": 1679, sounds: [{title: '', mp3: '53.mp3'}]},
                     {"id": "54", "year": 1682},
                     {"id": "55", "year": 1683},
                     {"id": "56", "year": 1683},
                     {"id": "57", "year": 1689},
                     {"id": "58", "year": 1699},
-                    {"id": "59", "year": 1699, sounds: [{title: '', mp3: '10.mp3'}]}
+                    {"id": "59", "year": 1699, sounds: [{title: '', mp3: '59.mp3'}]}
                 ]
             }
         ]
@@ -363,7 +363,7 @@ window.App.sections = [
                         image: '17_2.jpg',
                         description: 'Во власти бандитского племеник',
                         sounds: [
-                            {title: 'Во власти бандитского племени', mp3: '3.2.mp3'}
+                            {title: '', mp3: '3.2.mp3'}
                         ]
                     },
                     {
@@ -417,7 +417,7 @@ window.App.sections = [
                 slides: [
                     {
                         image: '19_1.jpg',
-                        description: 'Кто такие казаки',
+                        description: '',
                         positions: {
                             left: '-92px',
                             top: '-0px'
@@ -1294,7 +1294,7 @@ window.App.sections = [
                 id: 58,
                 type: 'page',
                 template: 'page58.html',
-                map: 'true',
+              /*  map: 'true',*/
                 slides: [
                     {
                         image: '58.jpg',
@@ -1920,7 +1920,7 @@ window.App.sections = [
                 id: 94,
                 type: 'page',
                 template: 'page94.html',
-                map: 'true',
+                /*map: 'true',*/
                 slides: [
                     {
                         image: '94_1.jpg',
@@ -2103,7 +2103,7 @@ window.App.sections = [
                             top: '0px'
                         },
                         sounds: [
-                            {title: 'Церковные свечи и 1500% прибыли. Суть ритуала для чайников', mp3: '25.mp3'}
+                            {title: '', mp3: '25.mp3'}
                         ]
                     }
                 ]
@@ -2188,7 +2188,7 @@ window.App.sections = [
                             top: '0px'
                         },
                         sounds: [
-                            {title: 'Французский посол Чарльз де Сольер и Русский посол Иван Чемоданов', mp3: '30.mp3'}
+                            {title: '', mp3: '30.mp3'}
                         ]
                     }
                 ]
@@ -2217,7 +2217,7 @@ window.App.sections = [
                 slides: [
                     {
                         image: '111_1.jpg',
-                      //  description: 'Шведские ружья в действии',
+                        description: 'Шведские ружья в действии',
                         positions: {
                             left: '-392px',
                             top: '0px'
@@ -2602,7 +2602,7 @@ window.App.sections = [
                     {
                         image: '135_1.jpg',
                         sounds: [
-                            {title: 'Так в 17 веке выглядела практика речных перевозок на Западе', mp3: '13.1.mp3'}
+                            {title: '', mp3: '13.1.mp3'}
                         ]
                     },
                     {
@@ -2830,7 +2830,8 @@ window.App.sections = [
                         positions: {
                             left: '-575px',
                             top: '0px'
-                        }
+                        },
+                        zoom: '100%'
                     }
                 ]
             },
