@@ -98,9 +98,10 @@ App.Rubric = {
             console.warn('Year is not defined! Item: ', item);
             return false;
           }
-          if (_this.paginationSwiper.activeIndex !== index) {
-            _this.paginationSwiper.swipeTo(index);
-          }
+
+        }
+        if (_this.paginationSwiper.activeIndex !== index) {
+          _this.paginationSwiper.swipeTo(index);
         }
       }
     });
@@ -172,10 +173,11 @@ App.Rubric = {
     var slide = this.activeSlide;
 
     this.removeBindings(slide);
-	
+
 //вставка плеера  and App.Rubric.state=='opened'
 if((typeof(App.Rubric.images[slider.activeIndex].sounds)!='undefined') && (App.Rubric.state=='opened')){
     var commentsound = [];
+
  for (var indSound in App.Rubric.images[slider.activeIndex].sounds){
  var rubricSounds= App.Rubric.images[slider.activeIndex].sounds[indSound];
 		var pathsound=App.getAudioPath('7-1', rubricSounds.mp3);
@@ -211,12 +213,18 @@ if((typeof(App.Rubric.images[slider.activeIndex].sounds)!='undefined') && (App.R
 
   removeBindings: function(slide) {
     if (!slide) return;
-
+    App.hideGlobe();
     // @todo потом добавлю
   },
 
   addBindings: function() {
     if (!this.activeSlide) return;
+    if (this.activeSlide.map) {
+        setTimeout(function () {
+            App.showGlobe();
+        }, 500);
+    }
+
 
     // @todo потом добавлю
   },
@@ -251,12 +259,25 @@ if((typeof(App.Rubric.images[slider.activeIndex].sounds)!='undefined') && (App.R
       slide = this.swiper.createSlide(content);
       slide.setData('rubric', item);
       slide.append();
-	 
+
     }
 
     var imagePath = App.getImagePath(this.id, 'rubrics') + '/' + item.id + '.jpg',
     slideEl = $('<img src="' + imagePath + '" />');
     slideEl.appendTo(slide);
+
+
+    if(item.map){
+      geoEl = $('<div class="page__map" onclick="javascript:App.hideMap();">'+
+                  '<div class="page__map-container">'+
+                      '<div class="closebut" onclick="javascript:App.hideMap();"></div>'+
+                      '<iframe src="geo/7-1-'+item.id+'.html" width="1024" height="768" />'+
+                  '</div>'+
+                '</div>');
+      console.log(item.id);
+
+    }
+
 
     // init pagination swiper
     // calculate years...
@@ -265,7 +286,7 @@ if((typeof(App.Rubric.images[slider.activeIndex].sounds)!='undefined') && (App.R
 
   initPagination: function(index) {
     var slide;
-	 
+
     for (var i = index; i < index + 15; i++) {
       var currentItem = this.images[i];
       if (!currentItem) {
@@ -318,7 +339,7 @@ if((typeof(App.Rubric.images[slider.activeIndex].sounds)!='undefined') && (App.R
 	        title: App.Rubric.images[0].sounds.title,
 	        mp3: pathsound
 	    })
-	 
+
 	   // this.playList.jSelect.hide();
 	    // set new playlist
 	    App.playList._initPlaylist(commentsound);

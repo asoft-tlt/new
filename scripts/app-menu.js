@@ -476,6 +476,7 @@ window.App = {
                     onNext: this.goToNextPage.bind(this),
                     onPrev: this.goToPrevPage.bind(this)
                 }, page));
+
                 break;
             case 'rubric_slider':
                 page.rubric = App.RubricSlider.init($(this.slide).find('.rubric'), $.extend({
