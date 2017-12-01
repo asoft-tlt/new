@@ -251,7 +251,7 @@ ol {
 }
 
 .swiper-slide .page.glava5 {
-  background: url("/images/backgrounds/back5.jpg") repeat-x;
+  background: url(../images/backgrounds/back5.jpg) repeat-x;
 }
 
 .swiper-slide .page.glava5 .text2col .col1, .swiper-slide .page.glava5 .text2col .col2 {
