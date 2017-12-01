@@ -684,7 +684,7 @@ window.App = {
 
         //console.log(audio);
         //console.log(params);
-        audio && audio.length && audio.forEach(function (sound) {
+      /*  audio && audio.length && audio.forEach(function (sound) {
             if (sound.title === undefined) {
                 sound.title = '';
             }
@@ -718,14 +718,14 @@ window.App = {
         this.isPlaying = true;
       }else{
          App.hideAndStopAudio();
-      }
+      }*/
     },
 
     hideAndStopAudio: function () {
-        if (!this.circlePlayer.player || !this.isPlaying) return;
+      /*  if (!this.circlePlayer.player || !this.isPlaying) return;
         this.circlePlayer.player.jPlayer('pause').hide();
         $(this.options.circlePlayer.cssSelector).removeClass('audio-player_show_yes');
-        this.isPlaying = false;
+        this.isPlaying = false;*/
     },
 
     showGlobe: function () {
