@@ -93,14 +93,16 @@ window.App = {
             onSlideChangeStart: function () {
                 if (_this.backgroundSlider.soundPaths !== undefined) {
                     if (_this.backgroundSlider.soundPaths[_this.backgroundSlider.activeIndex] !== undefined) {
-                        imagePaths = _this.backgroundSlider.soundPaths[_this.backgroundSlider.activeIndex].split('/');
-                        titleSound = '';
+                      var  imagePaths = _this.backgroundSlider.soundPaths[_this.backgroundSlider.activeIndex].split('/');
+                      var  titleSound = '';
                         if (_this.backgroundSlider.soundTitle !== undefined) {
                             if (_this.backgroundSlider.soundTitle[_this.backgroundSlider.activeIndex] !== undefined) {
                                 titleSound = _this.backgroundSlider.soundTitle[_this.backgroundSlider.activeIndex];
                             }
                         }
                         App.showAndPlayAudio([{title: titleSound, mp3: imagePaths[1]}], {id: imagePaths[0]});
+                        imagePaths=null;
+                        titleSound=null;
                     }
                 }
             },
@@ -148,6 +150,8 @@ window.App = {
                     App.slider.swipeTo(menulink);
 
                 }
+
+                menulink=null;
             }
         });
 
@@ -177,6 +181,7 @@ window.App = {
                // var videoPathMov = 'video/pages/' + page.id + '/' + page.video.replace("mp4", "mov");
                 // var videoPoster='video/pages/' + page.id + '/' +'poster.jpg';
                 content = '<video src="' + videoPath + '" ><source src="' + videoPath + '" type=\'video/mp4;\'></source></video>';
+                videoPath=null;
                 break;
             default:
                 content = this.Templates.get(page.template);
@@ -206,8 +211,12 @@ window.App = {
                 rubricPaginationEl.append(rubricPaginationContainerEl);
                 rubricEl.append(rubricPaginationEl);
                 rubricEl.append(rubricContainerEl);
-
                 rubricEl.appendTo(slide);
+                rubricContainerEl=null;
+                rubricPaginationEl=null;
+                rubricPaginationContainerEl=null;
+                rubricPaginationSwiperEl=null;
+                rubricEl=null;
                 break;
             case 'rubric_parts':
                 var rubricEl = $('<div/>').addClass('rubric')
@@ -223,6 +232,10 @@ window.App = {
                 rubricEl.append(rubricBackgroundEl);
 
                 rubricEl.appendTo(slide);
+                rubricContainerEl=null;
+                rubricBackgroundEl=null;
+                rubricThumbsEl=null;
+                rubricEl=null;
                 break;
             case 'rubric_slider':
                 var rubricEl = $('<div/>').addClass('rubric')
@@ -234,6 +247,9 @@ window.App = {
                 rubricEl.append(rubricContainerEl);
                 rubricEl.append(rubricPaginationEl);
                 rubricEl.appendTo(slide);
+                rubricContainerEl=null;
+                rubricPaginationEl=null;
+                rubricEl=null;
                 break;
             case 'rubric_raskol':
                 var rubricEl = $('<div/>').addClass('rubric')
@@ -243,6 +259,8 @@ window.App = {
                     rubricContainerEl = $('<div/>').addClass('rubric__container');
                 rubricEl.append(rubricContainerEl);
                 rubricEl.appendTo(slide);
+                rubricContainerEl=null;
+                rubricEl=null;
                 break;
             case 'rubric_12':
                 var rubricEl = $('<div/>').addClass('rubric')
@@ -256,6 +274,9 @@ window.App = {
                 rubricEl.append(rubricThumbsEl);
 
                 rubricEl.appendTo(slide);
+                rubricContainerEl=null;
+                rubricThumbsEl=null;
+                rubricEl=null;
                 break;
             case 'rubric_gorod':
                 var rubricEl = $('<div/>').addClass('rubric')
@@ -269,6 +290,10 @@ window.App = {
                 rubricEl.append(rubricThumbsEl);
 
                 rubricEl.appendTo(slide);
+
+                rubricContainerEl=null;
+                rubricThumbsEl=null;
+                rubricEl=null;
                 break;
             default:
                 // handle slider
@@ -309,6 +334,12 @@ window.App = {
                         var pagination = $('<span/>').addClass('page-slider__pagination');
                         pagination.appendTo(slide.querySelector('.page-slider'));
                     }
+                    countslides=null;
+                    internalSlider=null;
+                    image=null;
+                    item=null;
+                    imagePath=null;
+                    pagination=null;
                 }
 
                 //mappage
@@ -571,10 +602,12 @@ window.App = {
         }
         // Maps click Listener
         this.addGlobeHandler(this.slide);
+        page=null;
     },
 
     goToPrevPage: function () {
         if (this.slider.activeIndex > 0) {
+
             this.slider.swipePrev(true);
 
         }
@@ -582,7 +615,9 @@ window.App = {
 
     goToNextPage: function () {
         if (this.slider.activeIndex < this.slider.slides.length - 1) {
+
             this.slider.swipeNext(true);
+
         }
     },
 
@@ -758,6 +793,9 @@ window.App = {
     showMap: function (event) {
         if (!this.slide) return;
         //event.preventDefault();
+        if($(this.slide).find('.page__map iframe').attr('src')==''){
+          $(this.slide).find('.page__map iframe').attr('src', $(this.slide).find('.page__map iframe').attr('src_cach'));
+        }
         $(this.slide).find('.page__map').show();
 
         this.hideGlobe();//dobavil
@@ -897,13 +935,15 @@ window.App = {
         this.backgroundSlider.resizeFix(true);
         if (this.backgroundSlider.soundPaths !== undefined) {
             if (this.backgroundSlider.soundPaths[0] !== undefined && this.backgroundSlider.soundPaths[0] != '0') {
-                imagePaths = this.backgroundSlider.soundPaths[0].split('/');
+                var imagePaths = this.backgroundSlider.soundPaths[0].split('/');
                 var imageTitle = '';
                 if (this.backgroundSlider.soundTitle[0] !== undefined) {
                     imageTitle = this.backgroundSlider.soundTitle[0];
                 }
 
                 App.showAndPlayAudio([{title: imageTitle, mp3: imagePaths[1]}], {id: imagePaths[0]});
+                imagePaths=null;
+                imageTitle=null;
             }
         }
         return false;

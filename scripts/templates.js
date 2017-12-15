@@ -22,7 +22,7 @@
     '<div class="page__comment" onclick="javascript:App.hideComment();"><div class="page__map-container"><img src="comment/10.jpg" /></div></div></div>');
     $templateCache.put("page100.html", '<div class="page arka"><div class="holdimage"><img src="images/pages/100/100.jpg" /></div>'+
     '<div class="page__map" onclick="javascript:App.hideMap();"><div class="page__map-container"><div class="closebut" onclick="javascript:App.hideMap();"></div>'+
-    '<iframe src="geo/100.html" width="1024" height="768" /></div></div></div>');
+    '<iframe src="" src_cach="geo/100.html" width="1024" height="768" /></div></div></div>');
     $templateCache.put("page101.html", '<div class="page" id="page101">'+
     '<div class="glava nameGlava">БЕЛЫЙ ЦАРЬ И ПАТРИАРХ</div>'+
     '<div class="page-slider" style="position:absolute;left:0px;width:447px;height:768px;outline-offset:4px;outline: #d7b39d solid 1px;">'+
@@ -231,7 +231,7 @@
     '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d35948.357887929364!2d36.84579009999999!3d55.727708000000014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b560995e19d713%3A0xcc26ff2461d966b8!2z0JfQstC10L3QuNCz0L7RgNC-0LQsINCc0L7RgdC60L7QstGB0LrQsNGPINC-0LHQuy4!5e0!3m2!1sru!2sru!4v1443640821944" '+
     'width="1024" height="768" frameborder="0" style="border:0" allowfullscreen></iframe> </div></div>'+*/
     '<div class="page__map" onclick="javascript:App.hideMap();"><div class="page__map-container"><div class="closebut" onclick="javascript:App.hideMap();"></div>'+
-    '<iframe src="geo/114.html" width="1024" height="768" /></div></div></div>');
+    '<iframe src="" src_cach="geo/114.html" width="1024" height="768" /></div></div></div>');
     $templateCache.put("page115.html", '<div class="page" id="page115"><div style="position:absolute;width:1024px;height:768px;background:url(images/pages/115/115.jpg) no-repeat; background-size:contain;"></div> </div>');
     $templateCache.put("page116.html", '<div class="page" id="page116"><div class="glava nameGlava">БЕЛЫЙ ЦАРЬ И ПАТРИАРХ</div>'+
     ' <div class="page-slider" style="position:absolute;left:81px;top:87px;width:864px;height:377px;outline-offset:4px;outline: #d7b39d solid 1px;">'+
@@ -330,7 +330,7 @@
     ' <div style="text-align:justify;padding-top:174px;" class="col2"><span style="letter-spacing:-0.3px;word-spacing:-1px;">у них очень почитается. В этот день в столо-</span>'+
     ' вую привели нищих, увечных, слепых и по- ставили для них стол близ патриарха, кото- рый кормил и поил их с полным уваженим.</div></div>'+
     '  <div class="page__map" onclick="javascript:App.hideMap();"> <div class="page__map-container">'+
-    ' <div class="closebut" onclick="javascript:App.hideMap();"></div> <iframe src="geo/122.html" width="1024" height="768" /></div></div></div>');
+    ' <div class="closebut" onclick="javascript:App.hideMap();"></div> <iframe src="" src_cach="geo/122.html" width="1024" height="768" /></div></div></div>');
     $templateCache.put("page123.html", '<div class="page" id="page123"><div class="holdimage"><img src="images/pages/123/123.jpg"/></div></div>');
     $templateCache.put("page124.html", '<div class="page" id="page124"> <div class="glava nameGlava">БЕЛЫЙ ЦАРЬ И ПАТРИАРХ</div>'+
     ' <div class="page-slider" style="position:absolute;left:81px;top:87px;width:864px;height:394px;outline-offset:4px;outline: #d7b39d solid 1px;">'+
@@ -465,7 +465,7 @@
     $templateCache.put("page135.html", '<div class="page page_with_slider" id="page135"><div class="page__column page__column_type_slider page__column_type_fullsized">'+
     ' <div class="page-slider page-slider_type_constant"><div class="page-slider__container"></div>'+
     ' <div class="page-slider__pagination"></div></div><div class="page__map" onclick="javascript:App.hideMap();"><div class="page__map-container">'+
-    ' <div class="closebut" onclick="javascript:App.hideMap();"></div><iframe src="geo/135.html" width="1024" height="768" /></div></div> </div></div>');
+    ' <div class="closebut" onclick="javascript:App.hideMap();"></div><iframe src="" src_cach="geo/135.html" width="1024" height="768" /></div></div> </div></div>');
     $templateCache.put("page136.html", '<div class="page" id="page136"> <div class="glava nameGlava">БЛАГОСЛОВЕННАЯ СТРАНА</div>'+
     ' <div class="page-slider" style="position:absolute;left:84px;top:87px;width:864px;height:401px;outline-offset:4px;outline: #d7b39d solid 1px;">'+
     ' <div class="page-slider__container"></div></div><div class="text2col">'+
@@ -607,7 +607,7 @@
     ' <div style="text-align:justify;padding-top:568px;" class="col2"> держиваются в тех краях только на одну зиму, пока не сделают все закупки. Говорят,'+
     ' <span style="letter-spacing:-0.3px;word-spacing:-1px;">что войска в Сибири более двухсот тысяч че-</span> ловек и большая часть его казаки. </div></div>'+
     ' <div class="page__map" onclick="javascript:App.hideMap();"><div class="page__map-container"><div class="closebut" onclick="javascript:App.hideMap();"></div>'+
-    ' <iframe src="geo/150-3.html" width="1024" height="768" /></div></div></div>');
+    ' <iframe src="" src_cach="geo/150-3.html" width="1024" height="768" /></div></div></div>');
 //$templateCache.put("page151.html","<div class="page" id="page151"> <div style="position:absolute;width:1024px;height:768px;background:url(\'images/pages/151/151.jpg\') no-repeat; background-size:contain;"></div> </div>');
     $templateCache.put("page151.html", '<div class="page page_with_slider mappage"> <div class="maplegend"></div>'+
     ' <div class="page__column page__column_type_slider page__column_type_fullsized" id="map151zooming">'+
@@ -716,7 +716,7 @@
     '</div><div class="page-slider" style="position:absolute;top:315px;left:81px;width:862px;height:386px;outline-offset:4px;outline: #d7b39d solid 1px;">'+
     '<div class="page-slider__container"></div><div class="page-slider__pagination"></div></div><div class="page__map" onclick="javascript:App.hideMap();">'+
     '<div class="page__map-container"><div class="closebut" onclick="javascript:App.hideMap();"></div>'+
-    '<iframe src="geo/16.html" width="1024" height="768" /></div></div></div>');
+    '<iframe src="" src_cach="geo/16.html" width="1024" height="768" /></div></div></div>');
     $templateCache.put("page160.html", '<div class="page" id="page160"> <div class="glava nameGlava">БЛАГОСЛОВЕННАЯ СТРАНА</div>'+
     ' <div class="page-slider" style="position:absolute;top:87px;left:534px;width:417px;height:447px;outline-offset:4px;outline: #d7b39d solid 1px;">'+
     ' <div class="page-slider__container"></div></div><div class="text2col"><div style="text-align:justify;" class="col1"> Тогда Никон предложил им блюдо превос-'+
@@ -1420,7 +1420,7 @@
     '<div class="page-slider__container"></div></div><div class="page__comment" onclick="javascript:App.hideComment();">'+
     '<div class="commentbk" data-sound=""><div class="page__map-container"><img src="comment/3.png" /></div></div></div>'+
     '<div class="page__map" onclick="javascript:App.hideMap();"><div class="page__map-container">'+
-    '<div class="closebut" onclick="javascript:App.hideMap();"></div><iframe src="geo/3-1.html" width="1024" height="768" /></div></div></div>');
+    '<div class="closebut" onclick="javascript:App.hideMap();"></div><iframe src="" src_cach="geo/3-1.html" width="1024" height="768" /></div></div></div>');
     $templateCache.put("page30.html", '<div class="page" id="page30">'+
     ' <div class="page-slider" style="position:absolute;top:87px;left:81px;width:864px;height:378px;outline-offset:4px;outline: #d7b39d solid 1px;">'+
     ' <div class="page-slider__container"></div></div><div class="text2col"><div style="text-align:justify;padding-top:505px;" class="col1">'+
@@ -1760,7 +1760,7 @@
     ' <span style="letter-spacing:0.3px;">ницу земли казаков и прибыли на берег</span></div></div>'+
     ' <div style="text-align:justify;padding-top:204px;" class="col2"> глубокой реки, называемой Сейм, которая  составляет предел земли московской.</div></div>'+
     ' <div class="page__map" onclick="javascript:App.hideMap();"><div class="page__map-container"><div class="closebut" onclick="javascript:App.hideMap();"></div>'+
-    ' <iframe src="geo/56.html" width="1024" height="768" /></div></div></div>');
+    ' <iframe src="" src_cach="geo/56.html" width="1024" height="768" /></div></div></div>');
     $templateCache.put("page57.html", '<div class="page" id="page57"><div class="glava nameGlava">ВЕЛИКОРОССИЯ</div>'+
     ' <div class="page-slider" style="position:absolute;left:577px;width:447px;height:768px;outline-offset:4px;outline: #d7b39d solid 1px;">'+
     ' <div class="page-slider__container"></div></div><div class="text1col-left"> Вместе с воеводой, после торжественной'+
@@ -1786,7 +1786,7 @@
     ' <span style="letter-spacing:-0.3px;word-spacing:-1px;">месяцев, употребляя всевозможные ухищре-</span>'+
     ' ния, были совершенно не в состоянии взять его и вернулись разбитые. О, как же велико теперь их сокрушение о нём!</div>'+
     ' <div style="text-align:justify;" class="col2"></div></div><div class="page__map" onclick="javascript:App.hideMap();">'+
-    ' <div class="page__map-container"><div class="closebut" onclick="javascript:App.hideMap();"></div><iframe src="geo/58.html" width="1024" height="768"/></div></div></div>');
+    ' <div class="page__map-container"><div class="closebut" onclick="javascript:App.hideMap();"></div><iframe src="" src_cach="geo/58.html" width="1024" height="768"/></div></div></div>');
     $templateCache.put("page59.html", '<div class="page" id="page59">'+
     '<div class="glava nameGlava" >ВЕЛИКОРОССИЯ</div>'+
     '<div class="page-slider" style="position:absolute;top:87px;left:81px;width:417px;height:586px;outline-offset:4px;outline: #d7b39d solid 1px;">'+
@@ -1927,7 +1927,7 @@
     ' <span style="letter-spacing:-0.3px;word-spacing:-1px;">Кипрский архиепископ при въезде в Россию</span>'+
     ' пытался выдать себя за патриарха, желая таким нечестным путём придать своему имени больше величия. </div></div>'+
     '  <div class="page__map" onclick="javascript:App.hideMap();"><div class="page__map-container"><div class="closebut" onclick="javascript:App.hideMap();"></div>'+
-    ' <iframe src="geo/68.html" width="1024" height="768" /></div></div></div>');
+    ' <iframe src="" src_cach="geo/68.html" width="1024" height="768" /></div></div></div>');
     $templateCache.put("page69.html", '<div class="page" id="page69"><div class="glava nameGlava">ВЕЛИКОРОССИЯ</div>'+
     ' <div class="text2col"><div style="text-align:justify;" class="col1"> Но воевода Путивля сказал ему: «Подожди, в течении шестисот лет, с тех пор как мы'+
     ' <span style="letter-spacing:-0.3px;word-spacing:-1px;">сделались христианами, мы ни разу не слы-</span>'+
@@ -2001,7 +2001,7 @@
     ' <span style="letter-spacing:-0.3px;word-spacing:-1px;">объездных путей и вовсе нет. Поэтому, ника-</span>'+
     ' <span style="letter-spacing:-0.3px;word-spacing:-1px;"> кому шпиону, хотя бы он был из туземцев, со-</span> вершенно невозможно проникнуть.</div></div>'+
     ' <div class="page__map" onclick="javascript:App.hideMap();"> <div class="page__map-container"><div class="closebut" onclick="javascript:App.hideMap();"></div>'+
-    ' <iframe src="geo/73.html" width="1024" height="768" /></div></div></div>');
+    ' <iframe src="" src_cach="geo/73.html" width="1024" height="768" /></div></div></div>');
     $templateCache.put("page74.html", '<div class="page" id="page74">'+
     '<div class="glava nameGlava">ВЕЛИКОРОССИЯ</div>'+
     '<div class="page-slider" style="position:absolute;top:87px;left:81px;width:410px;height:586px;outline-offset:4px;outline: #d7b39d solid 1px;">'+
@@ -2184,7 +2184,7 @@
     ' нее его общества. Я непрестанно питался пищей его оживляющих слов и утолял жа- жду водой его освежающих наставлений,'+
     ' подчиняясь ему во всём и следуя за ним безотлучно, где бы он ни оказался.</div>'+
     '<div class="page__map" onclick="javascript:App.hideMap();"><div class="page__map-container">'+
-    '<div class="closebut" onclick="javascript:App.hideMap();"></div><iframe src="geo/9-1.html" width="1024" height="768" /></div></div></div>');
+    '<div class="closebut" onclick="javascript:App.hideMap();"></div><iframe src="" src_cach="geo/9-1.html" width="1024" height="768" /></div></div></div>');
     $templateCache.put("page90.html", '<div class="page" id="page90"> <div class="glava nameGlava">БЕЛЫЙ ЦАРЬ И ПАТРИАРХ</div>'+
     ' <div class="page-slider" style="position:absolute;left:577px;width:447px;height:768px;outline-offset:4px;outline: #d7b39d solid 1px;">'+
     ' <div class="page-slider__container"></div> </div> <div class="text1col-left"> Тогда как прежде всякий начальник мона-'+
@@ -2231,7 +2231,7 @@
     ' <div class="page-slider page-slider_type_constant"><div class="page-slider__container"></div>'+
     ' <div class="page-slider__pagination"></div> </div>'+
     ' <div class="page__map" onclick="javascript:App.hideMap();"><div class="page__map-container">'+
-    ' <div class="closebut" onclick="javascript:App.hideMap();"></div><iframe src="geo/94.html" width="1024" height="768"/></div></div></div>');
+    ' <div class="closebut" onclick="javascript:App.hideMap();"></div><iframe src="" src_cach="geo/94.html" width="1024" height="768"/></div></div></div>');
     $templateCache.put("page95.html", '<div class="page" id="page95"> <div class="glava nameGlava">БЕЛЫЙ ЦАРЬ И ПАТРИАРХ</div>'+
     ' <div class="text2col"> <div style="text-align:justify; padding-right: 40px;" class="col1"> В Москве проживает немало купцов из нем- цев, шведов и англичан,'+
     ' с семействами и детьми. Прежде они обитали внутри сто-'+

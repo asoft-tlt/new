@@ -229,6 +229,7 @@ PageSlider.prototype = {
     } else {
       App.hideAndStopAudio();
     }
+
   },
 
   reset: function () {
