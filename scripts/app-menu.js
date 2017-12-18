@@ -463,10 +463,10 @@ window.App = {
                 page.slider && page.slider.init();
 
                 if (page.sounds && page.sounds.length) {
-                    setTimeout(function () {
-                        App.showAndPlayAudio(page.sounds, {id: page.id});
+                    //setTimeout(function () {
 
-                    }, 0);
+                        App.showAndPlayAudio(page.sounds, {id: page.id});
+                    //}, 0);
                 }
                 // Add Handler to Article Link
                 $(this.slide).on('click', '.article-link', this.showArticle.bind(this));
@@ -719,7 +719,7 @@ window.App = {
 
         //console.log(audio);
         //console.log(params);
-      /*  audio && audio.length && audio.forEach(function (sound) {
+      audio && audio.length && audio.forEach(function (sound) {
             if (sound.title === undefined) {
                 sound.title = '';
             }
@@ -746,21 +746,22 @@ window.App = {
         // refresh playlist
         this.playList._refresh(true);
         // select first item
-        this.playList.play(0);
-
+        this.isPlayingPromice=this.playList.play(0);
+        console.log(this.isPlayingPromice);
         $(this.options.circlePlayer.cssSelector).addClass('audio-player_show_yes');
 
         this.isPlaying = true;
       }else{
          App.hideAndStopAudio();
-      }*/
+      }
+      files = null;
     },
 
     hideAndStopAudio: function () {
-      /*  if (!this.circlePlayer.player || !this.isPlaying) return;
+     if (!this.circlePlayer.player || !this.isPlaying) return;
         this.circlePlayer.player.jPlayer('pause').hide();
         $(this.options.circlePlayer.cssSelector).removeClass('audio-player_show_yes');
-        this.isPlaying = false;*/
+        this.isPlaying = false;
     },
 
     showGlobe: function () {
@@ -876,6 +877,11 @@ window.App = {
 
             this.isPlaying = true;
         }
+        commentsound=null;
+        pathsound=null;
+        namesound=null;
+        nameSount=null;
+        path=null;
         /*--------------*/
 
         /*    var $el = $(el.currentTarget),
@@ -946,6 +952,9 @@ window.App = {
                 imageTitle=null;
             }
         }
+        _this=null;
+        el=null;
+        sounds=null;
         return false;
     },
 

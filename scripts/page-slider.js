@@ -161,7 +161,7 @@ PageSlider.prototype = {
         .css({ 'visibility': 'hidden' })
         .off('webkitTransitionEnd');
       // Show Audio Player
-      if (sliderInfo.sounds && sliderInfo.sounds.length) {
+      if (sliderInfo.sounds && sliderInfo.sounds.length && sliderInfo.sounds!==null) {
         App.showAndPlayAudio(sliderInfo.sounds, { id: _this.options.id });
       }else {
         App.hideAndStopAudio();
