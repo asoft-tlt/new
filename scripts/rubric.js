@@ -190,7 +190,7 @@ if((typeof(App.Rubric.images[slider.activeIndex].sounds)!='undefined') && (App.R
      	 }
 	   // this.playList.jSelect.hide();
 	    // set new playlist
-      App.showAndPlayAudio(commentsound);
+      App.showAndPlayAudio(App.Rubric.images[slider.activeIndex].sounds, {id:'7-1'});
 	  //  App.playList._initPlaylist(commentsound);
 	    // refresh playlist
 	  //  App.playList._refresh(true);

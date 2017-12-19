@@ -737,7 +737,6 @@ window.App = {
       if (sound.mp3 != undefined) {
         if (htmlNames == '') {
           files = App.getAudioPath(params.id, sound.mp3);
-
           htmlNames = '<li class="jp-playlist-current"><a class="jp-playlist-item jp-playlist-current" num="0" src="' + files + '">' + sound.title + '</a></li>';
         } else {
           htmlNames = htmlNames + '<li class="jp-playlist-current"><a class="jp-playlist-item"  num="' + i + '"  src="' + App.getAudioPath(params.id, sound.mp3) + '">' + sound.title + '</a></li>';
@@ -764,9 +763,10 @@ window.App = {
     if (this.circlePlayerPromise !== undefined) {
       this.circlePlayerPromise.then(_ => {
         this.circlePlayerPromise = this.circlePlayer.get(0).pause();
-      //  this.circlePlayerPromise = undefined;
+        this.circlePlayerPromise = undefined;
       }).catch(e => {
         //console.log('no sound playNewAudio');
+        this.circlePlayerPromise = undefined;
       });
     }
     if (src && src.length > 0) {
@@ -774,7 +774,8 @@ window.App = {
       if (this.circlePlayerPromise !== undefined) {
             this.circlePlayerPromise.then(_ => {
       this.circlePlayerPromise = this.circlePlayer.get(0).play();
-    });}else{
+    });
+  }else{
       this.circlePlayerPromise = this.circlePlayer.get(0).play();
     }
       $(this.options.circlePlayer.cssSelector).addClass('audio-player_show_yes');
@@ -791,8 +792,6 @@ window.App = {
     $(item.currentTarget).find('.jp-playlist-item').addClass('jp-playlist-current');
     var num = $(aT).attr('num') * 30;
     $(item.currentTarget).parent().css('transform', 'translate3d(0px, -' + num + 'px, 0px)');
-
-
     aT = null;
     num = null;
   },
@@ -808,6 +807,7 @@ window.App = {
         $('.cp-pause').hide();
       }).catch(e => {
         console.log('no sound hide');
+        $(this.options.circlePlayer.cssSelector).removeClass('audio-player_show_yes');
       });
     } else {
       $(this.options.circlePlayer.cssSelector).removeClass('audio-player_show_yes');

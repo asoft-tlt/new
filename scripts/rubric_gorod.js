@@ -16,13 +16,13 @@ App.RubricGorod = {
     this.$final.length || this.createFinalScreen();
 
     this.$final.find('.rubric__final-message').on('click', this.showRubric.bind(this));
-    
+
     this.swipers = [];
-    
+
     this.swiper = null;
-    
+
     this.swiperOptions = null;
-    
+
     this.$thumbs = this.$el.find('.rubric__thumbs');
 
     this.state = 'init';
@@ -89,16 +89,16 @@ var counts=0;
     this.imagesrussia.forEach(function(item, index) {
       var imagePath = App.getImagePath(_this.id, 'rubrics') + '/thumb/russia/' + item.thumb,
       slideEl = $('<img src="' + imagePath + '" />').addClass('rubric_thumb');
-      slideEl.click(_this.showSlider.bind(_this, counts, index));      
+      slideEl.click(_this.showSlider.bind(_this, counts, index));
       slideEl.appendTo(thumbspagerussia);
       counts=counts+item.image[1];
     });
-   
+
     var tdiv=$('<div/>').addClass('rubric__thumd-navigation').addClass('is-opened');
-    var r=$('<div/>').addClass('russia');    
+    var r=$('<div/>').addClass('russia');
     r.click(_this.showRubricPage.bind(_this, 'russia'));
     r.appendTo(tdiv);
-    var u=$('<div/>').addClass('ussr');    
+    var u=$('<div/>').addClass('ussr');
     u.click(_this.showRubricPage.bind(_this, 'sssr'));
     u.appendTo(tdiv);
     tdiv.appendTo(_this.$thumbs);
@@ -113,38 +113,41 @@ var counts=0;
            counts++;
         var slide = $swiper.createSlide('');
         slide.setData('rubric', item.image[0]);
-        slide.append(); 
+        slide.append();
        var islast='';
             if(i==item.image[1]){islast='last';}
-        var imagePath = App.getImagePath(_this.id, 'rubrics') + '/full/sssr/' + item.image[0] + '_' +i+ '.jpg',
-        slideEl = $('<img src="' + imagePath + '" idimgrazdel="'+index+'" mp3num="'+i+'" name="'+islast+'" />');
-        slideEl.appendTo(slide);        
+        var imagePath = App.getImagePath(_this.id, 'rubrics') + '/full/sssr/' + item.image[0] + '_' +i+ '.jpg';
+        //$('<img />').appendTo(slide).attr('src', imagePath).attr('idimgrazdel', index).attr('mp3num', i).attr('name', islast);
+        var  slideEl = $('<img src="' + imagePath + '" idimgrazdel="'+index+'" mp3num="'+i+'" name="'+islast+'" />');
+        slideEl.appendTo(slide);
+         var infpath =  App.getImagePath(_this.id, 'rubrics') + '/inf/' +  item.image[0] + '_' +i+ '.png';
+       $('<div/>').addClass('inf').appendTo(slide).css('background-image','url("'+infpath+'")').click(function(){$('.inf').toggle();return false;});
+       $('<div/>').addClass('ico').appendTo(slide).click(function(){$('.inf').toggle();return false;});
+        }
+        imagePath=null;
+        slideEl=null;
+    });
+
+
+       this.imagesrussia.forEach(function(item, index) {
+       for(var i=1; i <= item.image[1]; i++){
+           counts++;
+        var slide = $swiper.createSlide('');
+        slide.setData('rubric', item.image[0]);
+        slide.append();
+       var islast='';
+            if(i==item.image[1]){islast='last';}
+        var imagePath = App.getImagePath(_this.id, 'rubrics') + '/full/russia/' + item.image[0] + '_' +i+ '.jpg',
+        slideEl = $('<img src="' + imagePath + '" idimgrazdel="'+index+'"  mp3num="'+i+'"  name="'+islast+'"/>');
+        slideEl.appendTo(slide);
          var infpath =  App.getImagePath(_this.id, 'rubrics') + '/inf/' +  item.image[0] + '_' +i+ '.png';
        $('<div/>').addClass('inf').appendTo(slide).css('background-image','url("'+infpath+'")').click(function(){$('.inf').toggle();return false;});
        $('<div/>').addClass('ico').appendTo(slide).click(function(){$('.inf').toggle();return false;});
         }
     });
 
-      
-       this.imagesrussia.forEach(function(item, index) {
-       for(var i=1; i <= item.image[1]; i++){
-           counts++;
-        var slide = $swiper.createSlide('');
-        slide.setData('rubric', item.image[0]);
-        slide.append(); 
-       var islast='';
-            if(i==item.image[1]){islast='last';}
-        var imagePath = App.getImagePath(_this.id, 'rubrics') + '/full/russia/' + item.image[0] + '_' +i+ '.jpg',
-        slideEl = $('<img src="' + imagePath + '" idimgrazdel="'+index+'"  mp3num="'+i+'"  name="'+islast+'"/>');
-        slideEl.appendTo(slide);        
-         var infpath =  App.getImagePath(_this.id, 'rubrics') + '/inf/' +  item.image[0] + '_' +i+ '.png';
-       $('<div/>').addClass('inf').appendTo(slide).css('background-image','url("'+infpath+'")').click(function(){$('.inf').toggle();return false;});
-       $('<div/>').addClass('ico').appendTo(slide).click(function(){$('.inf').toggle();return false;});
-        }
-    });   
-      
-      
-    
+
+
   },
 
   initSlider: function () {
@@ -165,15 +168,15 @@ var counts=0;
       onSlideChangeStart: this.process.bind(this),
       onSlideClick: this.closeSlider.bind(this),
       onTouchEnd: function () {
-         
+
         var lastSlideX = _this.swiper.slidesGrid[_this.swiper.slidesGrid.length - 1];
-        if (_this.swiper.positions.current <= -lastSlideX && _this.swiper.isMoved){   
-        
+        if (_this.swiper.positions.current <= -lastSlideX && _this.swiper.isMoved){
+
           _this.options.onNext && _this.options.onNext.call(_this);
         } else if (_this.swiper.positions.current > 0) {
            _this.options.onPrev && _this.options.onPrev.call(_this);
         }
-            
+
       }
     });
     this.createNodes();
@@ -188,17 +191,17 @@ var counts=0;
     var
       _this = this,
       slider = this.swiper;
-  
-    var t = $('.rubric__slide').eq(slider.previousIndex).find('img').attr('name');  
+
+    var t = $('.rubric__slide').eq(slider.previousIndex).find('img').attr('name');
 //    if(t==='last'){this.closeSlider();}
     var slide = this.activeSlide;
     var imgnumrazdel=$(this.activeSlide).find('img').eq(0).attr('idimgrazdel');
 	 var mp3num=$(this.activeSlide).find('img').eq(0).attr('mp3num');
     //alert(razdel);
-    this.removeBindings(slide);    
-    this.activeSlide = slider.getSlide(slider.activeIndex); 
+    this.removeBindings(slide);
+    this.activeSlide = slider.getSlide(slider.activeIndex);
 	this.showAudio(imgnumrazdel, mp3num);
-     
+
     this.addBindings();
   },
 
@@ -224,14 +227,14 @@ var counts=0;
 
   },
   showRubricPage: function (id) {
-      var  delid='russia';   
+      var  delid='russia';
       if(id==='russia'){
          delid='sssr';
       }
 	  this.openrazdel=id;
        this.$el.find('.rubric__thumd-page-' + delid).addClass('is-opened');
        this.$el.find('.rubric__thumd-page-' + id).removeClass('is-opened');
-    
+
   },
   showSlider: function (index, t) {
     if (index === 0) {
@@ -300,7 +303,7 @@ var counts=0;
 		   });
 
 			// set new playlist
-		
+
 			App.playList._initPlaylist(commentsound);
 			// refresh playlist
 			App.playList._refresh(true);
@@ -311,7 +314,7 @@ var counts=0;
 
 			App.isPlaying = true;
 			this.pleernow=slideindex;
-	
+
 		 }
 		}else{
 		App.isPlaying = false;
@@ -323,10 +326,10 @@ var counts=0;
 		 App.isPlaying = false;
 		   App.playList.pause();
 			$(App.options.circlePlayer.cssSelector).removeClass('audio-player_show_yes');
-			this.pleernow=-1;  
+			this.pleernow=-1;
 	}
 
-	
+
   }
 
 };
