@@ -31,7 +31,9 @@ window.App.sections = [
                             top: '0px'
                         },
                         sounds: [
-                            {title: '', mp3: '2.1.mp3'}
+                            {title: 'Антиохия на Оронте', mp3: '2.1.mp3'},
+                          /*  {title: 'охия на Оронте2', mp3: '2.2.mp3'},
+                            {title: 'Оронте3 Антиохия на ', mp3: '2.3.mp3'},*/
                         ],
                         map: 'true'
                     },

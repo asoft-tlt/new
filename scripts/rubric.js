@@ -190,20 +190,22 @@ if((typeof(App.Rubric.images[slider.activeIndex].sounds)!='undefined') && (App.R
      	 }
 	   // this.playList.jSelect.hide();
 	    // set new playlist
-	    App.playList._initPlaylist(commentsound);
+      App.showAndPlayAudio(commentsound);
+	  //  App.playList._initPlaylist(commentsound);
 	    // refresh playlist
-	    App.playList._refresh(true);
+	  //  App.playList._refresh(true);
 	    // select first item
-	    App.playList.play(0);
+	   // App.playList.play(0);
 
-	    $(App.options.circlePlayer.cssSelector).addClass('audio-player_show_yes');
+	   // $(App.options.circlePlayer.cssSelector).addClass('audio-player_show_yes');
 
-	    App.isPlaying = true;
+	    //App.isPlaying = true;
 
 }else{
-	   App.isPlaying = false;
-	   App.playList.pause();
-	    $(App.options.circlePlayer.cssSelector).removeClass('audio-player_show_yes');
+  App.hideAndStopAudio();
+	 //  App.isPlaying = false;
+	  // App.playList.pause();
+	  //  $(App.options.circlePlayer.cssSelector).removeClass('audio-player_show_yes');
 }
 //закончили вставку плеера
     this.activeSlide = slider.getSlide(slider.activeIndex);
