@@ -4,8 +4,8 @@ window.App || (window.App = {});
  * Config for pages
  */
 window.App.sections = [
- {
-      id: 1,
+  /*  {
+   id: 1,
         name: 'Predislovie',
         pages: [
             {
@@ -31,9 +31,7 @@ window.App.sections = [
                             top: '0px'
                         },
                         sounds: [
-                            {title: 'Антиохия на Оронте', mp3: '2.1.mp3'},
-                          /*  {title: 'охия на Оронте2', mp3: '2.2.mp3'},
-                            {title: 'Оронте3 Антиохия на ', mp3: '2.3.mp3'},*/
+                            {title: 'Антиохия на Оронте', mp3: '2.1.mp3'}
                         ],
                         map: 'true'
                     },
@@ -1296,7 +1294,7 @@ window.App.sections = [
                 id: 58,
                 type: 'page',
                 template: 'page58.html',
-              /*  map: 'true',*/
+              //  map: 'true',
                 slides: [
                     {
                         image: '58.jpg',
@@ -1922,7 +1920,7 @@ window.App.sections = [
                 id: 94,
                 type: 'page',
                 template: 'page94.html',
-                /*map: 'true',*/
+              // map: 'true',
                 slides: [
                     {
                         image: '94_1.jpg',
@@ -2420,7 +2418,7 @@ window.App.sections = [
                 type: 'rubric_raskol'
             }
         ]
-    },
+    },*/
     {
         id: 6,
         name: 'Glava4',
@@ -2430,7 +2428,7 @@ window.App.sections = [
           //       type: 'video',
           //       video: 'vstup.mp4'
           //   },
-            {
+          /*  {
                 id: 127,
                 type: 'page',
                 template: 'page127.html',
@@ -3110,7 +3108,7 @@ window.App.sections = [
           //       type: 'video',
           //       video: '47.mp4'
           //
-          //   },
+          //   },*/
             {
                 id: '166',
                 type: 'page',
@@ -3310,7 +3308,7 @@ window.App.sections = [
                         images: [
                             {
                                 thumb: '46.jpg',
-                                image: [46, 26],
+                                image: [46, 1],
                                 sounds: {
                                     2: {title: '', mp3: '3_1.mp3'},
                                     3: {title: '', mp3: '3_1.mp3'},
@@ -3326,14 +3324,14 @@ window.App.sections = [
                             },
                             {
                                 thumb: '48.jpg',
-                                image: [48, 8],
+                                image: [48, 1],
                                 sounds: {
                                     4: {title: '', mp3: '3_1.mp3'}
                                 }
                             },
                             {
                                 thumb: '49.jpg',
-                                image: [49, 7]
+                                image: [49, 1]
 
                             },
                             {
@@ -3350,7 +3348,7 @@ window.App.sections = [
                             },
                             {
                                 thumb: '53.jpg',
-                                image: [53, 3]
+                                image: [53, 1]
                             },
                             {
                                 thumb: '54.jpg',

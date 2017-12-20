@@ -30,9 +30,9 @@ App.RubricGorod = {
     this.imagessssr = options.sssr.images;
     this.imagesrussia = options.russia.images;
     this.showAnimationScreen();
-	this.openrazdel='russia';
+	  this.openrazdel='russia';
     this.initThumbs();
-	this.pleernow=-1;
+	  this.pleernow=-1;
     return this;
   },
 
@@ -73,7 +73,7 @@ App.RubricGorod = {
   initThumbs: function() {
     var _this = this;
     // create nodes
-var counts=0;
+    var counts=0;
 
     var thumbspagesssr = $('<div/>').addClass('rubric__thumd-page-sssr').addClass('is-opened');
     thumbspagesssr.appendTo(_this.$thumbs);
@@ -110,22 +110,19 @@ var counts=0;
     var counts=0;
     this.imagessssr.forEach(function(item, index) {
        for(var i=1; i <= item.image[1]; i++){
-           counts++;
+        counts++;
         var slide = $swiper.createSlide('');
         slide.setData('rubric', item.image[0]);
         slide.append();
        var islast='';
             if(i==item.image[1]){islast='last';}
         var imagePath = App.getImagePath(_this.id, 'rubrics') + '/full/sssr/' + item.image[0] + '_' +i+ '.jpg';
-        //$('<img />').appendTo(slide).attr('src', imagePath).attr('idimgrazdel', index).attr('mp3num', i).attr('name', islast);
+      //  $('<img />').appendTo(slide).attr('src', imagePath).attr('idimgrazdel', index).attr('mp3num', i).attr('name', islast);
         var  slideEl = $('<img src="' + imagePath + '" idimgrazdel="'+index+'" mp3num="'+i+'" name="'+islast+'" />');
         slideEl.appendTo(slide);
-         var infpath =  App.getImagePath(_this.id, 'rubrics') + '/inf/' +  item.image[0] + '_' +i+ '.png';
-       $('<div/>').addClass('inf').appendTo(slide).css('background-image','url("'+infpath+'")').click(function(){$('.inf').toggle();return false;});
-       $('<div/>').addClass('ico').appendTo(slide).click(function(){$('.inf').toggle();return false;});
-        }
-        imagePath=null;
-        slideEl=null;
+       var imagePath =  App.getImagePath(_this.id, 'rubrics') + '/inf/' +  item.image[0] + '_' +i+ '.png';
+       $('<div/>').addClass('ico').attr('src', imagePath).appendTo(slide).on('click', _this.showInfo.bind(this));
+      }
     });
 
 
@@ -140,14 +137,18 @@ var counts=0;
         var imagePath = App.getImagePath(_this.id, 'rubrics') + '/full/russia/' + item.image[0] + '_' +i+ '.jpg',
         slideEl = $('<img src="' + imagePath + '" idimgrazdel="'+index+'"  mp3num="'+i+'"  name="'+islast+'"/>');
         slideEl.appendTo(slide);
-         var infpath =  App.getImagePath(_this.id, 'rubrics') + '/inf/' +  item.image[0] + '_' +i+ '.png';
-       $('<div/>').addClass('inf').appendTo(slide).css('background-image','url("'+infpath+'")').click(function(){$('.inf').toggle();return false;});
-       $('<div/>').addClass('ico').appendTo(slide).click(function(){$('.inf').toggle();return false;});
+         var imagePath =  App.getImagePath(_this.id, 'rubrics') + '/inf/' +  item.image[0] + '_' +i+ '.png';
+      // $('<div/>').addClass('inf').appendTo(slide).css('background-image','url("'+infpath+'")').click(function(){$('.inf').toggle();return false;});
+       $('<div/>').addClass('ico').appendTo(slide).attr('src', imagePath).on('click', _this.showInfo.bind(this));
+       //click(function(){$('.inf').toggle();return false;});
         }
     });
+    $('<div/>').addClass('inf').appendTo(this.$thumbs).click(function(){$('.inf').hide();return false;});
 
-
-
+    slide=null;
+    imagePath=null;
+    slideEl=null;
+    counts=null;
   },
 
   initSlider: function () {
@@ -181,6 +182,7 @@ var counts=0;
     });
     this.createNodes();
     this.process();
+
   },
 
   /**
@@ -203,6 +205,11 @@ var counts=0;
 	this.showAudio(imgnumrazdel, mp3num);
 
     this.addBindings();
+      _this=null;
+      slider=null;
+      slide=null;
+      imgnumrazdel=null;
+      mp3num=null;
   },
 
   removeBindings: function(slide) {
@@ -220,11 +227,11 @@ var counts=0;
   closeSlider: function () {
     $(this.swiper.wrapper).removeClass('is-opened');
      $('.rubric__thumd-navigation').addClass('is-opened');
-	 App.isPlaying = false;
+	/* App.isPlaying = false;
 	 App.playList.pause();
 	 $(App.options.circlePlayer.cssSelector).removeClass('audio-player_show_yes');
-	 this.pleernow=-1;
-
+	 this.pleernow=-1;*/
+   App.hideAndStopAudio();
   },
   showRubricPage: function (id) {
       var  delid='russia';
@@ -234,7 +241,7 @@ var counts=0;
 	  this.openrazdel=id;
        this.$el.find('.rubric__thumd-page-' + delid).addClass('is-opened');
        this.$el.find('.rubric__thumd-page-' + id).removeClass('is-opened');
-
+       delid=null;
   },
   showSlider: function (index, t) {
     if (index === 0) {
@@ -245,7 +252,11 @@ var counts=0;
     $('.rubric__thumd-navigation').removeClass('is-opened');
     $(this.swiper.wrapper).addClass('is-opened');
   },
-
+  showInfo: function(item){
+    $('.inf').css('background-image','url("'+ $(item.currentTarget).attr('src')+'")');
+    $('.inf').show();
+    return false;
+  },
 
   showRubric: function () {
     if (!this.swiper || this.state != 'inited') return;
@@ -291,9 +302,13 @@ var counts=0;
   },
  showAudio: function(slideindex, mp3index){
 	var dataRubric=App.RubricGorod.options[this.openrazdel];
-	if((App.RubricGorod.state=='opened') && (typeof(dataRubric.images)!='undefined') && (typeof(dataRubric.images[slideindex])!='undefined') && (typeof(dataRubric.images[slideindex].sounds)!='undefined') ){
-		var sounds=dataRubric.images[slideindex].sounds;
-		if( typeof(sounds[mp3index])!='undefined' ){
+	if((App.RubricGorod.state=='opened')
+   && (typeof(dataRubric.images)!='undefined')
+   && (typeof(dataRubric.images[slideindex])!='undefined')
+   && (typeof(dataRubric.images[slideindex].sounds)!='undefined') ){
+		//var sounds=dataRubric.images[slideindex].sounds;
+    App.showAndPlayAudio(dataRubric.images[slideindex].sounds, App.RubricGorod.options);
+    /*if( typeof(sounds[mp3index])!='undefined' ){
 		 var pathsound=App.getAudioPath(App.RubricGorod.options.id, sounds[mp3index].mp3);
 		 var commentsound = [];
 		 if (pathsound.length > 10) {
@@ -321,15 +336,16 @@ var counts=0;
 		   App.playList.pause();
 			$(App.options.circlePlayer.cssSelector).removeClass('audio-player_show_yes');
 			this.pleernow=-1;
-		}
+		}*/
 	}else{
+      App.hideAndStopAudio();
+    /*
 		 App.isPlaying = false;
 		   App.playList.pause();
 			$(App.options.circlePlayer.cssSelector).removeClass('audio-player_show_yes');
-			this.pleernow=-1;
+			this.pleernow=-1;*/
 	}
-
-
+  dataRubric=null;
   }
 
 };
