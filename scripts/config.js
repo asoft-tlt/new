@@ -4,7 +4,7 @@ window.App || (window.App = {});
  * Config for pages
  */
 window.App.sections = [
-  /*  {
+    {
    id: 1,
         name: 'Predislovie',
         pages: [
@@ -2418,7 +2418,7 @@ window.App.sections = [
                 type: 'rubric_raskol'
             }
         ]
-    },*/
+    },
     {
         id: 6,
         name: 'Glava4',
@@ -2428,7 +2428,7 @@ window.App.sections = [
           //       type: 'video',
           //       video: 'vstup.mp4'
           //   },
-          /*  {
+            {
                 id: 127,
                 type: 'page',
                 template: 'page127.html',
@@ -3108,7 +3108,7 @@ window.App.sections = [
           //       type: 'video',
           //       video: '47.mp4'
           //
-          //   },*/
+          //   },
             {
                 id: '166',
                 type: 'page',
