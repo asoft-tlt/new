@@ -102,6 +102,9 @@ App.RubricGorod = {
     u.click(_this.showRubricPage.bind(_this, 'sssr'));
     u.appendTo(tdiv);
     tdiv.appendTo(_this.$thumbs);
+    r = null;
+    u = null;
+    tdiv = null;
   },
 
   createNodes: function() {
@@ -123,6 +126,10 @@ App.RubricGorod = {
        var imagePath =  App.getImagePath(_this.id, 'rubrics') + '/inf/' +  item.image[0] + '_' +i+ '.png';
        $('<div/>').addClass('ico').attr('src', imagePath).appendTo(slide).on('click', _this.showInfo.bind(this));
       }
+      slide=null;
+      islast=null;
+      imagePath=null;
+      slideEl=null;
     });
 
 
@@ -142,12 +149,13 @@ App.RubricGorod = {
        $('<div/>').addClass('ico').appendTo(slide).attr('src', imagePath).on('click', _this.showInfo.bind(this));
        //click(function(){$('.inf').toggle();return false;});
         }
+        slide=null;
+        islast=null;
+        imagePath=null;
+        slideEl=null;
     });
     $('<div/>').addClass('inf').appendTo(this.$thumbs).click(function(){$('.inf').hide();return false;});
 
-    slide=null;
-    imagePath=null;
-    slideEl=null;
     counts=null;
   },
 
@@ -177,12 +185,12 @@ App.RubricGorod = {
         } else if (_this.swiper.positions.current > 0) {
            _this.options.onPrev && _this.options.onPrev.call(_this);
         }
-
+        lastSlideX=null;
       }
     });
     this.createNodes();
     this.process();
-
+    swiper=null;
   },
 
   /**

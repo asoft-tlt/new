@@ -649,7 +649,7 @@ Pagination Styles
 
 .cp-circle-control {
   cursor: pointer;
-  z-index:0;
+  z-index:10;
 }
 
 .cp-controls .cp-pause {
