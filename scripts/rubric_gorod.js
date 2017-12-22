@@ -80,7 +80,7 @@ App.RubricGorod = {
     this.imagessssr.forEach(function(item, index) {
       var imagePath = App.getImagePath(_this.id, 'rubrics') + '/thumb/sssr/' + item.thumb,
         slideEl = $('<img src="' + imagePath + '" />').addClass('rubric_thumb');
-      slideEl.click(_this.showSlider.bind(_this, counts, index));
+      slideEl.click(_this.showSlider.bind(_this, counts));
       slideEl.appendTo(thumbspagesssr);
       counts=counts+item.image[1];
     });
@@ -89,7 +89,7 @@ App.RubricGorod = {
     this.imagesrussia.forEach(function(item, index) {
       var imagePath = App.getImagePath(_this.id, 'rubrics') + '/thumb/russia/' + item.thumb,
       slideEl = $('<img src="' + imagePath + '" />').addClass('rubric_thumb');
-      slideEl.click(_this.showSlider.bind(_this, counts, index));
+      slideEl.click(_this.showSlider.bind(_this, counts));
       slideEl.appendTo(thumbspagerussia);
       counts=counts+item.image[1];
     });
@@ -251,12 +251,8 @@ App.RubricGorod = {
        this.$el.find('.rubric__thumd-page-' + id).removeClass('is-opened');
        delid=null;
   },
-  showSlider: function (index, t) {
-    if (index === 0) {
-      this.swiper.setWrapperTranslate(0, 0, 0)
-    } else {
-      this.swiper.swipeTo(index);
-    }
+  showSlider: function (index) {
+    this.swiper.setWrapperTranslate(0-index*1024,0, 0)
     $('.rubric__thumd-navigation').removeClass('is-opened');
     $(this.swiper.wrapper).addClass('is-opened');
   },
