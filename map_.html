@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+   <script src="scripts/bower_components/jquery/dist/jquery.min.js"></script>
+      <script src="scripts/plugins/iscroll-zoom.js"></script>
+      <script>
+
+
+
+
+function isPassive() {
+    var supportsPassiveOption = false;
+    try {
+        addEventListener("test", null, Object.defineProperty({}, 'passive', {
+            get: function () {
+                supportsPassiveOption = true;
+            }
+        }));
+    } catch(e) {}
+    return supportsPassiveOption;
+}
+var myScroll;
+
+function loaded () {
+	$('#map').attr('src',window.location.search.replace( '?', ''));
+	myScroll = new IScroll('#wrapper', {
+		zoom: true,
+		scrollX: true,
+		scrollY: true,
+		mouseWheel: true,
+		wheelAction: 'zoom'
+	});
+}
+
+document.addEventListener('touchmove', function (e) { e.preventDefault(); }, isPassive() ? {
+	capture: false,
+	passive: false
+} : false);
+      </script>
+	  <style>
+
+	* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html {
+	-ms-touch-action: none;
+}
+
+body,ul,li {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+body {
+	font-size: 12px;
+	overflow: hidden; /* this is important to prevent the whole page to bounce */
+}
+
+#wrapper {
+	position: absolute;
+	z-index: 1;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	background: #fff;
+	overflow: hidden;
+}
+
+#scroller {
+	position: absolute;
+	z-index: 1;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	width: 1024px;
+  height: 768px;
+	-webkit-transform: translateZ(0);
+	-moz-transform: translateZ(0);
+	-ms-transform: translateZ(0);
+	-o-transform: translateZ(0);
+	transform: translateZ(0);
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-text-size-adjust: none;
+	-moz-text-size-adjust: none;
+	-ms-text-size-adjust: none;
+	-o-text-size-adjust: none;
+	text-size-adjust: none;
+
+}
+
+#scroller img {
+		width: 1024px;
+    height: 768px;
+}
+
+  </style>
+  </head>
+<body onload="loaded()">
+ <div id="wrapper" class="map" style="">
+ <div id="scroller" class="map" style="transition-property: transform; transform-origin: 0px 0px 0px; transform: translate(0px, 0px) scale(1) translateZ(0px); transition-duration: 0ms;"><img  id="map" src=""/></div>
+ </div>
+
+
+
+</body>
+</html>

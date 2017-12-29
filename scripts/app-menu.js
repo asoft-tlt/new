@@ -81,7 +81,7 @@ window.App = {
         this.$article = $('.article');
 
         this.$globe = $(this.options.globeSelector || '.globe');
-
+        this.$menu = $('.menu-icons');
         this.$background = $('.page-background');
         this.backgroundSlider = this.$background.swiper({
             mode: 'horizontal',
@@ -472,6 +472,7 @@ window.App = {
 
                 /**/
                 $(this.slide).on('doubletap', '.page', function () {
+                //$(this.slide).on('tap', '.menu-icons', function () {
                     $(".menu-slide").removeClass("zm");
                     $('.menu-container').toggle()
                 });

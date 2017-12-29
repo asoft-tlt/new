@@ -1,116 +1,73 @@
-<!doctype html>
-<html lang="">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru" lang="ru">
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
-   <script src="scripts/bower_components/jquery/dist/jquery.min.js"></script>
-      <script src="scripts/plugins/iscroll-zoom.js"></script>
-      <script>
+    <title>карта</title>
+    <script src="http://api-maps.yandex.ru/1.1/index.xml" type="text/javascript"></script>
+    <script type="text/javascript">
+        window.onload = function () {
+            var options = {
+                    tileUrlTemplate: "map/%z/tile-%x-%y.jpg",
+                    controls: {
+                        typeControl: false,
+                        miniMap: false,
+                        toolBar: false,
+                        scaleLine: false
+                    },
+                    scrollZoomEnabled: true,
+                    mapCenter: new YMaps.GeoPoint(-46.669921875, 62.3444013487069),
+                    backgroundMapType: YMaps.MapType.NONE,
+                    mapZoom: 5,
+                    maxZoom: 5,
+                    isTransparent: true,
+                    smoothZooming: false,
+                    layerKey: "my#layer",
+                    mapType: {
+                        name: "карта",
+                        textColor: "#000000"
+                    },
+                    copyright: ""
+                },
+                map = new YMaps.Map(document.getElementById("YMapsID")),
+                myData = new YMaps.TileDataSource(options.tileUrlTemplate, options.isTransparent, options.smoothZooming);
 
-
-
-
-function isPassive() {
-    var supportsPassiveOption = false;
-    try {
-        addEventListener("test", null, Object.defineProperty({}, 'passive', {
-            get: function () {
-                supportsPassiveOption = true;
+            myData.getTileUrl = function (tile, zoom) {
+                return this.getTileUrlTemplate().replace(/%x/i, tile.x).replace(/%y/i, tile.y).replace(/%z/i, zoom);
             }
-        }));
-    } catch(e) {}
-    return supportsPassiveOption;
-}
-var myScroll;
 
-function loaded () {
-	$('#map').attr('src',window.location.search.replace( '?', ''));
-	myScroll = new IScroll('#wrapper', {
-		zoom: true,
-		scrollX: true,
-		scrollY: true,
-		mouseWheel: true,
-		wheelAction: 'zoom'
-	});
-}
+            var MyLayer = function () {
+                return new YMaps.Layer(myData);
+            }
+            YMaps.Layers.add(options.layerKey, MyLayer);
 
-document.addEventListener('touchmove', function (e) { e.preventDefault(); }, isPassive() ? {
-	capture: false,
-	passive: false
-} : false);
-      </script>
-	  <style>
+            var mapLayers = options.backgroundMapType ? options.backgroundMapType.getLayers() : [],
+                myMapType = new YMaps.MapType(YMaps.jQuery.merge(mapLayers, [ options.layerKey ]), options.mapType.name, { textColor: options.mapType.textColor });
 
-	* {
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-}
+            map.setCenter(options.mapCenter, options.mapZoom, myMapType);
+            if (options.copyright) {
+                map.addCopyright(options.copyright);
+            }
 
-html {
-	-ms-touch-action: none;
-}
+            if (options.controls.typeControl) {
+                map.addControl(new YMaps.TypeControl([ myMapType, YMaps.MapType.MAP, YMaps.MapType.SATELLITE, YMaps.MapType.HYBRID ], [1, 2, 3]));
+            }
 
-body,ul,li {
-	padding: 0;
-	margin: 0;
-	border: 0;
-}
-
-body {
-	font-size: 12px;
-	overflow: hidden; /* this is important to prevent the whole page to bounce */
-}
-
-#wrapper {
-	position: absolute;
-	z-index: 1;
-	top: 0px;
-	bottom: 0px;
-	left: 0px;
-	right: 0px;
-	background: #fff;
-	overflow: hidden;
-}
-
-#scroller {
-	position: absolute;
-	z-index: 1;
-	-webkit-tap-highlight-color: rgba(0,0,0,0);
-	width: 1024px;
-  height: 768px;
-	-webkit-transform: translateZ(0);
-	-moz-transform: translateZ(0);
-	-ms-transform: translateZ(0);
-	-o-transform: translateZ(0);
-	transform: translateZ(0);
-	-webkit-touch-callout: none;
-	-webkit-user-select: none;
-	-moz-user-select: none;
-	-ms-user-select: none;
-	user-select: none;
-	-webkit-text-size-adjust: none;
-	-moz-text-size-adjust: none;
-	-ms-text-size-adjust: none;
-	-o-text-size-adjust: none;
-	text-size-adjust: none;
-
-}
-
-#scroller img {
-		width: 1024px;
-    height: 768px;
-}
-
-  </style>
-  </head>
-<body onload="loaded()">
- <div id="wrapper" class="map" style="">
- <div id="scroller" class="map" style="transition-property: transform; transform-origin: 0px 0px 0px; transform: translate(0px, 0px) scale(1) translateZ(0px); transition-duration: 0ms;"><img  id="map" src=""/></div>
- </div>
-
-
-
+            if (options.controls.miniMap) {
+                map.addControl(new YMaps.MiniMap());
+            }
+            if (options.controls.toolBar) {
+                map.addControl(new YMaps.ToolBar());
+            }
+            if (options.controls.scaleLine) {
+                map.addControl(new YMaps.ScaleLine());
+            }
+            if (options.scrollZoomEnabled) {
+                map.enableScrollZoom();
+            }
+            map.addControl(new YMaps.Zoom());
+        }
+    </script>
+</head>
+<body style="margin:0px;">
+    <div id="YMapsID" style="width:1024px;height:768px"></div>
 </body>
 </html>

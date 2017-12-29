@@ -83,7 +83,7 @@ window.App.sections = [
                 type: 'page',
                 template: 'page6.html'
             },
-            {
+        /*    {
                 id: '7-1',
                 type: 'rubric',
                 images: [
@@ -169,7 +169,7 @@ window.App.sections = [
                     {"id": "58", "year": 1699},
                     {"id": "59", "year": 1699, sounds: [{title: '', mp3: '59.mp3'}]}
                 ]
-            }
+            }*/
         ]
     },
     {
@@ -697,6 +697,7 @@ window.App.sections = [
                     }
                 ]
             },
+
             {
                 id: 29,
                 type: 'page',
@@ -1155,7 +1156,7 @@ window.App.sections = [
                     }
                 ]
             },
-            {
+          /*  {
                 id: '54-1',
                 type: 'rubric_12',
                 images: [
@@ -1244,7 +1245,7 @@ window.App.sections = [
                         ]
                     }
                 ]
-            }
+            }*/
         ]
     },
     {
@@ -1658,7 +1659,7 @@ window.App.sections = [
                     }
                 ]
             },
-            {
+        /*    {
                 id: '79-1',
                 type: 'rubric_parts',
                 sections: [
@@ -1719,7 +1720,7 @@ window.App.sections = [
                         })
                     }
                 ]
-            }
+            }*/
         ]
     },
    {
@@ -2413,10 +2414,10 @@ window.App.sections = [
                     }
                 ]
             },
-            {
+        /*    {
                 id: '2-1',
                 type: 'rubric_raskol'
-            }
+            }*/
         ]
     },
     {
@@ -3114,7 +3115,7 @@ window.App.sections = [
                 type: 'page',
                 template: 'page167.html'
             },
-
+/*
             {
                 id: '168-1',
                 type: 'rubric_gorod',
@@ -3372,7 +3373,7 @@ window.App.sections = [
                             }
                         ]
                     }
-            },//end rubr
+            },//end rubr */
             {
                 id: 169,
                 type: 'page',
