@@ -832,9 +832,9 @@
     $templateCache.put("page17.html", '<div class="page page_with_slider"><div class="page__column page__column_type_slider page__column_type_fullsized">'+
     ' <div class="page-slider page-slider_type_constant"><div class="page-slider__container"></div><div class="page-slider__pagination"></div></div></div></div>');
     $templateCache.put("page171.html", '<div class="page" id="page171"><div class="glava nameGlava">РОССИЯ ГЛАЗАМИ ЗАПАДА</div>'+
-    ' <div class="page-slider" style="position:absolute;top:87px;left:534px;width:406px;height:575px;outline-offset:4px;outline: #d7b39d solid 1px;">'+
+    ' <div class="page-slider" style="position:absolute;top:92px;left:534px;width:406px;height:575px;outline-offset:4px;outline: #d7b39d solid 1px;">'+
     ' <div class="page-slider__container"></div></div><div class="text2col"><div style="text-align:justify;" class="col1">'+
-    ' <div style="position:absolute;top:68px;left:7px;width:109px;height:260px;background:url(images/letters/v.png) no-repeat; background-size: contain;"></div>'+
+    ' <div style="position:absolute;top:68px;left:25px;width:109px;height:260px;background:url(images/letters/v.png) no-repeat; background-size: contain;"></div>'+
     ' <div style="padding-left:27px;text-align:justify;">XVII столетии, примерно в те же годы,'+
     ' <span style="letter-spacing:-0.3px;word-spacing:-1px;">что и Павел Алеппский, в Россию при-</span>'+
     ' <span style="letter-spacing:-0.3px;word-spacing:-1px;">езжал известный немецкий учёный, се-</span>кретарь и советник посольской миссии'+
@@ -846,7 +846,7 @@
     ' полненная самим автором, – увидела свет 16 лет спустя. Что говорят об этой работе? Из числа изданий XVII века, посвящённых'+
     ' <span style="letter-spacing:-0.3px;word-spacing:-1px;">нашей стране, она считается <span style="font-family:Pancetta Serif Pro Italic;">«самым знаме-</span></span>'+
     ' <span style="letter-spacing:-0.5px;word-spacing:-2px;font-family:Pancetta Serif Pro Italic;">нитым, богатым по содержанию и ценней-</span>'+
-    ' <span style="font-family:Pancetta Serif Pro Italic;">шим источником»</span> для изучения характера, быта и нравов русского народа на излёте эпохи правления царя Михаила Романова.</div>'+
+    '<span style="letter-spacing:-0.3px;word-spacing:-1px;"> <span style="font-family:Pancetta Serif Pro Italic;">шим источником»</span> для изучения характера,</span> быта и нравов русского народа на излёте эпохи правления царя Михаила Романова.</div>'+
     ' <div style="text-align:justify;" class="col2"></div></div></div>');
     $templateCache.put("page172.html", '<div class="page" id="page172"><div class="glava nameGlava">РОССИЯ ГЛАЗАМИ ЗАПАДА</div>'+
     ' <div class="page-slider" style="position:absolute;top:87px;left:534px;width:406px;height:443px;outline-offset:4px;outline: #d7b39d solid 1px;">'+

@@ -252,7 +252,7 @@ App.RubricGorod = {
        delid=null;
   },
   showSlider: function (index) {
-    this.swiper.setWrapperTranslate(0-index*1024,0, 0)
+    this.swiper.setWrapperTranslate(0-index*1024);
     $('.rubric__thumd-navigation').removeClass('is-opened');
     $(this.swiper.wrapper).addClass('is-opened');
   },
