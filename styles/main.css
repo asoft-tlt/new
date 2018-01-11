@@ -1641,14 +1641,16 @@ iframe {
 	background:#fcf4dd;
         border-left: 1px solid #d7b39d;
 }
-
+.page.arka{
+  	background:url(../images/pages/100/100_fon.png) no-repeat transparent;
+}
 .page.arka:after{
 	content:"";
 	position:absolute;
 	width:1024px;
 	height:768px;
 	top:0;left:0;right:0;bottom:0;
-	/*background:url(../images/backgrounds/arka.png) no-repeat;*/
+	background:url(../images/pages/100/100_arka.png) no-repeat transparent;
 }
 
 .holdimage {    overflow: scroll;}

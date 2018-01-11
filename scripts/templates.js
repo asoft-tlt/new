@@ -20,7 +20,7 @@
     ' <span style="letter-spacing:-0.3px;word-spacing:-1px;">носному и благочестивому правителю Але-</span>'+
     ' ксею Михайловичу, славному своей истин- ной верой и правой жизнью.</div>'+
     '<div class="page__comment" onclick="javascript:App.hideComment();"><div class="page__map-container"><img src="comment/10.jpg" /></div></div></div>');
-    $templateCache.put("page100.html", '<div class="page arka"><div class="holdimage"><img src="images/pages/100/100.jpg" /></div>'+
+    $templateCache.put("page100.html", '<div class="page arka"><div class="holdimage"><img src="images/pages/100/slide.png" style="transform: translateY(65px);"/></div>'+
     '<div class="page__map" onclick="javascript:App.hideMap();"><div class="page__map-container"><div class="closebut" onclick="javascript:App.hideMap();"></div>'+
     '<iframe src="" src_cach="geo/100.html" width="1024" height="768" /></div></div></div>');
     $templateCache.put("page101.html", '<div class="page" id="page101">'+

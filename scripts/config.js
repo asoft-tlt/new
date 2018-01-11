@@ -3121,7 +3121,7 @@ window.App.sections = [
                 type: 'rubric_gorod',
                 sssr:
                     {
-                        images: [
+                     images: [
                             {
                                 thumb: '1.jpg',
                                 image: [1, 26]
@@ -3307,7 +3307,7 @@ window.App.sections = [
                 russia:
                     {
                         images: [
-                            {
+                        /*    {
                                 thumb: '46.jpg',
                                 image: [46, 1],
                                 sounds: {
@@ -3370,7 +3370,7 @@ window.App.sections = [
                             {
                                 thumb: '58.jpg',
                                 image: [58, 1]
-                            }
+                            }*/
                         ]
                     }
             },//end rubr */

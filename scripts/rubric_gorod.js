@@ -94,7 +94,7 @@ App.RubricGorod = {
       counts=counts+item.image[1];
     });
 
-    var tdiv=$('<div/>').addClass('rubric__thumd-navigation').addClass('is-opened');
+  /*  var tdiv=$('<div/>').addClass('rubric__thumd-navigation').addClass('is-opened');
     var r=$('<div/>').addClass('russia');
     r.click(_this.showRubricPage.bind(_this, 'russia'));
     r.appendTo(tdiv);
@@ -104,7 +104,7 @@ App.RubricGorod = {
     tdiv.appendTo(_this.$thumbs);
     r = null;
     u = null;
-    tdiv = null;
+    tdiv = null;*/
   },
 
   createNodes: function() {
