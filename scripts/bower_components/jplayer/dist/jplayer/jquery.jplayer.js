@@ -1455,7 +1455,7 @@
 					// Order of the next few commands are important. Change the time and then pause.
 					// Solves a bug in Firefox, where issuing pause 1st causes the media to play from the start. ie., The pause is ignored.
 					if(!$.jPlayer.browser.webkit) { // Chrome crashes if you do this in conjunction with a setMedia command in an ended event handler. ie., The playlist demo.
-						self.htmlElement.media.currentTime = 0; // Safari does not care about this command. ie., It works with or without this line. (Both Safari and Chrome are Webkit.)
+					//	self.htmlElement.media.currentTime = 0; // Safari does not care about this command. ie., It works with or without this line. (Both Safari and Chrome are Webkit.)
 					}
 					self.htmlElement.media.pause(); // Pause otherwise a click on the progress bar will play from that point, when it shouldn't, since it stopped playback.
 					self._updateButtons(false);
@@ -2111,6 +2111,7 @@
 			}
 		},
 		play: function(time) {
+
 			var guiAction = typeof time === "object"; // Flags GUI click events so we know this was not a direct command, but an action taken by the user on the GUI.
 			if(guiAction && this.options.useStateClassSkin && !this.status.paused) {
 				this.pause(time); // The time would be the click event, but passing it over so info is not lost.
@@ -2975,12 +2976,13 @@
 		_html_play: function(time) {
 			var self = this,
 				media = this.htmlElement.media;
-
+//time=media.currentTime;
 			this.androidFix.pause = false; // Cancel the pause fix.
 
 			this._html_load(); // Loads if required and clears any delayed commands.
 
 			// Setup the Android Fix.
+
 			if(this.androidFix.setMedia) {
 				this.androidFix.play = true;
 				this.androidFix.time = time;
@@ -2996,7 +2998,7 @@
 					// !media.seekable is for old HTML5 browsers, like Firefox 3.6.
 					// Checking seekable.length is important for iOS6 to work with setMedia().play(time)
 					if(!media.seekable || typeof media.seekable === "object" && media.seekable.length > 0) {
-						media.currentTime = time;
+						//media.currentTime = time;
 						media.play();
 					} else {
 						throw 1;
@@ -3035,7 +3037,7 @@
 			} else if(!isNaN(time)) {
 				try {
 					if(!media.seekable || typeof media.seekable === "object" && media.seekable.length > 0) {
-						media.currentTime = time;
+						//media.currentTime = time;
 					} else {
 						throw 1;
 					}
@@ -3060,9 +3062,9 @@
 
 			try {
 				if(typeof media.seekable === "object" && media.seekable.length > 0) {
-					media.currentTime = percent * media.seekable.end(media.seekable.length-1) / 100;
+					//media.currentTime = percent * media.seekable.end(media.seekable.length-1) / 100;
 				} else if(media.duration > 0 && !isNaN(media.duration)) {
-					media.currentTime = percent * media.duration / 100;
+				//	media.currentTime = percent * media.duration / 100;
 				} else {
 					throw "e";
 				}
