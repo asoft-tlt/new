@@ -121,14 +121,16 @@ App.RubricGorod = {
             if(i==item.image[1]){islast='last';}
         var imagePath = App.getImagePath(_this.id, 'rubrics') + '/full/sssr/' + item.image[0] + '_' +i+ '.jpg';
       //  $('<img />').appendTo(slide).attr('src', imagePath).attr('idimgrazdel', index).attr('mp3num', i).attr('name', islast);
-        var  slideEl = $('<img src="' + imagePath + '" idimgrazdel="'+index+'" mp3num="'+i+'" name="'+islast+'" />');
+      var imagePathIco =  App.getImagePath(_this.id, 'rubrics') + '/inf/' +  item.image[0] + '_' +i+ '.png';
+        var  slideEl = $('<img src="' + imagePath + '" idimgrazdel="'+index+'" mp3num="'+i+'" ico="'+imagePathIco+'" name="'+islast+'" />');
         slideEl.appendTo(slide);
-       var imagePath =  App.getImagePath(_this.id, 'rubrics') + '/inf/' +  item.image[0] + '_' +i+ '.png';
-       $('<div/>').addClass('ico').attr('src', imagePath).appendTo(slide).on('click', _this.showInfo.bind(this));
+      // var imagePath =  App.getImagePath(_this.id, 'rubrics') + '/inf/' +  item.image[0] + '_' +i+ '.png';
+    //   $('<div/>').addClass('ico').attr('src', imagePath).appendTo(slide).on('click', _this.showInfo.bind(this));
       }
       slide=null;
       islast=null;
       imagePath=null;
+      imagePathIco=null;
       slideEl=null;
     });
 
@@ -154,6 +156,7 @@ App.RubricGorod = {
         imagePath=null;
         slideEl=null;
     });*/
+    $('<div/>').addClass('ico').appendTo(this.$thumbs).on('click', _this.showInfo.bind()).hide();
     $('<div/>').addClass('inf').appendTo(this.$thumbs).click(function(){$('.inf').hide();return false;});
 
     counts=null;
@@ -239,6 +242,7 @@ App.RubricGorod = {
 	 App.playList.pause();
 	 $(App.options.circlePlayer.cssSelector).removeClass('audio-player_show_yes');
 	 this.pleernow=-1;*/
+   $('.ico').hide();
    App.hideAndStopAudio();
   },
   showRubricPage: function (id) {
@@ -253,11 +257,14 @@ App.RubricGorod = {
   },
   showSlider: function (index) {
     this.swiper.swipeTo(index);
+    $('.ico').show();
     $(this.swiper.wrapper).addClass('is-opened');
   },
   showInfo: function(item){
-    $('.inf').css('background-image','url("'+ $(item.currentTarget).attr('src')+'")');
+    var ico=$('.rubric_type_gorod .swiper-slide-active img').eq(0).attr('ico');
+    $('.inf').css('background-image','url("'+ ico+'")');
     $('.inf').show();
+    ico=null;
     return false;
   },
 

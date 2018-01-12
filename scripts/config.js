@@ -8,7 +8,7 @@ window.App.sections = [
  id: 1,
         name: 'Predislovie',
         pages: [
-          {
+            {
                 id: 1,
                 type: 'page',
                 template: 'page1.html'
