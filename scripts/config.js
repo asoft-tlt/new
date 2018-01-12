@@ -8,7 +8,7 @@ window.App.sections = [
  id: 1,
         name: 'Predislovie',
         pages: [
-            {
+          /*  {
                 id: 1,
                 type: 'page',
                 template: 'page1.html'
@@ -2417,7 +2417,7 @@ window.App.sections = [
          {
                 id: '2-1',
                 type: 'rubric_raskol'
-            }
+            }*/
         ]
     },
     {
@@ -2429,7 +2429,7 @@ window.App.sections = [
           //       type: 'video',
           //       video: 'vstup.mp4'
           //   },
-            {
+        /*    {
                 id: 127,
                 type: 'page',
                 template: 'page127.html',
@@ -3109,7 +3109,7 @@ window.App.sections = [
           //       type: 'video',
           //       video: '47.mp4'
           //
-          //   },
+          //   },*/
             {
                 id: '166',
                 type: 'page',
