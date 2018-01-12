@@ -4,7 +4,7 @@ window.App || (window.App = {});
  * Config for pages
  */
 window.App.sections = [
-    {
+   {
  id: 1,
         name: 'Predislovie',
         pages: [
@@ -2424,7 +2424,7 @@ window.App.sections = [
         id: 6,
         name: 'Glava4',
         pages: [
-          //   {
+        //   {
           //       id: 126,
           //       type: 'video',
           //       video: 'vstup.mp4'
@@ -3304,76 +3304,76 @@ window.App.sections = [
                             }
                         ]
                     },
-                russia:
-                    {
-                        images: [
-                        /*    {
-                                thumb: '46.jpg',
-                                image: [46, 1],
-                                sounds: {
-                                    2: {title: '', mp3: '3_1.mp3'},
-                                    3: {title: '', mp3: '3_1.mp3'},
-                                    5: {title: '', mp3: '3_1.mp3'}
-                                }
-                            },
-                            {
-                                thumb: '47.jpg',
-                                image: [47, 1],
-                                sounds: {
-                                    1: {title: '', mp3: '3_2.mp3'}
-                                }
-                            },
-                            {
-                                thumb: '48.jpg',
-                                image: [48, 1],
-                                sounds: {
-                                    4: {title: '', mp3: '3_1.mp3'}
-                                }
-                            },
-                            {
-                                thumb: '49.jpg',
-                                image: [49, 1]
-
-                            },
-                            {
-                                thumb: '50.jpg',
-                                image: [50, 1]
-                            },
-                            {
-                                thumb: '51.jpg',
-                                image: [51, 1]
-                            },
-                            {
-                                thumb: '52.jpg',
-                                image: [52, 1]
-                            },
-                            {
-                                thumb: '53.jpg',
-                                image: [53, 1]
-                            },
-                            {
-                                thumb: '54.jpg',
-                                image: [54, 1]
-                            },
-                            {
-                                thumb: '55.jpg',
-                                image: [55, 1]
-                            },
-                            {
-                                thumb: '56.jpg',
-                                image: [56, 1]
-                            },
-                            {
-                                thumb: '57.jpg',
-                                image: [57, 1]
-                            },
-                            {
-                                thumb: '58.jpg',
-                                image: [58, 1]
-                            }*/
-                        ]
-                    }
-            },//end rubr */
+              //  russia:
+              //      {
+              //          images: [
+                        //     {
+                        //         thumb: '46.jpg',
+                        //         image: [46, 1],
+                        //         sounds: {
+                        //             2: {title: '', mp3: '3_1.mp3'},
+                        //             3: {title: '', mp3: '3_1.mp3'},
+                        //             5: {title: '', mp3: '3_1.mp3'}
+                        //         }
+                        //     },
+                        //     {
+                        //         thumb: '47.jpg',
+                        //         image: [47, 1],
+                        //         sounds: {
+                        //             1: {title: '', mp3: '3_2.mp3'}
+                        //         }
+                        //     },
+                        //     {
+                        //         thumb: '48.jpg',
+                        //         image: [48, 1],
+                        //         sounds: {
+                        //             4: {title: '', mp3: '3_1.mp3'}
+                        //         }
+                        //     },
+                        //     {
+                        //         thumb: '49.jpg',
+                        //         image: [49, 1]
+                        //
+                        //     },
+                        //     {
+                        //         thumb: '50.jpg',
+                        //         image: [50, 1]
+                        //     },
+                        //     {
+                        //         thumb: '51.jpg',
+                        //         image: [51, 1]
+                        //     },
+                        //     {
+                        //         thumb: '52.jpg',
+                        //         image: [52, 1]
+                        //     },
+                        //     {
+                        //         thumb: '53.jpg',
+                        //         image: [53, 1]
+                        //     },
+                        //     {
+                        //         thumb: '54.jpg',
+                        //         image: [54, 1]
+                        //     },
+                        //     {
+                        //         thumb: '55.jpg',
+                        //         image: [55, 1]
+                        //     },
+                        //     {
+                        //         thumb: '56.jpg',
+                        //         image: [56, 1]
+                        //     },
+                        //     {
+                        //         thumb: '57.jpg',
+                        //         image: [57, 1]
+                        //     },
+                        //     {
+                        //         thumb: '58.jpg',
+                        //         image: [58, 1]
+                        //     }
+                      //  ]
+                //    }
+            },//end rubr
             {
                 id: 169,
                 type: 'page',

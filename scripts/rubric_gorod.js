@@ -28,7 +28,7 @@ App.RubricGorod = {
     this.state = 'init';
 
     this.imagessssr = options.sssr.images;
-    this.imagesrussia = options.russia.images;
+  //  this.imagesrussia = options.russia.images;
     this.showAnimationScreen();
 	  this.openrazdel='russia';
     this.initThumbs();
@@ -84,7 +84,7 @@ App.RubricGorod = {
       slideEl.appendTo(thumbspagesssr);
       counts=counts+item.image[1];
     });
-   var thumbspagerussia = $('<div/>').addClass('rubric__thumd-page-russia');
+  /* var thumbspagerussia = $('<div/>').addClass('rubric__thumd-page-russia');
     thumbspagerussia.appendTo(_this.$thumbs);
     this.imagesrussia.forEach(function(item, index) {
       var imagePath = App.getImagePath(_this.id, 'rubrics') + '/thumb/russia/' + item.thumb,
@@ -92,7 +92,7 @@ App.RubricGorod = {
       slideEl.click(_this.showSlider.bind(_this, counts));
       slideEl.appendTo(thumbspagerussia);
       counts=counts+item.image[1];
-    });
+    });*/
 
   /*  var tdiv=$('<div/>').addClass('rubric__thumd-navigation').addClass('is-opened');
     var r=$('<div/>').addClass('russia');
@@ -133,7 +133,7 @@ App.RubricGorod = {
     });
 
 
-       this.imagesrussia.forEach(function(item, index) {
+    /*   this.imagesrussia.forEach(function(item, index) {
        for(var i=1; i <= item.image[1]; i++){
            counts++;
         var slide = $swiper.createSlide('');
@@ -153,7 +153,7 @@ App.RubricGorod = {
         islast=null;
         imagePath=null;
         slideEl=null;
-    });
+    });*/
     $('<div/>').addClass('inf').appendTo(this.$thumbs).click(function(){$('.inf').hide();return false;});
 
     counts=null;
@@ -252,8 +252,7 @@ App.RubricGorod = {
        delid=null;
   },
   showSlider: function (index) {
-    this.swiper.setWrapperTranslate(0-index*1024);
-    $('.rubric__thumd-navigation').removeClass('is-opened');
+    this.swiper.swipeTo(index);
     $(this.swiper.wrapper).addClass('is-opened');
   },
   showInfo: function(item){
@@ -307,6 +306,7 @@ App.RubricGorod = {
  showAudio: function(slideindex, mp3index){
 	var dataRubric=App.RubricGorod.options[this.openrazdel];
 	if((App.RubricGorod.state=='opened')
+   && (typeof(dataRubric)!='undefined')
    && (typeof(dataRubric.images)!='undefined')
    && (typeof(dataRubric.images[slideindex])!='undefined')
    && (typeof(dataRubric.images[slideindex].sounds)!='undefined') ){
