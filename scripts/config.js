@@ -5,7 +5,7 @@ window.App || (window.App = {});
  */
 window.App.sections = [
    {
- id: 1,
+        id: 1,
         name: 'Predislovie',
         pages: [
             {

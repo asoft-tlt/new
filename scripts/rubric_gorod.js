@@ -28,15 +28,15 @@ App.RubricGorod = {
     this.state = 'init';
 
     this.imagessssr = options.sssr.images;
-  //  this.imagesrussia = options.russia.images;
+    //  this.imagesrussia = options.russia.images;
     this.showAnimationScreen();
-	  this.openrazdel='russia';
+    this.openrazdel = 'russia';
     this.initThumbs();
-	  this.pleernow=-1;
+    this.pleernow = -1;
     return this;
   },
 
-  createFinalScreen: function () {
+  createFinalScreen: function() {
 
     var _this = this;
 
@@ -49,7 +49,7 @@ App.RubricGorod = {
     var rightScreen = $('<div/>').addClass('rubric__final-right');
     var messageScreen = $('<div/>').addClass('rubric__final-message');
 
-    messageScreen.on('webkitTransitionEnd', function () {
+    messageScreen.on('webkitTransitionEnd', function() {
       if (_this.state == 'opened') {
         _this.$final.hide();
       }
@@ -62,7 +62,7 @@ App.RubricGorod = {
       .appendTo(this.$el);
   },
 
-  showAnimationScreen: function () {
+  showAnimationScreen: function() {
     var _this = this;
     // set closed
     _this.state = 'inited';
@@ -73,103 +73,60 @@ App.RubricGorod = {
   initThumbs: function() {
     var _this = this;
     // create nodes
-    var counts=0;
 
+    if($('.rubric__thumd-page-sssr').length > 0)  return;
     var thumbspagesssr = $('<div/>').addClass('rubric__thumd-page-sssr').addClass('is-opened');
     thumbspagesssr.appendTo(_this.$thumbs);
     this.imagessssr.forEach(function(item, index) {
       var imagePath = App.getImagePath(_this.id, 'rubrics') + '/thumb/sssr/' + item.thumb,
         slideEl = $('<img src="' + imagePath + '" />').addClass('rubric_thumb');
-      slideEl.click(_this.showSlider.bind(_this, counts));
+      slideEl.click(_this.showSlider.bind(_this, index));
       slideEl.appendTo(thumbspagesssr);
-      counts=counts+item.image[1];
     });
-  /* var thumbspagerussia = $('<div/>').addClass('rubric__thumd-page-russia');
-    thumbspagerussia.appendTo(_this.$thumbs);
-    this.imagesrussia.forEach(function(item, index) {
-      var imagePath = App.getImagePath(_this.id, 'rubrics') + '/thumb/russia/' + item.thumb,
-      slideEl = $('<img src="' + imagePath + '" />').addClass('rubric_thumb');
-      slideEl.click(_this.showSlider.bind(_this, counts));
-      slideEl.appendTo(thumbspagerussia);
-      counts=counts+item.image[1];
-    });*/
 
-  /*  var tdiv=$('<div/>').addClass('rubric__thumd-navigation').addClass('is-opened');
-    var r=$('<div/>').addClass('russia');
-    r.click(_this.showRubricPage.bind(_this, 'russia'));
-    r.appendTo(tdiv);
-    var u=$('<div/>').addClass('ussr');
-    u.click(_this.showRubricPage.bind(_this, 'sssr'));
-    u.appendTo(tdiv);
-    tdiv.appendTo(_this.$thumbs);
-    r = null;
-    u = null;
-    tdiv = null;*/
+    $('<div/>').addClass('ico').appendTo(_this.$thumbs).on('click', _this.showInfo.bind()).hide();
+    $('<div/>').addClass('inf').appendTo(_this.$thumbs).click(function() {
+      $('.inf').hide();
+      return false;
+    });
+
   },
 
-  createNodes: function() {
-    var _this = this, $swiper = this.$el.find('.rubric__swiper'), $swiper = this.swiper;
+  createNodes: function(index) {
+    var _this = this,
+      $swiper = this.$el.find('.rubric__swiper'),
+      $swiper = this.swiper;
     // create nodes
-    var counts=0;
-    this.imagessssr.forEach(function(item, index) {
-       for(var i=1; i <= item.image[1]; i++){
-        counts++;
-        var slide = $swiper.createSlide('');
-        slide.setData('rubric', item.image[0]);
-        slide.append();
-       var islast='';
-            if(i==item.image[1]){islast='last';}
-        var imagePath = App.getImagePath(_this.id, 'rubrics') + '/full/sssr/' + item.image[0] + '_' +i+ '.jpg';
-      //  $('<img />').appendTo(slide).attr('src', imagePath).attr('idimgrazdel', index).attr('mp3num', i).attr('name', islast);
-      var imagePathIco =  App.getImagePath(_this.id, 'rubrics') + '/inf/' +  item.image[0] + '_' +i+ '.png';
-        var  slideEl = $('<img src="' + imagePath + '" idimgrazdel="'+index+'" mp3num="'+i+'" ico="'+imagePathIco+'" name="'+islast+'" />');
-        slideEl.appendTo(slide);
-      // var imagePath =  App.getImagePath(_this.id, 'rubrics') + '/inf/' +  item.image[0] + '_' +i+ '.png';
-    //   $('<div/>').addClass('ico').attr('src', imagePath).appendTo(slide).on('click', _this.showInfo.bind(this));
-      }
-      slide=null;
-      islast=null;
-      imagePath=null;
-      imagePathIco=null;
-      slideEl=null;
-    });
-
-
-    /*   this.imagesrussia.forEach(function(item, index) {
-       for(var i=1; i <= item.image[1]; i++){
-           counts++;
-        var slide = $swiper.createSlide('');
-        slide.setData('rubric', item.image[0]);
-        slide.append();
-       var islast='';
-            if(i==item.image[1]){islast='last';}
-        var imagePath = App.getImagePath(_this.id, 'rubrics') + '/full/russia/' + item.image[0] + '_' +i+ '.jpg',
-        slideEl = $('<img src="' + imagePath + '" idimgrazdel="'+index+'"  mp3num="'+i+'"  name="'+islast+'"/>');
-        slideEl.appendTo(slide);
-         var imagePath =  App.getImagePath(_this.id, 'rubrics') + '/inf/' +  item.image[0] + '_' +i+ '.png';
-      // $('<div/>').addClass('inf').appendTo(slide).css('background-image','url("'+infpath+'")').click(function(){$('.inf').toggle();return false;});
-       $('<div/>').addClass('ico').appendTo(slide).attr('src', imagePath).on('click', _this.showInfo.bind(this));
-       //click(function(){$('.inf').toggle();return false;});
-        }
-        slide=null;
-        islast=null;
-        imagePath=null;
-        slideEl=null;
-    });*/
-    $('<div/>').addClass('ico').appendTo(this.$thumbs).on('click', _this.showInfo.bind()).hide();
-    $('<div/>').addClass('inf').appendTo(this.$thumbs).click(function(){$('.inf').hide();return false;});
-
-    counts=null;
+    for (var i = 1; i <= this.imagessssr[index].image[1]; i++) {
+      var slide = $swiper.createSlide('');
+      slide.setData('rubric', this.imagessssr[index].image[0]);
+      slide.append();
+      var imagePath = App.getImagePath(_this.id, 'rubrics') + '/full/sssr/' + this.imagessssr[index].image[0] + '_' + i + '.jpg';
+      var imagePathIco = App.getImagePath(_this.id, 'rubrics') + '/inf/' + this.imagessssr[index].image[0] + '_' + i + '.png';
+      var slideEl = $('<img src="' + imagePath + '" idimgrazdel="' + index + '" mp3num="' + i + '" ico="' + imagePathIco + '" />');
+      slideEl.appendTo(slide);
+    }
+    slide = null;
+    imagePath = null;
+    imagePathIco = null;
+    slideEl = null;
   },
 
-  initSlider: function () {
+  destroyNodes: function() {
+    var _this = this,
+      $swiper = this.$el.find('.rubric__swiper'),
+      $swiper = this.swiper;
+    $swiper.removeAllSlides();
+  },
+
+  initSlider: function() {
 
     var _this = this;
 
     if (this.swiper || this.state != 'inited') return;
     this.$el.removeClass('rubric_state_initialized');
 
-   var swiper = $('.rubric__swiper');
+    var swiper = $('.rubric__swiper');
 
     this.swiper = this.$el.swiper({
       mode: 'horizontal',
@@ -179,21 +136,25 @@ App.RubricGorod = {
       slideClass: 'rubric__slide',
       onSlideChangeStart: this.process.bind(this),
       onSlideClick: this.closeSlider.bind(this),
-      onTouchEnd: function () {
+      onTouchEnd: function() {
 
         var lastSlideX = _this.swiper.slidesGrid[_this.swiper.slidesGrid.length - 1];
-        if (_this.swiper.positions.current <= -lastSlideX && _this.swiper.isMoved){
+        if (_this.swiper.positions.current <= -lastSlideX && _this.swiper.isMoved) {
 
-          _this.options.onNext && _this.options.onNext.call(_this);
+          setTimeout(App.RubricGorod.closeSlider(), 2000);
+          //  _this.options.onNext && _this.options.onNext.call(_this);
+          //  alert('123');
         } else if (_this.swiper.positions.current > 0) {
-           _this.options.onPrev && _this.options.onPrev.call(_this);
+          setTimeout(App.RubricGorod.closeSlider(), 2000);
+          //   _this.options.onPrev && _this.options.onPrev.call(_this);
+          //       alert('321');
         }
-        lastSlideX=null;
+        lastSlideX = null;
       }
     });
-    this.createNodes();
+    //  this.createNodes();
     this.process();
-    swiper=null;
+    swiper = null;
   },
 
   /**
@@ -206,21 +167,21 @@ App.RubricGorod = {
       slider = this.swiper;
 
     var t = $('.rubric__slide').eq(slider.previousIndex).find('img').attr('name');
-//    if(t==='last'){this.closeSlider();}
+    //    if(t==='last'){this.closeSlider();}
     var slide = this.activeSlide;
-    var imgnumrazdel=$(this.activeSlide).find('img').eq(0).attr('idimgrazdel');
-	 var mp3num=$(this.activeSlide).find('img').eq(0).attr('mp3num');
+    var imgnumrazdel = $(this.activeSlide).find('img').eq(0).attr('idimgrazdel');
+    var mp3num = $(this.activeSlide).find('img').eq(0).attr('mp3num');
     //alert(razdel);
     this.removeBindings(slide);
     this.activeSlide = slider.getSlide(slider.activeIndex);
-	this.showAudio(imgnumrazdel, mp3num);
+    this.showAudio(imgnumrazdel, mp3num);
 
     this.addBindings();
-      _this=null;
-      slider=null;
-      slide=null;
-      imgnumrazdel=null;
-      mp3num=null;
+    _this = null;
+    slider = null;
+    slide = null;
+    imgnumrazdel = null;
+    mp3num = null;
   },
 
   removeBindings: function(slide) {
@@ -235,40 +196,42 @@ App.RubricGorod = {
     // @todo потом добавлю
   },
 
-  closeSlider: function () {
+  closeSlider: function() {
     $(this.swiper.wrapper).removeClass('is-opened');
-     $('.rubric__thumd-navigation').addClass('is-opened');
-	/* App.isPlaying = false;
-	 App.playList.pause();
-	 $(App.options.circlePlayer.cssSelector).removeClass('audio-player_show_yes');
-	 this.pleernow=-1;*/
-   $('.ico').hide();
-   App.hideAndStopAudio();
+    $('.rubric__thumd-navigation').addClass('is-opened');
+    /* App.isPlaying = false;
+     App.playList.pause();
+     $(App.options.circlePlayer.cssSelector).removeClass('audio-player_show_yes');
+     this.pleernow=-1;*/
+    $('.ico').hide();
+    App.hideAndStopAudio();
+    this.destroyNodes();
   },
-  showRubricPage: function (id) {
-      var  delid='russia';
-      if(id==='russia'){
-         delid='sssr';
-      }
-	  this.openrazdel=id;
-       this.$el.find('.rubric__thumd-page-' + delid).addClass('is-opened');
-       this.$el.find('.rubric__thumd-page-' + id).removeClass('is-opened');
-       delid=null;
+  showRubricPage: function(id) {
+    var delid = 'russia';
+    if (id === 'russia') {
+      delid = 'sssr';
+    }
+    this.openrazdel = id;
+    this.$el.find('.rubric__thumd-page-' + delid).addClass('is-opened');
+    this.$el.find('.rubric__thumd-page-' + id).removeClass('is-opened');
+    delid = null;
   },
-  showSlider: function (index) {
-    this.swiper.swipeTo(index);
+  showSlider: function(index) {
+    //this.swiper.swipeTo(index);
+    this.createNodes(index);
     $('.ico').show();
     $(this.swiper.wrapper).addClass('is-opened');
   },
-  showInfo: function(item){
-    var ico=$('.rubric_type_gorod .swiper-slide-active img').eq(0).attr('ico');
-    $('.inf').css('background-image','url("'+ ico+'")');
+  showInfo: function(item) {
+    var ico = $('.rubric_type_gorod .swiper-slide-active img').eq(0).attr('ico');
+    $('.inf').css('background-image', 'url("' + ico + '")');
     $('.inf').show();
-    ico=null;
+    ico = null;
     return false;
   },
 
-  showRubric: function () {
+  showRubric: function() {
     if (!this.swiper || this.state != 'inited') return;
 
     this.$final.addClass('rubric__final_state_opened');
@@ -276,10 +239,13 @@ App.RubricGorod = {
     this.state = 'opened';
   },
 
-  reset: function () {
+  reset: function() {
     if (this.$el) {
       this.$el.addClass('rubric_state_initialized');
-      this.$el.find('.rubric__container').css({ width: 'auto', height: 'auto' });
+      this.$el.find('.rubric__container').css({
+        width: 'auto',
+        height: 'auto'
+      });
     }
 
     this.$slides && this.$slides.removeClass('rubric__slide_animation_yes');
@@ -303,23 +269,23 @@ App.RubricGorod = {
     this.activeSlide = null;
   },
 
-  destroy: function () {
+  destroy: function() {
     if (this.swiper) {
       this.swiper.destroy(true);
       this.swiper = null;
     }
     this.reset();
   },
- showAudio: function(slideindex, mp3index){
-	var dataRubric=App.RubricGorod.options[this.openrazdel];
-	if((App.RubricGorod.state=='opened')
-   && (typeof(dataRubric)!='undefined')
-   && (typeof(dataRubric.images)!='undefined')
-   && (typeof(dataRubric.images[slideindex])!='undefined')
-   && (typeof(dataRubric.images[slideindex].sounds)!='undefined') ){
-		//var sounds=dataRubric.images[slideindex].sounds;
-    App.showAndPlayAudio(dataRubric.images[slideindex].sounds, App.RubricGorod.options);
-    /*if( typeof(sounds[mp3index])!='undefined' ){
+  showAudio: function(slideindex, mp3index) {
+    var dataRubric = App.RubricGorod.options[this.openrazdel];
+    if ((App.RubricGorod.state == 'opened') &&
+      (typeof(dataRubric) != 'undefined') &&
+      (typeof(dataRubric.images) != 'undefined') &&
+      (typeof(dataRubric.images[slideindex]) != 'undefined') &&
+      (typeof(dataRubric.images[slideindex].sounds) != 'undefined')) {
+      //var sounds=dataRubric.images[slideindex].sounds;
+      App.showAndPlayAudio(dataRubric.images[slideindex].sounds, App.RubricGorod.options);
+      /*if( typeof(sounds[mp3index])!='undefined' ){
 		 var pathsound=App.getAudioPath(App.RubricGorod.options.id, sounds[mp3index].mp3);
 		 var commentsound = [];
 		 if (pathsound.length > 10) {
@@ -348,15 +314,15 @@ App.RubricGorod = {
 			$(App.options.circlePlayer.cssSelector).removeClass('audio-player_show_yes');
 			this.pleernow=-1;
 		}*/
-	}else{
+    } else {
       App.hideAndStopAudio();
-    /*
+      /*
 		 App.isPlaying = false;
 		   App.playList.pause();
 			$(App.options.circlePlayer.cssSelector).removeClass('audio-player_show_yes');
 			this.pleernow=-1;*/
-	}
-  dataRubric=null;
+    }
+    dataRubric = null;
   }
 
 };

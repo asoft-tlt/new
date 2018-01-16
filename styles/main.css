@@ -1207,6 +1207,7 @@ li.jp-playlist-current + li a.jp-playlist-item {
 .rubric.rubric_type_raskol .raskol .img {
   position: absolute;
   z-index: 1;
+  pointer-events: none;
 }
 .rubric.rubric_type_raskol .raskol .img_type_1 {
   top: 50px;
