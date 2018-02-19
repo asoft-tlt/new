@@ -8,8 +8,8 @@
     '<div class="page-slider__container"></div></div>'+
     '<div class="text1col-right"><span style="word-spacing:-2px;">Долгие годы отец мой исправно занимался</span>'+
     ' устроением церковных дел, однако над престолом его, престолом Патриарха Ан- тиохийского, который находится в сирий- ском городе '+
-    '<a href="javascript:;" class="app-background" data-background="comment/10_1.jpg;comment/10_2.jpg"'+
-    ' data-sounds="10/5.1.mp3;10/5.2.mp3" data-name=";Приём посла из Венеции на фоне Великой мечети Омейядов, 1511 год">Дамаске</a>,'+
+    '<a href="javascript:;" class="app-background" data-background="images/pages/10/5.1.jpg;images/pages/10/5.2.jpg"'+
+    ' data-sounds="10/5.1.mp3;10/5.2.mp3" data-name=";">Дамаске</a>,'+
     ' всё больше тяготели огромные долги, возраставшие с давнего времени по причине прибавления больших '+
     '<span style="letter-spacing:-0.3px;word-spacing:-1px;">процентов. Уплатить их не было никакой воз-</span>'+
     ' можности и тогда, волею крайней нужды и стеснённых обстоятельств, родитель мой, '+
@@ -19,7 +19,7 @@
     '<span style="letter-spacing:-0.3px;word-spacing:-1px;">умоляющих, к могущественному, победо-</span>'+
     ' <span style="letter-spacing:-0.3px;word-spacing:-1px;">носному и благочестивому правителю Але-</span>'+
     ' ксею Михайловичу, славному своей истин- ной верой и правой жизнью.</div>'+
-    '<div class="page__comment" onclick="javascript:App.hideComment();"><div class="page__map-container"><img src="comment/10.jpg" /></div></div></div>');
+    '<div class="page__comment" onclick="javascript:App.hideComment();"><div class="page__map-container"><img src="images/pages/10/5.1.jpg" /></div></div></div>');
     $templateCache.put("page100.html", '<div class="page arka"><div class="holdimage"><img src="images/pages/100/slide.png" style="transform: translateY(65px);"/></div>'+
     '<div class="page__map" onclick="javascript:App.hideMap();"><div class="page__map-container"><div class="closebut" onclick="javascript:App.hideMap();"></div>'+
     '<iframe src="" src_cach="geo/100.html" width="1024" height="768" /></div></div></div>');
@@ -72,7 +72,7 @@
     ' <span style="letter-spacing:-0.3px;word-spacing:-1px;"> статуи, молча, тихо, делая непрестанно зем-</span>'+
     ' ные поклоны, ибо они привычны к этому, не скучают и не ропщут. Вообще, усердие всех русских, больших и малых, к посещению храма выше всякого описания.'+
     ' Множеством молитв они превосходят, наверное, самих <span style="letter-spacing:-0.1px;word-spacing:-1px;">святых, и не только бедняки,'+
-    ' <a href="javascript:;" class="app-background" data-background="comment/20.png">крестьяне</a>, жен-</span>'+
+    ' <a href="javascript:;" class="app-background" data-background="comment/krestiane.png">крестьяне</a>, жен-</span>'+
     ' <span style="letter-spacing:0.2px;word-spacing:1px;"> щины, девицы и малые дети, но и государ-</span></div>'+
     ' <div style="text-align:justify;padding-top:534px;" class="col2"> ственные сановники и их жены. Что можно сказать на это?'+
     ' Если даже царь и царица, кои стоят во главе подданных, обладают столь высокими добродетелями, то каковы же должны быть простолюдины?!</div></div></div>');
@@ -113,11 +113,11 @@
     ' <span style="letter-spacing:-0.3px;word-spacing:-1px;">клоны. Причём они стоят на ногах с непокры-</span> той головою при самом сильном холоде, и'+
     ' <span style="letter-spacing:-0.3px;word-spacing:-1px;">всё же не сокрушаясь продолжительностью</span> служб, которые у них до крайности длинны. </div>'+
     ' <div style="text-align:justify;" class="col2"><span style="letter-spacing:-0.3px;word-spacing:-1px;">Утром, поспешая в церковь, все одеваются в</span>'+
-    ' свои лучшие,  дорогие платья, самые яркие <span style="letter-spacing:-0.3px;word-spacing:-1px;">и нарядные, особенно <a class="article-link">женщины</a>.'+
+    ' свои лучшие,  дорогие платья, самые яркие <span style="letter-spacing:-0.3px;word-spacing:-1px;">и нарядные, особенно '+
+    ' <a href="javascript:;" class="app-background" data-background="comment/107.png">женщины</a>.'+
     ' Пестрота и</span><span style="letter-spacing:-0.3px;word-spacing:-1px;"> обилие красок при этом таковы, что душа на-</span> полняется радостью. Также мы приметили'+
     ' <span style="letter-spacing:-0.3px;word-spacing:-1px;">интересную деталь — каждый день на утрен-</span>'+
-    ' <span style="letter-spacing:-0.3px;word-spacing:-1px;"> нем богослужении не менее трёх раз читают</span> толкование Евангелия.</div></div>'+
-    ' <div class="page__comment" onclick="javascript:App.hideComment();"><div class="page__map-container"><img src="comment/107.png" /></div></div></div>');
+    ' <span style="letter-spacing:-0.3px;word-spacing:-1px;"> нем богослужении не менее трёх раз читают</span> толкование Евангелия.</div></div></div>');
     $templateCache.put("page108.html", '<div class="page" id="page108"> <div class="glava nameGlava">БЕЛЫЙ ЦАРЬ И ПАТРИАРХ</div>'+
     ' <div class="page-slider" style="position:absolute;top:87px;left:534px;width:418px;height:588px;outline-offset:4px;outline: #d7b39d solid 1px;">'+
     ' <div class="page-slider__container"></div></div><div class="text2col"><div style="text-align:justify;" class="col1"> В январе, на день поклонения веригам свя-'+
@@ -135,7 +135,7 @@
     ' <div class="page-slider__container"></div></div>'+
     ' <div style="position:absolute;top:87px;left:73px;width:368px;height:88px;background:url(images/pages/109/tsar2.png) no-repeat; background-size:contain;"></div>'+
     ' <div style="position:absolute;top:252px;left:7px;width:109px;height:260px;background:url(images/letters/v.png) no-repeat; background-size: contain;"></div>'+
-    ' <div class="text1col-left" style="padding-top:294px;">     <div style="padding-left:27px;text-align:justify;">Москве постоянно живут консулы евро-'+
+    ' <div class="text1col-left" style="padding-top:294px;"><div style="padding-left:27px;text-align:justify;">Москве постоянно живут консулы евро-'+
     ' пейских королей: английского, австрий- ского, шведского и так далее. Но когда'+
     ' <span style="letter-spacing:-0.2px;word-spacing:-1px;">некоторое время назад англичане устрои-</span></div>	ли смуту, восстали на своего государя и'+
     ' <a href="javascript:;" class="app-background"'+
@@ -147,12 +147,12 @@
     'images/links/109-31.jpg;images/links/109-32.jpg;images/links/109-33.jpg;images/links/109-34.jpg;images/links/109-35.jpg;images/links/109-36.jpg;'+
     'images/links/109-37.jpg;images/links/109-38.jpg;images/links/109-39.jpg;images/links/109-40.jpg;images/links/109-41.jpg;images/links/109-42.jpg;'+
     'images/links/109-43.jpg;images/links/109-44.jpg;images/links/109-45.jpg;images/links/109-46.jpg;images/links/109-47.jpg;images/links/109-48.jpg;'+
-    'images/links/109-49.jpg;">убили его</a>'+
+    'images/links/109-49.jpg;images/links/109-50.jpg;images/links/109-51.jpg;images/links/109-52.jpg;images/links/109-53.jpg;images/links/109-54.jpg;images/links/109-55.jpg;">убили его</a>'+
     ', царь Алексей очень разгневался, так как они изменили монарху. По этой при- чине он повелел изгнать всех послов из своей страны, пока новый король не при-'+
     ' слал важного представителя, дабы восста- <span style="letter-spacing:-0.3px;word-spacing:-1px;">новить попранные отношения дружбы и рас-</span>'+
     ' положить мысли царя к благосклонности.</div></div>');
     $templateCache.put("page11.html", '<div class="page" id="page11"> <div class="glava nameGlava">ВСТУПЛЕНИЕ</div>'+
-    ' <div class="page-slider" style="position:absolute;top:87px;left:81px;width:863px;height:465px;outline-offset:4px;outline: #d7b39d solid 1px;">'+
+    ' <div class="page-slider" style="position:absolute;top:84px;left:84px;width:860px;height:465px;outline-offset:4px;outline: #d7b39d solid 1px;">'+
     ' <div class="page-slider__container"></div></div><div class="text2col"><div style="text-align:justify;padding-top:596px;" class="col1">'+
     '	<span style="word-spacing:-1.5px;">В надежде испросить от щедрот и милостей</span> русского царя посильной помощи в уплате'+
     ' <span style="word-spacing:2px;letter-spacing:0.2px;">долга, тихим вечером девятого июля 1652</span></div>'+
@@ -381,7 +381,7 @@
     ' обстоятельства нашего путеше- ствия. Он призывал чтобы день за днём я описывал все события и страны, которые'+
     ' нам доведётся проезжать.<br><br><span style="letter-spacing:-0.3px;word-spacing:-1px;">Я извинялся перед ним недостатком сил для'+
     ' подобной работы, тем более, что сам я нуж-</span>'+
-    ' <span style="word-spacing:3px;">даюсь в необходимых для неё средствах: </span> в уменье составлять и связывать речения, </span>'+
+    ' <span style="word-spacing:3px;">даюсь в необходимых для неё средствах: </span> в умении составлять и связывать речения, </span>'+
     '<span style="letter-spacing:0.2px;word-spacing:1px;">употреблять слова с грамматической точ-</span></div>'+
     '<div style="text-align:justify;" class="col2"> <span style="letter-spacing:-0.3px;word-spacing:-1px;">ностью и красиво располагать фразы по об-</span>'+
     ' разцу достопочтенных и славных мастеров <span style="letter-spacing:-0.3px;word-spacing:-1px;">науки. В общем, я просил его избавить меня</span>'+
@@ -1280,10 +1280,10 @@
     $templateCache.put("page215.html", '<div class="page page_with_slider"  id="page215"><div class="page__column page__column_type_slider page__column_type_fullsized">'+
     ' <div class="page-slider page-slider_type_constant"><div class="page-slider__container"></div><div class="page-slider__pagination"></div></div></div></div>');
     $templateCache.put("page22.html", '<div class="page" id="page22">'+
-    '<div class="glava" style="position:absolute;letter-spacing:2px;color:#d7b39d;font-size:10pt;left:80px;top:40px;">ЗЕМЛЯ КАЗАКОВ</div>'+
+    '<div class="glava nameGlava" >ЗЕМЛЯ КАЗАКОВ</div>'+
     '<div class="page-slider" style="position:absolute;top:87px;left:534px;width:417px;height:454px;outline-offset:4px;outline: #d7b39d solid 1px;">'+
     '<div class="page-slider__container"></div><div class="page-slider__pagination"></div></div><div class="text2col">'+
-    '<div style="position:absolute;top:87px;left:73px;width:295px;height:98px;background:url(images/pages/22/istoria.png) no-repeat; background-size:contain;"></div>'+
+    '<div style="position:absolute;top:87px;left:82px;width:295px;height:98px;background:url(images/pages/22/istoria.png) no-repeat; background-size:contain;"></div>'+
     '<div style="position:absolute;top:190px;left:17px;width:109px;height:260px;background:url(images/letters/p.png) no-repeat; background-size: contain;"></div>'+
     '<div style="text-align:justify;padding-top:206px" class="col1">'+
     '<div style="padding-left:27px;text-align:justify;">	очему я называю поляков проклятыми? Потому что они, надеясь уничтожить само имя православных,'+
@@ -1305,7 +1305,7 @@
     ' <div class="page-slider page-slider_type_constant"><div class="page-slider__container"></div>'+
     ' <div class="page-slider__pagination"></div></div></div></div>');
     $templateCache.put("page24.html", '<div class="page" id="page24">'+
-    '<div class="glava" style="position:absolute;letter-spacing:2px;color:#d7b39d;font-size:10pt;left:80px;top:40px;">ЗЕМЛЯ КАЗАКОВ</div>'+
+    '<div class="glava nameGlava">ЗЕМЛЯ КАЗАКОВ</div>'+
     '<div class="text2col"><div style="text-align:justify;" class="col1">'+
     '<span style="letter-spacing:-0.3px;word-spacing:-1px;">Бог, видя такую надменность и бессердечие,</span>'+
     ' послал на ляхов своего верного служителя и раба Хмеля, который, став во главе народ- '+
@@ -1337,7 +1337,7 @@
     ' data-background="images/pages/25/12.1.jpg;images/pages/25/12.2.jpg;images/pages/25/12.3.jpg;images/pages/25/12.4.jpg;images/pages/25/12.5.jpg;images/pages/25/12.6.jpg" '+
     ' data-sounds="25/12.1.mp3;25/12.2.mp3;;;25/12.5.mp3;25/12.6.mp3" '+
     ' data-title="Алексей Кившенко. Переяславская рада. 1654 год. Воссоединение России;Юзеф Брандт. Арест кавказского предводителя;Решение Земского Собора от 1 октября 1653;Михаил Хмелько. Навеки с русским народом;М. Овечкин. Казацкая рада на Сечи;Людвиг Гедлек. Кавалерия"'+
-    ' data-name="Переяславская рада. Понятие воссоединения;;;;Битва за власть. Истоки украинской русофобии;"'+
+    ' data-name="Переяславская рада, воссоединение русских земель;;;;Битва за власть, истоки украинской русофобии;"'+
     '>согласием</a>'+
     ' и за- писал себе на службу сорок тысяч казаков <span style="letter-spacing:-0.3px;word-spacing:-1px;">с ежегодным жалованием от казны. А в 1653</span>'+
     '<span style="letter-spacing:-0.3px;word-spacing:-1px;"> году Алексей Михайлович отправил к ляхам</span> посла, через которого возвестил: </div>'+
@@ -1351,12 +1351,12 @@
     '<span style="letter-spacing:-0.3px;word-spacing:-1px;">мяне – и имеют церкви, то наравне с ними</span>'+
     ' считайте и братьев во Христе казаков, которые, подобно мне, православные.<br><br>'+
     '<span style="letter-spacing:-0.6px;word-spacing:0px;">Во-вторых, вы должны именовать меня ца-рем Великой и Малой Poccии; в-третьих, '+
-    ' возвратите мне город моих предков '+
+    ' возвратите город моих предков '+
     ' <a href="javascript:;" class="app-background" data-title="" data-sounds="" data-background="comment/25_1.jpg">Смоленск</a>'+
     ' со всеми в нём находящимися пушками, военными снарядами и орудиями.</span>'+
     ' <span style="letter-spacing:-0.5px;word-spacing:-1px;"> Если вы согласны на это, прежняя дружба </span>'+
-    ' <span style="letter-spacing:-0.8px;word-spacing:-1px;"> между нами и вами останется; в противном</span>'+
-    ' <span style="letter-spacing:-0.5px;word-spacing:-1px;"> случае знайте, что я пойду на вас войной». </span></div></div>'+
+    ' <span style="letter-spacing:-0.8px;word-spacing:-1px;"> между нами и вами останется; в противном слу- </span>'+
+    ' <span style="letter-spacing:-0.5px;word-spacing:-1px;"> чае знайте, что я пойду на вас войной». </span></div></div>'+
     '<div class="page__comment" onclick="javascript:App.hideComment();"><div class="page__comment-container">'+
     '<div class="commentbk" data-sound="audio/pages/25/11.mp3" data-name=""><img src="comment/25.jpg" /></div></div></div></div>');
     $templateCache.put("page26.html", '<div class="page page_with_slider"><div class="page__column page__column_type_slider page__column_type_fullsized">'+
@@ -1409,7 +1409,7 @@
     '<div style="position:absolute;top:197px;left:30px;width:69px;height:226px;background:url(images/letters/v.png) no-repeat; background-size: contain;"></div>'+
     '<div class="text1col-left" style="padding-top:203px;"><div style="padding-left:33px; text-align:justify; letter-spacing: -0.1px;">середине &nbsp;XVII&nbsp; века некий арабский &nbsp;свя- '+
     'щенник по имени Макарий избирается</span> патриархом <a class="article-link">Антиохийской</a>'+
-    ' Православной Церкви. Приняв сан, он обнаруживает, '+
+    ' Православной Церкви. Вслед за этим он обнаруживает, '+
     '<span style="letter-spacing: 0.25px;">что у его епархии накопились огромные</span></div>'+
     ' долги, справиться с которыми ему не под '+
     '<span style="word-spacing:-1.5px;">силу. Стараясь найти выход из тяжелой ситу-</span> '+
@@ -1447,15 +1447,15 @@
     ' <span style="letter-spacing:-0.3px;word-spacing:-1px;">сойтись с русским царём лицом к лицу, и по-</span>'+
     ' <span style="letter-spacing:-0.1px;word-spacing:-1px;"> смотри, что они сделали, услышав, что царь</span></div>'+
     ' <div style="text-align:justify;" class="col2">'+
-    ' <span style="letter-spacing:-0.3px;word-spacing:-1px;">Алексей Михайлович возвратился в Москву,</span>'+
-    ' они послали своих людей к крымским тата- рам и дали им золота в таком изобилии, что те были изумлены, и потому от них пришло на помощь полякам около пятидесяти ты-'+
+    ' <span style="letter-spacing:-0.3px;word-spacing:-1px;">Алексей Михайлович возвратился в Москву.</span>'+
+    ' Они послали своих людей к крымским тата- рам и дали им золота в таком изобилии, что те были изумлены, и потому от них пришло на помощь полякам около пятидесяти ты-'+
     ' сяч человек. От немцев, венгров и валахов '+
     ' <span style="letter-spacing:-0.3px;word-spacing:-1px;">собралось против Руси еще восемьдесят ты-</span>'+
     ' сяч, прельщённых деньгами и надеждой на <span style="letter-spacing:-0.3px;word-spacing:-1px;">верную добычу. Всего же было около ста три-</span>'+
     ' дцати тысяч вражеского войска.<br><br> Внезапно и неожиданно оно вторглось в страну казаков, предавая огню множество селений, убивая и пленяя множество жите-'+
     ' лей, совершая гнусности и злодеяния, не поддающиеся описанию.  Тогда Хмель по- слал известие о случившемся русскому царю, который пришёл в сильный гнев и от-'+
     ' дал приказ войску поскорее отправляться в поход. Было это весной 1655 года.</div></div></div>');
-    $templateCache.put("page32.html", '<div class="page" id="page32"><div style="position:absolute;width:1024px;height:768px;background:url(images/pages/32/32.jpg) no-repeat;background-size:contain;"></div></div>');
+    $templateCache.put("page32.html", '<div class="page" id="page32"><div style="position:absolute;width:1024px;height:768px;background:url(images/pages/32/32.png) no-repeat;background-size:contain;"></div></div>');
     $templateCache.put("page33.html", '<div class="page" id="page33"><div class="glava nameGlava">ЗЕМЛЯ КАЗАКОВ</div>'+
     ' <div class="text2col"><div style="text-align:justify;" class="col1">Нам рассказывали, что для военной кампа- нии у царя собралось более четырёхсот ты-'+
     ' сяч ратников из тех народов, кои не знают <span style="letter-spacing:-0.3px;word-spacing:-1px;">Бога. Мы видели их собственными глазами и</span>'+
@@ -1469,8 +1469,8 @@
     ' торое ест человечье мясо, как мы увидели это впоследствии. От них пришло теперь на помощь царю от 17 до 30 тысяч человек.</div>'+
     ' <div style="text-align:justify;" class="col2">Мы также узнали, что те кто был в походе в прошлом году, в нынешнем остаются дома, '+
     ' <span style="letter-spacing:-0.3px;word-spacing:-1px;">так как в этом соблюдается очередность. Па-</span>'+
-    ' <span style="letter-spacing:-0.3px;word-spacing:-1px;"> триарх сообщал потом нашему учителю, что</span>'+
-    ' ратники царя весьма многочисленны. Если бы он пожелал вести войну хоть десять лет, и то до многих округов не дойдет очередь.'+
+    ' <span style="letter-spacing:-0.3px;word-spacing:-1px;"> триарх сообщал нашему учителю, что ратни-</span>'+
+    ' ки царя весьма многочисленны. Если бы он пожелал вести войну хоть десять лет, и то до многих районов не дошла бы очередь.'+
     ' На этот раз очередь пала на упомянутые выше разнородные племена, которые до- ставили царю четыреста тысяч, по одному человеку с каждого двора.<br><br>'+
     ' <span style="letter-spacing:-0.3px;word-spacing:-1px;">Тем временем поляки просили помощи у ту-</span>'+
     ' рок, докучая им многочисленными посоль- ствами в Константинополь, обещая платить ежегодно 800 тысяч динаров, обязуясь на- '+
@@ -1480,7 +1480,7 @@
     '<div class="page-slider page-slider_type_constant"><div class="page-slider__container"></div><div class="page-slider__pagination"></div></div></div></div>');
     $templateCache.put("page35.html", '<div class="page page_with_slider" id="page35"><div class="glava nameGlava">ЗЕМЛЯ КАЗАКОВ</div>'+
     '<div class="page-slider" style="position:absolute;left:577px;width:447px;height:768px;outline-offset:4px;outline: #d7b39d solid 1px;"><div class="page-slider__container"></div>'+
-    '</div><div class="text1col-left">Лукавые ляхи открыто говорили туркам: '+
+    '</div><div class="text1col-left"><span style="letter-spacing:0.7px;word-spacing:0px;">Лукавые ляхи открыто говорили туркам: </span>'+
     ' <span style="font-family:Pancetta Serif Pro Italic;">«Вы имеете больше прав занять нашу '+
     ' <span style="letter-spacing:-0.3px;word-spacing:-1px;">страну, чем московский краль. Если же он</span>'+
     ' завоюет польское государство, то скоро пойдет и на вас, ибо только мы противо-'+
@@ -1545,11 +1545,11 @@
     ' <span style="letter-spacing: -0.1px;">– неправославные. А значит многое из того,</span>'+
     ' <span style="word-spacing:-0.5px;">что им виделось в русской жизни, они пони-</span>'+
     ' <span style="letter-spacing: 0.7px;">мали искажённо. И вот в <a class="article-link">Московию</a>, т.е. в</span>'+
-    ' <span style="word-spacing: 1px;">Россию, приехал человек, который с одной стороны наш, он православный, а с другой,'+
-    ' получается, что совсем не наш, он не евро-</span>'+
-    ' пеец, он араб. То есть представитель совер-'+
-    ' <span style="word-spacing: 2px;">шенно другой культуры. А главное, оказав-</span>'+
-    ' шийся у нас на таком положении, о котором европейцы могли только мечтать.</div>'+
+    ' <span style="word-spacing: 1px;">Россию, приехал человек, который с одной стороны наш, он православный, а с иной - '+
+    ' совсем не наш, он не европеец, </span>'+
+    '  он араб. То есть представитель совершенно '+
+    ' <span style="word-spacing: 2px;">другой культуры. А главное, оказавшийся</span>'+
+    ' <span style="word-spacing: -1px;"> у нас на таком положении, о котором залётные евро-</span> пейцы могли только мечтать.</div>'+
     '<div class="col2" style="text-align:justify;"><span style="word-spacing:1px;">Как правило, приезжие с Запада являлись'+
     ' в&nbsp;Россию послами и были весьма скованы</span>'+
     ' <span style="word-spacing:-1.4px;">в&nbsp;своих наблюдениях. Московский двор смо-</span>'+
@@ -1564,7 +1564,7 @@
     ' не только с кадрами заграничного посоль- '+
     ' <span style="letter-spacing:0.4px;">ства, но и с их прислугой. Таким  образом,</span>'+
     ' свои распросы и наблюдения европейцы могли вести только украдкой, в то время '+
-    ' <span style="letter-spacing:-0.2px;">как во всей полноте будничная, ежедневная<span> жизнь, особенно жизнь царя, вельмож и духовенства, оставалась для них тайной. </span></div>'+
+    ' <span style="letter-spacing:-0.2px;">как во всей полноте будничная, ежедневная<span> жизнь, особенно жизнь царя, вельмож и ду- ховенства, оставалась для них тайной. </span></div>'+
     ' <div style="position:absolute;top:650px;left:450px;background: url(images/letters/foot1.svg) no-repeat;height:26px;width:115px;background-size:contain;"></div>'+
     ' </div><div class="page__comment" onclick="javascript:App.hideComment();">'+
     '<div class="page__comment-container"><div class="commentbk" data-sound="audio/pages/4/moskovia.mp3" data-name="Московия. Термин, которого Россия не знала" >'+
@@ -1708,8 +1708,8 @@
     ' архидиакона, в пылу доверительных бесед сообщали ему сведения немалой государ- '+
     '<span style="letter-spacing:0.1px;">ственной важности. Вот почему  труд Павла</span>'+
     ' Алеппского – почти единственное сокро- '+
-    '<span style="letter-spacing:0.2px;">вище в своём роде тщетно было бы искать</span></div>'+
-    '<div style="text-align:justify;padding-top:589px;" class="col2"><br>нечто похожее в записках других иностран-<br>цев, писавших о России XVII века.</div></div></div>');
+    '<span style="letter-spacing:0.2px;">вище в своём роде и тщетно было бы ис-</span></div>'+
+    '<div style="text-align:justify;padding-top:589px;" class="col2"><br>кать нечто похожее в записках других ино- странцев, писавших о России XVII века.</div></div></div>');
     $templateCache.put("page50.html", '<div class="page" id="page50"><div class="glava nameGlava">ЗЕМЛЯ КАЗАКОВ</div>'+
     ' <div class="page-slider" style="position:absolute;left:81px;top:275px;width:864px;height:400px;outline-offset:4px;outline: #d7b39d solid 1px;">'+
     ' <div class="page-slider__container"></div></div><div class="text2col">'+
@@ -1801,7 +1801,7 @@
     '<a href="javascript:;" class="app-background" '+
     'data-name=";;;;;;;"'+
     'data-sounds=";59/6.1.mp3;59/6.2.mp3;59/6.3.mp3;59/6.4.mp3;59/6.5.mp3;59/6.6.mp3;59/6.7.mp3;59/6.8.mp3;59/6.9.mp3"'+
-    'data-background="images/links/59-2.jpg;images/links/59-3.jpg;images/links/59-4.jpg;images/links/59-5.jpg;images/links/59-6.jpg;images/links/59-7.jpg;images/links/59-8.jpg;images/links/59-9.jpg;images/links/59-10.jpg;images/links/59-11.jpg;">'+
+    'data-background="images/links/59-2.png;images/links/59-3.jpg;images/links/59-4.png;images/links/59-5.jpg;images/links/59-6.jpg;images/links/59-7.jpg;images/links/59-8.png;images/links/59-9.jpg;images/links/59-10.png;images/links/59-11.png;">'+
     ' книг</a>, кото- рые они охотно читают днём и ночью.'+
     '<div style="position:absolute;top:650px;left:680px;background: url(images/letters/foot1.svg) no-repeat;height:26px;width:115px;background-size: contain;"></div>'+
     '  </span></div></div><div class="page__comment" onclick="javascript:App.hideComment();"><div class="page__comment-container">'+
@@ -1817,7 +1817,7 @@
     ' <span style="letter-spacing:0.3px;">оставалось почти никому неизвестным,</span>'+
     ' включая историков и специалистов? По- '+
     ' <span style="letter-spacing:-0.2px;">чему обладая тремя списками этого бесцен-</span>'+
-    ' ного труда, имея его, как выразился один по- чтенный рецензент, «под носом», никто не '+
+    ' <span style="letter-spacing:-0.2px;">ного труда, имея его, как выразился один по-</span> чтенный рецензент, «под носом», никто не '+
     ' <span style="letter-spacing:0.3px;">решился его напечатать? Почему все, кто</span>'+
     ' <span style="letter-spacing:-0.4px;">брался за издание Павла Алеппского остано-</span>'+
     ' вились в самом начале своего пути? И тем более - почему не был опубликован уже го- товый'+

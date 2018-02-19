@@ -67,7 +67,7 @@ App.RubricParts = {
     if (!this.$sectionsEl.size()) {
       this.$sectionsEl = $('<div/>').addClass('rubric__sections').appendTo(this.$el)
     }
-
+    var textBlock= $('<div/>').addClass('rubric__sections_text').appendTo(this.$el)
     this.options.sections.forEach(function(section, index) {
 
       var item = section.images[section.active];
@@ -89,9 +89,12 @@ App.RubricParts = {
             count +=  section.active;
 
             _this.increase(count, imageEl);
-          });
+          }),
+          imagePathText = App.getImagePath(_this.id, 'rubrics') + '/' + (index + 1) + '.png',
+          imgText = $('<img src="'+imagePathText+'" class="rub-part-img rub-part-img' + (index + 1) + '" />');
 
       _this.$sectionsEl.append(imageEl);
+      textBlock.append(imgText);
     });
   },
 
@@ -106,7 +109,7 @@ App.RubricParts = {
       if (data.imageIndex !== null) {
         return ;
       }
-      
+
       data.sectionIndex = i;
 
       if (currentIndex > (countIndex + (sect.images.length - 1))) {
@@ -211,7 +214,7 @@ App.RubricParts = {
     }
 
     var _this = this;
-
+    $('.rubric_type_parts .rubric__sections_text').hide();
     var rect = $element[0].getBoundingClientRect();
     this.$background[0].style.display = 'none';
     this.$background
@@ -277,6 +280,8 @@ App.RubricParts = {
 
     // Show background
     _this.$background.css({ 'visibility': 'visible' });
+
+    $('.rubric_type_parts .rubric__sections_text').show();
     // Remove fullsize class
     _this.$el.removeClass('rubric_type_fullsized');
 

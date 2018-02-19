@@ -48,6 +48,9 @@ App.Rubric = {
     var rightScreen = $('<div/>').addClass('rubric__final-right');
     var messageScreen = $('<div/>').addClass('rubric__final-message');
 
+    var messageScreenName = $('<div class="rubric__name_container"><div class="rubric__name_container_rubric">рубрика</div><div class="rubric__name_container_name">XVII ВЕК МИРОВОЙ ИСТОРИИ</div></div>');
+    messageScreen.append(messageScreenName);
+
     messageScreen.on('webkitTransitionEnd', function () {
       if (_this.state == 'opened') {
         _this.$final.hide();

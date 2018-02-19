@@ -8,7 +8,7 @@ window.App.sections = [
         id: 1,
         name: 'Predislovie',
         pages: [
-            {
+           {
                 id: 1,
                 type: 'page',
                 template: 'page1.html'
@@ -25,13 +25,16 @@ window.App.sections = [
                 slides: [
                     {
                         image: '3_1.jpg',
-                        description: 'Антиохия на Оронте',
+                        description: '',
+                        descriptionImageClose: '3_1.png',
+                        descriptionImageOpen: '',
                         positions: {
                             left: '-314px',
                             top: '0px'
                         },
+                        zoom: '100%',
                         sounds: [
-                            {title: 'Антиохия на Оронте', mp3: '2.1.mp3'}
+                            {title: 'Антиохия на Оронте. Слава погибшей империи', mp3: '2.1.mp3'}
                         ],
                         map: 'true'
                     },
@@ -41,6 +44,7 @@ window.App.sections = [
                             left: '0px',
                             top: '0px'
                         },
+                        zoom: '100%',
                         sounds: [
                             {title: '', mp3: '2.2.mp3'}
                         ]
@@ -48,9 +52,10 @@ window.App.sections = [
                     {
                         image: '3_3.jpg',
                         positions: {
-                            left: '-272px',
+                            left: '-294px',
                             top: '0px'
                         },
+                        zoom: '100%',
                         map: 'true',
                         sounds: [
                             {title: '', mp3: '2.3.mp3'}
@@ -70,11 +75,13 @@ window.App.sections = [
                 slides: [
                     {
                         image: '5_1.jpg',
-                        description: 'Фрагмент дамаскской рукописи <br/>архидиакона Павла',
+                        description: '',
+                        descriptionImageClose: '5_1.png',
                         positions: {
-                            left: '-248px',
-                            top: '-69px'
-                        }
+                            left: '-135px',
+                            top: '3px'
+                        },
+                        zoom: '100%'
                     }
                 ]
             },
@@ -112,6 +119,7 @@ window.App.sections = [
                     {"id": "20", "year": 1624, sounds: [{title: '', mp3: '20.mp3'}]},
                     {"id": "21", "year": 1625},
                     {"id": "22", "year": 1626},
+                    {"id": "22.5", "year": 1628, sounds: [{title: '', mp3: '22.5.mp3'}]},
                     {"id": "23", "year": 1628, sounds: [{title: '', mp3: '23.mp3'}]},
                     {"id": "24", "year": 1637, sounds: [{title: '', mp3: '24.mp3'}]},
                     {"id": "25", "year": 1638},
@@ -188,12 +196,13 @@ window.App.sections = [
                 slides: [
                     {
                         image: '9.jpg',
+                        descriptionImageClose: '9.png',
                         positions: {
                             left: '-534px',
                             top: '0px'
                         },
-                        description: 'Павел Алепский',
-                        map: 'true'
+                        zoom:'100%',
+                        description: '',
                     }
                 ]
             },
@@ -208,7 +217,9 @@ window.App.sections = [
                             left: '-577px',
                             top: '0px'
                         },
-                        description: 'Древняя Сирия',
+                        zoom:'100%',
+                        description: '',
+                        descriptionImageClose: '10-1.png',
                         sounds: [
                             {title: '', mp3: '4.1.mp3'}
                         ]
@@ -219,11 +230,12 @@ window.App.sections = [
                             left: '-481px',
                             top: '0px'
                         },
-                        description: 'Руины города Баальбек',
+                        zoom:'100%',
+                        description: '',
+                        descriptionImageClose: '10-2.png',
                         sounds: [
                             {title: '', mp3: '4.2.mp3'}
-                        ],
-                        map: 'true'
+                        ]
                     }
                 ]
             },
@@ -235,9 +247,10 @@ window.App.sections = [
                     {
                         image: '11.jpg',
                         positions: {
-                            left: '-106px',
-                            top: '-277px'
-                        }
+                            left: '-100px',
+                            top: '-300px'
+                        },
+                        zoom:'170%',
                     }
                 ]
             },
@@ -304,7 +317,7 @@ window.App.sections = [
         //         type: 'video',
         //         video: 'intro.mp4'
         //     },
-            {
+         {
                 id: 16,
                 type: 'page',
                 template: 'page16.html',
@@ -370,7 +383,7 @@ window.App.sections = [
                         image: '17_3.jpg',
                         description: 'Литва. Великое православное княжество',
                         sounds: [
-                            {title: 'Литва. Великое православное княжество', mp3: '3.3.mp3'}
+                            {title: '', mp3: '3.3.mp3'}
                         ]
                     },
                     {
@@ -466,7 +479,7 @@ window.App.sections = [
                         image: '7.2.jpg',
                         description: 'Рождение Литовской державы',
                         sounds: [
-                            {title: 'Рождение Литовской державы', mp3: '7.2.mp3'}
+                            {title: '', mp3: '7.2.mp3'}
                         ]
                     },
                     {
@@ -519,19 +532,21 @@ window.App.sections = [
                     {
                         image: '23_1.jpg',
                         sounds: [
-                            {title: 'Западная Русь до 17 века. Продолжение', mp3: '9.1.mp3'}
+                            {title: 'Западная Русь до 17 века, продолжение', mp3: '9.1.mp3'}
                         ]
                     },
                     {
                         image: '23_2.jpg',
+                    //     description: 'Грюнвальдская битва 1410 года',
                         sounds: [
-                            {title: 'Грюнвальдская битва', mp3: '9.2.mp3'}
+                            {title: '', mp3: '9.2.mp3'}
                         ]
                     },
                     {
-                        image: '23_3.jpg',
+                        image: '23_3.png',
+                    //    description: 'Люблинская уния, создание Речи Посполитой',
                         sounds: [
-                            {title: 'Люблинская уния 1659 года', mp3: '9.3.mp3'}
+                            {title: '', mp3: '9.3.mp3'}
                         ]
                     },
                     {
@@ -555,7 +570,7 @@ window.App.sections = [
                         },
                         zoom: '102%',
                         sounds: [
-                            {title: 'Подлинная причина казацких восстаний. К сути явления', mp3: '10.1.mp3'}
+                            {title: 'Природа казацких восстаний 17 века.', mp3: '10.1.mp3'}
                         ]
                     },
                     {
@@ -639,7 +654,7 @@ window.App.sections = [
                     {
                         image: '26.jpg',
                         sounds: [
-                            {title: 'Смоленская земля - ключ к сердцу России', mp3: '13.2.mp3'}
+                            {title: '', mp3: '13.2.mp3'}
                         ]
 
                     }
@@ -753,7 +768,7 @@ window.App.sections = [
                 template: 'page34.html',
                 slides: [
                     {
-                        image: '34_1.jpg'
+                        image: '34_1.png'
                       },
                     {
                         image: '19.2.jpg'
