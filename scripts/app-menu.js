@@ -713,7 +713,10 @@ window.App = {
     },
 
     getAudioPath: function (pageId, audio) {
-        return ['audio', 'pages', pageId, audio].join('/');
+      let returnAudio = ['audio', 'pages', pageId, audio].join('/');
+      returnAudio ='http://savvy-club.com/book/'+returnAudio;
+      console.log(returnAudio);
+      return returnAudio;
     },
 
     showAndPlayAudio: function (audio, params) {

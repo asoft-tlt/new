@@ -1801,7 +1801,7 @@
     '<a href="javascript:;" class="app-background" '+
     'data-name=";;;;;;;"'+
     'data-sounds=";59/6.1.mp3;59/6.2.mp3;59/6.3.mp3;59/6.4.mp3;59/6.5.mp3;59/6.6.mp3;59/6.7.mp3;59/6.8.mp3;59/6.9.mp3"'+
-    'data-background="images/links/59-2.png;images/links/59-3.jpg;images/links/59-4.png;images/links/59-5.jpg;images/links/59-6.jpg;images/links/59-7.jpg;images/links/59-8.png;images/links/59-9.jpg;images/links/59-10.png;images/links/59-11.png;">'+
+    'data-background="images/links/59-2.jpg;images/links/59-3.jpg;images/links/59-4.jpg;images/links/59-5.jpg;images/links/59-6.jpg;images/links/59-7.jpg;images/links/59-8.jpg;images/links/59-9.jpg;images/links/59-10.jpg;images/links/59-11.jpg;">'+
     ' книг</a>, кото- рые они охотно читают днём и ночью.'+
     '<div style="position:absolute;top:650px;left:680px;background: url(images/letters/foot1.svg) no-repeat;height:26px;width:115px;background-size: contain;"></div>'+
     '  </span></div></div><div class="page__comment" onclick="javascript:App.hideComment();"><div class="page__comment-container">'+
