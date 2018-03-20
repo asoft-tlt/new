@@ -2492,7 +2492,7 @@ window.App.sections = [
                 template: 'page129.html',
                 slides: [
                     {
-                        image: '129.jpg',
+                        image: '129.png',
                         description: 'Персидский купец',
                         positions: {
                             left: '-476px',
@@ -3505,7 +3505,7 @@ window.App.sections = [
                             left: '0px',
                             top: '0px'
                         },
-                        zoom: '110%'
+                        zoom: '117%'
                     },
                     {
                         image: '181_2.jpg',

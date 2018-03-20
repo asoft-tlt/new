@@ -837,7 +837,7 @@ window.App = {
         //$(this.slide).find('.page__comment').show();
         console.log('showArticle app-menu:832');
         $(this.slide).find('.page__comment').css('opacity', '1');      //dobavil
-        $(this.slide).find('.page__comment').css('z-index', '999');    //dobavil
+        $(this.slide).find('.page__comment').css('z-index', '10000');    //dobavil
 
         /* -------------*/
         var commentsound = [];

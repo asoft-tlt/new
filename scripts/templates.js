@@ -221,7 +221,7 @@
     '<div style="position:absolute;top:87px;left:73px;width:504px;height:59px;background:url(images/pages/114/bez.png) no-repeat;background-size:contain;"></div>'+
     '<div style="position:absolute;top:151px;left:17px;width:109px;height:260px;background:url(images/letters/k.png) no-repeat;background-size:contain;"></div>'+
     '<div style="padding-left:27px;text-align:justify;"><span style="letter-spacing:-0.3px;word-spacing:-1px;">ак нам стало известно, царь очень любит монастырь святого '+
-    '<a href="javascript:;" class="app-background" data-name="" data-background="comment/114.png" data-sounds="114/37.mp3;">Саввы</a>.'+
+    '<a href="javascript:;" class="app-background" data-name="" data-background="comment/114.jpg" data-sounds="114/37.mp3;">Саввы</a>.'+
     ' Прежде ему было чудо от него и теперь он навещает обитель особенно часто. Здесь мы ви- дели помещение, устроенное для ухода за </div>'+
     ' за увечными, слепыми и поражёнными за- разной болезнью из числа монахов. </div>'+
     '<div style="text-align:justify;padding-top:172px;" class="col2"> Царь назвал это место «Покоищем боль- '+
@@ -1124,7 +1124,7 @@
     ' так как… существенно необходимые главные осно- вания христианства мы у них находим. <span style="word-spacing:2px;">Однако, они никогда не допускают всю Би-</span>'+
     ' </div><span style="letter-spacing:-0.6px;word-spacing:-4px;">блию в свои церкви, говоря, что в '+
     '<a href="javascript:;" class="app-background  no-underline" '+
-    ' data-background="images/pages/180/13.1.png;images/pages/180/13.2.png;images/pages/180/13.3.png;images/pages/180/13.4.png;images/pages/180/13.5.png;images/pages/180/13.6.jpg" '+
+    ' data-background="images/pages/180/13.1.jpg;images/pages/180/13.2.jpg;images/pages/180/13.3.jpg;images/pages/180/13.4.jpg;images/pages/180/13.5.jpg;images/pages/180/13.6.jpg" '+
     ' data-sounds="180/13.1.mp3;180/13.2.mp3;180/13.3.mp3;180/13.4.mp3;180/13.5.mp3;180/13.6.mp3" '+
     ' data-name=";;;;;">'+
     ' Ветхом Завете</a> много</span>'+

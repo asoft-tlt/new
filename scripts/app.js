@@ -81,7 +81,7 @@ window.App = {
     this.$article = $('.article');
 
     this.$globe = $(this.options.globeSelector || '.globe');
-    
+
     this.$background = $('.page-background');
     this.backgroundSlider = this.$background.swiper({
       mode: 'horizontal',
@@ -132,7 +132,7 @@ window.App = {
 					//$('.loader').hide();
 					App.slider.swipeTo(menulink);
 
-				}		
+				}
 				}
     });
 
@@ -147,7 +147,7 @@ window.App = {
       slide = App.slider.getSlide(index),
       page = App.pages[index],
       content = '';
-     
+
     if (slide && slide.children.length) {
       return;
     }
@@ -243,12 +243,12 @@ window.App = {
           .addClass('rubric_num_' + page.id),
           rubricContainerEl = $('<div/>').addClass('rubric__container'),
           rubricThumbsEl = $('<div/>').addClass('rubric__thumbs');
-       
+
         rubricEl.append(rubricContainerEl);
         rubricEl.append(rubricThumbsEl);
 
         rubricEl.appendTo(slide);
-        break;      
+        break;
       default:
         // handle slider
         if (page.slides) {
@@ -281,7 +281,7 @@ window.App = {
             // appending to slider node
             item.appendTo(internalSlider);
           });
-        
+
         }
     }
   },
@@ -356,7 +356,7 @@ window.App = {
             onPrev: this.goToPrevPage.bind(this)
           }, page));
         }
-        // first initialization   
+        // first initialization
         page.slider && page.slider.init();
 
         if (page.sounds && page.sounds.length) {
@@ -406,7 +406,7 @@ window.App = {
           onNext: this.goToNextPage.bind(this),
           onPrev: this.goToPrevPage.bind(this)
         }, page));
-        break;   
+        break;
       case 'rubric_raskol':
         page.rubric = App.RubricRaskol.init($(this.slide).find('.rubric'), $.extend({
           onNext: this.goToNextPage.bind(this),
@@ -426,7 +426,7 @@ window.App = {
 	$("meta[name='viewport']").attr('content','width=device-width, user-scalable='+scalable+', initial-scale=1');
 	if(page.scroll!== undefined){
 		if(page.scroll=='yes'){
-			
+
 			if( ($(this.slide).find('.holdimage img').width()) > 1024){
 				//$('.holdimage').scrollLeft(2);
 				//$('.holdimage').attr('sc',0);
@@ -459,17 +459,17 @@ window.App = {
 		//$('.holdimage').attr('sc',0);
 		//$('.holdimage').bind('scroll', function () {
 		//	if( $('.holdimage').attr('sc')<$('.holdimage').scrollLeft() ){
-		//					
+		//
 		//	if($('.holdimage img').width()-1024-$('.holdimage').scrollLeft()<=1){
 		//	$('div.swiper-slide-active').removeClass('swiper-slide-hold');
 		//	}
 //
 //			}else {
-//			
+//
 //			if($('.holdimage').scrollLeft()<=1){
 //			$('div.swiper-slide-active').removeClass('swiper-slide-hold');
 //			}
-//			
+//
 //			}
 //			$('.holdimage').attr('sc', $('.holdimage').scrollLeft());
 //		 });
@@ -539,7 +539,7 @@ window.App = {
               break;
             case 'rubric_gorod':
               page.rubric && page.rubric.destroy();
-              break;  
+              break;
             case 'rubric_raskol':
               page.rubric && page.rubric.destroy();
               break;
@@ -685,7 +685,7 @@ window.App = {
   showArticle: function (el) {
     //$(this.slide).find('.page__comment').show();
     $(this.slide).find('.page__comment').css('opacity','1');      //dobavil
-    $(this.slide).find('.page__comment').css('z-index','999');    //dobavil
+    $(this.slide).find('.page__comment').css('z-index','10000');    //dobavil
 
 /* -------------*/
      var commentsound = [];
@@ -733,7 +733,7 @@ window.App = {
         imagePaths = el.data('background').split(';');
 
     this.backgroundSlider.removeAllSlides();
-    
+
     imagePaths.forEach(function(imagePath) {
       var slide = _this.backgroundSlider.createSlide('');
       slide.append();
