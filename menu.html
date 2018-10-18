@@ -298,6 +298,9 @@
 					}
 					App.slider.swipeTo(menulink);
 				}
+			 for(var si=0; si<= menulink-3; si++){
+                              App.resetPage(si);
+                              }
 				setTimeout(function(){$('.menu-container').hide(); $(".menu-slide").removeClass("zm");}, 1000);
 
 		}
