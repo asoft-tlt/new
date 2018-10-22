@@ -1,4 +1,73 @@
-﻿// New file for book
+﻿(function() {
+    var supportTouch = $.support.touch,
+            scrollEvent = "touchmove scroll",
+            touchStartEvent = supportTouch ? "touchstart" : "mousedown",
+            touchStopEvent = supportTouch ? "touchend" : "mouseup",
+            touchMoveEvent = supportTouch ? "touchmove" : "mousemove";
+    $.event.special.swipeupdown = {
+        setup: function() {
+            var thisObject = this;
+            var $this = $(thisObject);
+            $this.bind(touchStartEvent, function(event) {
+                var data = event.originalEvent.touches ?
+                        event.originalEvent.touches[ 0 ] :
+                        event,
+                        start = {
+                            time: (new Date).getTime(),
+                            coords: [ data.pageX, data.pageY ],
+                            origin: $(event.target)
+                        },
+                        stop;
+
+                function moveHandler(event) {
+                    if (!start) {
+                        return;
+                    }
+                    var data = event.originalEvent.touches ?
+                            event.originalEvent.touches[ 0 ] :
+                            event;
+                    stop = {
+                        time: (new Date).getTime(),
+                        coords: [ data.pageX, data.pageY ]
+                    };
+
+                    // prevent scrolling
+                    if (Math.abs(start.coords[1] - stop.coords[1]) > 10) {
+                        event.preventDefault();
+                    }
+                }
+                $this
+                        .bind(touchMoveEvent, moveHandler)
+                        .one(touchStopEvent, function(event) {
+                    $this.unbind(touchMoveEvent, moveHandler);
+                    if (start && stop) {
+                        if (stop.time - start.time < 1000 &&
+                                Math.abs(start.coords[1] - stop.coords[1]) > 30 &&
+                                Math.abs(start.coords[0] - stop.coords[0]) < 75) {
+                            start.origin
+                                    .trigger("swipeupdown")
+                                    .trigger(start.coords[1] > stop.coords[1] ? "swipeup" : "swipedown");
+                        }
+                    }
+                    start = stop = undefined;
+                });
+            });
+        }
+    };
+    $.each({
+        swipedown: "swipeupdown",
+        swipeup: "swipeupdown"
+    }, function(event, sourceEvent){
+        $.event.special[event] = {
+            setup: function(){
+                $(this).bind(sourceEvent, $.noop);
+            }
+        };
+    });
+
+})();
+
+// New file for book
 window.Modernizr = {
     csstransforms: true
 };
@@ -89,8 +158,8 @@ window.App = {
             wrapperClass: 'page-background__wrapper',
             loop: false,
             DOMAnimation: false,
-            speed: 300,
-            onSlideChangeStart: function () {
+            speed: 500,
+            onSlideChangeStart: function () {                              
                 if (_this.backgroundSlider.soundPaths !== undefined) {
                     if (_this.backgroundSlider.soundPaths[_this.backgroundSlider.activeIndex] !== undefined) {
                       var  imagePaths = _this.backgroundSlider.soundPaths[_this.backgroundSlider.activeIndex].split('/');
@@ -120,7 +189,7 @@ window.App = {
             mode: 'horizontal',
             loop: false,
             DOMAnimation: false,
-            speed: 300,
+            speed: 500,
             noSwiping: true,
             noSwipingClass: 'swiper-slide-hold',
             onSlideChangeStart: this.process.bind(this)
@@ -129,7 +198,7 @@ window.App = {
 
         this.menuslider = this.$elmenu.swiper({
 //	direction: 'vertical',
-            speed: 100,
+            speed: 200,
             width: 1024,
             slidesPerView: 12,
             freeMode: true,
@@ -406,20 +475,25 @@ window.App = {
         var _this = this;
 
         this.processPage(slider);
-
+       // console.log(slider);
         setTimeout(function () {
-            for (var i = slider.activeIndex - 3; i <= slider.activeIndex + 3; i++) {
-                if (i == slider.activeIndex - 3 && i >= 0) {
+
+
+            for (var i = slider.activeIndex - 2; i <= slider.activeIndex + 2; i++) {
+                if (i == slider.activeIndex - 2 && i >= 0) {
                     // remove
                     _this.resetPage(i);
-                } else if (i == slider.activeIndex + 3) {
+                  //let slide_remove = App.slider.getSlide(i);
+                  //slide_remove.find('.page div').remove();
+                } else if (i == slider.activeIndex + 2) {
                     // remove
                     _this.resetPage(i);
-                } else if (i >= 0 && (i > slider.activeIndex - 3) && (i < slider.activeIndex + 3)) {
+                } else if (i >= 0 && (i > slider.activeIndex - 2) && (i < slider.activeIndex + 2)) {
                     // init
                     _this.initPage(i);
                 }
             }
+            
         }, 300);
     },
 
@@ -452,11 +526,12 @@ window.App = {
                     page.slider = new App.PageSlider($(this.slide).find('.page-slider'), $.extend({
                         onNext: this.goToNextPage.bind(this),
                         onPrev: function () {
-                            if (!this.constant) {
+                            App.slider.swipePrev();
+                            /*if (!this.constant) {
                                 this.decrease();
                             } else {
                                 App.slider.swipePrev();
-                            }
+                            }*/
                         }
                     }, page));
 
@@ -473,7 +548,8 @@ window.App = {
                 $(this.slide).on('click', '.article-link', this.showArticle.bind(this));
 
                 /**/
-                $(this.slide).on('doubletap', '.page', function () {
+                $(this.slide).on('swipeup', '.page', function () {
+               
                 //$(this.slide).on('tap', '.menu-icons', function () {
                     $(".menu-slide").removeClass("zm");
                     $('.menu-container').toggle()
