@@ -89,7 +89,7 @@ window.App = {
             wrapperClass: 'page-background__wrapper',
             loop: false,
             DOMAnimation: false,
-            speed: 500,
+            speed: 400,
             onSlideChangeStart: function () {                              
                 if (_this.backgroundSlider.soundPaths !== undefined) {
                     if (_this.backgroundSlider.soundPaths[_this.backgroundSlider.activeIndex] !== undefined) {
@@ -120,7 +120,7 @@ window.App = {
             mode: 'horizontal',
             loop: false,
             DOMAnimation: false,
-            speed: 500,
+            speed: 400,
             noSwiping: true,
             noSwipingClass: 'swiper-slide-hold',
             onSlideChangeStart: this.process.bind(this)
