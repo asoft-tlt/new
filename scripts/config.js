@@ -89,7 +89,7 @@ window.App.sections = [
                 id: 6,
                 type: 'page',
                 template: 'page6.html'
-            },
+            }/*,
            {
                 id: '7-1',
                 type: 'rubric',
@@ -177,7 +177,7 @@ window.App.sections = [
                     {"id": "58", "year": 1699},
                     {"id": "59", "year": 1699, sounds: [{title: '', mp3: '59.mp3'}]}
                 ]
-            }
+            }*/
         ]
     },
     {
@@ -294,7 +294,7 @@ window.App.sections = [
                 id: 13,
                 type: 'page',
                 template: 'page13.html'
-            },
+            }/*,
             {
                 id: '14-2',
                 type: 'rubric_slider',
@@ -304,7 +304,7 @@ window.App.sections = [
                         image: number + '.jpg'
                     }
                 })
-            }
+            }*/
         ]
     },
 
@@ -1170,7 +1170,7 @@ window.App.sections = [
                         ]
                     }
                 ]
-            },
+            }/*,
             {
                 id: '54-1',
                 type: 'rubric_12',
@@ -1260,7 +1260,7 @@ window.App.sections = [
                         ]
                     }
                 ]
-            }
+            }*/
         ]
     },
     {
@@ -1673,7 +1673,7 @@ window.App.sections = [
                         ]
                     }
                 ]
-            },
+            }/*,
             {
                 id: '79-1',
                 type: 'rubric_parts',
@@ -1735,7 +1735,7 @@ window.App.sections = [
                         })
                     }
                 ]
-            }
+            }*/
         ]
     },
    {
@@ -2428,11 +2428,11 @@ window.App.sections = [
                         zoom: '241%'
                     }
                 ]
-            },
+            }/*,
          {
                 id: '2-1',
                 type: 'rubric_raskol'
-            }
+            }*/
         ]
     },
     {
@@ -3130,7 +3130,7 @@ window.App.sections = [
                 type: 'page',
                 template: 'page167.html'
             },
-
+/*
             {
                 id: '168-1',
                 type: 'rubric_gorod',
@@ -3389,7 +3389,7 @@ window.App.sections = [
                       //  ]
                 //    }
             },//end rubr
-            {
+           */ {
                 id: 169,
                 type: 'page',
                 template: 'page169.html',
